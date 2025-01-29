@@ -32,11 +32,11 @@
 }
 
 .navbar {
-    background-image: linear-gradient(to right, #000000, #497478);
+    background-image: linear-gradient(to right, #2353FF, #FD551E);
 }
 
 .footer {
-    background-color: #292929;
+    background-color: #2353FF;
 }
 
 a.navbar__brand:hover,
@@ -46,34 +46,34 @@ a.navbar__item:hover {
 
 a.navbar__link--active,
 a.navbar__link--active {
-    color: white;
+    color: #FD551E;
 }
 
 .hero--primary {
-    background-image: linear-gradient(45deg, #3f0a1c, transparent);
-    background-color: #1e0e30;
+    background-image: linear-gradient(45deg, #FD551E, transparent);
+    background-color: #2353FF;
     color: white;
 }
 
 a.button.button--secondary {
     color: white!important;
-    background-color: #0e1d47;
+    background-color: #2353FF;
     border: none;
 }
 
 a.button.button--primary {
     color: white!important;
-    background-color: #1748b1;
-    background-image: linear-gradient(45deg, #21c4de, transparent);
+    background-color: #2353FF;
+    background-image: linear-gradient(45deg, #FD551E, transparent);
     border: none;
 }
 
 a.button:active {
-    background-color: #21c4de;
+    background-color: #FD551E;
 }
 
 .home--features {
-    background: #18191a;
+    background: #2353FF;
     color: white;
     padding: 40px 0px;
 }
