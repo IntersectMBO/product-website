@@ -16,9 +16,9 @@ through enhanced APIs, robust tooling, and a focus on
 decentralization, Cardano aims to empower developers to
 build innovative and impactful applications. Furthermore,
 the expansion of programmable assets, including advanced
-features like account abstraction and regulated stablecoins,
-will unlock new possibilities for decentralized finance
-and beyond. This vision emphasizes a strong commitment
+features like account abstraction and custodian regulated
+stablecoins, will unlock new possibilities for decentralized
+finance and beyond. This vision emphasizes a strong commitment
 to research, community collaboration, and the long-term
 sustainability of the Cardano ecosystem.
 
@@ -27,6 +27,12 @@ analyzed through the community roadmap survey, focus on
 increasing scalability, interoperability, and usability.
 
 ## Roadmap
+
+The 2025 roadmap comprises a number of items that have been
+proposed by community members, as described below.
+It is expected that progress will be made on most or all
+of this roadmap. Importantly, the scope of the roadmap is not
+fixed, but is open to new community contributions.
 
 ### Scaling the L1 Engine
 
@@ -100,7 +106,7 @@ Increasing liquidity from other ecosystems is vital
 
 * Utilize zero-knowledge proofs to enable Cardano
   to serve as a decentralized DeFi layer for Bitcoin.
-* Babel Fees (Validation Zones) facilitate
+* Babel Fees (Nested Transactions) facilitate
   transactions on the L1 for users without initial
   ADA holdings through a decentralized marketplace
   that allows partial transactions to be accepted
@@ -121,6 +127,28 @@ of L2 solutions.
 Enable the creation of independent chains with
 customizable parameters, leveraging Cardano's
 security while offering greater flexibility.
+
+By adding weighted BFT and/or FastBFT consensus mechanisms
+to ouroboros-consensus and creating a slimmed down single
+era ledger, the existing cardano code base can be used
+to create partner chains. This can also be used as an
+example for node implementations in other languages
+to create partner chains.
+
+After a proof of concept is completed, future partner chains
+using the code base can be used to add new functionality
+such as chimeric ledgers, new VMs, such as an EVM layer,
+or new consensus improvements such as ouroboros-chronos
+to be prototyped and tested quickly without affecting
+the mainnet Cardano roadmap.
+
+This also opens the door when minotaur release is completed
+to use multiple consensus sources to generate the leadership
+schedule in the future.
+
+It can be envisioned that multiple dApps may want to launch
+a partner chain together with more aggressive parameters
+and lower fees to better serve their users.
 
 #### Partner Chain Bridges
 
@@ -183,7 +211,10 @@ for driving broader adoption.
   integration with node services.
 * Empower developers to create custom chain
   indexers for specific needs, such as supporting
-  partner chains.
+  partner chains. Creating a translation layer
+  of blocks and ledger events to a Nats Core
+  pub/sub messaging system can be used as an
+  example indexer framework.
 * Decentralize data API services to reduce
   reliance on centralized providers and empower
   SPOs.
@@ -199,6 +230,15 @@ Expanding the capabilities of programmable
   assets will unlock new possibilities for
   decentralized applications.
 
+Enhancing Cardano's programmable asset capabilities is crucial for
+unlocking the full potential of dApps. They expand on-chain asset
+functionality beyond simple transfers, enabling complex,
+programmable logic. These advancements will empower developers to
+build innovative dApps, exploring use cases like soul-bound tokens,
+or tokens that can never be transacted to another wallet,
+for decentralized identity, mechanisms for custodian regulated
+stablecoins, and royalty mechanisms to support creators.
+
 * Develop frameworks that enable a new class
   of programmable assets beyond native tokens.
 * UTxO intent signatures enhance decentralized exchange
@@ -209,15 +249,47 @@ Expanding the capabilities of programmable
   decentralized identity and other applications.
 * Implement royalty mechanisms to support
   creators and incentivize innovation.
-* Enable the issuance of regulated stablecoins
-  on Cardano through policy-based mechanisms.
+* Enable the issuance of custodian regulated stablecoins
+  on Cardano through policy-based mechanisms, such as USDC/USDT.
 
-### Diverse Node Implementations
+### Multiple Node Implementations
 
-Foster the development of Cardano node
-implementations in multiple programming
-languages, enhancing robustness, security,
-and community participation.
+The development and maintenance of multiple node implementations are
+absolutely crucial for Cardano's resilience and censorship resistance;
+however only if they adhere to a properly implemented and secure specification.
+This diversity strengthens security through a form of distributed peer
+review, as different teams scrutinize each codebase, increasing the
+likelihood of identifying and addressing potential flaws before they
+can be exploited. Furthermore, diverse implementations decentralize the
+development process itself, reducing the risk associated with relying
+on a single entity. This distributed development model fosters a more
+robust and adaptable ecosystem, as different teams bring unique
+perspectives and approaches to the ongoing evolution of the Cardano
+network Ultimately, the more high-quality, independent node
+implementations we have, the stronger, censorship resistant and more decentralized
+Cardano becomes, ensuring its long-term viability and success.
+
+Ensuring node conformity in Cardano relies heavily on rigorous formal
+specifications. These specifications serve as the definitive
+guide for node implementation, detailing the precise behavior and
+functionality expected of every compliant node. They enable property tests to be
+automatically extracted, enabling node implementations to demonstrate full
+conformance to the specifications.  By adhering to these meticulously crafted
+specifications, node developers can create implementations that are interoperable
+and compatible with the broader Cardano network. By providing concrete, actionable
+instructions and guidelines for building and configuring nodes, ensuring
+consistency and adherence to the established standards. This combination of
+precise specifications is essential for maintaining the integrity and stability of
+the Cardano network, guaranteeing that all participating nodes operate
+according to the agreed-upon rules and protocols.
+
+### SPO Incentive Improvements
+
+The community has identified incentives can be improved for stake
+pool operators. This is a few suggestions of what can be assessed.
+
+* Introduce min-margin parameter that can be voted on via governance to modify
+* Modify pledge-benefit curve for a0
 
 **Note:** This vision and  roadmap represents a high-level overview
 and will be further refined and iterated upon based
