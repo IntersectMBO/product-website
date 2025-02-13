@@ -6,25 +6,47 @@ slug: /vision-roadmap-2025
 
 ## Vision
 
-Cardano envisions a future where it serves as the robust and
-scalable foundation for a decentralized global economy. This will
-be achieved by significantly enhancing L1 performance through
-the Leios protocol and optimizing the current codebase, while
-simultaneously expanding the capabilities of L2 solutions
-like Hydra and Midgard. By improving developer experience
-through enhanced APIs, robust tooling, and a focus on
-decentralization, Cardano aims to empower developers to
-build innovative and impactful applications. Furthermore,
-the expansion of programmable assets, including advanced
-features like account abstraction and custodian regulated
-stablecoins, will unlock new possibilities for decentralized
-finance and beyond. This vision emphasizes a strong commitment
-to research, community collaboration, and the long-term
-sustainability of the Cardano ecosystem.
+Cardano envisions a future where it serves as the robust and scalable
+foundation for a decentralized global economy. This will be achieved by
+significantly enhancing L1 performance through the Leios protocol and
+optimizing the current codebase, while simultaneously expanding the
+capabilities of L2 solutions like Hydra and Midgard. By improving developer
+experience through enhanced APIs, robust tooling, and a focus on
+decentralization, Cardano aims to empower developers to build innovative and
+impactful applications. Furthermore, the expansion of programmable assets,
+including advanced features like account abstraction and custodian regulated
+stablecoins, will unlock new possibilities for decentralized finance and
+beyond. This vision emphasizes a strong commitment to research, community
+collaboration, and the long-term sustainability of the Cardano ecosystem.
 
-The general themes of the community's short-term vision, as
-analyzed through the community roadmap survey, focus on
-increasing scalability, interoperability, and usability.
+A thriving ecosystem is essential for realizing this vision. This requires a
+multi-faceted approach that fosters innovation, attracts new users and
+developers, and drives real-world adoption. A key component of this strategy
+is the cultivation of strategic partnerships with organizations across various
+sectors, focusing on developing and deploying Cardano-based solutions that
+address specific industry needs. We will prioritize collaborations that align
+with Cardano's core principles of security, scalability, and decentralization.
+
+Beyond strategic partnerships, fostering a vibrant and engaged community is
+paramount. We will invest in initiatives that empower developers to build
+innovative dApps and tools on Cardano. This includes establishing incubator
+and accelerator programs, organizing regular hackathons and offering developer
+grants, and expanding an ecosystem fund to support promising projects.
+Furthermore, we will prioritize improving the developer experience through
+enhanced APIs, robust tooling, and comprehensive documentation, making it
+easier for developers to get started with Cardano and build impactful
+applications.
+
+Finally, building a strong and supportive community is crucial for long-term
+success. We will focus on initiatives that nurture and engage the Cardano
+community, such as meetups, online forums, and ambassador programs. By
+combining strategic partnerships, developer support, and community engagement,
+we are confident in our ability to create a thriving ecosystem that drives the
+adoption of Cardano and realizes its full potential.
+
+The general themes of the community's short-term vision, as analyzed through
+the community roadmap survey, focus on increasing scalability,
+interoperability, and usability.
 
 ## Roadmap
 
@@ -41,6 +63,40 @@ enabling Cardano to become a central hub for blockchain
 communication. This will be achieved through a combination
 of codebase optimization and architectural enhancements
 to increase parallelization.
+
+#### Architectural Excellence
+
+Cardano is committed to maintaining its position at the forefront of blockchain
+technology. This includes a continuous evaluation of software architecture best
+practices. We recognize the evolving landscape of architectural patterns and
+are dedicated to exploring and implementing the most suitable approaches for
+Cardano's unique needs.
+
+* **Modular Design:**  We will prioritize a modular design approach for
+Cardano's codebase, enabling independent development and deployment of
+components while maintaining a cohesive and efficient system. This allows for
+flexibility and adaptability as the platform evolves.
+
+* **Performance Optimization:**  We will continuously analyze and optimize the
+performance of Cardano's architecture, exploring and evaluating different
+architectural patterns to ensure maximum efficiency and scalability. This
+includes investigating and benchmarking promising alternatives to established
+patterns to determine the most suitable approach for various Cardano
+components.
+
+* **Formal Methods and Verification:**  Security and reliability are paramount
+for blockchain systems. We will leverage formal methods and verification
+techniques to rigorously specify and analyze critical components of Cardano's
+architecture. This will enable us to mathematically prove the correctness of
+these components and minimize the risk of vulnerabilities. We will continue to
+invest in research and development in formal methods to enhance their
+applicability and effectiveness in the context of Cardano.
+
+* **Research and Exploration:** We will dedicate resources to research and
+explore cutting-edge architectural patterns and technologies, ensuring that
+Cardano remains at the forefront of technical excellence and can adapt to the
+ever-changing blockchain landscape. This will involve close monitoring of
+industry trends and collaboration with experts in software architecture.
 
 #### Leios
 
@@ -118,42 +174,33 @@ Increasing liquidity from other ecosystems is vital
 
 ### L2 Expansion
 
-To accommodate increasing transaction volume,
-Cardano will focus on expanding the capabilities
-of L2 solutions.
+To accommodate increasing transaction volume, Cardano will focus on expanding
+the capabilities of L2 solutions.
 
-#### Cardano as a Partner Chain
+#### Abstracted Value Settlement (AVS) Layer for Partner Chains
 
-Enable the creation of independent chains with
-customizable parameters, leveraging Cardano's
-security while offering greater flexibility.
+This framework outlines a method for creating independent, customizable
+blockchain networks (partner chains) leveraging a robust and secure underlying
+value settlement layer (AVS). This approach allows for greater flexibility and
+experimentation while benefiting from the security and reliability of the AVS.
+This framework is designed to facilitate seamless value transfer between
+partner chains, forming the basis of a decentralized open standard.
 
-By adding weighted BFT and/or FastBFT consensus mechanisms
-to ouroboros-consensus and creating a slimmed down single
-era ledger, the existing cardano code base can be used
-to create partner chains. This can also be used as an
-example for node implementations in other languages
-to create partner chains.
+Key benefits include customizable partner chain parameters, prototyping of new
+features without impacting AVS stability, inheritance of AVS security, and
+increased partner chain scalability. The technical approach involves extending
+existing consensus mechanisms to operate in multiple modes, such as adding a
+FastBFT mode. This includes creating a slimmed-down version of core blockchain
+components and developing standardized messaging and transaction formats for
+inter-chain communication.
 
-After a proof of concept is completed, future partner chains
-using the code base can be used to add new functionality
-such as chimeric ledgers, new VMs, such as an EVM layer,
-or new consensus improvements such as ouroboros-chronos
-to be prototyped and tested quickly without affecting
-the mainnet Cardano roadmap.
+Use cases include customized partner chains for dApps, testing new technologies
+on partner chains, and private partner chains for consortiums.
 
-This also opens the door when minotaur release is completed
-to use multiple consensus sources to generate the leadership
-schedule in the future.
-
-It can be envisioned that multiple dApps may want to launch
-a partner chain together with more aggressive parameters
-and lower fees to better serve their users.
-
-#### Partner Chain Bridges
-
-Develop a decentralized open standard for seamless
-value transfer between partner chains.
+Future development will focus on integrating multiple consensus sources,
+enabling seamless cross-chain communication, defining a clear protocol for
+inter-chain transactions, developing a standardized interface for AVS
+interaction, and establishing community governance.
 
 #### Hydra
 
@@ -274,7 +321,7 @@ specifications. These specifications serve as the definitive
 guide for node implementation, detailing the precise behavior and
 functionality expected of every compliant node. They enable property tests to be
 automatically extracted, enabling node implementations to demonstrate full
-conformance to the specifications.  By adhering to these meticulously crafted
+conformance to the specifications. By adhering to these meticulously crafted
 specifications, node developers can create implementations that are interoperable
 and compatible with the broader Cardano network. By providing concrete, actionable
 instructions and guidelines for building and configuring nodes, ensuring
