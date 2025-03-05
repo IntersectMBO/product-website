@@ -18,8 +18,8 @@ module.exports = {
         navbar: {
             title: 'Intersect Product Committee',
             items: [
-                { to: 'about', label: 'About Us', position: 'left' },
                 { to: 'vision-roadmap-2025', label: '2025 Vision/Roadmap', position: 'left' },
+                { to: 'vision-roadmap-2025-static', label: '2025 Vision/Roadmap (Info Action)', position: 'left' },
                 {
                   href: "https://github.com/IntersectMBO/product-website",
                   label: "GitHub",
