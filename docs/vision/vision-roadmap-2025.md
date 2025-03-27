@@ -345,7 +345,10 @@ The community has identified incentives can be improved for stake
 pool operators. This is a few suggestions of what can be assessed.
 
 * Introduce min-margin parameter that can be voted on via governance to modify
-* Modify pledge-benefit curve for a0
+* Modify pledge-benefit curve for a0 and k
+* Address Delegation Mobility
+* Explore distributing the full rewards pot for active stake in the rewards calculation
+* Consider rewards for Mithril signers, block rewards for different Leios block types, and rewards for Testnet SPOs
 
 **Note:** This vision and  roadmap represents a high-level overview
 and will be further refined and iterated upon based
