@@ -7,6 +7,18 @@ slug: /workshops/paris-apr-2025
 
 # Paris - Future of Cardano - April 2025
 
+## Introduction
+
+A focused in-person workshop in Paris brought together 15–20 core
+contributors to strategically refine Cardano's direction toward 2026.
+Product demos highlighted the need for market validation. Key technical
+discussions centered on L1/L2 scalability (Leios), threat detection, and
+Decentralized Identity. Roadmap planning aligned the 2025–2026 vision
+with market adoption. SPO roles in Hydra/AVS were discussed, including
+a registry proposal. Intent-based transactions and Babel Fees were
+identified as critical UX improvements. Future workshops will prioritize
+geographic diversity.
+
 ## Strategizing for Product Market Fit
 
 The Future of Cardano Workshop, recently convened in Paris, brought together a
