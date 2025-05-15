@@ -1,4 +1,13 @@
-# Future of Cardano Workshop: Strategizing for Product Market Fit
+---
+sidebar_label: Paris - Future of Cardano
+title:  Paris - Future of Cardano - April 2025
+sidebar_position: 2
+slug: /workshops/paris-apr-2025
+---
+
+# Paris - Future of Cardano - April 2025
+
+## Strategizing for Product Market Fit
 
 The Future of Cardano Workshop, recently convened in Paris, brought together a
 diverse group of key stakeholders deeply committed to the sustained growth

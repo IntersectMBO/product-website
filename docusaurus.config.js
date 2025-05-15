@@ -18,6 +18,7 @@ module.exports = {
         navbar: {
             title: 'Intersect Product Committee',
             items: [
+                { to: 'docs/workshops', label: 'Workshops', position: 'left' },
                 { to: 'vision-roadmap-2025', label: '2025 Vision/Roadmap', position: 'left' },
                 { to: 'vision-roadmap-2025-static', label: '2025 Vision/Roadmap (Info Action)', position: 'left' },
                 {
