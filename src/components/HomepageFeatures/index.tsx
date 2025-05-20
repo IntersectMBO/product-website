@@ -2,9 +2,9 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
-import ServicesImage from "@site/static/img/services.jpeg";
-import JoinTeamImage from "@site/static/img/join-team.jpeg";
-import IntersectImage from "@site/static/img/intersect.jpeg";
+import VisionRoadmapImage from "@site/static/img/vision-roadmap.jpeg";
+import WorkshopsImage from "@site/static/img/workshops.jpeg";
+import BusinessInterviewsImage from "@site/static/img/business-interviews.jpeg";
 
 import { Cta } from "../Cta";
 
@@ -17,6 +17,44 @@ type FeatureItem = {
 };
 
 const FeatureList: FeatureItem[] = [
+  {
+    title: '2025 Vision & Roadmap',
+    img: VisionRoadmapImage,
+    description: (
+      <>
+        We've formulated a 2025 Vision & Roadmap for Cardano.
+      </>
+    ),
+    href: "docs/vision-roadmap-2025",
+    cta: "Learn More"
+  },
+  {
+    title: 'Workshops',
+    img: WorkshopsImage,
+    description: (
+      <>
+        Workshops are being ran by Product Committee Members and
+        general community members. Learn more about the workshops
+        that have been ran and view their outputs.
+      </>
+    ),
+    href: "docs/workshops/intro",
+    cta: "Learn More"
+  },
+  {
+    title: 'Business Interviews',
+    img: BusinessInterviewsImage,
+    description: (
+      <>
+        We are executing interviews with Businesses in and outside
+        blockchain to identify what improvements to Cardano would
+        help them find product market fit and retrospectively look
+        at their experience with Cardano if they're already involved.
+      </>
+    ),
+    href: "docs/business-interviews",
+    cta: "Learn More"
+  },
 ];
 
 function Feature({

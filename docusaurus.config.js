@@ -6,6 +6,7 @@ module.exports = {
     favicon: 'img/favicon.png',
     organizationName: 'IntersectMBO', // Usually your GitHub org/user name.
     projectName: 'product-website', // Usually your repo name.
+    staticDirectories: ['static'],
     stylesheets: [
         'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap',
     ],
@@ -18,9 +19,8 @@ module.exports = {
         navbar: {
             title: 'Intersect Product Committee',
             items: [
-                { to: 'docs/workshops', label: 'Workshops', position: 'left' },
-                { to: 'vision-roadmap-2025', label: '2025 Vision/Roadmap', position: 'left' },
-                { to: 'vision-roadmap-2025-static', label: '2025 Vision/Roadmap (Info Action)', position: 'left' },
+                { to: 'docs/workshops/intro', label: 'Workshops', position: 'left' },
+                { to: 'docs/vision-roadmap-2025', label: '2025 Vision/Roadmap', position: 'left' },
                 {
                   href: "https://github.com/IntersectMBO/product-website",
                   label: "GitHub",
@@ -33,7 +33,9 @@ module.exports = {
             copyright: `Copyright © ${new Date().getFullYear()} Intersect Product Committee. Built with Docusaurus`,
         },
     },
-    plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+    plugins: [
+      'docusaurus-plugin-sass'
+  ],
     presets: [
         [
             '@docusaurus/preset-classic',
@@ -43,9 +45,13 @@ module.exports = {
                     editUrl: 'https://github.com/hfco/docs/tree/master',
                 },
                 theme: {
-                    customCss: require.resolve('./src/css/custom.css'),
+                    customCss: require.resolve('./src/css/custom.scss'),
                 },
             },
         ],
     ],
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
 };

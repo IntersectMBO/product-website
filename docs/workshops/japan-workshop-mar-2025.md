@@ -1,7 +1,7 @@
 ---
 sidebar_label: Japan Community Workshops
 title: Connecting with the Community in Japan - March 2025
-sidebar_position: 0
+sidebar_position: 1
 slug: /workshops/japan-mar-2025
 ---
 

@@ -1,7 +1,7 @@
 ---
 sidebar_label: Paris - Future of Cardano
 title:  Paris - Future of Cardano - April 2025
-sidebar_position: 2
+sidebar_position: 3
 slug: /workshops/paris-apr-2025
 ---
 

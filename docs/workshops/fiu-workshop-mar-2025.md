@@ -1,7 +1,7 @@
 ---
 sidebar_label: FIU - Advancing Cardano's Vision
 title:  FIU - Advancing Cardano's Vision - March 2025
-sidebar_position: 1
+sidebar_position: 2
 slug: /workshops/fiu-mar-2025
 ---
 
