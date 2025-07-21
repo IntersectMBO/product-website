@@ -1,7 +1,7 @@
 ---
 title: Vision/Roadmap 2025
 sidebar_label: Vision/Roadmap 2025
-sidebar_position: 2
+sidebar_position: 3
 slug: /vision/vision-roadmap-2025
 ---
 
