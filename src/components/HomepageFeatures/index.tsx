@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
-import VisionRoadmapImage from "@site/static/img/vision-roadmap.jpeg";
+import VisionImage from "@site/static/img/vision.jpeg";
 import WorkshopsImage from "@site/static/img/workshops.jpeg";
 import BusinessInterviewsImage from "@site/static/img/business-interviews.jpeg";
 
@@ -19,7 +19,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Vision',
-    img: VisionRoadmapImage,
+    img: VisionImage,
     description: (
       <>
         We're building the vision for the future of Cardano.
