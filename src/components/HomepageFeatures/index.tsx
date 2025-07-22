@@ -18,14 +18,14 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '2025 Vision & Roadmap',
+    title: 'Vision',
     img: VisionRoadmapImage,
     description: (
       <>
-        We've formulated a 2025 Vision & Roadmap for Cardano.
+        We're building the vision for the future of Cardano.
       </>
     ),
-    href: "docs/vision-roadmap-2025",
+    href: "/vision",
     cta: "Learn More"
   },
   {
@@ -38,7 +38,7 @@ const FeatureList: FeatureItem[] = [
         that have been ran and view their outputs.
       </>
     ),
-    href: "docs/workshops/intro",
+    href: "/workshops",
     cta: "Learn More"
   },
   {
@@ -52,7 +52,7 @@ const FeatureList: FeatureItem[] = [
         at their experience with Cardano if they're already involved.
       </>
     ),
-    href: "docs/business-interviews",
+    href: "/business-interviews",
     cta: "Learn More"
   },
 ];

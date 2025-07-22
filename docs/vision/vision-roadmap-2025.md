@@ -1,5 +1,8 @@
 ---
-slug: /vision-roadmap-2025
+title: Vision/Roadmap 2025
+sidebar_label: Vision/Roadmap 2025
+sidebar_position: 2
+slug: /vision/vision-roadmap-2025
 ---
 
 # 2025 Vision & Roadmap

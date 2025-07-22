@@ -19,8 +19,8 @@ module.exports = {
         navbar: {
             title: 'Intersect Product Committee',
             items: [
-                { to: 'docs/workshops/intro', label: 'Workshops', position: 'left' },
-                { to: 'docs/vision-roadmap-2025', label: '2025 Vision/Roadmap', position: 'left' },
+                { to: 'workshops', label: 'Workshops', position: 'left' },
+                { to: 'vision', label: 'Vision', position: 'left' },
                 {
                   href: "https://github.com/IntersectMBO/product-website",
                   label: "GitHub",
@@ -41,6 +41,7 @@ module.exports = {
             '@docusaurus/preset-classic',
             {
                 docs: {
+                    routeBasePath: "/",
                     sidebarPath: require.resolve('./sidebars.js'),
                     editUrl: 'https://github.com/hfco/docs/tree/master',
                 },
