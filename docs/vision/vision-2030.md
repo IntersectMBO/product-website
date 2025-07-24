@@ -19,7 +19,7 @@ trust is collapsing, institutions are fragmenting, and digital
 incentives often lead to extraction, Cardano offers a
 composable layer for credible, long-term alternatives
 without requiring permission to participate. It is about
-building an auditable, permissionless, and resilient public
+enabling an auditable, permissionless, and resilient public
 infrastructure stack more inclusive than anything that came
 before.
 
@@ -98,9 +98,12 @@ Engagement
     cultures. This includes leveraging local organizers for
     global workshops, ensuring a wider range of
     perspectives and insights into diverse market needs are
-    captured. Invest in professional interpreters who
-    understand subject matter and context, ensuring accurate
-    cross-cultural communication. Acknowledge and adapt to
+    captured. Develop distinct strategies for effective
+    virtual and in-person engagement, recognizing the
+    limitations of hybrid approaches. Invest in
+    professional interpreters who understand subject matter
+    and context, ensuring accurate cross-cultural
+    communication. Acknowledge and adapt to
     cultural nuances, including religious perspectives on
     cryptocurrency, to facilitate broader adoption.
 * **Target Specific, High-Impact Markets:** Focus on
@@ -130,6 +133,13 @@ Engagement
     that provide students and developers with practical
     experience in Cardano tooling and real-world
     problem-solving through blockchain and AI convergence.
+* **Enable Decentralized Collaboration Tools:** Develop and
+    utilize effective tools and processes that facilitate
+    asynchronous collaboration, transparent feedback, and
+    verifiable decision-making within a distributed and
+    virtual environment. Implement strategies to sustain
+    consistent engagement and high-quality contributions
+    across diverse time zones and cultural backgrounds.
 
 #### 4. Abstract Blockchain Complexity for Mass Adoption
 
@@ -165,7 +175,10 @@ Engagement
     Layer 2 protocols or Actively Validated Services (AVS)
     for partner chains, informing future incentive
     mechanisms. Assess and optimize SPO incentive parameters
-    to enhance network health and resilience.
+    to enhance network health and resilience. Ensure
+    mechanisms are in place to support the continued
+    participation and profitability of smaller SPOs, as
+    they are crucial for true decentralization.
 * **Sustainable L2 Expansion:** Design Layer 2 solutions
     to provide value back to the main chain (L1) through
     mechanisms like batching fees in ADA, preventing
