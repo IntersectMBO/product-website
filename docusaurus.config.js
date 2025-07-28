@@ -34,7 +34,18 @@ module.exports = {
         },
     },
     plugins: [
-      'docusaurus-plugin-sass'
+      'docusaurus-plugin-sass',
+      [
+        '@docusaurus/plugin-client-redirects',
+        {
+          redirects: [
+            {
+              to: '/vision/vision-roadmap-2025',
+              from: ['/vision-roadmap-2025'],
+            },
+          ],
+        },
+      ],
   ],
     presets: [
         [
