@@ -5,9 +5,9 @@ sidebar_position: 1
 slug: /vision/vision-2030
 ---
 
-# Cardano Vision 2030: Our Future, Defined
+# Cardano 2030: Our Future, Defined
 
-### Our Enduring Purpose
+### Why Cardano needs to exist
 
 Cardano exists to provide **trustworthy, censorship-resistant
 infrastructure for societies and initiatives that cannot
@@ -21,7 +21,7 @@ enabling an auditable, permissionless, and resilient public
 infrastructure stack more inclusive than anything that came
 before.
 
-### Our Guiding Mission
+### What we do, for whom, and in what distinct way
 
 Cardano empowers **individuals and communities** to
 coordinate resources, rights, and value at scale, fostering
@@ -32,7 +32,7 @@ enabling secure and verifiable participation in public
 systems demanding high-assurance, and cultivating an
 environment for value creation, not extractive noise.
 
-### Vision 2030: Our North Star
+### Where will we be if we persue the mission successfully
 
 By 2030, Cardano will be the foundation of a **sustainable
 and economically self-sufficient ecosystem**, demonstrating
