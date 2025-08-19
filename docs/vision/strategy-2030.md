@@ -7,6 +7,10 @@ slug: /vision/strategy-2030
 
 # Cardano 2030 Strategic Plan: Guiding Our Future
 
+To share your feedback:
+- Use this form https://forms.gle/8Hoh2GCxyArrrM2h6
+- Open a PR in github https://github.com/IntersectMBO/product-website/tree/master/docs/vision
+
 ## Executive Summary
 
 This Strategic Plan outlines the comprehensive approach to

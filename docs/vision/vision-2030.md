@@ -7,6 +7,11 @@ slug: /vision/vision-2030
 
 # Cardano 2030: Our Future, Defined
 
+To share your feedback:
+- Use this form https://forms.gle/ABZXjaTk23GuPG116
+- Open a PR in github https://github.com/IntersectMBO/product-website/tree/master/docs/vision
+
+
 ### Why Cardano needs to exist
 
 Cardano exists to provide **trustworthy, censorship-resistant
@@ -32,7 +37,7 @@ enabling secure and verifiable participation in public
 systems demanding high-assurance, and cultivating an
 environment for value creation, not extractive noise.
 
-### Where will we be if we persue the mission successfully
+### Where will we be if we pursue the mission successfully
 
 By 2030, Cardano will be the foundation of a **sustainable
 and economically self-sufficient ecosystem**, demonstrating
