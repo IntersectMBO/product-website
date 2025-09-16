@@ -65,10 +65,9 @@ and market demands:
     participate in the network and contribute to
     decentralization and security with minimal resource
     requirements. This includes a strategic emphasis on
-    enabling lightweight participation.
+    enabling an ease of participation.
 
-#### 2. Fostering a Culture-First Approach and Localized
-Engagement
+#### 2. Fostering a Culture-First Approach and Localized Engagement
 
 * **Integrate Cultural Understanding:** Embed a
     culture-first approach as a foundational layer in all
@@ -156,8 +155,7 @@ Engagement
     local developer ecosystems in target markets to address
     talent shortages and reduce the cost of external expertise.
 
-#### 4. Drive Enterprise & National Adoption: Secure & Value-Additive
-Integration
+#### 4. Drive Enterprise & National Adoption: Secure & Value-Additive Integration
 
 * **Prioritize Application-Level Security:** Address the
     critical concern of application-level security on public
@@ -171,7 +169,7 @@ Integration
     enterprises and national entities to interact with
     Cardano without compromising their stringent standards.
     This includes ensuring compliance with established risk
-    mitigation frameworks (e.g., SOC 1/2, ESA 341 types).
+    mitigation frameworks (e.g., SOC 1/2, ESA 341 types, MiCA).
 * **Streamline Financial and Operational Integration &
     Onboarding:** Facilitate seamless enterprise and national
     adoption by simplifying treasury management, invoicing,
@@ -189,10 +187,8 @@ Integration
     enterprises and national entities across target verticals.
     Grants and co-funded pilots from the ecosystem's
     treasury are a critical tool to lower the barrier for
-    engagement and overcome internal resource constraints,
-    particularly for organizations wary of "overhyped
-    pilots" that don't deliver measurable value. This includes
-    active engagement in policy and regulatory landscapes
+    engagement and overcome internal resource constraints.
+    This includes active engagement in policy and regulatory landscapes
     to foster equal access and broader understanding of
     non-financial blockchain use cases.
 
@@ -221,8 +217,7 @@ Integration
     "leaching" and promoting sustainable growth of the
     broad Cardano ecosystem.
 
-#### 6. Advance Core Protocol Capabilities for Scalability and
-Efficiency
+#### 6. Advance Core Protocol Capabilities for Scalability and Efficiency
 
 * **Achieve World-Class L1 Scalability and Finality:**
     Ensure the Layer 1 protocol can handle growing

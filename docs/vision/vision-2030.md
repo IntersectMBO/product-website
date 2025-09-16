@@ -13,6 +13,7 @@ To share your feedback:
 
 ### Why Cardano needs to exist
 
+We want to build an ecosystem that is suitable for government and corporate use but immune to centralized abuse.
 Cardano is a **public smart contract platform and monetary
 system** that provides verifiable, censorship-resistant
 infrastructure for societies and initiatives that cannot
@@ -31,7 +32,7 @@ composable, cost-effective, and self-governing infrastructure, enabling
 secure and verifiable participation in public systems demanding
 high-assurance, and cultivating an environment of value creation.
 
-### Where will we be if we pursue the mission successfully
+### Where will we be if we pursue what we do successfully
 
 By 2030, Cardano will be the foundation of a **sustainable
 and economically self-sufficient ecosystem** of projects,
