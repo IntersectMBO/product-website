@@ -102,9 +102,9 @@ Engagement
 
 #### 3. Cultivate a Vibrant, Skilled, and Engaged Ecosystem
 
-* **Centralize and Improve Documentation:** Address
+* **Consolidate and Improve Documentation:** Address
     fragmented developer documentation by creating
-    centralized, community-led resources with examples,
+    consolidated, community-led resources with examples,
     videos, and clear onboarding paths. Simplify learning
     for complex blockchain concepts, making them accessible
     to a wider audience, including beginners.
@@ -138,6 +138,8 @@ Engagement
     Cardano's capabilities as a leading development platform
     for diverse blockchain paradigms, attracting builders
     focused on high-value assets and unique programming models.
+    Ensure marketing credibility by focusing on
+    verifiable on-chain activity and demonstrable use cases.
 
 #### 4. Drive Enterprise & National Adoption: Secure & Value-Additive
 Integration
@@ -163,7 +165,10 @@ Integration
     Develop comprehensive solutions for legal and financial
     onboarding barriers, engaging proactively with
     academics, auditors, and legal advisors to ensure
-    compliance and ease of integration. Support for stablecoin
+    compliance and ease of integration. The focus is on
+    embedding blockchain infrastructure as a layer behind
+    existing legacy systems, rather than requiring
+    fundamental changes to enterprise operations. Support for stablecoin
     and real-world asset (RWA) tokenization liquidity use
     cases, while currently often favoring private blockchains
     due to cybersecurity, must be enabled securely and
@@ -173,7 +178,10 @@ Integration
     enterprises and national entities across target verticals.
     Engage in targeted outreach and collaboration to secure
     large-scale adoption and integrate Cardano solutions into
-    global business and public sector operations.
+    global business and public sector operations. This includes
+    active engagement in policy and regulatory landscapes
+    to foster equal access and broader understanding of
+    non-financial blockchain use cases.
 
 #### 5. Bolster SPO Incentives and Decentralization for Network Health
 
