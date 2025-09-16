@@ -39,13 +39,17 @@ and market demands:
     majority of end-users, the underlying blockchain
     technology operates seamlessly and imperceptibly,
     functioning as a robust tool under the hood rather than
-    a visible layer requiring specialized knowledge.
+    a visible layer requiring specialized knowledge. As one
+    partner noted, "Nobody cares about blockchain per se.
+    What we care about is the applications."
 * **Intuitive User Experience (UX):** Prioritize the
     development of dApps and services with UX design that
     mirrors familiar web2 applications, removing barriers
     associated with wallets, transaction signing, and fee
-    management. This enables flexible payment methods that
-    significantly lower the barrier to entry for new users.
+    management. This enables flexible payment methods and
+    critical solutions like stablecoin off-ramps to
+    significantly lower the barrier to entry for new users and
+    businesses.
 * **Empower Developers for Abstraction:** Provide
     developers with the tools and frameworks necessary to
     build applications that effectively abstract away
@@ -138,8 +142,6 @@ Engagement
     Cardano's capabilities as a leading development platform
     for diverse blockchain paradigms, attracting builders
     focused on high-value assets and unique programming models.
-    Ensure marketing credibility by focusing on
-    verifiable on-chain activity and demonstrable use cases.
 
 #### 4. Drive Enterprise & National Adoption: Secure & Value-Additive
 Integration
@@ -162,26 +164,19 @@ Integration
     addressing accounting, auditing, and tax reporting
     requirements, potentially through tools that bridge
     blockchain data with traditional financial software.
-    Develop comprehensive solutions for legal and financial
-    onboarding barriers, engaging proactively with
-    academics, auditors, and legal advisors to ensure
-    compliance and ease of integration. The focus is on
-    embedding blockchain infrastructure as a layer behind
-    existing legacy systems, rather than requiring
-    fundamental changes to enterprise operations. Support for stablecoin
-    and real-world asset (RWA) tokenization liquidity use
-    cases, while currently often favoring private blockchains
-    due to cybersecurity, must be enabled securely and
-    efficiently on Cardano for broad institutional engagement.
+    The focus is on providing a plug-in layer that integrates
+    with existing legacy systems, rather than requiring
+    their replacement. Support for stablecoin and real-world
+    asset (RWA) tokenization, with a focus on illiquid
+    assets, is seen as a key long-term opportunity.
 * **Proactively Drive Business Development:** Systematically
     identify and pursue strategic partnerships with leading
     enterprises and national entities across target verticals.
-    Engage in targeted outreach and collaboration to secure
-    large-scale adoption and integrate Cardano solutions into
-    global business and public sector operations. This includes
-    active engagement in policy and regulatory landscapes
-    to foster equal access and broader understanding of
-    non-financial blockchain use cases.
+    Grants and co-funded pilots from the ecosystem's
+    treasury are a critical tool to lower the barrier for
+    engagement and overcome internal resource constraints,
+    particularly for organizations wary of "overhyped
+    pilots" that don't deliver measurable value.
 
 #### 5. Bolster SPO Incentives and Decentralization for Network Health
 
