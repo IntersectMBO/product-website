@@ -13,31 +13,27 @@ To share your feedback:
 
 ### Why Cardano needs to exist
 
-We want to build an ecosystem that is suitable for government and corporate use but immune to centralized abuse.
+We want to build an ecosystem that is suitable for governments, corporates, and communities but immune to centralized abuse.
 Cardano is a **public smart contract platform and monetary
 system** that provides verifiable, censorship-resistant
 infrastructure for societies and initiatives that cannot
 afford to fail. Built upon foundational scientific
-principles and peer-reviewed research, it is an auditable,
+principles, peer-reviewed research, and the people who participate in its governance system.It is an auditable,
 permissionless, and resilient public infrastructure stack
 more inclusive than anything that came before.
 
 ### What we do, for whom, and in what distinct way
 
-Cardano empowers **individuals, communities, businesses, and
-governments** to coordinate resources, rights, and value at scale,
-fostering an inclusive ecosystem where **builders and institutions**
-create lasting impact. We achieve this by offering a deterministic,
-composable, cost-effective, and self-governing infrastructure, enabling
-secure and verifiable participation in public systems demanding
-high-assurance, and cultivating an environment of value creation.
+We provide infrastructure for coordination of resources, rights, and value at scale, **enabling participation in public systems demanding high-assurance** for communities, business and governments. 
+
+We achieve this by offering a deterministic, composable, cost-effective, secure, verifiable and self-governing decentralized infrastructure,fostering an inclusive environment of value creation where participants create lasting impact.
 
 ### Where will we be if we pursue what we do successfully
 
-By 2030, Cardano will be the foundation of a **sustainable
-and economically self-sufficient ecosystem** of projects,
+By 2030, Cardano will be a leading infrastructure for public systems that demand high-assurance. Cardano will be a **sustainable
+and economically self-sufficient ecosystem** of network-operators, projects,
 services, and partners, demonstrating robust network utility
-and widespread adoption. This marks our commitment to
+and widespread adoption through interoperability. This marks our commitment to
 long-term viability, ensuring the network continually generates the
 necessary resources to thrive.
 
