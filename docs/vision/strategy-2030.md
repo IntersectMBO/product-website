@@ -62,12 +62,73 @@ and market demands:
     external noise. Foster clear, unified representation
     by implementation partners.
 
+#### 2. Maintain and evolve our governance processes
+
+#### Key Performance Indicators (KPIs)
+
+Success will be measured by rigorous adherence to and tracking
+of defined Key Performance Indicators:
+
+* **DRep Participation:** 70% of DReps by stake participating in governance actions
+* **Voter Delegation:** N% of stake delegated to DReps (and not always abstain)
 
 ### Pillars
 
-#### 1. Increase Adoption
+#### 1. Adoption
 
-##### 1. Abstract Blockchain Complexity for Mass Adoption
+##### 1. Verticals
+
+* **Bitcoin Decentralized Finance:**
+    *TODO* Abstract away from just Bitcoin, but keep the emphasis
+    Bitcoin DeFi on Cardano unlocks the massive, passive
+    liquidity of the world's largest cryptocurrency by
+    transforming it into a productive financial asset.
+    This provides a secure and efficient on-ramp for institutions
+    and individuals to participate in decentralized lending,
+    borrowing, and trading. By bridging the gap between traditional
+    finance and the decentralized economy, Bitcoin DeFi is a critical
+    use case that drives mainstream adoption and expands the financial
+    utility of both ecosystems.
+
+* **Real World Assets:**
+    Tokenization of Real-World Assets (RWA) bridges traditional finance
+    and blockchain, representing a massive market opportunity. By
+    converting ownership rights into digital tokens on an immutable ledger,
+    RWA tokenization increases liquidity and accessibility for traditionally
+    illiquid assets like real estate and fine art. This process streamlines
+    operations, reduces costs, and speeds up settlement times by automating
+    tasks with smart contracts. The enhanced transparency, stability, and
+    potential for institutional adoption make RWA tokenization a critical use
+    case for driving mainstream adoption of blockchain technology.
+
+* **Supply Chain Traceability:**
+
+    Cardano's immutable and transparent ledger provides a powerful solution for
+    supply chain traceability. By leveraging blockchain, businesses can create a
+    tamper-proof record of a product's journey from origin to consumer. This
+    capability helps to prevent fraud and counterfeiting while building consumer
+    trust and brand reputation. The use of transaction metadata allows a wide
+    variety of information to be included with each transaction, such as location
+    or a product's condition. By tokenizing products and linking them to unique
+    identifiers like QR codes, companies can provide real-time visibility and a
+    verifiable history. This streamlines operations, enhances accountability,
+    and allows for rapid identification of issues, which is critical for targeted recalls.
+
+* **Payments:**
+    Cardano offers a fast, secure, and low-cost platform for global payments,
+    with a specific focus on streamlining cross-border transactions for
+    businesses and individuals. It uses native assets like stablecoins to bypass
+    traditional financial intermediaries, leading to lower fees and faster settlement
+    times. For high-volume, real-time payment needs, Cardano utilizes Layer 2 scaling
+    solutions like the Hydra protocol. This technology allows for an unlimited number
+    of off-chain transactions, enabling a wide range of use cases from high-frequency
+    business payments and gaming to large-scale token distributions. Ultimately, this
+    approach makes digital payments more accessible and appealing to small and
+    medium-sized enterprises (SMEs), which will help attract new users and increase
+    liquidity within the ecosystem.
+
+
+##### 2. End Users
 
 * **Invisible Technology:** Ensure that for the vast
     majority of end-users, the underlying blockchain
@@ -83,14 +144,6 @@ and market demands:
     management. This enables flexible payment methods,
     including stablecoin off-ramps, that significantly lower
     the barrier to entry for new users and businesses.
-* **Empower Developers for Abstraction:** Provide
-    developers with the tools and frameworks necessary to
-    build applications that effectively abstract away
-    blockchain complexities for their users, allowing them
-    to focus on delivering value and functionality. This
-    includes addressing foundational friction in the
-    developer journey to streamline the builder experience
-    and make development as attractive as competing platforms.
 * **Enable Broad Accessibility and Participation:** Support
     mechanisms and tooling that allow users and operators to
     participate in the network and contribute to
@@ -98,15 +151,15 @@ and market demands:
     requirements. This includes a strategic emphasis on
     enabling an ease of participation.
 
-##### 2. Cultivate a Vibrant, Skilled, and Engaged Ecosystem
+##### 3. Developers
 
-* **Consolidate and Improve Documentation:** Address
+* **Improve Documentation:** Address
     fragmented developer documentation by creating
     consolidated, community-led resources with examples,
     videos, and clear onboarding paths. Simplify learning
     for complex blockchain concepts, making them accessible
     to a wider audience, including beginners.
-* **Catalyze Youth and Academic Engagement:** Implement
+* **Youth Engagement:** Implement
     pilot programs for blockchain education in schools,
     integrating it into existing curricula (e.g., computer
     science) to naturally engage younger generations. This
@@ -140,8 +193,16 @@ and market demands:
 * **Build Local Developer Capacity:** Focus on building
     local developer ecosystems in target markets to address
     talent shortages and reduce the cost of external expertise.
+* **Empower Developers for Abstraction:** Provide
+    developers with the standards, blueprints, tools and frameworks necessary to
+    build applications that effectively abstract away
+    blockchain complexities for their users, allowing them
+    to focus on delivering value and functionality. This
+    includes addressing foundational friction in the
+    developer journey to streamline the builder experience
+    and make development as attractive as competing platforms.
 
-##### 3. Drive Enterprise & National Adoption: Secure & Value-Additive Integration
+##### 4. Businesses, Organizations and Governments
 
 * **Prioritize Application-Level Security:** Address the
     critical concern of application-level security on public
@@ -178,8 +239,7 @@ and market demands:
     to foster equal access and broader understanding of
     non-financial blockchain use cases.
 
-
-##### 4. Target Emerging Markets
+##### 5. Emerging Markets
 
 * **Empower Local Partnerships and Communication:**
     Prioritize identifying and collaborating with key local
@@ -200,7 +260,9 @@ and market demands:
     economies that are hungry for adoption, such as LATAM,
     Africa and East Asia.
 
-##### 5. Establish Robust Ecosystem Financial Stewardship
+#### 2. Ecosystem Sustainability
+
+##### 1. Financial Stewardship
 
 * **Implement an Active, Managed Treasury:** Evolve the
     ecosystem's financial resources beyond a passive,
@@ -218,40 +280,7 @@ and market demands:
     within the ecosystem to prevent single points of failure
     and ensure continued viability.
 
-##### 6. Use Cases
-
-* **Bitcoin Decentralized Finance:**
-    *TODO* Abstract away from just Bitcoin, but keep the emphasis
-    Bitcoin DeFi on Cardano unlocks the massive, passive
-    liquidity of the world's largest cryptocurrency by
-    transforming it into a productive financial asset.
-    This provides a secure and efficient on-ramp for institutions
-    and individuals to participate in decentralized lending,
-    borrowing, and trading. By bridging the gap between traditional
-    finance and the decentralized economy, Bitcoin DeFi is a critical
-    use case that drives mainstream adoption and expands the financial
-    utility of both ecosystems.
-
-* **Real World Assets:**
-    Tokenization of Real-World Assets (RWA) bridges traditional finance
-    and blockchain, representing a massive market opportunity. By
-    converting ownership rights into digital tokens on an immutable ledger,
-    RWA tokenization increases liquidity and accessibility for traditionally
-    illiquid assets like real estate and fine art. This process streamlines
-    operations, reduces costs, and speeds up settlement times by automating
-    tasks with smart contracts. The enhanced transparency, stability, and
-    potential for institutional adoption make RWA tokenization a critical use
-    case for driving mainstream adoption of blockchain technology.
-
-* **Supply Chain Traceability:**
-
-* **Payment Networks:**
-
-
-
-#### 2. Censorship Resistance and Robustness
-
-##### 1. Bolster SPO Incentives to increase revenue sources
+##### 2. SPO Incentives to increase revenue
 
 * **Diversify SPO Roles and Incentives:** Advance programs
     to incentivize Stake Pool Operators (SPOs) and further
@@ -276,12 +305,55 @@ and market demands:
     "leaching" and promoting sustainable growth of the
     broad Cardano ecosystem.
 
+##### 3. Risk Management
 
-#### 3. Enabling Technology
+##### Key Performance Indicators (KPIs)
+
+Success will be measured by rigorous adherence to and tracking
+of defined Key Performance Indicators:
+
+* **Government Integrations:** Twenty government entities in aggregate representing
+    100 million people or more.
+* **Enterprise Integrations:** Number of major
+    corporations and financial institutions utilizing
+    Cardano for specific use cases.
+* **Daily Revenue Generating Transactions:** Tracking a target
+    of 250,000 daily transactions, with an emphasis on
+    non-ADA value transactions (e.g., metadata, identity,
+    policy IDs) representing 40-60% of volume, indicating
+    diverse network utility.
+* **Localized Adoption:** Measurable impact in targeted
+    "low-hanging fruit" markets and regions, reflecting
+    culturally intelligent growth strategies.
+* **Network Decentralization & Resilience:** Metrics
+    reflecting the diversification of SPO roles and the
+    robustness of L2 solutions feeding value back to L1.
+* **Annual L1 Revenue:** Tracking progress toward the
+    $200 million revenue.
+* **Treasury Yield:** Treasury accrues 10% yield per year.
+* **Uptime:** Maintain 100% uptime
+* **Active User Growth:**
+* **TVL:**
+
+#### 3. Social Infrastructure
+
+##### 1. Education
+
+##### 2.
+
+##### Key Performance Indicators (KPIs)
+
+Success will be measured by rigorous adherence to and tracking
+of defined Key Performance Indicators:
+
+* **Developer Engagement:** Growth in active builders and
+    contributions to community-led documentation and
+    tooling.
+
+#### 4. Enabling Technology
 
 
-
-##### 2. Scalability
+##### 1. Scalability
 
 ###### 1. State Channels (Hydra)
 
@@ -289,13 +361,13 @@ and market demands:
 
 ###### 3. Leios 24/7
 
-##### 3. Finality
+##### 2. Finality
 
 ###### 1. Peras
 
 ###### 2. Phalanx
 
-##### 1. Interoperability
+##### 3. Interoperability
 
 ###### 1. Partner Chains (Midnight)
 
@@ -332,6 +404,13 @@ and market demands:
     conformance testing suites to mitigate risks of network
     partitioning and hard fork headaches.
 
+##### Key Performance Indicators (KPIs)
+
+Success will be measured by rigorous adherence to and tracking
+of defined Key Performance Indicators:
+
+* **Interoperability:** Number of chains integrated
+
 ### Operational Principles
 
 * **Capital Efficiency:** Narrow focus to accelerate
@@ -345,34 +424,6 @@ and market demands:
 * **Inclusiveness through Clarity:** A clear vision
     galvanizes the committed and provides unambiguous
     direction.
-
-### Key Performance Indicators (KPIs)
-
-Success will be measured by rigorous adherence to and tracking
-of defined Key Performance Indicators:
-
-* **Government Integrations:** Twenty government entities in aggregate representing
-    100 million people or more.
-* **Enterprise Integrations:** Number of major
-    corporations and financial institutions utilizing
-    Cardano for specific use cases.
-* **Daily Meaningful Transactions:** Tracking a target
-    of 250,000 daily transactions, with an emphasis on
-    non-ADA value transactions (e.g., metadata, identity,
-    policy IDs) representing 40-60% of volume, indicating
-    diverse network utility.
-* **Developer Engagement:** Growth in active builders and
-    contributions to community-led documentation and
-    tooling.
-* **Localized Adoption:** Measurable impact in targeted
-    "low-hanging fruit" markets and regions, reflecting
-    culturally intelligent growth strategies.
-* **Network Decentralization & Resilience:** Metrics
-    reflecting the diversification of SPO roles and the
-    robustness of L2 solutions feeding value back to L1.
-
-* **Annual L1 Revenue:** Tracking progress toward the
-    $200 million target.
 
 ### Conclusion: Realizing Cardano's Full Potential
 

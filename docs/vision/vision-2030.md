@@ -16,11 +16,11 @@ To share your feedback:
 Cardano is a proven smart contract platform that provides
 a verifiable, immutable and public infrastructure.
 
-### 2030 Vision
+### Vision Statement
 
-Cardano is the public trust anchor
-providing the best foundation for businesses, governments, organizations
-and communities of all sizes to build the economy of the future.
+Cardano is the most secure, reliable and censorship-resistant
+blockchain for mission critical applications to power economies
+of the future.
 
 ### Our Values
 
