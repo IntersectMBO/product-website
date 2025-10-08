@@ -13,6 +13,8 @@ To share your feedback:
 
 ## Executive Summary
 
+*REVISIT*
+
 This Strategic Plan outlines the comprehensive approach to
 realizing the Cardano Vision 2030, which targets **$200 million
 in annual Layer 1 (L1) revenue**. This vision is driven by
@@ -36,7 +38,36 @@ To realize our 2030 Vision, Cardano will focus on the
 following strategic imperatives, informed by community input
 and market demands:
 
-#### 1. Abstract Blockchain Complexity for Mass Adoption
+### Foundation - Governance and Community
+
+#### 1. Fostering a Culture-First Approach and Localized Engagement
+
+* **Integrate Cultural Understanding:** Embed a
+    culture-first approach as a foundational layer in all
+    ecosystem development and product roadmap processes.
+    This involves structured insight gathering on how users
+    in diverse regions define trust, empowerment, and
+    connection, informing local use case design, messaging,
+    and onboarding strategies. This imperative directly
+    supports revenue growth and widespread adoption by
+    ensuring Cardano's solutions are relevant and embraced
+    across diverse global communities.
+* **Maintain a positive PR image of Cardano:** Actively
+    address and counter negative messaging and perceptions
+    of the ecosystem, particularly concerning community
+    behavior and perceived instability. Cultivate a public
+    narrative that emphasizes Cardano's architectural
+    strength, product offerings, and collaborative spirit
+    to ensure it is not dismissed by decision-makers due to
+    external noise. Foster clear, unified representation
+    by implementation partners.
+
+
+### Pillars
+
+#### 1. Increase Adoption
+
+##### 1. Abstract Blockchain Complexity for Mass Adoption
 
 * **Invisible Technology:** Ensure that for the vast
     majority of end-users, the underlying blockchain
@@ -67,52 +98,7 @@ and market demands:
     requirements. This includes a strategic emphasis on
     enabling an ease of participation.
 
-#### 2. Fostering a Culture-First Approach and Localized Engagement
-
-* **Integrate Cultural Understanding:** Embed a
-    culture-first approach as a foundational layer in all
-    ecosystem development and product roadmap processes.
-    This involves structured insight gathering on how users
-    in diverse regions define trust, empowerment, and
-    connection, informing local use case design, messaging,
-    and onboarding strategies. This imperative directly
-    supports revenue growth and widespread adoption by
-    ensuring Cardano's solutions are relevant and embraced
-    across diverse global communities.
-* **Empower Local Partnerships and Communication:**
-    Prioritize identifying and collaborating with key local
-    individuals and partners who can facilitate
-    understanding and communication within their respective
-    cultures. This includes leveraging local organizers for
-    global workshops, ensuring a wider range of
-    perspectives and insights into diverse market needs are
-    captured. Develop distinct strategies for effective
-    virtual and in-person engagement, recognizing the
-    limitations of hybrid approaches. Invest in
-    professional interpreters who understand subject matter
-    and context, ensuring accurate cross-cultural
-    communication. Acknowledge and adapt to
-    cultural nuances, including religious perspectives on
-    cryptocurrency, to facilitate broader adoption.
-* **Mitigate Negative External Perceptions:** Actively
-    address and counter negative messaging and perceptions
-    of the ecosystem, particularly concerning community
-    behavior and perceived instability. Cultivate a public
-    narrative that emphasizes Cardano's architectural
-    strength, product offerings, and collaborative spirit
-    to ensure it is not dismissed by decision-makers due to
-    external noise. Foster clear, unified representation
-    by implementation partners.
-* **Target Specific, High-Impact Markets:** Focus on
-    "low-hanging fruit" markets already embracing crypto,
-    such as Argentina, Venezuela, Kenya, Uganda, Cameroon,
-    India, Vietnam, Brazil, Columbia, and other countries,
-    where blockchain solutions address immediate,
-    real-world problems. Shift from broad regional labels
-    to specific, data-driven targeting based on economic
-    factors, population, or education levels.
-
-#### 3. Cultivate a Vibrant, Skilled, and Engaged Ecosystem
+##### 2. Cultivate a Vibrant, Skilled, and Engaged Ecosystem
 
 * **Consolidate and Improve Documentation:** Address
     fragmented developer documentation by creating
@@ -155,7 +141,7 @@ and market demands:
     local developer ecosystems in target markets to address
     talent shortages and reduce the cost of external expertise.
 
-#### 4. Drive Enterprise & National Adoption: Secure & Value-Additive Integration
+##### 3. Drive Enterprise & National Adoption: Secure & Value-Additive Integration
 
 * **Prioritize Application-Level Security:** Address the
     critical concern of application-level security on public
@@ -192,7 +178,80 @@ and market demands:
     to foster equal access and broader understanding of
     non-financial blockchain use cases.
 
-#### 5. Bolster SPO Incentives and Decentralization for Network Health
+
+##### 4. Target Emerging Markets
+
+* **Empower Local Partnerships and Communication:**
+    Prioritize identifying and collaborating with key local
+    individuals and partners who can facilitate
+    understanding and communication within their respective
+    cultures. This includes leveraging local organizers for
+    global workshops, ensuring a wider range of
+    perspectives and insights into diverse market needs are
+    captured. Develop distinct strategies for effective
+    virtual and in-person engagement, recognizing the
+    limitations of hybrid approaches. Invest in
+    professional interpreters who understand subject matter
+    and context, ensuring accurate cross-cultural
+    communication. Acknowledge and adapt to
+    cultural nuances, including religious perspectives on
+    cryptocurrency, to facilitate broader adoption.
+* **Target Specific, High-Impact Markets:** Focus on
+    economies that are hungry for adoption, such as LATAM,
+    Africa and East Asia.
+
+##### 5. Establish Robust Ecosystem Financial Stewardship
+
+* **Implement an Active, Managed Treasury:** Evolve the
+    ecosystem's financial resources beyond a passive,
+    single-asset treasury. Develop and implement a
+    multi-asset, actively managed treasury designed to
+    generate yields and strategically deploy capital to
+    further ecosystem growth and sustainability. This
+    addresses the need for sustained treasury replenishment
+    beyond L1 transaction fees alone. It focuses on
+    investments that lead to paying clients and meaningful
+    transactions for long-term sustainability.
+* **Support Strategic Investments in Ecosystem Health:**
+    Proactively identify and financially support critical
+    infrastructure providers and foundational applications
+    within the ecosystem to prevent single points of failure
+    and ensure continued viability.
+
+##### 6. Use Cases
+
+* **Bitcoin Decentralized Finance:**
+    *TODO* Abstract away from just Bitcoin, but keep the emphasis
+    Bitcoin DeFi on Cardano unlocks the massive, passive
+    liquidity of the world's largest cryptocurrency by
+    transforming it into a productive financial asset.
+    This provides a secure and efficient on-ramp for institutions
+    and individuals to participate in decentralized lending,
+    borrowing, and trading. By bridging the gap between traditional
+    finance and the decentralized economy, Bitcoin DeFi is a critical
+    use case that drives mainstream adoption and expands the financial
+    utility of both ecosystems.
+
+* **Real World Assets:**
+    Tokenization of Real-World Assets (RWA) bridges traditional finance
+    and blockchain, representing a massive market opportunity. By
+    converting ownership rights into digital tokens on an immutable ledger,
+    RWA tokenization increases liquidity and accessibility for traditionally
+    illiquid assets like real estate and fine art. This process streamlines
+    operations, reduces costs, and speeds up settlement times by automating
+    tasks with smart contracts. The enhanced transparency, stability, and
+    potential for institutional adoption make RWA tokenization a critical use
+    case for driving mainstream adoption of blockchain technology.
+
+* **Supply Chain Traceability:**
+
+* **Payment Networks:**
+
+
+
+#### 2. Censorship Resistance and Robustness
+
+##### 1. Bolster SPO Incentives to increase revenue sources
 
 * **Diversify SPO Roles and Incentives:** Advance programs
     to incentivize Stake Pool Operators (SPOs) and further
@@ -217,7 +276,32 @@ and market demands:
     "leaching" and promoting sustainable growth of the
     broad Cardano ecosystem.
 
-#### 6. Advance Core Protocol Capabilities for Scalability and Efficiency
+
+#### 3. Enabling Technology
+
+
+
+##### 2. Scalability
+
+###### 1. State Channels (Hydra)
+
+###### 2. Rollups (Midgard)
+
+###### 3. Leios 24/7
+
+##### 3. Finality
+
+###### 1. Peras
+
+###### 2. Phalanx
+
+##### 1. Interoperability
+
+###### 1. Partner Chains (Midnight)
+
+##### 1. Advance Core Protocol Capabilities for Scalability and Efficiency
+
+*TODO* Break these up into the Tech categories they belong in
 
 * **Achieve World-Class L1 Scalability and Finality:**
     Ensure the Layer 1 protocol can handle growing
@@ -248,24 +332,6 @@ and market demands:
     conformance testing suites to mitigate risks of network
     partitioning and hard fork headaches.
 
-#### 7. Establish Robust Ecosystem Financial Stewardship
-
-* **Implement an Active, Managed Treasury:** Evolve the
-    ecosystem's financial resources beyond a passive,
-    single-asset treasury. Develop and implement a
-    multi-asset, actively managed treasury designed to
-    generate yields and strategically deploy capital to
-    further ecosystem growth and sustainability. This
-    addresses the need for sustained treasury replenishment
-    beyond L1 transaction fees alone. It focuses on
-    investments that lead to paying clients and meaningful
-    transactions for long-term sustainability.
-* **Support Strategic Investments in Ecosystem Health:**
-    Proactively identify and financially support critical
-    infrastructure providers and foundational applications
-    within the ecosystem to prevent single points of failure
-    and ensure continued viability.
-
 ### Operational Principles
 
 * **Capital Efficiency:** Narrow focus to accelerate
@@ -285,16 +351,16 @@ and market demands:
 Success will be measured by rigorous adherence to and tracking
 of defined Key Performance Indicators:
 
-* **Annual L1 Revenue:** Tracking progress toward the
-    $200 million target.
+* **Government Integrations:** Twenty government entities in aggregate representing
+    100 million people or more.
+* **Enterprise Integrations:** Number of major
+    corporations and financial institutions utilizing
+    Cardano for specific use cases.
 * **Daily Meaningful Transactions:** Tracking a target
     of 250,000 daily transactions, with an emphasis on
     non-ADA value transactions (e.g., metadata, identity,
     policy IDs) representing 40-60% of volume, indicating
     diverse network utility.
-* **Enterprise Integrations:** Number of major
-    corporations and financial institutions utilizing
-    Cardano for specific use cases.
 * **Developer Engagement:** Growth in active builders and
     contributions to community-led documentation and
     tooling.
@@ -304,6 +370,9 @@ of defined Key Performance Indicators:
 * **Network Decentralization & Resilience:** Metrics
     reflecting the diversification of SPO roles and the
     robustness of L2 solutions feeding value back to L1.
+
+* **Annual L1 Revenue:** Tracking progress toward the
+    $200 million target.
 
 ### Conclusion: Realizing Cardano's Full Potential
 

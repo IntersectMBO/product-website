@@ -11,19 +11,21 @@ To share your feedback:
 - Use this form https://forms.gle/ABZXjaTk23GuPG116
 - Open a PR in github https://github.com/IntersectMBO/product-website/tree/master/docs/vision
 
+### What is Cardano
+
 Cardano is a proven smart contract platform that provides
 a verifiable, immutable and public infrastructure.
 
-We will be the public root of trust system for enterprises and governments.
+### 2030 Vision
 
-We will provide the best foundation for entrepreneurial activity,
-and build the economy of the future. We will not rest until the world is positively
-changed by Cardano even if they never know of its existence.
+Cardano is the public trust anchor
+providing the best foundation for businesses, governments, organizations
+and communities of all sizes to build the economy of the future.
 
 ### Our Values
 
 * Integrity
-* Community Driven
+* Community
 * Security
 * Utility
 * Accessibility
