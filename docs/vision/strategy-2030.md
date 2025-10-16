@@ -159,17 +159,6 @@ of defined Key Performance Indicators:
     videos, and clear onboarding paths. Simplify learning
     for complex blockchain concepts, making them accessible
     to a wider audience, including beginners.
-* **Youth Engagement:** Implement
-    pilot programs for blockchain education in schools,
-    integrating it into existing curricula (e.g., computer
-    science) to naturally engage younger generations. This
-    can involve school clubs, gamified learning, and even
-    running localized blockchain networks within educational
-    settings.
-* **Promote Hands-on Experience:** Support initiatives
-    that provide students and developers with practical
-    experience in Cardano tooling and real-world
-    problem-solving through blockchain and AI convergence.
 * **Enable Seamless Decentralized Collaboration:** Cultivate
     effective platforms and processes that facilitate
     asynchronous collaboration, transparent feedback, and
@@ -338,8 +327,19 @@ of defined Key Performance Indicators:
 #### 3. Social Infrastructure
 
 ##### 1. Education
+* **Youth Engagement:** Implement
+    pilot programs for blockchain education in schools,
+    integrating it into existing curricula (e.g., computer
+    science) to naturally engage younger generations. This
+    can involve school clubs, gamified learning, and even
+    running localized blockchain networks within educational
+    settings.
+* **Promote Hands-on Experience:** Support initiatives
+    that provide students and developers with practical
+    experience in Cardano tooling and real-world
+    problem-solving through blockchain and AI convergence.
 
-##### 2.
+##### 2. Outreach
 
 ##### Key Performance Indicators (KPIs)
 
@@ -351,6 +351,8 @@ of defined Key Performance Indicators:
     tooling.
 
 #### 4. Enabling Technology
+
+*TODO* Work with TSC on this section
 
 
 ##### 1. Scalability
