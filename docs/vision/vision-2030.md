@@ -11,18 +11,19 @@ To share your feedback:
 - Use this form https://forms.gle/ABZXjaTk23GuPG116
 - Open a PR in github https://github.com/IntersectMBO/product-website/tree/master/docs/vision
 
-### What is Cardano
+### Mission
 
-Cardano is a proven smart contract platform that provides
-a verifiable, immutable and public infrastructure.
+To empower a global ecosystem of builders, businesses, and communities
+by providing a scalable, secure, and research-first platform that enables
+the creation of a new, transparent, and fair digital economy.
 
-### Vision Statement
+### Vision
 
 Cardano is the most secure, reliable and censorship-resistant
 blockchain for mission critical applications to power economies
 of the future.
 
-### Our Values
+### Values
 
 * Integrity
 * Community
