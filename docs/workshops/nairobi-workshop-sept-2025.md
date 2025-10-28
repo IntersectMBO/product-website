@@ -1,7 +1,7 @@
 ---
 sidebar_label: Nairobi Community Workshop
 title: Connecting with the Community in Nairobi - September 2025
-sidebar_position: 2
+sidebar_position: 8
 slug: /workshops/nairobi-sept-2025
 ---
 
@@ -346,5 +346,5 @@ The Nairobi workshop represents not just a conversation but the foundation
 for sustained collaboration toward Cardano's 2030 vision of banking the
 unbanked and empowering communities worldwide.
 
-Raw Reposes from mentimeter can be found here: 
+Raw Responses from mentimeter can be found here: 
 [Cardano 2030 Community Vision Nairobi Workshop Report](./assets/cardano-2030-community-vision-nairobi-workshop-report.pdf)
