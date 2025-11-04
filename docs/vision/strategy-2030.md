@@ -38,39 +38,70 @@ To realize our 2030 Vision, Cardano will focus on the
 following strategic imperatives, informed by community input
 and market demands:
 
-### Foundation - Governance and Community
+### Foundation - Enabling Technology
 
-#### 1. Fostering a Culture-First Approach and Localized Engagement
+*TODO* Work with TSC on this section
 
-* **Integrate Cultural Understanding:** Embed a
-    culture-first approach as a foundational layer in all
-    ecosystem development and product roadmap processes.
-    This involves structured insight gathering on how users
-    in diverse regions define trust, empowerment, and
-    connection, informing local use case design, messaging,
-    and onboarding strategies. This imperative directly
-    supports revenue growth and widespread adoption by
-    ensuring Cardano's solutions are relevant and embraced
-    across diverse global communities.
-* **Maintain a positive PR image of Cardano:** Actively
-    address and counter negative messaging and perceptions
-    of the ecosystem, particularly concerning community
-    behavior and perceived instability. Cultivate a public
-    narrative that emphasizes Cardano's architectural
-    strength, product offerings, and collaborative spirit
-    to ensure it is not dismissed by decision-makers due to
-    external noise. Foster clear, unified representation
-    by implementation partners.
 
-#### 2. Maintain and evolve our governance processes
+##### 1. Scalability
 
-#### Key Performance Indicators (KPIs)
+###### 1. State Channels (Hydra)
+
+###### 2. Rollups (Midgard)
+
+###### 3. Leios 24/7
+
+##### 2. Finality
+
+###### 1. Peras
+
+###### 2. Phalanx
+
+##### 3. Interoperability
+
+###### 1. Partner Chains (Midnight)
+
+##### 1. Advance Core Protocol Capabilities for Scalability and Efficiency
+
+*TODO* Break these up into the Tech categories they belong in
+
+* **Achieve World-Class L1 Scalability and Finality:**
+    Ensure the Layer 1 protocol can handle growing
+    transaction volumes and provide rapid, secure
+    transaction finality. This involves continuous
+    advancement of core mechanisms to support high
+    throughput and reliability, addressing any trade-offs
+    in consensus complexity or network traffic.
+* **Develop Robust Layer 2 Solutions:** Further integrate
+    and support scalable off-chain frameworks that enable
+    applications to achieve high-volume and low-cost
+    transactions without burdening the L1, facilitating
+    diverse use cases and ecosystem growth. This recognizes
+    L2s as critical prerequisites for many applications and
+    immediate growth today.
+* **Enable Advanced Transaction and Protocol Design:**
+    Implement advanced transaction models that enhance
+    efficiency, security, and user interoperability. This
+    includes optimizing underlying protocol designs to
+    support a seamless user experience, facilitate
+    innovative dApp development, and ensure network health
+    under increasing demand.
+* **Foster Standardized Multi-Client Coordination:** Promote
+    ecosystem-wide standardization and robust coordination
+    processes for core protocol development to ensure unity,
+    compatibility, and resilience across diverse client
+    implementations. This includes developing robust
+    conformance testing suites to mitigate risks of network
+    partitioning and hard fork headaches.
+
+##### Key Performance Indicators (KPIs)
 
 Success will be measured by rigorous adherence to and tracking
 of defined Key Performance Indicators:
 
-* **DRep Participation:** 70% of DReps by stake participating in governance actions
-* **Voter Delegation:** N% of stake delegated to DReps (and not always abstain)
+* **Interoperability:** Number of chains integrated
+
+Cardano has an excellent basis for technology...
 
 ### Pillars
 
@@ -249,6 +280,65 @@ of defined Key Performance Indicators:
     economies that are hungry for adoption, such as LATAM,
     Africa and East Asia.
 
+#### 2. Community
+##### 1. Education
+* **Youth Engagement:** Implement
+    pilot programs for blockchain education in schools,
+    integrating it into existing curricula (e.g., computer
+    science) to naturally engage younger generations. This
+    can involve school clubs, gamified learning, and even
+    running localized blockchain networks within educational
+    settings.
+* **Promote Hands-on Experience:** Support initiatives
+    that provide students and developers with practical
+    experience in Cardano tooling and real-world
+    problem-solving through blockchain and AI convergence.
+
+##### 2. Outreach
+##### 3. Fostering a Culture-First Approach and Localized Engagement
+
+* **Integrate Cultural Understanding:** Embed a
+    culture-first approach as a foundational layer in all
+    ecosystem development and product roadmap processes.
+    This involves structured insight gathering on how users
+    in diverse regions define trust, empowerment, and
+    connection, informing local use case design, messaging,
+    and onboarding strategies. This imperative directly
+    supports revenue growth and widespread adoption by
+    ensuring Cardano's solutions are relevant and embraced
+    across diverse global communities.
+* **Maintain a positive PR image of Cardano:** Actively
+    address and counter negative messaging and perceptions
+    of the ecosystem, particularly concerning community
+    behavior and perceived instability. Cultivate a public
+    narrative that emphasizes Cardano's architectural
+    strength, product offerings, and collaborative spirit
+    to ensure it is not dismissed by decision-makers due to
+    external noise. Foster clear, unified representation
+    by implementation partners.
+
+##### Key Performance Indicators (KPIs)
+
+Success will be measured by rigorous adherence to and tracking
+of defined Key Performance Indicators:
+
+* **Developer Engagement:** Growth in active builders and
+    contributions to community-led documentation and
+    tooling.
+
+#### 2. Governance
+
+##### 2. Maintain and evolve our governance processes
+
+##### Key Performance Indicators (KPIs)
+
+Success will be measured by rigorous adherence to and tracking
+of defined Key Performance Indicators:
+
+* **DRep Participation:** 70% of DReps by stake participating in governance actions
+* **Voter Delegation:** N% of stake delegated to DReps (and not always abstain)
+
+
 #### 2. Ecosystem Sustainability
 
 ##### 1. Financial Stewardship
@@ -324,94 +414,6 @@ of defined Key Performance Indicators:
 * **Active User Growth:**
 * **TVL:**
 
-#### 3. Social Infrastructure
-
-##### 1. Education
-* **Youth Engagement:** Implement
-    pilot programs for blockchain education in schools,
-    integrating it into existing curricula (e.g., computer
-    science) to naturally engage younger generations. This
-    can involve school clubs, gamified learning, and even
-    running localized blockchain networks within educational
-    settings.
-* **Promote Hands-on Experience:** Support initiatives
-    that provide students and developers with practical
-    experience in Cardano tooling and real-world
-    problem-solving through blockchain and AI convergence.
-
-##### 2. Outreach
-
-##### Key Performance Indicators (KPIs)
-
-Success will be measured by rigorous adherence to and tracking
-of defined Key Performance Indicators:
-
-* **Developer Engagement:** Growth in active builders and
-    contributions to community-led documentation and
-    tooling.
-
-#### 4. Enabling Technology
-
-*TODO* Work with TSC on this section
-
-
-##### 1. Scalability
-
-###### 1. State Channels (Hydra)
-
-###### 2. Rollups (Midgard)
-
-###### 3. Leios 24/7
-
-##### 2. Finality
-
-###### 1. Peras
-
-###### 2. Phalanx
-
-##### 3. Interoperability
-
-###### 1. Partner Chains (Midnight)
-
-##### 1. Advance Core Protocol Capabilities for Scalability and Efficiency
-
-*TODO* Break these up into the Tech categories they belong in
-
-* **Achieve World-Class L1 Scalability and Finality:**
-    Ensure the Layer 1 protocol can handle growing
-    transaction volumes and provide rapid, secure
-    transaction finality. This involves continuous
-    advancement of core mechanisms to support high
-    throughput and reliability, addressing any trade-offs
-    in consensus complexity or network traffic.
-* **Develop Robust Layer 2 Solutions:** Further integrate
-    and support scalable off-chain frameworks that enable
-    applications to achieve high-volume and low-cost
-    transactions without burdening the L1, facilitating
-    diverse use cases and ecosystem growth. This recognizes
-    L2s as critical prerequisites for many applications and
-    immediate growth today.
-* **Enable Advanced Transaction and Protocol Design:**
-    Implement advanced transaction models that enhance
-    efficiency, security, and user interoperability. This
-    includes optimizing underlying protocol designs to
-    support a seamless user experience, facilitate
-    innovative dApp development, and ensure network health
-    under increasing demand.
-* **Foster Standardized Multi-Client Coordination:** Promote
-    ecosystem-wide standardization and robust coordination
-    processes for core protocol development to ensure unity,
-    compatibility, and resilience across diverse client
-    implementations. This includes developing robust
-    conformance testing suites to mitigate risks of network
-    partitioning and hard fork headaches.
-
-##### Key Performance Indicators (KPIs)
-
-Success will be measured by rigorous adherence to and tracking
-of defined Key Performance Indicators:
-
-* **Interoperability:** Number of chains integrated
 
 ### Operational Principles
 
