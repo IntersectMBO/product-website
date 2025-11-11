@@ -11,9 +11,9 @@ slug: /vision/strategy-2030
 
 Cardano’s objective for 2030 is to run a secure, interoperable base layer that sustains **400 million ADA in annual L1 revenue** and anchors a growing set of Layer 2 solutions and real-world applications. To reach this, the ecosystem must:
 
-1. **Scale and harden the protocol**: maintain 100% mainnet uptime, ship multi-client and post-quantum–ready infrastructure, and integrate L2 interoperability.  
-2. **Create robust on-chain demand**: focus on DeFi, RWA, supply chain, and payments, while making Cardano usage “invisible” for users and enterprises.  
-3. **Run antifragile on-chain governance**: use DReps, turnout-aware voting, and treasury seasons to resist plutocratic capture and voter fatigue.  
+1. **Scale and harden the protocol**: maintain 100% mainnet uptime, ship multi-client and post-quantum–ready infrastructure, and integrate L2 interoperability.
+2. **Create robust on-chain demand**: focus on DeFi, RWA, supply chain, and payments, while making Cardano usage “invisible” for users and enterprises.
+3. **Run antifragile on-chain governance**: use DReps, turnout-aware voting, and treasury seasons to resist plutocratic capture and voter fatigue.
 4. **Manage the treasury & network economics actively**: evolve from a passive pool to a yield-generating, multi-asset treasury,ensure L2s return value to L1, and SPOs are economically incentivised to secure the network over the long term.
 
 Execution is distributed across Cardano ecosystem entities (Cardano Foundation, IOG, Emurgo, Intersect, SPOs, and funded community teams); this plan defines shared outcomes rather than a single owner.
@@ -34,32 +34,7 @@ These KPIs are network-level and observable. They tie directly to the four lever
 | Governance | **DRep power (top 10 voting power)** | \< 50% effective voting power | Mitigates visible plutocratic concentration. |
 | Treasury | **Treasury Annual Yield** | \> 10% ROI | Measure the financial efficiency and active management of ecosystem funds. |
 
-## Foundation: Governance
-
-Cardano governance must be hard to capture, easy to use, and paced. This builds directly on Cardano’s tripartite model of DReps, Constitutional Committee, and SPOs.
-
-### G.1. Incentivized & Accessible Governance
-
-| Focus Area | Strategy | Expected Enhancement |
-| :---- | :---- | :---- |
-| **Role-based incentives for DReps, SPOs & CC** | Fund DReps, SPOs and the Constitutional Committee based on observable activity (votes, rationales, attendance) rather than single binary metrics. | Broader, more diverse participation; less reliance on large-stake actors. |
-| **Governance accessibility tools** | Maintain and develop tools to register as DRep, delegate, vote, submit/view governance actions, and message delegators. | Frictionless participation → higher legitimate turnout. |
-
-### G.2. Turnout-Aware Voting with Delegator Safeguard
-
-| Focus Area | Strategy | Expected Enhancement |
-| :---- | :---- | :---- |
-| **Adaptive / turnout-aware thresholds** | Apply turnout-aware approval (like adaptive quorum biasing) so low-turnout proposals need higher yes-ratios. | Prevents “quiet” passes and aligns decisions with actual participation. |
-| **Delegator override of DRep votes** | Allow ADA holders to override their DRep on a per-proposal basis without redelegating. | Protects against captured/inactive DReps while keeping delegation convenient. |
-| **Voting power damping (per key)** | If a single DRep key accumulates very high voting power, apply diminishing weight above a threshold. | Reduces visible plutocratic concentration using an on-chain, auditable rule. |
-
-### G.3. Treasury Seasons
-
-| Focus Area | Strategy | Expected Enhancement |
-| :---- | :---- | :---- |
-| **Seasonal proposal windows** | Batch treasury/budget actions into a governance-approved annual calendar; publish season reports (spend, participation, vetoes). | Less proposal spam, less voter fatigue, clearer deliberation cycles.   |
-
-## Pillar 1: Infrastructure & Research Excellence
+## Foundation: Infrastructure & Research Excellence
 
 Keep Cardano secure, fast, and interoperable so it can host more economic activity.
 
@@ -77,10 +52,10 @@ Keep Cardano secure, fast, and interoperable so it can host more economic activi
 | Focus Area | Description | Expected Enhancement |
 | :---- | :---- | :---- |
 | **Post-quantum readiness** | Migrate protocol-critical cryptography to PQ-resistant candidates. | Proactive protection against future threats. |
-| **Client diversity** | Support additional full-node and light-client implementations with conformance testing. | Higher resilience, better decentralization. |
+| **Client diversity** | Support additional full-node and light-client implementations with conformance testing. | Better decentralization. |
 | **Threat detection & recovery** | Improve observability, self-healing, and disaster-recovery procedures. | Enterprise-grade reliability for regulated use. |
 
-## Pillar 2: Adoption & Utility
+## Pillar 1: Adoption & Utility
 
 Driving widespread, non-speculative utility by focusing on high-value industry verticals, superior user experience (UX), and enterprise-grade security.
 
@@ -109,6 +84,30 @@ Driving widespread, non-speculative utility by focusing on high-value industry v
 | **Education & migration** | Provide materials for EVM/account-based devs moving to Cardano/UTxO. | More developers can onboard. |
 | **Compatibility** | Align with common multi-chain tooling where feasible. | Lower switching costs vs. other L1s. |
 
+## Pillar 2: Governance
+
+Cardano governance must be hard to capture, easy to use, and paced. This builds directly on Cardano’s tripartite model of DReps, Constitutional Committee, and SPOs.
+
+### G.1. Incentivized & Accessible Governance
+
+| Focus Area | Strategy | Expected Enhancement |
+| :---- | :---- | :---- |
+| **Role-based incentives for DReps, SPOs & CC** | Fund DReps, SPOs and the Constitutional Committee based on observable activity (votes, rationales, attendance) rather than single binary metrics. | Broader, more diverse participation; less reliance on large-stake actors. |
+| **Governance accessibility tools** | Maintain and develop tools to register as DRep, delegate, vote, submit/view governance actions, and message delegators. | Frictionless participation → higher legitimate turnout. |
+
+### G.2. Turnout-Aware Voting with Delegator Safeguard
+
+| Focus Area | Strategy | Expected Enhancement |
+| :---- | :---- | :---- |
+| **Adaptive / turnout-aware thresholds** | Apply turnout-aware approval (like adaptive quorum biasing) so low-turnout proposals need higher yes-ratios. | Prevents “quiet” passes and aligns decisions with actual participation. |
+| **Delegator override of DRep votes** | Allow ADA holders to override their DRep for layer 2 decisions on a per-proposal basis without redelegating. | Protects against captured/inactive DReps while keeping delegation convenient. |
+
+### G.3. Treasury Seasons
+
+| Focus Area | Strategy | Expected Enhancement |
+| :---- | :---- | :---- |
+| **Seasonal proposal windows** | Batch treasury/budget actions into a governance-approved annual calendar; publish season reports (spend, participation, vetoes). | Less proposal spam, less voter fatigue, clearer deliberation cycles.   |
+
 ## Pillar 3: Community & Ecosystem Growth
 
 Driving global engagement through a market-centric approach, cultivating a skilled developer base, and proactively demonstrating ecosystem value.
@@ -136,6 +135,7 @@ Ensuring the long-term financial health and operational integrity of the network
 
 | Focus Area | Strategy | Expected Enhancement |
 | :---- | :---- | :---- |
+| **Multi-Asset Treasury** | Allow treasury and proposals to include assets other than ADA. | Provides a way for products built on Cardano to contribute to the layer 1 without spending ADA. |
 | **Managed treasury** | Evolve the treasury beyond a passive, single-asset pool into an actively managed, multi-asset portfolio to generate yields and strategically deploy capital into growth-focused investments. | 10%+ ROI on non-ADA assets. |
 | **L2 → L1 value retention** | Refine the ecosystem's tokenomics to ensure stability, competitive service pricing, and sustainable decentralization, ensuring Layer 2 solutions contribute value back to the L1 protocol. | Prevent value leakage from scaling solutions. |
 
