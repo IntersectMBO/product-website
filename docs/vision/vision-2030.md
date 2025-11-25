@@ -15,11 +15,11 @@ To share your feedback:
 
 To empower a global ecosystem of builders, businesses, and communities
 by providing a scalable, secure, and research-based platform that enables
-the creation of a new, transparent, and fair digital economy.
+the creation of transparent and fair digital economies.
 
 ### Vision
 
-Cardano is the most secure, reliable and censorship-resistant
+Cardano is the most secure, reliable and decentralized-censorship-resistant
 blockchain for mission critical applications to power economies
 of the future.
 
