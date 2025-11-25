@@ -5,7 +5,11 @@ sidebar_position: 2
 slug: /vision/strategy-2030
 ---
 
-# Cardano 2030 Strategic Plan: The World's Operating System
+# Cardano 2030 Strategic Framework: The World's Operating System
+
+To share your feedback:
+- Use this form https://forms.gle/pVZtFRxoyWYJox5Z7
+- Open a PR in github https://github.com/IntersectMBO/product-website/tree/master/docs/vision
 
 ## Executive Summary
 
@@ -22,17 +26,20 @@ Execution is distributed across Cardano ecosystem entities (Cardano Foundation, 
 
 These KPIs are network-level and observable. They tie directly to the four levers above.
 
-| Area | Metric | 2030 Target | Rationale |
-| :---- | :---- | :---- | :---- |
-| Reliability | **Protocol Stability** | 99.999% Uptime (“Five Nines”) | Maintain best-in-class operational reliability. |
-| Security | **PQ-ready governance signatures** | Core cryptographic primitives upgraded | Proactive defense against risks posed by future quantum computing capabilities. |
-| Decentralization | **Independent full node clients** | ≥ 2 live, spec-conformant | Reduce single-client risk. |
-| Adoption | **Annual L1 revenue** | **400m ada** from fees/L1 services | The key metric of economic self-sufficiency and utility. |
-| Adoption | **Daily transactions** | ≥ 250,000 | Signals broad, recurring on-chain activity. |
-| Adoption | **Enterprise integrations** | ≥ 15 corporations/financial institutions | Measure success in translating high-assurance design into business adoption. |
-| Governance | **DRep participation rate** | \> 70% of active DReps (by stake) vote on governance actions. | Measure the vitality and engagement of the decision-making layer. |
-| Governance | **DRep power (top 10 voting power)** | \< 50% effective voting power | Mitigates visible plutocratic concentration. |
-| Treasury | **Treasury Annual Yield** | \> 10% ROI | Measure the financial efficiency and active management of ecosystem funds. |
+| Area | Metric | current status | How to calculate | 2030 Target | Rationale |
+| ---------------------- | ---------------------------------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Reliability | Monthly (6 epochs) UpTime | 99.98 | Uptime percentage = ((Total time period − Total 5-minute blockless periods) / Total time period) × 100% | 99.98% Uptime (no blockless intervals of 5 minutes or longer across 6 epochs)<br /><br />Reasoning: Cardano block production is modeled as a Poisson process with λ ≈ 1 block / 20 seconds.<br />The probability of producing zero blocks in 5 minutes is effectively zero (≈3×10⁻⁷), therefore any 5-minute gap constitutes a statistically reliable indicator of downtime.<br /><br />Reasoning: ([reference calculation](https://chatgpt.com/share/6929a65f-f8d8-800d-b667-0dfeb6bb05ab))| Maintain best-in-class operational reliability. (Protocol Stability) |
+| Operational resilience | Alternative full node clients | 1 | | ≥ 2 live, spec-conformant | Reduce single-client risk. |
+| Operational resilience | Client & Infrastructure Diversity | / | Track market share of each client implementation (target: no client >33%). Measure validator distribution across cloud providers vs bare metal. Identify AWS/cloud concentration risks. | No single client >33% | Technical Resilience: Tracks market share of each client implementation with a target of no single client controlling a liveness-threatening share.<br /><br />Market share distribution of client implementations. Target: no single client >33% for liveness protection. |
+| Operational resilience | Multi-dimensional Nakamoto coefficient | 22 | Count controlling entities across multiple vectors.<br /><br />Compute minimum across dimensions: stake, nodes, geography. | 22 (best) | Represents decentralization strength.<br /><br />Minimum number of entities controlling 51% of stake, nodes, geography, infra. |
+| Operational resilience | Voting Power distribution of controlling stake | 35 | (total live stake - abstain DRep - NoConfidence DRep)\*0.51 > than stake of top 22 DReps | 50% + 1 lovelace effective voting power controlled by > than 22 DReps | Mitigates risk of attacks from colluded DReps |
+| Adoption | Monthly submitted transactions | 900k submitted transactions per month |  | ≥ 27M submitted transactions per month  | Signals broad, recurring on-chain activity. |
+| Revenue / adoption | Annual Protocol Revenue | 3.5M ada within the calendar | Annual Protocol Revenue = Submitted Transactions per year \* avg fee per submitted transaction | ≥ 16M ada (assuming an ada value of $5 and a reduction of avg fees over the 4 years from 0.3 ada to 0.05 ada) | This includes all revenue to the protocol (excluding the rewards).<br />The key metric of economic self-sufficiency and utility.<br /><br />(Revenue could come from fees, L1 and L2 services, investments and more) |
+| Adoption | Enterprise integrations | / | / | ≥15 Enterprise level organization (with 5M Annual revenue) with sustained chain activity after 12 months (AKA doing avg 500 transactions per epoch) | Measure success in translating high-assurance design into business adoption. |
+| Governance | DRep participation rate | / | / | \> 70% of active DReps (by stake) vote on 90% or more of governance actions. | Measure the vitality and engagement of the decision-making layer. |
+| Adoption | Monthly active users | Approximately 100k-300k active wallets per month | Count unique addresses with transactions over 30-day window. | 1M | Measures active ecosystem participation + engagement.<br /><br />MAU measures number of unique wallets submitting ≥1 transaction per month; does not differentiate human activity vs wallet count. |
+| Adoption | Total Value Locked (TVL) | $400–500M | Liquid staking normalization.<br />TVL = Σ locked assets. | $3B  | Capital confidence indicator. |
+| Scalability | Throughput capacity per day | 300k transactions per day | ? | 3x current capacity | Tracking scalability of the system to meet adoption KPIs |
 
 ## Foundation: Infrastructure & Research Excellence
 
