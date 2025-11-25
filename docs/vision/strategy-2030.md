@@ -5,7 +5,7 @@ sidebar_position: 2
 slug: /vision/strategy-2030
 ---
 
-# Cardano 2030 Strategic Plan: The World's Operating System
+# Cardano 2030 Strategic Framework: The World's Operating System
 
 ## Executive Summary
 
@@ -22,17 +22,17 @@ Execution is distributed across Cardano ecosystem entities (Cardano Foundation, 
 
 These KPIs are network-level and observable. They tie directly to the four levers above.
 
-| Area | Metric | 2030 Target | Rationale |
-| :---- | :---- | :---- | :---- |
-| Reliability | **Protocol Stability** | 99.999% Uptime (“Five Nines”) | Maintain best-in-class operational reliability. |
-| Security | **PQ-ready governance signatures** | Core cryptographic primitives upgraded | Proactive defense against risks posed by future quantum computing capabilities. |
-| Decentralization | **Independent full node clients** | ≥ 2 live, spec-conformant | Reduce single-client risk. |
-| Adoption | **Annual L1 revenue** | **400m ada** from fees/L1 services | The key metric of economic self-sufficiency and utility. |
-| Adoption | **Daily transactions** | ≥ 250,000 | Signals broad, recurring on-chain activity. |
-| Adoption | **Enterprise integrations** | ≥ 15 corporations/financial institutions | Measure success in translating high-assurance design into business adoption. |
-| Governance | **DRep participation rate** | \> 70% of active DReps (by stake) vote on governance actions. | Measure the vitality and engagement of the decision-making layer. |
-| Governance | **DRep power (top 10 voting power)** | \< 50% effective voting power | Mitigates visible plutocratic concentration. |
-| Treasury | **Treasury Annual Yield** | \> 10% ROI | Measure the financial efficiency and active management of ecosystem funds. |
+| Area | Metric | Current state | 2030 Target | Rationale |
+| :---- | :---- | :---- | :---- | :---- |
+| Reliability | **Protocol Stability** | [Add Current state] | 99.999% Uptime (“Five Nines”) | Maintain best-in-class operational reliability. |
+| Security | **PQ-ready governance signatures** | [Add Current state] | Core cryptographic primitives upgraded | Proactive defense against risks posed by future quantum computing capabilities. |
+| Decentralization | **Independent full node clients** | [Add Current state] | ≥ 2 live, spec-conformant | Reduce single-client risk. |
+| Adoption | **Annual L1 revenue** | [Add Current state] | **400m ada** from fees/L1 services | The key metric of economic self-sufficiency and utility. |
+| Adoption | **Daily transactions** | [Add Current state] | ≥ 250,000 | Signals broad, recurring on-chain activity. |
+| Adoption | **Enterprise integrations** | [Add Current state] | ≥ 15 corporations/financial institutions | Measure success in translating high-assurance design into business adoption. |
+| Governance | **DRep participation rate** | [Add Current state] | \> 70% of active DReps (by stake) vote on governance actions. | Measure the vitality and engagement of the decision-making layer. |
+| Governance | **DRep power (top 10 voting power)** | [Add Current state] | \< 50% effective voting power | Mitigates visible plutocratic concentration. |
+| Treasury | **Treasury Annual Yield** | [Add Current state] | \> 10% ROI | Measure the financial efficiency and active management of ecosystem funds. |
 
 ## Foundation: Infrastructure & Research Excellence
 
