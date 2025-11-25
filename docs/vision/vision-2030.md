@@ -19,7 +19,7 @@ the creation of transparent and fair digital economies.
 
 ### Vision
 
-Cardano is the most secure, reliable and decentralized-censorship-resistant
+Cardano is the most secure, reliable and censorship-resistant
 blockchain for mission critical applications to power economies
 of the future.
 
