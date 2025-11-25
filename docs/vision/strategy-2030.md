@@ -7,6 +7,10 @@ slug: /vision/strategy-2030
 
 # Cardano 2030 Strategic Framework: The World's Operating System
 
+To share your feedback:
+- Use this form https://forms.gle/pVZtFRxoyWYJox5Z7
+- Open a PR in github https://github.com/IntersectMBO/product-website/tree/master/docs/vision
+
 ## Executive Summary
 
 Cardano’s objective for 2030 is to run a secure, interoperable base layer that sustains **400 million ADA in annual L1 revenue** and anchors a growing set of Layer 2 solutions and real-world applications. To reach this, the ecosystem must:
