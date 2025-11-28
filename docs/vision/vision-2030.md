@@ -13,9 +13,9 @@ To share your feedback:
 
 ### Mission
 
-To empower a global ecosystem of builders, businesses, and communities
+To empower a global ecosystem of builders, businesses, organizations and communities
 by providing a scalable, secure, and research-based platform that enables
-the creation of a new, transparent, and fair digital economy.
+the creation of transparent and fair digital economies.
 
 ### Vision
 
