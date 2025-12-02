@@ -1,3 +1,10 @@
+---
+sidebar_label: London workshop
+title:  London Community Workshop November 2025
+sidebar_position: 11
+slug: /workshops/lon-nov-2025
+---
+
 # London - Community Workshop
 
 ## Introduction
