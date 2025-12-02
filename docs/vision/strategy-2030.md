@@ -22,6 +22,8 @@ Cardano’s objective for 2030 is to run a secure, interoperable base layer that
 
 Execution is distributed across Cardano ecosystem entities (Cardano Foundation, IOG, Emurgo, Intersect, SPOs, and funded community teams); this plan defines shared outcomes rather than a single owner.
 
+This strategy framework is divided in core pillars that represent the key areas to work on to achieve our vision.
+
 ## Core Key Performance Indicators (KPIs)
 
 These KPIs are network-level and observable. They tie directly to the four levers above.
@@ -41,11 +43,12 @@ These KPIs are network-level and observable. They tie directly to the four lever
 | Adoption | Total Value Locked (TVL) | $400–500M | Liquid staking normalization.<br />TVL = Σ locked assets. | $3B  | Capital confidence indicator. |
 | Scalability | Throughput capacity per day | 300k transactions per day | ? | 3x current capacity | Tracking scalability of the system to meet adoption KPIs |
 
-## Foundation: Infrastructure & Research Excellence
+
+## Pillar 1: Infrastructure & Research Excellence
 
 Keep Cardano secure, fast, and interoperable so it can host more economic activity.
 
-### F.1. Scalability & Interoperability
+### I.1. Scalability & Interoperability
 
 | Focus Area | Description | Expected Enhancement |
 | :---- | :---- | :---- |
@@ -54,7 +57,7 @@ Keep Cardano secure, fast, and interoperable so it can host more economic activi
 | **Cross-chain interoperability** | Standardize secure bridges and state-proofs to other chains and legacy infra. | Cardano as an interoperability hub. |
 | **Core ZK capabilities** | Provide modular ZK infrastructure for private, verifiable off-chain computation. | Privacy-preserving, verifiable apps. |
 
-### F.2. Security & Resilience
+### I.2. Security & Resilience
 
 | Focus Area | Description | Expected Enhancement |
 | :---- | :---- | :---- |
@@ -62,7 +65,7 @@ Keep Cardano secure, fast, and interoperable so it can host more economic activi
 | **Client diversity** | Support additional full-node and light-client implementations with conformance testing. | Better decentralization. |
 | **Threat detection & recovery** | Improve observability, self-healing, and disaster-recovery procedures. | Enterprise-grade reliability for regulated use. |
 
-## Pillar 1: Adoption & Utility
+## Pillar 2: Adoption & Utility
 
 Driving widespread, non-speculative utility by focusing on high-value industry verticals, superior user experience (UX), and enterprise-grade security.
 
@@ -91,7 +94,7 @@ Driving widespread, non-speculative utility by focusing on high-value industry v
 | **Education & migration** | Provide materials for EVM/account-based devs moving to Cardano/UTxO. | More developers can onboard. |
 | **Compatibility** | Align with common multi-chain tooling where feasible. | Lower switching costs vs. other L1s. |
 
-## Pillar 2: Governance
+## Pillar 3: Governance
 
 Cardano governance must be hard to capture, easy to use, and paced. This builds directly on Cardano’s tripartite model of DReps, Constitutional Committee, and SPOs.
 
@@ -115,7 +118,7 @@ Cardano governance must be hard to capture, easy to use, and paced. This builds 
 | :---- | :---- | :---- |
 | **Seasonal proposal windows** | Batch treasury/budget actions into a governance-approved annual calendar; publish season reports (spend, participation, vetoes). | Less proposal spam, less voter fatigue, clearer deliberation cycles.   |
 
-## Pillar 3: Community & Ecosystem Growth
+## Pillar 4: Community & Ecosystem Growth
 
 Driving global engagement through a market-centric approach, cultivating a skilled developer base, and proactively demonstrating ecosystem value.
 
@@ -134,7 +137,7 @@ Driving global engagement through a market-centric approach, cultivating a skill
 | **Proactively Demonstrate Ecosystem Value** | Cultivate a public narrative that demonstrates Cardano's architectural strengths and high-assurance design, building confidence with partners and users. | Better external perception. |
 | **Localized adoption** | Target specific, high-impact markets (e.g., LATAM, Africa, East Asia) with localized partnerships and communication strategies. | Regional growth where blockchain solves real frictions. |
 
-## Pillar 4: Ecosystem Sustainability & Resilience
+## Pillar 5: Ecosystem Sustainability & Resilience
 
 Ensuring the long-term financial health and operational integrity of the network infrastructure.
 
