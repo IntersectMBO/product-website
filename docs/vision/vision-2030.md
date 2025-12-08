@@ -13,15 +13,14 @@ To share your feedback:
 
 ### Mission
 
-To empower a global ecosystem of builders, businesses, organizations and communities
+To empower a global ecosystem of builders, businesses, organizations, governments and communities
 by providing a scalable, secure, and research-based platform that enables
 the creation of transparent and fair digital economies.
 
 ### Vision
 
 Cardano is the most secure, reliable and censorship-resistant
-blockchain for mission critical applications to power economies
-of the future.
+blockchain for mission critical applications to power economies and societies of the future.
 
 ### Values
 
