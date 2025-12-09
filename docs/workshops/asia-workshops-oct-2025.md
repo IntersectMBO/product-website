@@ -5,7 +5,6 @@ sidebar_position: 13
 slug: /workshops/asia-oct-2025
 ---
 
-
 # Aligning the Strategy for Cardano in Singapore/Japan
 
 The intensive series of workshops held across Singapore and
