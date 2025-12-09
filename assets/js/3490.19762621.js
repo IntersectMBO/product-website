@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkintersect_product_website=self.webpackChunkintersect_product_website||[]).push([[3490],{3490:(e,t,s)=>{s.d(t,{createInfoServices:()=>c.v});var c=s(1885);s(7960)}}]);
