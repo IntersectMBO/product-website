@@ -13,6 +13,12 @@ run:
 build:
     npm run build
 
+serve:
+    npm run serve
+
+clear:
+    npm run clear
+
 # Install npm dependencies
 setup:
     npm install

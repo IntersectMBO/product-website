@@ -11,14 +11,29 @@ This website serves as the primary platform for the Intersect Product Committee 
 - Facilitate transparent collaboration on Cardano's strategic direction
 - Provide a central resource for Vision 2030 proposals and community feedback
 
-## Prerequisites
-
-- **Node.js**: Version 18.0 or higher
-- **npm** or **yarn**: Package manager (comes with Node.js)
-
 ## Installation
 
-### Using npm
+### Using Nix
+
+Nix is a package manager that simplifies development workflows. It is supported
+on most linux distributions (including NixOS), MacOS and WSL2 on Windows.
+
+Install nix if you do not have it:
+
+```bash
+curl -fsSL https://install.determinate.systems/nix | sh -s -- install --determinate
+```
+
+Once you have Nix installed:
+
+```bash
+git clone https://github.com/IntersectMBO/product-website.git
+nix develop
+just setup
+just run
+```
+
+### Using npm (Alternative for users with nodejs experience)
 
 ```bash
 # Clone the repository
@@ -32,25 +47,23 @@ npm install
 npm start
 ```
 
-### Using Nix (Alternative)
+## Prerequisites (if not using nix)
 
-If you have Nix installed:
+- **Node.js**: Version 18.0 or higher
+- **npm** or **yarn**: Package manager (comes with Node.js)
+- **just**: Run project specific commands
 
-```bash
-nix develop
-just setup
-just run
-```
+
 
 ## Available Scripts
 
-| Command          | Description                                             |
-| ---------------- | ------------------------------------------------------- |
-| `npm start`      | Start the development server at `http://localhost:3000` |
-| `npm run build`  | Build the website for production                        |
-| `npm run serve`  | Serve the production build locally                      |
-| `npm run clear`  | Clear the Docusaurus cache                              |
-| `npm run deploy` | Deploy the website (requires proper permissions)        |
+| Command       | Description                                             |
+| ------------- | ------------------------------------------------------- |
+| `just setup`  | Install all dependencies locally in `node_modules` dir  |
+| `just run`    | Start the development server at `http://localhost:3000` |
+| `just build`  | Build the website for production                        |
+| `just serve`  | Serve the production build locally                      |
+| `just clear`  | Clear the Docusaurus cache                              |
 
 ## Project Structure
 
@@ -70,10 +83,10 @@ product-website/
 
 ## Development Workflow
 
-1. **Start the development server**: `npm start`
+1. **Start the development server**: `just run`
 2. **Make your changes** to documentation or code
 3. **Preview locally** - changes auto-reload in the browser
-4. **Build to verify**: `npm run build` to ensure no errors
+4. **Build to verify**: `just build` to ensure no errors
 5. **Submit a pull request** with your improvements
 
 ## Contributing
