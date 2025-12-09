@@ -49,7 +49,7 @@ npm start
 
 ## Prerequisites (if not using nix)
 
-- **Node.js**: Version 18.0 or higher
+- **Node.js**: Version 20.0 or higher
 - **npm** or **yarn**: Package manager (comes with Node.js)
 - **just**: Run project specific commands
 
