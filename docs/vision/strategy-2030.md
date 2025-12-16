@@ -13,7 +13,7 @@ To share your feedback:
 
 ## Executive Summary
 
-Cardano’s objective for 2030 is to run a secure, interoperable base layer that sustains **400 million ADA in annual L1 revenue** and anchors a growing set of Layer 2 solutions and real-world applications. To reach this, the ecosystem must:
+Cardano’s objective for 2030 is to run a secure, interoperable base layer that sustains **324 million transactions per year** and anchors a growing set of Layer 2 solutions and real-world applications. To reach this, the ecosystem must:
 
 1. **Scale and harden the protocol**: maintain 100% mainnet uptime, ship multi-client and post-quantum–ready infrastructure, and integrate L2 interoperability.
 2. **Create robust on-chain demand**: focus on DeFi, RWA, supply chain, and payments, while making Cardano usage “invisible” for users and enterprises.
