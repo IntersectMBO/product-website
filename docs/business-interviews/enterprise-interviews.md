@@ -1,3 +1,9 @@
+---
+title: Enterprise Interviews
+sidebar_label: Enterprise Interviews
+sidebar_position: 1
+slug: /business-interviews/enterprise
+---
 
 # Enterprise interviews
 
