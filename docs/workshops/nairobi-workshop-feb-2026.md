@@ -43,9 +43,9 @@ solutions addressing real challenges in their communities.
 * **Teams:** 125+ teams building real Cardano adoption pathways
 * **Developers:** 250+ active developers creating prototypes
 * **Countries Represented:** Nigeria, Ethiopia, Democratic Republic of Congo
-  (DRC), Rwanda, Burkina Faso, Cameroon, Ghana, Kenya, Zambia, and others
-* **Projects:** 40 projects emerged from place-based inquiry and Cardano tools
-* **Finalists:** Top 5 projects presented at the Nairobi summit
+  (DRC), Republic of Congo, Rwanda, Burkina Faso, Cameroon, Ghana, Kenya,
+  Zambia, and others
+* **Projects:** 12 finalist projects presented at the Nairobi summit
 * **Expected Attendees:** Over 1,500 attendees from more than a dozen African
   countries and three continents
 
@@ -55,7 +55,7 @@ The hackathon deliberately distributed across multiple African cities
 to ensure regional representation and localized problem-solving:
 - **East Africa:** Kenya, Ethiopia, Rwanda, Uganda
 - **West Africa:** Nigeria, Ghana, Burkina Faso, Cameroon
-- **Central Africa:** Democratic Republic of Congo
+- **Central Africa:** Democratic Republic of Congo, Republic of Congo
 - **Southern Africa:** Zambia
 
 ### Project Focus Areas
@@ -66,10 +66,18 @@ Projects in development addressed critical real-world challenges:
 - **Resource Tracking:** Concepts for transparent resource management in
   eastern DRC
 - **Public Service Platforms:** Government service delivery solutions in Rwanda
-- **Community Finance:** Local financial inclusion tools in Burkina Faso
+- **Community Finance:** Local financial inclusion tools across multiple
+  countries
 - **Supply Chain Traceability:** Agricultural and product tracking solutions
+- **Pharmaceutical Provenance:** Drug supply chain integrity and authenticity
+  verification
 - **Healthcare Records:** Secure patient data management systems
 - **Education Credentials:** Verifiable academic records and certification
+- **Cultural Preservation:** Blockchain-based preservation of cultural heritage
+- **Environmental Impact:** Community cleanup and environmental monitoring
+  solutions
+- **Insurance and Risk Mitigation:** Risk management and insurance platforms
+  for underserved communities
 
 ## The Three Workshops
 
@@ -725,8 +733,8 @@ African perspectives on Cardano's future.
 
 The CATS hackathon demonstrated both remarkable potential and current
 challenges. Over 500 participants from 12 countries spent months building
-real solutions to community problems, producing 40 projects grounded in
-practical needs. Their enthusiasm and dedication confirmed Africa's strategic
+real solutions to community problems, with 12 finalist projects presented
+at the summit. Their enthusiasm and dedication confirmed Africa's strategic
 importance to Cardano's mission. However, their candid feedback about
 developer experience challenges—particularly infrastructure requirements,
 learning curves, and tooling gaps—highlighted critical areas requiring
