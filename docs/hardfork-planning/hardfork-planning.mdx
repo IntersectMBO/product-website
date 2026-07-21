@@ -7,3 +7,45 @@ sidebar_position: 0
 This section tracks planning documents for Cardano hard forks, including candidate CIP shortlists and community survey processes. See the documents in the menu on the left.
 
 - [Dijkstra Hard Fork (Protocol Version 12)](/hardfork-planning/dijkstra)
+
+---
+
+## How Hard Fork Planning Works
+
+### Who Decides
+
+Hard fork scope is shaped by the **Cardano Product Committee (CPC)** and the **Technical Steering Committee (TSC)**, but neither body holds authority independent of the community they serve. The CPC and TSC work on behalf of DReps, SPOs, and the broader stakeholder ecosystem. They exist to reflect those opinions and coordinate the work, not to impose decisions. Any scope choice without community backing will not survive the governance process, and both bodies understand that.
+
+The CPC drives product direction and feature prioritisation. The TSC assesses technical feasibility and soundness. Neither acts alone, and both are accountable to the stakeholders whose support they depend on.
+
+Both work through the **Hard Fork Working Group (HFWG)**, a recurring open meeting. Anyone can join: protocol researchers, dapp developers, SPOs, tool builders, community members. Showing up and making the case for something is a legitimate part of the process. Scope decisions are made in close collaboration with the engineering teams doing the work, and their capacity and existing commitments are a real constraint, not an afterthought.
+
+### The CIP Requirement
+
+Features need a **Cardano Improvement Proposal (CIP)** before the HFWG will consider them for inclusion. The CIP process produces a formal specification, surfaces tradeoffs, and gives everyone a concrete document to debate. There are no shortcuts: community demand alone does not get something into a hard fork.
+
+### Funding
+
+The right funding path depends on how much work is involved:
+
+- **Small features** (under roughly one month of engineering) can be approved by the HFWG and funded through the core maintenance budget with no separate governance action required.
+- **Large features** need a treasury withdrawal approved by DReps before the HFWG can greenlight them. Significant engineering commitments need explicit community backing before work starts, not after.
+
+### Handling Disagreement
+
+Not every proposal arrives with clear consensus, and that is fine. When genuine disagreement exists, decisions can be put to a vote through either of two mechanisms:
+
+- **Ekklesia** runs votes on a Hydra head L2, keeping the load off mainnet without compromising the quality of ratification. An Ekklesia vote carries the same weight as an on-chain vote.
+- **On-chain governance actions** go directly to mainnet and are voted on by DReps, SPOs, and the Constitutional Committee under CIP-1694.
+
+Either path is valid. The choice is practical, not hierarchical.
+
+Proposals that attract significant opposition are treated with caution. A contested item does not just risk rejection on its own merits. It risks becoming a reason to vote against the hard fork as a whole, which serves nobody.
+
+### What Will Change
+
+The process described here is a proposal for how to manage prioritisation and development after Dijkstra. It is not fixed.
+
+Alternative node implementations are already reshaping what coordination looks like. Cardano is moving toward a multi-implementation ecosystem, with teams outside IOG building independent nodes. As those mature, they bring their own capacity constraints, their own technical positions, and their own communities. Hard fork decisions will need to account for all of that. CIP-180 (Producer Identification) was already stalled partly because alternative implementations had not aligned on the approach. That kind of coordination challenge will only grow.
+
+The funding and governance structures will shift too. The core maintenance budget, treasury withdrawal thresholds, and the roles of the CPC and TSC are all products of the current governance framework, granted by the community rather than assumed. As on-chain governance matures, DReps and the broader community will exercise more direct influence over how priorities are set and who has standing to approve what. The CPC and TSC exist because the community finds them useful. When that changes, the structures should change too, and governance is the right mechanism for making that call.
