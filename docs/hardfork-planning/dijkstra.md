@@ -91,8 +91,8 @@ These are not feature activations. They are the block structure changes, header 
 
 | Change | Purpose |
 |--------|---------|
-| [CIP-140](https://cips.cardano.org/cip/CIP-0140) Peras header extensions | Reserves space for Peras voting fields in block headers without activating the voting layer |
-| [CIP-164](https://cips.cardano.org/cip/CIP-0164) Leios block header and body extensions | Introduces the endorser block structures, ranking block header extensions, and protocol parameters Linear Leios requires |
+| [CIP-140](https://cips.cardano.org/cip/CIP-0140) Peras codec extensions | Introduces the codec changes needed for block bodies to optionally carry a Peras certificate without activating the voting layer |
+| [CIP-164](https://cips.cardano.org/cip/CIP-0164) Leios block header and body extensions | Introduces endorser block structures, ranking block header extensions, the ability for block bodies to optionally carry a Leios certificate, and the protocol parameters Linear Leios requires |
 
 ### Conditional: Fair Min Fees ([CIP-23](https://cips.cardano.org/cip/CIP-0023))
 
@@ -106,14 +106,14 @@ The protocol parameter introduced by CIP-23 is defined at Phase 1, but the fee r
 
 This phase activates Ouroboros Linear Leios via an intra-era hard fork, a protocol version bump within the Dijkstra era. The CIP-164 block body extensions shipped with Phase 1, so no new ledger era is needed. The structural groundwork is already in place; this hard fork activates the consensus rules that switch it on.
 
-Linear Leios is a partial realisation of the Leios throughput vision. It delivers meaningful gains but does not achieve everything Full Leios would. The Leios Innovation Team concluded that no safe design for Full Leios has been found: the closest approach required sharding the ledger, which dapp developers and users identified as highly undesirable. Rather than stall on an unsolved problem, the team chose to ship what works. Full Leios remains aspirational. Any path to it would require major changes to block structure and cryptography and a new ledger era, Euler or later.
+Linear Leios is a partial realisation of the Leios throughput vision. It delivers meaningful gains but does not achieve everything a fuller Leios deployment could. Substantial research was done on the broader Leios design, but the additional complexities it would require were not sufficiently pinned down for a first mainnet deployment, and the closest approaches raised concerns around changes to the user experience the dapp ecosystem was not prepared to accept. A future path toward a more complete Leios would require changes to block and transaction structure and a new ledger era, Euler or later.
 
 Linear Leios increases Cardano's throughput without changing the security guarantees of the base protocol. The original Leios research design used three block types including Input Blocks; Linear Leios eliminates those and works with two:
 
 - **Ranking Blocks (RBs)** are the existing Praos blocks, extended with optional fields to announce and certify Endorser Blocks.
 - **Endorser Blocks (EBs)** are larger supplementary blocks that contain references to additional transactions, not the transactions themselves.
 
-Transactions continue to propagate through the standard mempool. When a block producer wins slot leadership, it produces an RB that optionally announces an Endorser Block. The announcement is part of the RB itself and contains the EB, which holds the hashes of the transactions being endorsed. Nodes that do not already have those transactions request them from peers via the node-to-node protocol. A stake-based committee then certifies the EB; the certificate contains the hash of the EB and the aggregated signatures proving a 75% quorum of active stake. A subsequent RB includes that certificate, applying the endorsed transactions to the ledger. If no certified EB is available, a Ranking Block includes transactions directly as in standard Praos. The result is that the network can absorb significantly more transactions per unit of time without requiring larger blocks or faster slots.
+Transactions continue to propagate through the standard mempool. When a block producer wins slot leadership, it produces an RB that optionally announces an Endorser Block. The announcement is part of the RB header itself and contains the hash of the EB, which in turn holds the hashes of the transactions being endorsed. Nodes that do not already have those transactions request them from peers via new node-to-node protocols. A stake-based committee then certifies the EB; the certificate contains the hash of the EB and the aggregated signatures proving a 75% quorum of active stake. A subsequent RB includes that certificate, applying the endorsed transactions to the ledger. If no certified EB is available, a Ranking Block includes transactions directly as in standard Praos. The result is that the network can absorb significantly more transactions per unit of time without requiring larger blocks or faster slots.
 
 ### Rollout Milestones
 
@@ -121,7 +121,7 @@ Transactions continue to propagate through the standard mempool. When a block pr
 |-----------|-------|
 | Node release | Linear Leios-compatible node released for testnet operators |
 | **Preview hard fork** | Governance action submitted and enacted on Preview; SPO testing window opens |
-| Preview SPO testing window | ~2 weeks; IB/EB propagation testing, throughput benchmarking |
+| Preview SPO testing window | ~2 weeks; EB propagation testing, throughput benchmarking |
 | **Pre-production hard fork** | Governance action submitted and enacted on Pre-production; SPO testing window opens |
 | Pre-production SPO testing window | ~1-2 weeks; final readiness checks |
 | Mainnet governance action submission | Governance action submitted on Mainnet; DReps, SPOs, and Constitutional Committee voting period |
@@ -129,7 +129,7 @@ Transactions continue to propagate through the standard mempool. When a block pr
 
 ### Activates
 
-- [CIP-164](https://cips.cardano.org/cip/CIP-0164): Ouroboros Linear Leios, full activation of input block production and endorser block certification
+- [CIP-164](https://cips.cardano.org/cip/CIP-0164): Ouroboros Linear Leios, activation of endorser block production and certification; throughput parameters will be increased gradually via governance actions after activation
 - [CIP-23](https://cips.cardano.org/cip/CIP-0023): Fair Min Fees fee rule, if not activated in Phase 1
 
 ### Prerequisites
@@ -144,7 +144,7 @@ Transactions continue to propagate through the standard mempool. When a block pr
 
 ### What Changes
 
-This phase activates Ouroboros Peras via an intra-era hard fork, a protocol version bump within the Dijkstra era. The CIP-140 header extensions shipped with Phase 1, so no new ledger era is needed. The structural groundwork is already in place; this hard fork activates the consensus rules that switch it on.
+This phase activates Ouroboros Peras via an intra-era hard fork, a protocol version bump within the Dijkstra era. The CIP-140 codec extensions shipped with Phase 1, so no new ledger era is needed. The structural groundwork is already in place; this hard fork activates the consensus rules that switch it on.
 
 Peras is a settlement-speed upgrade that adds a voting overlay to the existing Ouroboros Praos chain selection rule. Committees of stake pool operators vote on recent chain tips; once a tip accumulates sufficient votes it is treated as settled well before the standard Praos depth would allow. Peras does not change how blocks are produced. It changes how quickly the network can consider a block irreversible.
 
