@@ -85,6 +85,10 @@ The pricing and size limits for reference scripts have been in effect since Conw
 
 Removes the requirement for a DRep delegation to be present when withdrawing staking rewards, reducing friction for ada holders who want to withdraw without participating in governance.
 
+#### Pledge Leverage-Based Staking Rewards ([CIP-50](https://cips.cardano.org/cip/CIP-0050))
+
+Introduces a leverage parameter L that ties pool rewards to the ratio of delegated stake to pledge. The parameter is introduced with a default value of `Nothing`, which preserves current reward behaviour exactly — no change takes effect at the hard fork. DReps can subsequently vote to set L to a concrete value, at which point pools with zero pledge would earn zero rewards.
+
 ### Structural Groundwork for Phases 2 & 3
 
 These are not feature activations. They are the block structure changes, header extensions, and protocol parameter introductions that Phases 2 and 3 depend on. Because all of these require a new era, they must ship in Phase 1. Any protocol parameters needed to govern Leios or Peras behaviour must also be defined here, even if their values are not yet active, since protocol parameters cannot be introduced in an intra-era hard fork.
@@ -179,7 +183,6 @@ These CIPs were evaluated for Dijkstra but will not be included in this era:
 | CIP | Title | Rationale |
 |-----|-------|-----------|
 | [CIP-180](https://github.com/cardano-foundation/CIPs/pull/1157) | Producer Identification | Ledger team does not have the capacity to implement within this era, and alternative node implementations have not reached agreement on the approach. |
-| [CIP-50](https://cips.cardano.org/cip/CIP-0050) | Pledge Leverage-Based Staking Rewards | Unlike CIP-23, there is no status-quo default value: at any value of L, pools with zero pledge earn zero rewards, which is a behaviour change from today. It cannot be introduced dormantly and activated later. The ledger team does not have the capacity to implement this safely within the Dijkstra era. Better targeted at Euler. |
 | [CPS-0023](https://github.com/cardano-foundation/CIPs/pull/1103) | Cardano Multi Asset Treasury | Requires the CIP-159 account address infrastructure included in Phase 1 to lay the groundwork. Better targeted at Euler once that foundation is in place. |
 | [CIP-156](https://cips.cardano.org/cip/CIP-0156) | Plutus Core Builtin Function - multiIndexArray | Not included in the PlutusV4 scope for Dijkstra due to limited Plutus team resources. As it requires no ledger changes, it could potentially be picked up in any upcoming intra-era hard fork if capacity allows. |
 | [CIP-160](https://cips.cardano.org/cip/CIP-0160) | Receiving Script Purpose and Addresses | Insufficient ledger resources to implement within this era given its complexity. |
