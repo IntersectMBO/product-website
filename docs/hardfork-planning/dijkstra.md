@@ -9,15 +9,14 @@ slug: /hardfork-planning/dijkstra
 
 ## Overview
 
-The Dijkstra era delivers Cardano's next major protocol upgrade in three phases. Phase 1 introduces the Dijkstra ledger era and targets October 2026. Phases 2 and 3 activate Linear Leios and Peras via intra-era hard forks, each a protocol version bump within the Dijkstra era that does not require a new era package in the ledger code.
+The Dijkstra era delivers Cardano's next major protocol upgrade in two phases. Phase 1 introduces the Dijkstra ledger era and ships Ouroboros Linear Leios as a complete, activated feature, targeting Q4 2026. Phase 2 activates Ouroboros Peras via an intra-era hard fork, a protocol version bump within the Dijkstra era that does not require a new era package in the ledger code.
 
-The distinction matters for what each phase can change. A new era ships a complete new ledger code package and can introduce new block structures, new serialization formats, new cryptography, and new Plutus versions. An intra-era hard fork bumps the protocol version within the existing era and can change anything gate-able on a protocol version check: activating consensus rules, enabling new Plutus primitives within an existing Plutus version, turning on features whose block-body structures were already defined by the era. Because Phase 1 ships the block body extensions that Linear Leios and Peras require, Phases 2 and 3 can activate those protocols without a new era.
+The distinction matters for what each phase can change. A new era ships a complete new ledger code package and can introduce new block structures, new serialization formats, new cryptography, new protocol parameters, and new Plutus versions. An intra-era hard fork bumps the protocol version within the existing era and can change anything gate-able on a protocol version check: activating consensus rules, enabling new Plutus primitives within an existing Plutus version, turning on features whose block-body structures and protocol parameters were already defined by the era. Because Phase 1 ships the codec extensions and the protocol parameters Peras requires, Phase 2 can activate that protocol without a new era.
 
 | Phase | Mechanism | Era | Code Complete Target | Primary Activation |
 |-------|-----------|-----|---------------------|--------------------|
-| [Phase 1](#phase-1-dijkstra-hard-fork-protocol-version-12-october-2026) | New era (v12) | Dijkstra | October 2026 | Nested Transactions, block body extensions for Leios & Peras |
-| [Phase 2](#phase-2-linear-leios-activation-intra-era-hard-fork-q1-2027) | Intra-era hard fork | Dijkstra | Q1 2027 | Ouroboros Linear Leios |
-| [Phase 3](#phase-3-peras-activation-intra-era-hard-fork-q2-2027) | Intra-era hard fork | Dijkstra | Q2 2027 | Ouroboros Peras |
+| [Phase 1](#phase-1-dijkstra-hard-fork-protocol-version-12-q4-2026) | New era (v12) | Dijkstra | Q4 2026 | Ouroboros Linear Leios, Nested Transactions, Peras codec extensions & protocol parameters |
+| [Phase 2](#phase-2-peras-activation-intra-era-hard-fork-q2-2027) | Intra-era hard fork | Dijkstra | Q2 2027 | Ouroboros Peras |
 
 Each phase rolls out in sequence: Preview testnet, then Pre-production testnet, then Mainnet. A governance action is submitted and ratified on each network before the hard fork is enacted. DReps, SPOs, and the Constitutional Committee vote on the mainnet governance action, as established by CIP-1694.
 
@@ -27,13 +26,22 @@ All dates and quarters are estimated targets for code completion and mainnet-rea
 
 ---
 
-## Phase 1: Dijkstra Hard Fork (Protocol Version 12, October 2026)
+## Phase 1: Dijkstra Hard Fork (Protocol Version 12, Q4 2026)
 
 ### Design Rationale
 
-Dijkstra is a focused, low-risk hard fork. Rather than bundling speculative changes, it delivers a clear set of complete features, clears governance friction points, and lays structural groundwork in the block body for the protocol upgrades that follow in Phases 2 and 3.
+This phase activates Ouroboros Linear Leios via a hard fork, a protocol version bump to Protocol Version 12. the Dijkstra era.
 
-Ouroboros Peras and Ouroboros Linear Leios are the most significant protocol improvements on Cardano's horizon, but neither is ready for mainnet: their implementations exist on dedicated development branches, not the mainline node. Phase 1 does not wait for them, nor does it ship them half-finished. It ships the block body extensions they require. Block structure changes require a new era, so they must land here. Once the Dijkstra era is established, Phases 2 and 3 can activate those protocols via intra-era hard forks without another new era.
+Linear Leios is a partial realisation of the Leios throughput vision. It delivers meaningful gains but does not achieve everything a fuller Leios deployment could. Substantial research was done on the broader Leios design, but the additional complexities it would require were not sufficiently pinned down for a first mainnet deployment, and the closest approaches raised concerns around changes to the user experience the dapp ecosystem was not prepared to accept. A future path toward a more complete Leios would require changes to block and transaction structure and a new ledger era, Euler or later.
+
+Linear Leios increases Cardano's throughput without changing the security guarantees of the base protocol. The original Leios research design used three block types including Input Blocks; Linear Leios eliminates those and works with two:
+
+- **Ranking Blocks (RBs)** are the existing Praos blocks, extended with optional fields to announce and certify Endorser Blocks.
+- **Endorser Blocks (EBs)** are larger supplementary blocks that contain references to additional transactions, not the transactions themselves.
+
+Transactions continue to propagate through the standard mempool. When a block producer wins slot leadership, it produces an RB that optionally announces an Endorser Block. The announcement is part of the RB header itself and contains the hash of the EB, which in turn holds the hashes of the transactions being endorsed. Nodes that do not already have those transactions request them from peers via new node-to-node protocols. A stake-based committee then certifies the EB; the certificate contains the hash of the EB and the aggregated signatures proving a 75% quorum of active stake. A subsequent RB includes that certificate, applying the endorsed transactions to the ledger. If no certified EB is available, a Ranking Block includes transactions directly as in standard Praos. The result is that the network can absorb significantly more transactions per unit of time without requiring larger blocks or faster slots.
+
+In addition it ships the block body extensions and protocol parameters required by Ouroboros Peras (to be activated in phase 2). Block structure changes require a new era, so they must land here.
 
 ### Rollout Milestones
 
@@ -41,7 +49,7 @@ Ouroboros Peras and Ouroboros Linear Leios are the most significant protocol imp
 |-----------|-------|
 | Node release | Dijkstra-compatible node released for testnet operators |
 | **Preview hard fork** | Governance action submitted and enacted on Preview; SPO testing window opens |
-| Preview SPO testing window | ~2 weeks; integration testing, tooling validation |
+| Preview SPO testing window | ~2 weeks; integration testing, tooling validation, EB propagation testing, throughput benchmarking |
 | **Pre-production hard fork** | Governance action submitted and enacted on Pre-production; SPO testing window opens |
 | Pre-production SPO testing window | ~1-2 weeks; final readiness checks |
 | Mainnet governance action submission | Hard Fork Initiation action submitted on Mainnet; DReps, SPOs, and Constitutional Committee voting period |
@@ -49,9 +57,13 @@ Ouroboros Peras and Ouroboros Linear Leios are the most significant protocol imp
 
 ### In Scope
 
+#### Ouroboros Linear Leios ([CIP-164](https://cips.cardano.org/cip/CIP-0164))
+
+The headline feature of the Dijkstra hard fork, Linear Leios lets a block producer publish a larger Endorser Block alongside its Praos block, referencing the transactions the base block has no room for; a committee of stake pools certifies that block before its transactions enter the ledger, so throughput rises sharply while Praos security guarantees hold. It puts the bandwidth and compute already sitting idle on today's nodes to work, and the higher volume matters economically as well, since transaction fees must take over from the diminishing Reserve to sustain rewards and pool profitability. Leios ships complete in Phase 1, with throughput raised gradually via protocol parameter updates after activation.
+
 #### Nested Transactions ([CIP-118](https://cips.cardano.org/cip/CIP-0118))
 
-The primary feature of the Dijkstra hard fork. Nested transactions allow a transaction to contain child transactions with independent witnesses and execution contexts, for more expressive on-chain logic. Implementation is well advanced and this is the feature that justifies the hard fork.
+A major feature of the Dijkstra hard fork. Nested transactions allow a transaction to contain child transactions with independent witnesses and execution contexts, for more expressive on-chain logic. Implementation is well advanced.
 
 #### Observe Script Type / Guard Scripts ([CIP-112](https://cips.cardano.org/cip/CIP-0112))
 
@@ -89,62 +101,20 @@ Removes the requirement for a DRep delegation to be present when withdrawing sta
 
 Introduces a leverage parameter L that ties pool rewards to the ratio of delegated stake to pledge. The parameter is introduced with a default value of `Nothing`, which preserves current reward behaviour exactly — no change takes effect at the hard fork. DReps can subsequently vote to set L to a concrete value, at which point pools with zero pledge would earn zero rewards.
 
-### Structural Groundwork for Phases 2 & 3
+### Structural Groundwork for Phase 2
 
-These are not feature activations. They are the block structure changes, header extensions, and protocol parameter introductions that Phases 2 and 3 depend on. Because all of these require a new era, they must ship in Phase 1. Any protocol parameters needed to govern Leios or Peras behaviour must also be defined here, even if their values are not yet active, since protocol parameters cannot be introduced in an intra-era hard fork.
+These are not feature activations. They are the block structure changes, header extensions, and protocol parameter introductions that Phase 2 depends on. Because all of these require a new era, they must ship in Phase 1. Any protocol parameters needed to govern Peras behaviour must also be defined here, even if their values are not yet active, since protocol parameters cannot be introduced in an intra-era hard fork.
 
 | Change | Purpose |
 |--------|---------|
-| [CIP-140](https://cips.cardano.org/cip/CIP-0140) Peras codec extensions | Introduces the codec changes needed for block bodies to optionally carry a Peras certificate without activating the voting layer |
-| [CIP-164](https://cips.cardano.org/cip/CIP-0164) Leios block header and body extensions | Introduces endorser block structures, ranking block header extensions, the ability for block bodies to optionally carry a Leios certificate, and the protocol parameters Linear Leios requires |
-
+| [CIP-140](https://cips.cardano.org/cip/CIP-0140) Peras codec extensions | Introduces the codec changes needed for block bodies to optionally carry a Peras certificate, without activating the voting layer |
 ### Conditional: Fair Min Fees ([CIP-23](https://cips.cardano.org/cip/CIP-0023))
 
 The protocol parameter introduced by CIP-23 is defined at Phase 1, but the fee rule itself may or may not activate at the Phase 1 hard fork. If implementation and governance readiness align, CIP-23 activates with Phase 1. If not, the parameter definition ships dormantly and the fee rule activates in a subsequent intra-era hard fork within the Dijkstra era.
 
 ---
 
-## Phase 2: Linear Leios Activation (Intra-era Hard Fork, Q1 2027)
-
-### What Changes
-
-This phase activates Ouroboros Linear Leios via an intra-era hard fork, a protocol version bump within the Dijkstra era. The CIP-164 block body extensions shipped with Phase 1, so no new ledger era is needed. The structural groundwork is already in place; this hard fork activates the consensus rules that switch it on.
-
-Linear Leios is a partial realisation of the Leios throughput vision. It delivers meaningful gains but does not achieve everything a fuller Leios deployment could. Substantial research was done on the broader Leios design, but the additional complexities it would require were not sufficiently pinned down for a first mainnet deployment, and the closest approaches raised concerns around changes to the user experience the dapp ecosystem was not prepared to accept. A future path toward a more complete Leios would require changes to block and transaction structure and a new ledger era, Euler or later.
-
-Linear Leios increases Cardano's throughput without changing the security guarantees of the base protocol. The original Leios research design used three block types including Input Blocks; Linear Leios eliminates those and works with two:
-
-- **Ranking Blocks (RBs)** are the existing Praos blocks, extended with optional fields to announce and certify Endorser Blocks.
-- **Endorser Blocks (EBs)** are larger supplementary blocks that contain references to additional transactions, not the transactions themselves.
-
-Transactions continue to propagate through the standard mempool. When a block producer wins slot leadership, it produces an RB that optionally announces an Endorser Block. The announcement is part of the RB header itself and contains the hash of the EB, which in turn holds the hashes of the transactions being endorsed. Nodes that do not already have those transactions request them from peers via new node-to-node protocols. A stake-based committee then certifies the EB; the certificate contains the hash of the EB and the aggregated signatures proving a 75% quorum of active stake. A subsequent RB includes that certificate, applying the endorsed transactions to the ledger. If no certified EB is available, a Ranking Block includes transactions directly as in standard Praos. The result is that the network can absorb significantly more transactions per unit of time without requiring larger blocks or faster slots.
-
-### Rollout Milestones
-
-| Milestone | Notes |
-|-----------|-------|
-| Node release | Linear Leios-compatible node released for testnet operators |
-| **Preview hard fork** | Governance action submitted and enacted on Preview; SPO testing window opens |
-| Preview SPO testing window | ~2 weeks; EB propagation testing, throughput benchmarking |
-| **Pre-production hard fork** | Governance action submitted and enacted on Pre-production; SPO testing window opens |
-| Pre-production SPO testing window | ~1-2 weeks; final readiness checks |
-| Mainnet governance action submission | Governance action submitted on Mainnet; DReps, SPOs, and Constitutional Committee voting period |
-| **Mainnet activation** | Following governance ratification; date TBD |
-
-### Activates
-
-- [CIP-164](https://cips.cardano.org/cip/CIP-0164): Ouroboros Linear Leios, activation of endorser block production and certification; throughput parameters will be increased gradually via governance actions after activation
-- [CIP-23](https://cips.cardano.org/cip/CIP-0023): Fair Min Fees fee rule, if not activated in Phase 1
-
-### Prerequisites
-
-- Phase 1 mainnet live (CIP-164 block body extensions in place)
-- Linear Leios node implementation merged to mainline
-- Governance action ratified on-chain by DReps, SPOs, and Constitutional Committee
-
----
-
-## Phase 3: Peras Activation (Intra-era Hard Fork, Q2 2027)
+## Phase 2: Peras Activation (Intra-era Hard Fork, Q2 2027)
 
 ### What Changes
 
@@ -167,10 +137,11 @@ Peras is a settlement-speed upgrade that adds a voting overlay to the existing O
 ### Activates
 
 - [CIP-140](https://cips.cardano.org/cip/CIP-0140): Ouroboros Peras, full activation of the Peras voting layer and accelerated settlement guarantees
+- [CIP-23](https://cips.cardano.org/cip/CIP-0023): Fair Min Fees fee rule, if not activated in Phase 1
 
 ### Prerequisites
 
-- Phase 1 mainnet live (CIP-140 header extensions in place)
+- Phase 1 mainnet live (CIP-140 codec extensions and protocol parameters in place)
 - Peras node implementation merged to mainline
 - Governance action ratified on-chain by DReps, SPOs, and Constitutional Committee
 
