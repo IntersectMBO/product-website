@@ -19,9 +19,9 @@ module.exports = {
         navbar: {
             title: 'Intersect Product Committee',
             items: [
-                { to: 'workshops', label: 'Workshops', position: 'left' },
                 { to: 'vision', label: 'Vision', position: 'left' },
-                { to: 'hardfork-planning', label: 'Hardfork Planning', position: 'left' },
+                { to: 'hardfork-planning', label: 'Hard Fork Planning', position: 'left' },
+                { to: 'product-research', label: 'Product Research', position: 'left' },
                 {
                   href: "https://github.com/IntersectMBO/product-website",
                   label: "GitHub",

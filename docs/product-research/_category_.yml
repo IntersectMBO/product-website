@@ -1,4 +1,4 @@
-position: 4 # float position is supported
-label: 'Business Interviews'
+position: 1 # float position is supported
+label: 'Product Research'
 collapsible: true # make the category collapsible
 collapsed: false # keep the category open by default

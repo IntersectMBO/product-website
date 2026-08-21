@@ -3,8 +3,8 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 
 import VisionImage from "@site/static/img/vision.jpeg";
-import WorkshopsImage from "@site/static/img/workshops.jpeg";
-import BusinessInterviewsImage from "@site/static/img/business-interviews.jpeg";
+import HardforkImage from "@site/static/img/hard-fork.jpeg";
+import ProductResearchImage from "@site/static/img/product-research.jpeg";
 
 import { Cta } from "../Cta";
 
@@ -29,30 +29,28 @@ const FeatureList: FeatureItem[] = [
     cta: "Learn More"
   },
   {
-    title: 'Workshops',
-    img: WorkshopsImage,
+    title: 'Hard Fork Planning',
+    img: HardforkImage,
     description: (
       <>
-        Workshops are being ran by Product Committee Members and
-        general community members. Learn more about the workshops
-        that have been ran and view their outputs.
+        Track the planning and progress of upcoming Cardano hard forks,
+        including feature scope, timelines, and stakeholder coordination.
       </>
     ),
-    href: "/workshops",
+    href: "/hardfork-planning",
     cta: "Learn More"
   },
   {
-    title: 'Business Interviews',
-    img: BusinessInterviewsImage,
+    title: 'Product Research Initiatives',
+    img: ProductResearchImage,
     description: (
       <>
-        We are executing interviews with Businesses in and outside
-        blockchain to identify what improvements to Cardano would
-        help them find product market fit and retrospectively look
-        at their experience with Cardano if they're already involved.
+        The Product Committee commissions external research to inform
+        Cardano's strategy, covering market positioning, adoption studies,
+        brand perception, and emerging market opportunities.
       </>
     ),
-    href: "/business-interviews",
+    href: "/product-research",
     cta: "Learn More"
   },
 ];
