@@ -1,4 +1,4 @@
-# Survey Instruments - Section 4 of the Complete Research Design Document
+# Survey Instruments - Section 4 of The Complete Research Design Document
 
 ## Quantitative Survey
 The quantitative survey runs through a [digital form](https://forms.gle/xfsSuxkKf1AJJviv7) and takes about eight to ten minutes to complete. It is structured in five parts: screener, awareness and association, perception, competitive comparison, and consideration and objections.
