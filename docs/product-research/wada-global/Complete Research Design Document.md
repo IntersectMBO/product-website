@@ -173,7 +173,7 @@ Closing
 
 # **6\. Sampling Framework** {#6.-sampling-framework}
 
-The sampling framework applies the same rules in all three hubs.
+The sampling framework applies the same rules to all three hubs.
 
 ## 6.1. Quantitative Survey {#6.1.-quantitative-survey}
 
