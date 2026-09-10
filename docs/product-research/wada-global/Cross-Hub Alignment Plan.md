@@ -2,7 +2,7 @@
 
 The three hubs will run the same research design in parallel but not just working independently. The alignment plan has four parts.
 
-First, a single master instrument is built centrally by the Wada Global core team. This includes the survey and the interview guide, both shown in deliverable 3 of milestone 1.
+First, a single master instrument is built centrally by the Wada Global core team. This includes the survey and the interview guide, both shown in deliverable 2 of milestone 1.
 
 Second, each hub lead reviews the master instrument for local fit before fieldwork starts. A hub lead may flag a question that does not translate well locally but cannot change what the question is actually measuring. Any agreed local adjustment, for example swapping a competitor example for one more familiar in that market is recorded in a shared change log so that every hub works from the same version at the same time.
 
