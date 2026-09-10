@@ -2,9 +2,9 @@ Aug 7, 2026
 
 ## **Project CPC-26-0012 Research Plan Validation**
 
-Invited [Samuel Kobi](mailto:samuel@wada.org) [natdwamena@gmail.com](mailto:natdwamena@gmail.com) [abdulrahmanabdulbasit321@gmail.com](mailto:abdulrahmanabdulbasit321@gmail.com) [Richmond Oppong](mailto:richmond@wada.org) [Nana Safo](mailto:nana.safo@wada.org) [herineomollo@gmail.com](mailto:herineomollo@gmail.com)
+Present: Nana Safo, Samuel Kobi, Nathaniel Dwamena, Herine Omollo, and Abdulrahman Abdulbasit
 
-Attachments [Project CPC-26-0012 Research Plan Validation](https://calendar.google.com/calendar/event?eid=NDFkcDc4MGk0Zm1xOGw1ZW9hMjZtMW4yajQgbmFuYS5zYWZvQHdhZGEub3Jn) [Project CPC-26-0012 Research Plan Validation - 2026/08/07 09:58 GMT – Recording](https://drive.google.com/file/d/1fO7FMS0NdqWQJIhVSBdGzcvKjUMt3Knt/view?usp=drive_web) [Milestone 1 Deliverable.pdf](https://drive.google.com/open?id=1GDps29jhgR1T26Jdyou2pkCszLyFkCAQ)
+Attachments: [Project CPC-26-0012 Research Plan Validation](https://calendar.google.com/calendar/event?eid=NDFkcDc4MGk0Zm1xOGw1ZW9hMjZtMW4yajQgbmFuYS5zYWZvQHdhZGEub3Jn) [Project CPC-26-0012 Research Plan Validation - 2026/08/07 09:58 GMT – Recording](https://drive.google.com/file/d/1fO7FMS0NdqWQJIhVSBdGzcvKjUMt3Knt/view?usp=drive_web) [Milestone 1 Deliverable.pdf](https://drive.google.com/open?id=1GDps29jhgR1T26Jdyou2pkCszLyFkCAQ)
 
 Meeting records [Transcript](https://docs.google.com/document/d/1QVInbRMtLqHjxdqNgjlPKvqFGW_Ii3i9RVvET0nIdQk/edit?usp=drive_web&tab=t.mtnve5by219v) [Recording 2](https://drive.google.com/file/d/1JxQ8h1D7Q-wwV2rn560zQnMxOxP5qn3V/view?usp=drive_web) [Recording](https://drive.google.com/file/d/1fO7FMS0NdqWQJIhVSBdGzcvKjUMt3Knt/view?usp=drive_web) 
 
@@ -33,9 +33,7 @@ Surveys will capture broad data with user status serving as a secondary classifi
 
 * **Interview focus set on non-users** The interview process will prioritize individuals who are not currently using the Cardano ecosystem to facilitate a comparison with other blockchains.
 
-We've **updated the Decisions section** using your feedback.
 
-Let us know what you think: [Helpful](https://google.qualtrics.com/jfe/form/SV_5bXzKQfylMIhSXc?isHelpful=True&entryPoint=decisions&confid=TeFQdRT4hjTpOm_pmBOjDxIWOBABMgUIigIgABgDCA&isGoogler=False) or [Not Helpful](https://google.qualtrics.com/jfe/form/SV_5bXzKQfylMIhSXc?isHelpful=False&entryPoint=decisions&confid=TeFQdRT4hjTpOm_pmBOjDxIWOBABMgUIigIgABgDCA&isGoogler=False)
 
 ### **Next steps**
 
@@ -89,6 +87,3 @@ Let us know what you think: [Helpful](https://google.qualtrics.com/jfe/form/SV_5
 
 * **Team Readiness and Project Finalization**: The participants, including Abdulrahman Abdulbasit Adigun, Nathaniel Dwamena, and Herine Omollo, confirmed their readiness and access to necessary resources to proceed with the work ([01:17:13](?tab=t.mtnve5by219v#heading=h.fjx7i5g0bm05)). Nana Safo outlined the final administrative steps, which include updating the project document with the agreed-upon corrections, distributing the new version for team approval, and setting a specific timeline for feedback before the final submission to the internal product committee ([01:19:59](?tab=t.mtnve5by219v#heading=h.76mnv552anyh)).
 
-*You should review Gemini's notes to make sure they're accurate. [Get tips and learn how Gemini takes notes](https://support.google.com/meet/answer/14754931)*
-
-*How is the quality of **these specific notes?** [Take a short survey](https://google.qualtrics.com/jfe/form/SV_5bXzKQfylMIhSXc?confid=TeFQdRT4hjTpOm_pmBOjDxIWOBABMgUIigIgABgDCA&detailLevel=standard&hasImages=False&entryPoint=footerMain&isGoogler=False) to let us know your feedback, including how helpful the notes were for your needs.*
