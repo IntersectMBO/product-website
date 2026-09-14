@@ -211,6 +211,8 @@ Scenario modeling must be anchored to a realistic timeline. Verticals do not rea
 
 Every vertical is expected to progress through four stages. The pace of progression differs by vertical, a vertical with multiple live commercial deployments and institutional partners may be at Stage 2 at launch, while an early-stage vertical may spend its first year completing Stage 1, but the sequence is invariant.
 
+![Vertical's Lifecycle](Verticals-lifecycle.png)
+
 The table below maps each lifecycle stage to its primary objective, the scenario modeling scale it corresponds to, and the expected KPI milestones by end of stage:
 
 | Stage | Primary Objective | Typical Activities | Scenario Alignment | KPI Milestone (end of stage) |
