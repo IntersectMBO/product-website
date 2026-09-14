@@ -426,7 +426,7 @@ The Scorecard integrates the entire framework into five structured modules:
 
 Figure 4 presents the complete, standalone one-page Scorecard template. The example below is completed for an agricultural supply chain vertical; teams applying the framework to other verticals should replace all field entries with their own industry-grounded content — the structure and categories remain the same across all verticals.
 
-\!\[Vertical Impact Scorecard v1\](Vertical-impact-scorecard(v1).png)
+![Vertical Impact Scorecard v1](Vertical-impact-scorecard(v1).png)
 
 This scorecard contains information about the Agri-spply chain vertical, which is the vertical we are currently the most advanced with. The scorecard can be different depending on the vertical. We are still planning to create a general template for the next milestone.
 
