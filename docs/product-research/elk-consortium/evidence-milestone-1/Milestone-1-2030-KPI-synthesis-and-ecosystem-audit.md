@@ -51,6 +51,8 @@ This project exists to close that gap. Its purpose is to design, validate, and p
 
 A defining principle of the approach is that each vertical is analysed industry-first. For every vertical we begin by understanding the real-world industry outside of Cardano, its participants, its structural problems, and why those problems persist, and only then examine how the Cardano ecosystem, acting in a coordinated way, can credibly solve them. Blockchain is treated as a means to solve genuine market problems, never as a solution in search of one.
 
+![Vertical's Lifecycle](Verticals-lifecycle.png)
+
 ## **1.2 What Phase 1 Delivers**
 
 Phase 1 establishes the evidence base and the analytical foundations the framework is built on. Per the funded proposal, Phase 1 comprises four deliverables:
