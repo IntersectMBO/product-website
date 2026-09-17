@@ -1,16 +1,16 @@
 ---
-title: "Aspecting OÜ — Milestone 1"
+title: "Prisma — Milestone 1"
 sidebar_label: "Milestone 1"
 ---
 
 > Aspecting OÜ, the legally registered name, trades under the name of Prisma. 
  
-# Aspecting OÜ — Milestone 1
+# Prisma — Milestone 1
 
 | Field | Value |
 |-------|-------|
 | **RFP** | RFP 05 — Government & Emerging Markets Entry Strategy |
-| **Team / Organisation** | Aspecting OÜ |
+| **Team / Organisation** | Prisma |
 | **Milestone number** | 1 of 5 |
 | **Reporting period** | 2026.08.19 - 2026.09.09 |
 | **Grant amount** | 58,000 ADA |
