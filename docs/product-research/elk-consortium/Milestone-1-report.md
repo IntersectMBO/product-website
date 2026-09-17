@@ -44,12 +44,6 @@ The following documents provide the supporting evidence for Milestone 1:
 2. [P1-3 — Adjacent Ecosystem Benchmark](../evidence-milestone-1/Milestone-1-adjacent-ecosystems-benchmark.md)
 3. [P1-4 — Impact Vertical Template and Scenario Modeling](../evidence-milestone-1/Milestone-1-impact-vertical-chain-template.md)
 
-[P1-1+2 — Cardano 2030 KPI Synthesis and Ecosystem Reporting Audit](Milestone-1-2030-KPI-synthesis-and-ecosystem-audit.md)
-
-[P1-3 — Adjacent Ecosystem Benchmark](Milestone-1-adjacent-ecosystems-benchmark.md)
-
-[P1-4 — Impact Vertical Chain Template and Scenario Modeling](Milestone-1-impact-vertical-chain-template.md)
-
 - Deliverable 1 : 2030 KPI Synthesis, available on the 1st document shared above combined with Deliverable 2.
 - Deliverable 2 : Ecosystem Audit, available on the 1st document shared above combined with Deliverable 1.
 - Deliverable 3 : Other ecosystem analysis, available on the 2nd document shared above.
