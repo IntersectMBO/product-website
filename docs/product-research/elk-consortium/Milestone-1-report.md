@@ -39,11 +39,28 @@ List every deliverable committed to in your grant agreement for this milestone.
 Provide links or descriptions for all supporting evidence. Evidence must be publicly accessible or shared directly with the committee.
 
 The following documents provide the supporting evidence for Milestone 1:
-- Deliverable 1 : 2030 KPI Synthesis: https://drive.google.com/file/d/1BSbz7ODMhDEs8KNNB9apDxTH7Sw0kAuZ/view?usp=sharing
-- Deliverable 2 : Ecosystem Audit : https://drive.google.com/file/d/1BSbz7ODMhDEs8KNNB9apDxTH7Sw0kAuZ/view?usp=sharing
-- Deliverable 3 : Other ecosystem analysis : https://drive.google.com/file/d/1wkzwKNMNxImWzPbV5n8OoQxKEVjuN5-9/view?usp=sharing
-- Deliverable 4 : Initial Vertical Chain Template : https://drive.google.com/file/d/1274-OaUiaMxl0H8obeBI-uElNbXPrR1a/view?usp=sharing
-- Deliverable 5 : Planning to do this session for milestone 2 now that we have all the input needed to share to the ecosystem
+
+1. [P1-1+2 — Cardano 2030 KPI Synthesis and Ecosystem Reporting Audit](../evidence-milestone-1/Milestone-1-2030-KPI-synthesis-and-ecosystem-audit.md)
+2. [P1-3 — Adjacent Ecosystem Benchmark](../evidence-milestone-1/Milestone-1-adjacent-ecosystems-benchmark.md)
+3. [P1-4 — Impact Vertical Template and Scenario Modeling](../evidence-milestone-1/Milestone-1-impact-vertical-chain-template.md)
+
+- Deliverable 1 : 2030 KPI Synthesis, available on the 1st document shared above combined with Deliverable 2.
+- Deliverable 2 : Ecosystem Audit, available on the 1st document shared above combined with Deliverable 1.
+- Deliverable 3 : Other ecosystem analysis, available on the 2nd document shared above.
+- Deliverable 4 : Initial Vertical Chain Template, available on the 3rd document shared above
+- Deliverable 5 : ## Deliverable 5 — Public Ecosystem Input Call. A public ecosystem-input call was published on the Cardano Forum to invite feedback on the Vertical-to-KPI Impact Framework.
+  **Title:** Public Ecosystem Input Call: Vertical-to-KPI Impact Framework for Cardano
+  **Categories** English; Research & Development
+  **Platform:** Cardano Forum
+  **Author:** ELK GmbH
+  **Publication date:** September 16 2026
+
+**Public record:**  
+https://forum.cardano.org/t/[exact-forum-post-address]
+
+The post includes a description of the project, the Milestone 1 research outputs,
+specific questions for ecosystem participants, and instructions for providing
+feedback.
 
 ## Budget Update
 
