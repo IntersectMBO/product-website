@@ -1,5 +1,6 @@
 ---
-sidebarTitle: Kickoff Report
+title: "Prisma — Milestone 1: Kickoff Report"
+sidebar_label: Kickoff Report
 ---
 
 # Kickoff Report

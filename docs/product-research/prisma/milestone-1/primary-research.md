@@ -1,3 +1,8 @@
+---
+title: "Prisma — Milestone 1: Primary Research"
+sidebar_label: Primary Research
+---
+
 ## **6.5 Primary Research Design**
 
 Primary research is required by the RFP and is non-negotiable in this methodology. Desk research alone cannot answer the counterparty accessibility, delivery capacity, and genuine adoption signal questions that the RFP demands.

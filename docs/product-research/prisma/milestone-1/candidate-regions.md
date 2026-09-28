@@ -1,5 +1,6 @@
 ---
-sidebarTitle: Candidate Regions
+title: "Prisma — Milestone 1: Candidate Regions"
+sidebar_label: Candidate Regions
 ---
 
 # Candidate Regions
