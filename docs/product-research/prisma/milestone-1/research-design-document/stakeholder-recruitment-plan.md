@@ -1,5 +1,5 @@
 ---
-sidebarTitle: Stakeholder Recruitment Plan
+sidebar_label: Stakeholder Recruitment Plan
 ---
 
 ## Hub Primacy

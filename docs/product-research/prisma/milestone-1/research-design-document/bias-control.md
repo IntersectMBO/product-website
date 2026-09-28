@@ -1,5 +1,5 @@
 ---
-sidebarTitle: Bias Control
+sidebar_label: Bias Control
 ---
 
 # **6.9 Bias Controls**

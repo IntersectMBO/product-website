@@ -1,5 +1,5 @@
 ---
-sidebarTitle: Data
+sidebar_label: Data
 ---
 
 # **18\. Data Sources**

@@ -1,5 +1,5 @@
 ---
-sidebarTitle: Adoption Signals
+sidebar_label: Adoption Signals
 ---
 
 # Cardano Adoption Signal Standard (CASS)

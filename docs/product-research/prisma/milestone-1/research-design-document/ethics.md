@@ -1,5 +1,5 @@
 ---
-sidebarTitle: Ethics
+sidebar_label: Ethics
 ---
 
 # **21\. Ethics Approach**

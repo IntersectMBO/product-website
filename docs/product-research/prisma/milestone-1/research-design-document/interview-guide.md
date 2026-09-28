@@ -1,5 +1,5 @@
 ---
-sidebarTitle: Interview Guide
+sidebar_label: Interview Guide
 asIndexPage: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-sidebarTitle: Question Packs
+sidebar_label: Question Packs
 asIndexPage: true
 ---
 
