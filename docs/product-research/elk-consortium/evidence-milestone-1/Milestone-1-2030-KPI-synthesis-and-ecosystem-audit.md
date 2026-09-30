@@ -1,3 +1,8 @@
+---
+title: "Cardano 2030 KPI Synthesis and Ecosystem Audit"
+sidebar_label: "KPI Synthesis and Audit"
+---
+
 ## **A Vertical Approach for Cardano — Vertical-to-KPI Impact Framework**
 
 **Executive Summary:** This document consolidates and synthesises the official Cardano 2030 KPI definitions into a single authoritative reference, and audits how vertical work is currently selected, owned, coordinated, and reported across the ecosystem establishing the specific problems the Vertical-to-KPI Impact Framework must solve.
