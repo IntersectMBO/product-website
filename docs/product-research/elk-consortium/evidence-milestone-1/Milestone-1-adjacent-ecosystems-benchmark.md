@@ -1,3 +1,8 @@
+---
+title: "Adjacent Ecosystem Benchmark"
+sidebar_label: "Ecosystem Benchmark"
+---
+
 # **Phase 1 \- Part 3: Benchmark: Coordinated BD, Strategy & Funding Across Leading Blockchain Ecosystems**
 
 ## A Vertical Approach for Cardano \- Vertical-to-KPI Impact Framework
