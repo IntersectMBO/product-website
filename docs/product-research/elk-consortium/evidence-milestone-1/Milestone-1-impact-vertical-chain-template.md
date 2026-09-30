@@ -1,3 +1,9 @@
+---
+title: "Impact Vertical Chain Template and Scenario Modeling"
+sidebar_label: "Impact Vertical Template"
+---
+
+
 # **Phase 1 \- Part 4: Impact Vertical Chain Template & Scenario Modeling Structure**
 
 ## A Vertical Approach for Cardano  Vertical-to-KPI Impact Framework
