@@ -1,5 +1,6 @@
 ---
 sidebar_label: Bias Control
+title: "Prisma — Milestone 1: Bias Control"
 ---
 
 # **6.9 Bias Controls**

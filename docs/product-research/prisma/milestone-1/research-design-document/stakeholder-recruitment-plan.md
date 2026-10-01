@@ -1,5 +1,6 @@
 ---
 sidebar_label: Stakeholder Recruitment Plan
+title: "Prisma — Milestone 1: Stakeholder Recruitment Plan"
 ---
 
 ## Hub Primacy

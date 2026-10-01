@@ -1,5 +1,6 @@
 ---
 sidebar_label: Use-Case Hypothesis Register
+title: "Prisma — Milestone 1: Use-Case Hypothesis Register"
 ---
 
 # Use-Case Hypothesis Register

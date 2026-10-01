@@ -1,5 +1,6 @@
 ---
 sidebar_label: Data
+title: "Prisma — Milestone 1: Data"
 ---
 
 # **18\. Data Sources**

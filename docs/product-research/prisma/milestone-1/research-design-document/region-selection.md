@@ -1,5 +1,6 @@
 ---
 sidebar_label: Region Selection
+title: "Prisma — Milestone 1: Region Selecton"
 ---
 
 # **8\. Regional Scope and Prioritisation Plan**

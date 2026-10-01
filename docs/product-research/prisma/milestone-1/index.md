@@ -21,8 +21,6 @@ sidebar_label: "Milestone 1"
 
 Kickoff with the CPC committee is complete. CPC confirmed that no changes are required to the project direction. The research design package — methodology, candidate market-cluster list, and primary-research plan — is published and ready for Phase 2 regional screening.
 
-**Note to reviewers on evidence hosting:** Per Product Committee guidance (Discord discussion with Lorenzo), the important requirement is that proposal outcomes and deliverables remain public. Linking the published outcome pages on docs.prisma.events, with process artefacts available separately where needed, was confirmed as acceptable. Contracted deliverables below therefore link to those public outcome pages.
-
 ## Deliverables
 
 | # | Deliverable | Status | Link / Evidence |

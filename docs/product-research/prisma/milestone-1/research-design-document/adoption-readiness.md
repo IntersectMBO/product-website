@@ -1,5 +1,6 @@
 ---
 sidebar_label: Adoption Readiness
+title: "Prisma — Milestone 1: Adoption Readiness"
 ---
 
 # Regional Adoption Readiness Framework (RARF)

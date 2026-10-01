@@ -1,5 +1,6 @@
 ---
 sidebar_label: Ethics
+title: "Prisma — Milestone 1: Ethics"
 ---
 
 # **21\. Ethics Approach**

@@ -1,5 +1,6 @@
 ---
 sidebar_label: Adoption Signals
+title: "Prisma — Milestone 1: Adoption Signals"
 ---
 
 # Cardano Adoption Signal Standard (CASS)

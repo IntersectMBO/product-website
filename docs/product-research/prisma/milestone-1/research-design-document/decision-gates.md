@@ -1,5 +1,6 @@
 ---
 sidebar_label: Decision Gates
+title: "Prisma — Milestone 1: Decision Gates"
 ---
 
 # Decision Gates

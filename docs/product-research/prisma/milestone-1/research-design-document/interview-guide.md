@@ -1,24 +1,23 @@
 ---
 sidebar_label: Interview Guide
 asIndexPage: true
+title: "Prisma — Milestone 1: Interview Guide"
 ---
 
 ## Purpose
 
 This guide defines the **structural architecture** for primary research interviews. It specifies what every interview must produce and what training an interviewer requires to execute the workflow correctly.
 
-The interview surface area is defined in [Primary Research](/en/events/cpc/executing/terminology/primary-research). Recruitment targets and access channels are documented in the [Stakeholder Recruitment Plan](/en/events/cpc/executing/deliverables/research-design-document/stakeholder-recruitment-plan). Category-specific probes live in [Question Packs](/en/events/cpc/organising/question-packs).
+The interview surface area is defined in Primary Research. Recruitment targets and access channels are documented in the Stakeholder Recruitment Plan. Category-specific probes live in Question Packs.
 
 ## Three-Layer Architecture
 
 Primary research evidence passes through three layers:
 
-1. [Conduct](/en/events/cpc/executing/deliverables/research-design-document/interview-guide/conduct)
-2. [Ingest](/en/events/cpc/executing/deliverables/research-design-document/interview-guide/ingest)
-3. [Verify](/en/events/cpc/executing/deliverables/research-design-document/interview-guide/verify)
+1. Conduct
+2. Ingest
+3. Verify
  
-Implementation-level patterns for ingest are documented in the [Resolver Examples](/en/processes/process-infrastructuring/publishing/timelining/resolver-examples). 
-
 > Note: Details for ingest will be co-designed with support from Prisma in project phases 2-3. 
 
 ## Interview Roles
@@ -56,14 +55,4 @@ Hubs are advised to aim for engaging 3 teams for this project, across different 
 This caution is offered because introducing any kind of "X-to-earn" framing risks misguiding teams from their pre-existing political will. It may therefore be more effective to frame team funding as complementary to the trajectories they are already seeking to develop, and, consequently, the work they already need to be doing. 
 
 With this framing, it's clear to see how disadvantaged of an initial invitation to teams it would be, to invite them on the basis that they will get paid for the interviews they organise. Instead, the offer is more akin to a (non-dilutive) micro-investment into their own sovereign project.
-
-## Training Requirements
-
-Completing the training is a pre-requisite to conducting interviews. 
-
-- [Module A](/en/events/cpc/organising/interviewer-training/module-1): Research Ethics and Consent
-- [Module B](/en/events/cpc/organising/interviewer-training/module-2): Methodology and Bias Control
-- [Module C](/en/events/cpc/organising/interviewer-training/module-3): Interview Conduct
-- [Module D](/en/events/cpc/organising/interviewer-training/module-4): Post-Interview Data Entry
-- [Module E](/en/events/cpc/organising/interviewer-training/module-5): Verification Awareness
 
