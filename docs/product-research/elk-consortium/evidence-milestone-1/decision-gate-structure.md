@@ -1,3 +1,8 @@
+---
+title: "Decision Gate Structure"
+sidebar_label: "Desision Gate"
+---
+
 ### **Decision-Gate Structure**
 
 The project team is onboard with using decision gates to review progress. The sequence below is the proposed structure for recording those reviews; the specific gate criteria and decision roles should be confirmed in writing by the project team before this structure is described as formally confirmed.
