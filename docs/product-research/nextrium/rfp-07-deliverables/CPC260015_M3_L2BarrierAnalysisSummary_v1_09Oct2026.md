@@ -36,8 +36,8 @@ This is the public summary of our draft L2 Barrier Analysis (D1). The full analy
 
 | Rank | Barrier | Type | Severity | Confidence |
 |---|---|---|---|---|
-| 1 | Small-value stablecoin transfers cost several times the routes African users already use | Ecosystem | High | High |
 | 1 | Stablecoin-only users cannot use smart contracts without holding ADA | UX | High | High |
+| 2 | Small-value stablecoin transfers cost several times the routes African users already use | Ecosystem | High | Medium |
 | 3 | Providers depend on core components they cannot influence | Coordination | High | Medium |
 | 4 | Exchange wallet-infrastructure partners do not support Cardano | Ecosystem | High | Low |
 | 4 | Bulk refunds to many recipients were not possible at the time | Technical | High | Low |

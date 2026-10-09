@@ -56,8 +56,8 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 
 | Rank | Barrier | Type | Severity | Urgency | Confidence | Recommended action |
 |---|---|---|---|---|---|---|
-| 1 | Small-value stablecoin transfers cost several times the routes African users already use | Ecosystem | High | High | High | Fund engineering |
 | 1 | Stablecoin-only users cannot use smart contracts without holding ADA | UX | High | High | High | Pursue wallet support |
+| 2 | Small-value stablecoin transfers cost several times the routes African users already use | Ecosystem | High | High | Medium | Fund engineering |
 | 3 | Providers depend on core components they cannot influence | Coordination | High | Low | Medium | Establish bridge or provider partnerships |
 | 4 | Exchange wallet-infrastructure partners do not support Cardano | Ecosystem | High | Low | Low | Establish bridge or provider partnerships |
 | 4 | Bulk refunds to many recipients were not possible at the time | Technical | High | Low | Low | Reject |
@@ -81,26 +81,6 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 | 23 | Providers build their own tools when upstream tooling stops | Tooling | Medium | Low | Low | Improve documentation |
 | 24 | Integrating a partner chain or bridge with Cardano takes far longer than with EVM chains | Tooling | Low to Medium | Low to Medium | Low | Improve documentation |
 
-### 1. Small-value stablecoin transfers cost several times the routes African users already use
-
-| Field | Detail |
-|---|---|
-| Blocker and adoption impact | A Cardano stablecoin transfer costs about six to nine times the routes now serving African users, so payment builders and users have little reason to choose Cardano for small transfers. |
-| Affected use case | Small-value stablecoin transfers |
-| Relevance | Layer 2 workflow |
-| Type | Ecosystem |
-| Severity | High |
-| Urgency | High |
-| Evidence confidence | High |
-| Owner or workstream | Technical roadmap workstream; wallets workstream |
-| Recommended action | Fund engineering |
-| Evidence base | Desk research (external) |
-| Respondents | Not applicable |
-| Evidence source | Desk Research Summary 8.6 (Cardano fee documentation; Tron and Celo cost data) |
-| Tests | DR-05 |
-| Technical review (Samir Idris) | Not in technical review scope |
-| Note | The gap is cost structure, not throughput (Desk Research Summary Section 8.6). |
-
 ### 1. Stablecoin-only users cannot use smart contracts without holding ADA
 
 | Field | Detail |
@@ -119,6 +99,26 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 | Evidence source | Desk Research Summary 8.6 |
 | Tests | DR-07 |
 | Technical review (Samir Idris) | Not in technical review scope |
+
+### 2. Small-value stablecoin transfers cost several times the routes African users already use
+
+| Field | Detail |
+|---|---|
+| Blocker and adoption impact | A Cardano stablecoin transfer costs about six to nine times the routes now serving African users, so payment builders and users have little reason to choose Cardano for small transfers. |
+| Affected use case | Small-value stablecoin transfers |
+| Relevance | Layer 2 workflow |
+| Type | Ecosystem |
+| Severity | High |
+| Urgency | High |
+| Evidence confidence | Medium |
+| Owner or workstream | Technical roadmap workstream; wallets workstream |
+| Recommended action | Fund engineering |
+| Evidence base | Desk research (external); Cardano builders (insider) |
+| Respondents | Not applicable |
+| Evidence source | Desk Research Summary 8.6 (Cardano fee documentation; Tron and Celo cost data); contradicting: E-017 (R-001), E-036 (R-002), E-491 (R-031) |
+| Tests | DR-05 |
+| Technical review (Samir Idris) | Not in technical review scope |
+| Note | The gap is cost structure, not throughput (Desk Research Summary Section 8.6). Three Cardano builders say Cardano fees are low and not their main cost, which is set by mobile money operators and local payment providers (E-017, E-036, E-491); the desk comparison is against Tron and Celo. Confidence is therefore Medium. |
 
 ### 3. Providers depend on core components they cannot influence
 
