@@ -148,7 +148,7 @@ Both answers are early and are tested further in the Milestone 3 L2 Demand Map (
 
 ## 6. Limitations
 
-- **Category 3.** One bridge, interoperability or wallet provider was interviewed against a committed 5 to 8. This risk was disclosed in the Milestone 1 Stakeholder Access Status Update and raised in writing with the Committee before primary research. It is reported here as found. Respondents from other categories have not been substituted to answer Category 3 questions. Gates 6, 7 and 8, which depend on Category 3, are held at Low confidence.
+- **Category 3.** One bridge, interoperability or wallet provider was interviewed against a committed 5 to 8. This risk was disclosed in the Milestone 1 Stakeholder Access Status Update and raised in writing with the Committee before primary research. It is reported here as found. Respondents from other categories have not been substituted to answer Category 3 questions. Gates 6 to 9, for which Category 3 is a primary source (Research Design Document Section 1.1), are held at Low confidence.
 - **Category 2** is one interview below its lower bound.
 - **Self-report.** User numbers and willingness to pay are as stated by respondents and have not been independently verified.
 - **Source quality.** Two interviews (R-015, R-016) come from structured notes rather than full transcripts, and their exact interview dates are not recorded. Most other interviews use automated transcripts, which may contain errors.
