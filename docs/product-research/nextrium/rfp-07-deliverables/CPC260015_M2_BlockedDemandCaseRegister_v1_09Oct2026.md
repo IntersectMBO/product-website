@@ -21,7 +21,7 @@ Global Innovations Ltd
 
 **Document Purpose**
 
-This document is the Milestone 2 deliverable "Initial blocked-demand case register (minimum 8 to 15 cases)" under Appendix A of the grant agreement. It records fifteen documented cases in which a named application or workflow is blocked, or was blocked, by a Layer 2 or interoperability constraint, together with three cases retained for completeness whose blockers are not Layer 2 or interoperability problems and are routed to adjacent RFPs. The register is the initial version; it is finalised at Milestone 4.
+This document is the Milestone 2 deliverable "Initial blocked-demand case register (minimum 8 to 15 cases)" under Appendix A of the grant agreement. It records fifteen documented cases. In eleven, a named application or workflow is blocked, or was blocked, by a Layer 2 or interoperability constraint. The other four are retained for completeness because their blockers are not Layer 2 or interoperability problems, and are routed to adjacent RFPs. The register is the initial version; it is finalised at Milestone 4.
 
 **1. Basis and Method**
 
@@ -29,11 +29,11 @@ This document is the Milestone 2 deliverable "Initial blocked-demand case regist
 
 | Requirement | Source | How this register meets it |
 |---|---|---|
-| Minimum 8 to 15 cases | Agreement Appendix A, Milestone 2 | 15 cases recorded; 12 pass the Layer 2 or interoperability workflow test |
-| Our validation cases VAL-003 and VAL-006 serve as Cases 1 and 2, disclosed as conflicted evidence and starting at Low confidence, upgradeable following independent review and builder triangulation | Proposal Section 13, D6 | Case-001 (VAL-003) and Case-002 (VAL-006); Case-001 upgraded to Medium following the Milestone 1 Independent Technical Review |
+| Minimum 8 to 15 cases | Agreement Appendix A, Milestone 2 | 15 cases recorded; 11 pass the Layer 2 or interoperability workflow test |
+| Our validation cases VAL-003 and VAL-006 serve as Cases 1 and 2, disclosed as conflicted evidence and starting at Low confidence, upgradeable following independent review and builder triangulation | Proposal Section 13, D6 | Case-001 (VAL-003) and Case-002 (VAL-006). Case-001 is Medium for the technical pipeline, independently reproduced in the Milestone 1 Independent Technical Review; its demand evidence remains Low pending builder triangulation |
 | Each case distinguishes named, confidential and anonymised evidence | Proposal Section 13, D6 | Consent tier recorded per case; anonymised respondents are identified by category only |
 | Each case includes blocker, deployment decision pending, evidence source and confidence | Proposal Section 13, D6 | Fields 4, 7, 8 and 11 of every case |
-| Every case passes the relevant Layer 2 or interoperability workflow test | Proposal Section 13, D6 | Non-Layer 2 Test ID recorded per case; three cases that do not pass are labelled and routed |
+| Every case passes the relevant Layer 2 or interoperability workflow test | Proposal Section 13, D6 | Non-Layer 2 Test ID recorded for every case, including the two from our own validation work; the four cases that do not pass are labelled and routed |
 | Does not use vague "builders say" claims | Proposal Section 13, D6 | Every case cites the extract IDs and interview date it rests on |
 
 **1.2 How a case enters the register**
@@ -41,7 +41,8 @@ This document is the Milestone 2 deliverable "Initial blocked-demand case regist
 1. Each interview is extracted into the Evidence Extract, one row per distinct statement (Stage 1).
 2. Every statement of type "Blocker claim" passes the seven non-Layer 2 alternatives test: liquidity, wallet support, bridge or provider access, tooling, commercial uncertainty, compliance and partner access (Stage 2). A blocker is a Layer 2 blocker only where all seven are No.
 3. A case is recorded only where the blocker ties to a named application or workflow. General infrastructure complaints that tie to no named workflow are routed to the Cross-RFP Handoff Memo (D12) instead.
-4. Confidence follows the project rubric: High for primary documentation, on-chain records or first-hand testing; Medium where corroborated across more than one independent source, including the Milestone 1 Desk Research Summary, or independently verified; Low for single-source or untriangulated evidence, and for evidence from our own validation work until it is independently reviewed.
+4. A case passes the workflow test either as a Layer 2 case (no alternative explains the blocker) or as an interoperability case (the blocker ties to a named workflow in one of the seven interoperability feature types, such as wallet user experience, asset bridging or identity and data portability).
+5. Confidence follows the project rubric: High for primary documentation, on-chain records or first-hand testing; Medium where corroborated across more than one independent source, including the Milestone 1 Desk Research Summary, or independently verified; Low for single-source or untriangulated evidence, and for evidence from our own validation work until it is independently reviewed.
 
 **1.3 Evidence separation**
 
@@ -51,7 +52,16 @@ This document is the Milestone 2 deliverable "Initial blocked-demand case regist
 
 **1.4 Routed cases**
 
-Case-003 (SAPro), Case-007 (Smart Hatch funding) and Case-008 (Wednesday marketplace funding) are real, named blockers but are compliance or funding problems, not Layer 2 or interoperability problems. They are retained so the register reflects what respondents reported, and are routed through the Cross-RFP Handoff Memo (D12) to RFP 6 (government and emerging market entry). They are not counted toward the Layer 2 or interoperability case total.
+Four cases are real, named blockers but are compliance, funding or liquidity problems, not Layer 2 or interoperability problems. They are retained so the register reflects what respondents reported, and are routed through the Cross-RFP Handoff Memo (D12):
+
+| Case | Blocker | Routed to |
+|---|---|---|
+| Case-003 (SAPro) | Bank-service licensing (compliance) | RFP 6 (government and emerging market entry) |
+| Case-007 (Smart Hatch funding) | Funding access | RFP 6 (government and emerging market entry) |
+| Case-008 (Wednesday marketplace funding) | Funding access | RFP 6 (government and emerging market entry) |
+| Case-009 (Apex Fusion stablecoin rail) | Liquidity, historical | RFP 2 (stablecoin liquidity) |
+
+They are not counted toward the Layer 2 or interoperability case total.
 
 **1.5 Funding-seeking label per case**
 
@@ -66,15 +76,15 @@ Case-003 (SAPro), Case-007 (Smart Hatch funding) and Case-008 (Wednesday marketp
 
 | Case | Application or workflow | Barrier type | Confidence | Consent | Passes L2 / interoperability test |
 |---|---|---|---|---|---|
-| Case-001 | Decentralised identity on Cardano | Tooling | Medium | Named | Yes |
-| Case-002 | Last-mile stablecoin distribution | Ecosystem | Low | Named | Yes |
-| Case-003 | SAPro - escrow platform for African informal-market buyers and sellers | Compliance | Low | Named | No, routed (D12) |
+| Case-001 | Decentralised identity on Cardano | Tooling | Medium | Not applicable (our own validation work) | Yes |
+| Case-002 | Last-mile stablecoin distribution | Ecosystem | Low | Not applicable (our own validation work) | Yes |
+| Case-003 | SAPro - escrow platform for African informal-market buyers and sellers | Compliance | Low | Named | No, routed to RFP 6 (D12) |
 | Case-004 | Orcfax oracle data-publication service | Technical | Medium | Named | Yes |
 | Case-005 | [anonymised Category 2 team]’s own true-orderbook DEX prototype | Technical | Medium | Anonymised | Yes |
 | Case-006 | DripDropz, a Cardano micropayment/tipping tool | Technical | Medium | Named | Yes |
-| Case-007 | Smart Hatch, a poultry value-chain platform | Commercial | Low | Named | No, routed (D12) |
-| Case-008 | Wednesday marketplace, a Democratic Republic of Congo marketplace escrow platform | Commercial | Low | Named | No, routed (D12) |
-| Case-009 | Apex Fusion / Prime chain, a Cardano sister-chain project bridging via LayerZero | Liquidity | Low | Named | Yes |
+| Case-007 | Smart Hatch, a poultry value-chain platform | Commercial | Low | Named | No, routed to RFP 6 (D12) |
+| Case-008 | Wednesday marketplace, a Democratic Republic of Congo marketplace escrow platform | Commercial | Low | Named | No, routed to RFP 6 (D12) |
+| Case-009 | Apex Fusion / Prime chain, a Cardano sister-chain project bridging via LayerZero | Liquidity | Low | Named | No, routed to RFP 2 (D12) |
 | Case-010 | Charli3 oracle network | Technical | Medium | Named | Yes |
 | Case-011 | UTXOS | Technical | Low | Named | Yes |
 | Case-012 | 8pod | Technical | Low | Named | Yes |
@@ -92,15 +102,15 @@ Case-003 (SAPro), Case-007 (Smart Hatch funding) and Case-008 (Wednesday marketp
 | Who is blocked | NexTrium / Zivana Protocol (our own validation exercise); by extension any team building portable, verifiable-credential identity on Cardano |
 | The blocker | Nine undocumented engineering and configuration issues in the Hyperledger Identus stack on Cardano preprod, now resolved and published. Secondary barrier: full end-to-end credential issuance requires running a complete Cardano node, a meaningful infrastructure-cost barrier for African builders and small teams even though the technical pipeline is confirmed functional. |
 | Barrier type | Tooling |
-| Non-L2 test ID | N/A - our own validation evidence (Proposal Section 13), which predates the interview-derived Non-L2 Test framework; barrier type assigned directly from the D-M1-02/D-M1-03 Appendix B classification |
+| Non-L2 test ID | T-108 (applied to VAL-003) |
 | Deployment decision pending | Yes - pipeline confirmed functional; remaining condition is resolving the credential-issuance node-cost barrier before broader African-builder deployment |
 | Evidence source | D-M1-02 Preliminary VAL-Case Evidence Set v1.1 (VAL-003); independently reproduced by Samir Idris, D-M1-03; github.com/zivana-labs/zivana-validation/tree/main/identus-setup; on-chain DID did:prism:1e99b05986e260d569eea85c181af04fb8f7e437d337677b609b79e260fd3292, tx f6becc5272cf26a328c5d822390a5fee68a769bc23b26e3fcf11f8e075688389, block 4,894,745 |
 | Respondent IDs | N/A - our own validation work, not a respondent interview |
-| Consent tier | Named |
+| Consent tier | Not applicable (our own validation work) |
 | Confidence | Medium |
 | Recommended action | Improve documentation |
 | Gate | 1,5 |
-| Status | Documented - Case 1 of 2 committed in Proposal Section 13 (D6): VAL-003 and VAL-006 serve as Cases 1 and 2. Confidence upgraded following the independent technical review of our validation work (D-M1-03). |
+| Status | Documented. Case 1 of 2 committed in Proposal Section 13 (D6). Medium applies to the technical pipeline, independently reproduced in the Milestone 1 Independent Technical Review (D-M1-03); demand remains Low pending independent builder triangulation. |
 
 ### Case-002
 
@@ -110,15 +120,15 @@ Case-003 (SAPro), Case-007 (Smart Hatch funding) and Case-008 (Wednesday marketp
 | Who is blocked | NexTrium / Zivana Protocol (our own validation exercise); by extension any Cardano builder needing phone-number-addressed, sub-cent last-mile stablecoin distribution |
 | The blocker | Cardano currently has no phone-number-based stablecoin distribution rail with sub-cent fees comparable to Celo MiniPay. Covenant distributions route to Celo MiniPay, an Ethereum Layer 2 protocol, instead of remaining on Cardano. Documented as an architectural decision, not a preference. |
 | Barrier type | Ecosystem |
-| Non-L2 test ID | N/A - our own validation evidence (Proposal Section 13), which predates the interview-derived Non-L2 Test framework |
+| Non-L2 test ID | T-109 (applied to VAL-006) |
 | Deployment decision pending | Yes - distributions remain routed off Cardano until a comparable native or bridged capability exists |
 | Evidence source | D-M1-02 Preliminary VAL-Case Evidence Set v1.1 (VAL-006); github.com/zivana-labs/zivana-validation/tree/main/celo-minipay; on-chain Celo Sepolia deploy/verify/approve/deposit/distribute cycle |
 | Respondent IDs | N/A - our own validation work, not a respondent interview |
-| Consent tier | Named |
+| Consent tier | Not applicable (our own validation work) |
 | Confidence | Low |
 | Recommended action | Route to the Cross-RFP Handoff Memo for the RFP 02 stablecoin liquidity workstream; prioritise independent builder and provider triangulation in M2/M3 to determine whether this gap is broadly shared across the African informal-economy builder population or specific to Zivana Protocol’s architecture |
 | Gate | 1, 4, 6, 7 |
-| Status | Documented - Case 2 of 2 committed in Proposal Section 13 (D6). Low confidence, pending M2/M3 triangulation; not yet upgraded. |
+| Status | Documented. Case 2 of 2 committed in Proposal Section 13 (D6). Low confidence pending independent builder triangulation; Milestone 2 interviews provide partial triangulation of basic-phone access demand. |
 
 ### Case-003
 
@@ -136,7 +146,7 @@ Case-003 (SAPro), Case-007 (Smart Hatch funding) and Case-008 (Wednesday marketp
 | Confidence | Low |
 | Recommended action | Route to Cross-RFP Handoff Memo as a regulatory/payment-integration finding (native local-payment integration was the respondent's own suggested fix); not actionable as a Layer 2 or interoperability recommendation within this grant's scope |
 | Gate | 1, 3, 9 |
-| Status | Documented - awaiting corroboration from further Category 1 respondents before this pattern is generalised Renumbered from Case-001 to Case-003 on 22 Sep 2026 so VAL-003 and VAL-006 occupy Cases 1 and 2 per Proposal Section 13 (D6), which commits them to that position as the register’s starting cases from our own validation work. Non-Layer 2 blocker: does not pass the D6 Layer 2 or interoperability workflow test. Retained for completeness and routed via the Cross-RFP Handoff Memo (D12) to RFP 6 (government and emerging market entry): regulated bank-service integration and licensing in Nigeria (09 Oct 2026). |
+| Status | Documented; awaiting corroboration from further Category 1 respondents. Non-Layer 2 blocker: does not pass the D6 Layer 2 or interoperability workflow test. Retained for completeness and routed via the Cross-RFP Handoff Memo (D12) to RFP 6 (government and emerging market entry): regulated bank-service integration and licensing in Nigeria. |
 
 ### Case-004
 
@@ -208,7 +218,7 @@ Case-003 (SAPro), Case-007 (Smart Hatch funding) and Case-008 (Wednesday marketp
 | Confidence | Low |
 | Recommended action | Route to Cross-RFP Handoff Memo as a funding-access finding; not actionable as a Layer 2 or interoperability recommendation within this grant’s scope, consistent with the treatment already applied to Case-003 (SAPro) |
 | Gate | 1, 3, 4 |
-| Status | Documented; awaiting corroboration from further Category 1 respondents before generalising the funding-access pattern Non-Layer 2 blocker: does not pass the D6 Layer 2 or interoperability workflow test. Retained for completeness and routed via the Cross-RFP Handoff Memo (D12) to RFP 6 (government and emerging market entry): builder funding access, with Project Catalyst noted as the existing mechanism (09 Oct 2026). |
+| Status | Documented; awaiting corroboration from further Category 1 respondents. Non-Layer 2 blocker: does not pass the D6 Layer 2 or interoperability workflow test. Retained for completeness and routed via the Cross-RFP Handoff Memo (D12) to RFP 6 (government and emerging market entry): builder funding access, with Project Catalyst noted as the existing mechanism. |
 
 ### Case-008
 
@@ -226,7 +236,7 @@ Case-003 (SAPro), Case-007 (Smart Hatch funding) and Case-008 (Wednesday marketp
 | Confidence | Low |
 | Recommended action | Route to Cross-RFP Handoff Memo as a funding-access finding; respondent separately identifies Project Catalyst as a potential funding path, worth noting in the Investment Sequencing Recommendation (D8) as an existing ecosystem mechanism respondents are already aware of |
 | Gate | 1, 3 |
-| Status | Documented; awaiting corroboration Non-Layer 2 blocker: does not pass the D6 Layer 2 or interoperability workflow test. Retained for completeness and routed via the Cross-RFP Handoff Memo (D12) to RFP 6 (government and emerging market entry): builder funding access, with Project Catalyst noted as the existing mechanism (09 Oct 2026). |
+| Status | Documented; awaiting corroboration. Non-Layer 2 blocker: does not pass the D6 Layer 2 or interoperability workflow test. Retained for completeness and routed via the Cross-RFP Handoff Memo (D12) to RFP 6 (government and emerging market entry): builder funding access, with Project Catalyst noted as the existing mechanism. |
 
 ### Case-009
 
@@ -244,7 +254,7 @@ Case-003 (SAPro), Case-007 (Smart Hatch funding) and Case-008 (Wednesday marketp
 | Confidence | Low |
 | Recommended action | Route to Interoperability Value-Flow Assessment (D4) as evidence that stablecoin-rail timing directly affects Cardano project viability at build time; useful context for the Evidence Threshold Framework (D9) on how quickly resolved infrastructure gaps should be treated |
 | Gate | 4, 6 |
-| Status | Documented; historical case, resolved condition noted |
+| Status | Documented; historical case, resolved condition noted. Non-Layer 2 blocker: the seven-alternative test attributes it to liquidity (T-076), so it does not pass the D6 Layer 2 or interoperability workflow test. Retained for completeness and routed via the Cross-RFP Handoff Memo (D12) to RFP 2 (stablecoin liquidity). |
 
 ### Case-010
 
@@ -352,7 +362,7 @@ Case-003 (SAPro), Case-007 (Smart Hatch funding) and Case-008 (Wednesday marketp
 | Confidence | Low |
 | Recommended action | Route to Interoperability Value-Flow Assessment (D4) and Provider and Partner Opportunity Analysis (D5) |
 | Gate | 5, 6, 8 |
-| Status | Documented; interoperability (asset bridging and message passing) case; ready for M3 Confidence capped at Low per the Milestone 1 Stakeholder Access Status Update Section 4.2 commitment: provider-side findings are not presented at Medium or High while Category 3 access (1 interview) is below its lower target (5). |
+| Status | Documented; interoperability (asset bridging and message passing) case; ready for M3. Confidence held at Low in line with the Milestone 1 Stakeholder Access Status Update (Section 4.2): provider-side findings are not presented at Medium or High while Category 3 access is below its lower target. |
 
 ## Limitations
 
@@ -373,4 +383,4 @@ The extracts, Non-Layer 2 tests and consent tiers cited in each case are publish
 
 | Version | Date | Author | Change |
 |---|---|---|---|
-| 1.0 | 9 October 2026 | Abdulbasit Adigun Abdulrahman | Initial register for Milestone 2: fifteen cases, twelve passing the Layer 2 or interoperability workflow test, three routed to RFP 6 |
+| 1.0 | 9 October 2026 | Abdulbasit Adigun Abdulrahman | Initial register for Milestone 2: fifteen cases, eleven passing the Layer 2 or interoperability workflow test, four routed to adjacent RFPs (three to RFP 6, one to RFP 2) |
