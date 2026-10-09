@@ -35,13 +35,13 @@ The Milestone 2 services ("primary research across the four respondent categorie
 | Criterion | How it is met |
 |---|---|
 | Evidence of meaningful progress | 31 interviews completed and fully extracted (500 extracts); 15 documented cases; Decision Gates 1 to 11 each carry interview evidence (Workbook, Section 7) |
-| Stated methodology followed | Category assigned from the instrument administered; every blocker claim passed the seven non-Layer 2 alternatives; confidence follows the project rubric; applicant-supplied and funding-seeking evidence labelled and separated |
+| Stated methodology followed | Category assigned from the instrument administered; every blocker claim passed the seven non-Layer 2 alternatives; confidence follows the project rubric; evidence from our own validation work and from funding-seeking respondents labelled and separated |
 | Evidence quality acceptable | Every case and finding cites extract and test IDs; no single-source finding above Low unless corroborated by a second respondent, the Milestone 1 Desk Research Summary or independent documentation |
 | Documents complete | Both contracted deliverables and the supporting workbook are committed in full in this pull request |
 
 ## Evidence
 
-- **Initial blocked-demand case register**: [CPC260015_M2_BlockedDemandCaseRegister_v1_09Oct2026.md](./rfp-07-deliverables/CPC260015_M2_BlockedDemandCaseRegister_v1_09Oct2026.md). Cases 1 and 2 are the applicant-supplied VAL-003 and VAL-006 cases committed in Proposal Section 13. Their validation source code is publicly available at [github.com/zivana-labs/zivana-validation](https://github.com/zivana-labs/zivana-validation).
+- **Initial blocked-demand case register**: [CPC260015_M2_BlockedDemandCaseRegister_v1_09Oct2026.md](./rfp-07-deliverables/CPC260015_M2_BlockedDemandCaseRegister_v1_09Oct2026.md). Cases 1 and 2 are our own validation cases, VAL-003 and VAL-006, which we committed in Proposal Section 13 to include as disclosed conflicted evidence. Our validation source code is publicly available at [github.com/zivana-labs/zivana-validation](https://github.com/zivana-labs/zivana-validation).
 - **Early demand-signal review**: [CPC260015_M2_EarlyDemandSignalReview_v1_09Oct2026.md](./rfp-07-deliverables/CPC260015_M2_EarlyDemandSignalReview_v1_09Oct2026.md)
 - **Interview programme and analysis (supporting output)**: [CPC260015_M2_InterviewAnalysisWorkbookRedacted_v14_09Oct2026.md](./rfp-07-deliverables/CPC260015_M2_InterviewAnalysisWorkbookRedacted_v14_09Oct2026.md). Transcripts, recordings and the respondent identity key are held privately under the data-retention clause of the grant agreement (clause 4.3) and are available to the Committee on request.
 

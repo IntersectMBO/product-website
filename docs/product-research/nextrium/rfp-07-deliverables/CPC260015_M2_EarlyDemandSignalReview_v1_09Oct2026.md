@@ -71,7 +71,7 @@ The blocked workflows with a Layer 2 cause, each tied to a named application (D-
 
 | Workflow | Case | Evidence |
 |---|---|---|
-| Lower-latency and derivative oracle price feeds | Case-004, Case-010 | Two independent oracle providers (R-006, R-005); Desk Research Summary s3.7 |
+| Lower-latency and derivative oracle price feeds | Case-004, Case-010 | Two independent oracle providers (R-006, R-005); Desk Research Summary Section 3.7 |
 | On-chain order matching for order-book DEXs | Case-005 | Two respondents (R-027, R-007): deterministic transactions force off-chain batchers |
 | Micropayments carrying native tokens | Case-006 | R-021; minimum-ada rule verified in ledger documentation |
 | Fast transactions between parties not known in advance | Case-011 | R-004: Hydra requires known parties |
@@ -123,7 +123,7 @@ The broadest signal from Category 1 concerns reaching users without smartphones 
 - Already delivered at the application layer: R-017 serves farmers via USSD codes (E-256), and R-031 reports full USSD access on basic keypad phones before its regulatory pause (E-489).
 - Not needed for the target audience: R-003, R-024, R-025 (E-055, E-385, E-402).
 
-**Flagged for the lead researcher:** E-256 and E-489 show USSD access achieved on Cardano through application-layer abstraction. This qualifies the Milestone 1 Desk Research Summary finding (s3.13) that no Cardano wallet or payment interface supporting USSD access was identified. Under the project's instructions, a finding that contradicts a Milestone 1 finding is not corrected unilaterally; it is reported here and resolved at Milestone 3. The same evidence provides partial independent triangulation for Case-002 (phone-number-addressed distribution).
+**Flagged for the lead researcher:** E-256 and E-489 show USSD access achieved on Cardano through application-layer abstraction. This qualifies the Milestone 1 Desk Research Summary finding (Section 3.13) that no Cardano wallet or payment interface supporting USSD access was identified. We report it here and will resolve it at Milestone 3, rather than amend the Milestone 1 summary now. The same evidence provides partial independent triangulation for Case-002 (phone-number-addressed distribution).
 
 **4.2 Negative-case signal: chains are chosen for support and community, not for Layer 2 capability** \[Confidence: Medium\]
 

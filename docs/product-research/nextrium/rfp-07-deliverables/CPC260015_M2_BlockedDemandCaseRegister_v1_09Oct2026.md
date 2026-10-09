@@ -30,7 +30,7 @@ This document is the Milestone 2 deliverable "Initial blocked-demand case regist
 | Requirement | Source | How this register meets it |
 |---|---|---|
 | Minimum 8 to 15 cases | Agreement Appendix A, Milestone 2 | 15 cases recorded; 12 pass the Layer 2 or interoperability workflow test |
-| VAL-003 and VAL-006 serve as Cases 1 and 2 at low confidence as applicant-supplied conflicted evidence, upgradeable following independent review and builder triangulation | Proposal Section 13, D6 | Case-001 (VAL-003) and Case-002 (VAL-006); Case-001 upgraded to Medium following the Milestone 1 Independent Technical Review |
+| Our validation cases VAL-003 and VAL-006 serve as Cases 1 and 2, disclosed as conflicted evidence and starting at Low confidence, upgradeable following independent review and builder triangulation | Proposal Section 13, D6 | Case-001 (VAL-003) and Case-002 (VAL-006); Case-001 upgraded to Medium following the Milestone 1 Independent Technical Review |
 | Each case distinguishes named, confidential and anonymised evidence | Proposal Section 13, D6 | Consent tier recorded per case; anonymised respondents are identified by category only |
 | Each case includes blocker, deployment decision pending, evidence source and confidence | Proposal Section 13, D6 | Fields 4, 7, 8 and 11 of every case |
 | Every case passes the relevant Layer 2 or interoperability workflow test | Proposal Section 13, D6 | Non-Layer 2 Test ID recorded per case; three cases that do not pass are labelled and routed |
@@ -41,11 +41,11 @@ This document is the Milestone 2 deliverable "Initial blocked-demand case regist
 1. Each interview is extracted into the Evidence Extract, one row per distinct statement (Stage 1).
 2. Every statement of type "Blocker claim" passes the seven non-Layer 2 alternatives test: liquidity, wallet support, bridge or provider access, tooling, commercial uncertainty, compliance and partner access (Stage 2). A blocker is a Layer 2 blocker only where all seven are No.
 3. A case is recorded only where the blocker ties to a named application or workflow. General infrastructure complaints that tie to no named workflow are routed to the Cross-RFP Handoff Memo (D12) instead.
-4. Confidence follows the project rubric: High for primary documentation, on-chain records or first-hand testing; Medium where corroborated across more than one independent source, including the Milestone 1 Desk Research Summary, or independently verified; Low for single-source, applicant-supplied or untriangulated evidence.
+4. Confidence follows the project rubric: High for primary documentation, on-chain records or first-hand testing; Medium where corroborated across more than one independent source, including the Milestone 1 Desk Research Summary, or independently verified; Low for single-source or untriangulated evidence, and for evidence from our own validation work until it is independently reviewed.
 
 **1.3 Evidence separation**
 
-- **Applicant-supplied conflicted evidence:** Case-001 and Case-002 derive from NexTrium's own validation work (VAL-003, VAL-006) and are presented as such.
+- **Our own validation work:** Case-001 and Case-002 come from our own validation exercises (VAL-003, VAL-006). Because we are both the researcher and the builder in these cases, we disclose them as conflicted evidence and present them separately from independent respondent evidence.
 - **Funding-seeking respondents:** R-002 and R-022 are flagged in the Interview Register as seeking funding. Cases resting on their evidence (Case-007, Case-008, Case-013, Case-014) are labelled below so they can be read apart from independent demand evidence.
 - **Provider-side confidence cap:** Category 3 access (1 interview against a committed 5 to 8) is below its lower target. Per the Milestone 1 Stakeholder Access Status Update (Section 4.2), provider-side findings are not presented above Low; Case-015 is capped accordingly.
 
@@ -89,31 +89,31 @@ Case-003 (SAPro), Case-007 (Smart Hatch funding) and Case-008 (Wednesday marketp
 | Field | Detail |
 |---|---|
 | Application or workflow | Decentralised identity on Cardano: DID publication, W3C Verifiable Credential issuance, and independent credential verification using Cardano as sole source of truth (Zivana Protocol identity pipeline) |
-| Who is blocked | NexTrium / Zivana Protocol (applicant-supplied validation exercise); by extension any team building portable, verifiable-credential identity on Cardano |
+| Who is blocked | NexTrium / Zivana Protocol (our own validation exercise); by extension any team building portable, verifiable-credential identity on Cardano |
 | The blocker | Nine undocumented engineering and configuration issues in the Hyperledger Identus stack on Cardano preprod, now resolved and published. Secondary barrier: full end-to-end credential issuance requires running a complete Cardano node, a meaningful infrastructure-cost barrier for African builders and small teams even though the technical pipeline is confirmed functional. |
 | Barrier type | Tooling |
-| Non-L2 test ID | N/A - applicant-supplied validation evidence per Proposal Section 13, predates the interview-derived Non-L2 Test framework; barrier type assigned directly from the D-M1-02/D-M1-03 Appendix B classification |
+| Non-L2 test ID | N/A - our own validation evidence (Proposal Section 13), which predates the interview-derived Non-L2 Test framework; barrier type assigned directly from the D-M1-02/D-M1-03 Appendix B classification |
 | Deployment decision pending | Yes - pipeline confirmed functional; remaining condition is resolving the credential-issuance node-cost barrier before broader African-builder deployment |
 | Evidence source | D-M1-02 Preliminary VAL-Case Evidence Set v1.1 (VAL-003); independently reproduced by Samir Idris, D-M1-03; github.com/zivana-labs/zivana-validation/tree/main/identus-setup; on-chain DID did:prism:1e99b05986e260d569eea85c181af04fb8f7e437d337677b609b79e260fd3292, tx f6becc5272cf26a328c5d822390a5fee68a769bc23b26e3fcf11f8e075688389, block 4,894,745 |
-| Respondent IDs | N/A - applicant-supplied, not a respondent interview |
+| Respondent IDs | N/A - our own validation work, not a respondent interview |
 | Consent tier | Named |
 | Confidence | Medium |
 | Recommended action | Improve documentation |
 | Gate | 1,5 |
-| Status | Documented - Case 1 of 2 committed in Proposal Section 13 (D6): VAL-003 and VAL-006 serve as Cases 1 and 2. Confidence upgraded from applicant-supplied per the D-M1-03 independent review. |
+| Status | Documented - Case 1 of 2 committed in Proposal Section 13 (D6): VAL-003 and VAL-006 serve as Cases 1 and 2. Confidence upgraded following the independent technical review of our validation work (D-M1-03). |
 
 ### Case-002
 
 | Field | Detail |
 |---|---|
 | Application or workflow | Last-mile stablecoin distribution: covenant payment splitting and delivery to informal-economy recipients via phone-number-based rails at sub-cent fees (Zivana Protocol distribution primitive) |
-| Who is blocked | NexTrium / Zivana Protocol (applicant-supplied validation exercise); by extension any Cardano builder needing phone-number-addressed, sub-cent last-mile stablecoin distribution |
+| Who is blocked | NexTrium / Zivana Protocol (our own validation exercise); by extension any Cardano builder needing phone-number-addressed, sub-cent last-mile stablecoin distribution |
 | The blocker | Cardano currently has no phone-number-based stablecoin distribution rail with sub-cent fees comparable to Celo MiniPay. Covenant distributions route to Celo MiniPay, an Ethereum Layer 2 protocol, instead of remaining on Cardano. Documented as an architectural decision, not a preference. |
 | Barrier type | Ecosystem |
-| Non-L2 test ID | N/A - applicant-supplied validation evidence per Proposal Section 13, predates the interview-derived Non-L2 Test framework |
+| Non-L2 test ID | N/A - our own validation evidence (Proposal Section 13), which predates the interview-derived Non-L2 Test framework |
 | Deployment decision pending | Yes - distributions remain routed off Cardano until a comparable native or bridged capability exists |
 | Evidence source | D-M1-02 Preliminary VAL-Case Evidence Set v1.1 (VAL-006); github.com/zivana-labs/zivana-validation/tree/main/celo-minipay; on-chain Celo Sepolia deploy/verify/approve/deposit/distribute cycle |
-| Respondent IDs | N/A - applicant-supplied, not a respondent interview |
+| Respondent IDs | N/A - our own validation work, not a respondent interview |
 | Consent tier | Named |
 | Confidence | Low |
 | Recommended action | Route to the Cross-RFP Handoff Memo for the RFP 02 stablecoin liquidity workstream; prioritise independent builder and provider triangulation in M2/M3 to determine whether this gap is broadly shared across the African informal-economy builder population or specific to Zivana Protocol’s architecture |
@@ -136,7 +136,7 @@ Case-003 (SAPro), Case-007 (Smart Hatch funding) and Case-008 (Wednesday marketp
 | Confidence | Low |
 | Recommended action | Route to Cross-RFP Handoff Memo as a regulatory/payment-integration finding (native local-payment integration was the respondent's own suggested fix); not actionable as a Layer 2 or interoperability recommendation within this grant's scope |
 | Gate | 1, 3, 9 |
-| Status | Documented - awaiting corroboration from further Category 1 respondents before this pattern is generalised Renumbered from Case-001 to Case-003 on 22 Sep 2026 so VAL-003 and VAL-006 occupy Cases 1 and 2 per Proposal Section 13 (D6), which commits them to that position as the register’s starting applicant-supplied evidence. Non-Layer 2 blocker: does not pass the D6 Layer 2 or interoperability workflow test. Retained for completeness and routed via the Cross-RFP Handoff Memo (D12) to RFP 6 (government and emerging market entry): regulated bank-service integration and licensing in Nigeria (09 Oct 2026). |
+| Status | Documented - awaiting corroboration from further Category 1 respondents before this pattern is generalised Renumbered from Case-001 to Case-003 on 22 Sep 2026 so VAL-003 and VAL-006 occupy Cases 1 and 2 per Proposal Section 13 (D6), which commits them to that position as the register’s starting cases from our own validation work. Non-Layer 2 blocker: does not pass the D6 Layer 2 or interoperability workflow test. Retained for completeness and routed via the Cross-RFP Handoff Memo (D12) to RFP 6 (government and emerging market entry): regulated bank-service integration and licensing in Nigeria (09 Oct 2026). |
 
 ### Case-004
 
@@ -148,7 +148,7 @@ Case-003 (SAPro), Case-007 (Smart Hatch funding) and Case-008 (Wednesday marketp
 | Barrier type | Technical |
 | Non-L2 test ID | T-021, T-023, T-024, T-027, T-028 |
 | Deployment decision pending | Yes - whether to build toward a Layer 2 or off-chain consensus layer before offering derivative and lower-latency price feeds; team has already shifted toward community-led infrastructure (Koios) over foundation-built tools to reduce dependency risk |
-| Evidence source | Interview transcript, 14 Aug 2026 (R-006); corroborated by R-005 (Charli3, an independent oracle provider reporting the same block-time and cost barrier, T-016, T-018) and by the Desk Research Summary s3.7 (base-layer throughput 4.5 KB/s, Leios mainnet targeted late 2026), s6.1 (oracle layer transition, Orcfax unfunded wind-down) and s8.6 (native-token transactions cost more than the simple-transfer baseline) |
+| Evidence source | Interview transcript, 14 Aug 2026 (R-006); corroborated by R-005 (Charli3, an independent oracle provider reporting the same block-time and cost barrier, T-016, T-018) and by the Desk Research Summary Section 3.7 (base-layer throughput 4.5 KB/s, Leios mainnet targeted late 2026), Section 6.1 (oracle layer transition, Orcfax unfunded wind-down) and Section 8.6 (native-token transactions cost more than the simple-transfer baseline) |
 | Respondent IDs | R-006 |
 | Consent tier | Named |
 | Confidence | Medium |
@@ -256,7 +256,7 @@ Case-003 (SAPro), Case-007 (Smart Hatch funding) and Case-008 (Wednesday marketp
 | Barrier type | Technical |
 | Non-L2 test ID | T-016, T-018 |
 | Deployment decision pending | Resolved negatively: Charli3 ceased Cardano-focused operations in May 2026 (E-075). The Layer 2 cost and block-time barrier is one of the enterprise-scale constraints it reports, alongside commercial and governance factors classified separately (T-079, T-082). |
-| Evidence source | Interview transcript, 12 Aug 2026 (R-005), extracts E-080, E-085, E-089; corroborated by Case-004 (R-006, a separate oracle provider) and Desk Research Summary s3.7 |
+| Evidence source | Interview transcript, 12 Aug 2026 (R-005), extracts E-080, E-085, E-089; corroborated by Case-004 (R-006, a separate oracle provider) and Desk Research Summary Section 3.7 |
 | Respondent IDs | R-005; R-006 (corroborating) |
 | Consent tier | Named |
 | Confidence | Medium |
@@ -274,7 +274,7 @@ Case-003 (SAPro), Case-007 (Smart Hatch funding) and Case-008 (Wednesday marketp
 | Barrier type | Technical |
 | Non-L2 test ID | T-013 (Partial on tooling for developer-friendliness; the permissionless requirement is not explained by any alternative) |
 | Deployment decision pending | Yes: fast-transaction features wait on a permissionless Layer 2; the team published a Hydra tutorial in the meantime |
-| Evidence source | Interview transcript, 21 Aug 2026 (R-004), extracts E-064, E-074; Desk Research Summary s3.6 (Hydra in adoption phase since February 2026) |
+| Evidence source | Interview transcript, 21 Aug 2026 (R-004), extracts E-064, E-074; Desk Research Summary Section 3.6 (Hydra in adoption phase since February 2026) |
 | Respondent IDs | R-004 |
 | Consent tier | Named |
 | Confidence | Low |
@@ -346,13 +346,13 @@ Case-003 (SAPro), Case-007 (Smart Hatch funding) and Case-008 (Wednesday marketp
 | Barrier type | Ecosystem |
 | Non-L2 test ID | T-107 |
 | Deployment decision pending | Yes: Apex Fusion is already integrating LayerZero on its own side and is waiting on the Cardano-side integration (E-473) |
-| Evidence source | Interview transcript, 07 Sep 2026 (R-030), extracts E-473, E-480, E-482; corroborated by the Desk Research Summary s4 (Wanchain Cardano bridge offline since 21 July 2026 after an exploit; Milkomeda deprecated) and s3.13 (Catalyst Fund 14 proposal stating Cardano lacks a tier-one omnichain messaging layer) |
+| Evidence source | Interview transcript, 07 Sep 2026 (R-030), extracts E-473, E-480, E-482; corroborated by the Desk Research Summary s4 (Wanchain Cardano bridge offline since 21 July 2026 after an exploit; Milkomeda deprecated) and Section 3.13 (Catalyst Fund 14 proposal stating Cardano lacks a tier-one omnichain messaging layer) |
 | Respondent IDs | R-030 |
 | Consent tier | Named |
 | Confidence | Low |
 | Recommended action | Route to Interoperability Value-Flow Assessment (D4) and Provider and Partner Opportunity Analysis (D5) |
 | Gate | 5, 6, 8 |
-| Status | Documented; interoperability (asset bridging and message passing) case; ready for M3 Confidence capped at Low per the Milestone 1 Stakeholder Access Status Update s4.2 commitment: provider-side findings are not presented at Medium or High while Category 3 access (1 interview) is below its lower target (5). |
+| Status | Documented; interoperability (asset bridging and message passing) case; ready for M3 Confidence capped at Low per the Milestone 1 Stakeholder Access Status Update Section 4.2 commitment: provider-side findings are not presented at Medium or High while Category 3 access (1 interview) is below its lower target (5). |
 
 ## Limitations
 
