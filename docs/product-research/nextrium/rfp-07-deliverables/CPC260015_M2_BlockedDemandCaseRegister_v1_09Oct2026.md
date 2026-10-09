@@ -70,7 +70,7 @@ Case-003 (SAPro), Case-007 (Smart Hatch funding) and Case-008 (Wednesday marketp
 | Case-002 | Last-mile stablecoin distribution | Ecosystem | Low | Named | Yes |
 | Case-003 | SAPro - escrow platform for African informal-market buyers and sellers | Compliance | Low | Named | No, routed (D12) |
 | Case-004 | Orcfax oracle data-publication service | Technical | Medium | Named | Yes |
-| Case-005 | [anonymised Category 2 team] own true-orderbook DEX prototype | Technical | Medium | Anonymised | Yes |
+| Case-005 | [anonymised Category 2 team]’s own true-orderbook DEX prototype | Technical | Medium | Anonymised | Yes |
 | Case-006 | DripDropz, a Cardano micropayment/tipping tool | Technical | Medium | Named | Yes |
 | Case-007 | Smart Hatch, a poultry value-chain platform | Commercial | Low | Named | No, routed (D12) |
 | Case-008 | Wednesday marketplace, a Democratic Republic of Congo marketplace escrow platform | Commercial | Low | Named | No, routed (D12) |
@@ -94,7 +94,7 @@ Case-003 (SAPro), Case-007 (Smart Hatch funding) and Case-008 (Wednesday marketp
 | Barrier type | Tooling |
 | Non-L2 test ID | N/A - applicant-supplied validation evidence per Proposal Section 13, predates the interview-derived Non-L2 Test framework; barrier type assigned directly from the D-M1-02/D-M1-03 Appendix B classification |
 | Deployment decision pending | Yes - pipeline confirmed functional; remaining condition is resolving the credential-issuance node-cost barrier before broader African-builder deployment |
-| Evidence source | D-M1-02 Preliminary VAL-Case Evidence Set v1.1 (VAL-003); independently reproduced by Samir Idris, D-M1-03; github.com/zivana-labs/zivana-validation/tree/main/identus-setup; on-chain DID did:prism:[internal file ID removed], tx [internal file ID removed], block 4,894,745 |
+| Evidence source | D-M1-02 Preliminary VAL-Case Evidence Set v1.1 (VAL-003); independently reproduced by Samir Idris, D-M1-03; github.com/zivana-labs/zivana-validation/tree/main/identus-setup; on-chain DID did:prism:1e99b05986e260d569eea85c181af04fb8f7e437d337677b609b79e260fd3292, tx f6becc5272cf26a328c5d822390a5fee68a769bc23b26e3fcf11f8e075688389, block 4,894,745 |
 | Respondent IDs | N/A - applicant-supplied, not a respondent interview |
 | Consent tier | Named |
 | Confidence | Medium |
@@ -160,12 +160,12 @@ Case-003 (SAPro), Case-007 (Smart Hatch funding) and Case-008 (Wednesday marketp
 
 | Field | Detail |
 |---|---|
-| Application or workflow | [anonymised Category 2 team] own true-orderbook DEX prototype (single smart contract), part of [anonymised Category 2 team] Cardano-native Cardano-native platform |
+| Application or workflow | [anonymised Category 2 team]’s own true-orderbook DEX prototype (single smart contract), part of [anonymised Category 2 team]’s Cardano-native platform |
 | Who is blocked | [anonymised Category 2 team]; corroborated independently by Vladimir Kalnitsky, an independent Cardano tooling developer/consultant, describing the same root constraint across separate, unnamed client engagements |
-| The blocker | Cardano’s UTXO and [internal file ID removed] model does not support true on-chain order matching. [anonymised Category 2 team] orderbook DEX prototype is limited by Cardano’s throughput and is waiting on the “Leios” scaling upgrade. Vladimir Kalnitsky independently describes the identical mechanism: the enforced deterministic transaction model conflicts with order-book primitives, limiting on-chain order matching to once per transaction and forcing centralised off-chain “batcher” scripts. |
+| The blocker | Cardano’s UTXO and deterministic-transaction model does not support true on-chain order matching. [anonymised Category 2 team]’s orderbook DEX prototype is limited by Cardano’s throughput and is waiting on the “Leios” scaling upgrade. Vladimir Kalnitsky independently describes the identical mechanism: the enforced deterministic transaction model conflicts with order-book primitives, limiting on-chain order matching to once per transaction and forcing centralised off-chain “batcher” scripts. |
 | Barrier type | Technical |
 | Non-L2 test ID | T-074 (R-027, primary case); T-030, T-034 (R-007, corroborating - no single named application, so filed as corroboration rather than its own case) |
-| Deployment decision pending | Yes - whether [anonymised Category 2 team] orderbook DEX can move beyond prototype without either a Cardano-side scaling upgrade (Leios) or an off-chain batcher/Layer 2 design |
+| Deployment decision pending | Yes - whether [anonymised Category 2 team]’s orderbook DEX can move beyond prototype without either a Cardano-side scaling upgrade (Leios) or an off-chain batcher/Layer 2 design |
 | Evidence source | Interview transcripts, 08 Sep 2026 (R-027) and 20 Aug 2026 (R-007) |
 | Respondent IDs | R-027, R-007 (corroborating) |
 | Consent tier | Anonymised |
