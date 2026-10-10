@@ -52,7 +52,7 @@ Some findings go to more than one destination, so the counts add up to more than
 - **Destinations** are those RFP 07 names for handoff: RFPs 02, 03, 05, 06, 08 and 09, and the DevX, wallets, liquidity, governance and technical roadmap workstreams. Each finding was checked against the published scope of its destination RFP.
 - **RFP numbers and titles** follow the Cardano Product Committee's published list of research initiatives. Our proposal (Gate 11) paired some numbers with the wrong topics: stablecoin liquidity is RFP 03, use-case positioning is RFP 02, government and emerging market entry is RFP 05, and enterprise and RWA readiness is RFP 06. The topics are unchanged.
 - **No absorption.** This memo states the finding, its evidence and why it belongs elsewhere. It does not analyse or recommend within another RFP's scope.
-- **Test IDs** (T-) refer to the classified tests in our interview analysis workbook; extract IDs (E-) to the evidence extracts published at Milestone 2.
+- **Test IDs** (T-) refer to the classified tests published in the [Barrier Classification, redacted](./CPC260015_M3_BarrierClassificationRedacted_v1_10Oct2026.md); extract IDs (E-) to the evidence extracts published at Milestone 2.
 
 **3. Routed Findings by Destination**
 
