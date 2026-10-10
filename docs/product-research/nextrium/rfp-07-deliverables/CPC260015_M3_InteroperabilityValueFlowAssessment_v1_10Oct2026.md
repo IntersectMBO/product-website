@@ -79,7 +79,7 @@ Every classification is Low confidence.
 | Evidence | Desk Research Summary Sections 4.10, 8.5, 9.1. Status re-checked 10 October 2026: reports put Cardano's total stablecoin supply at about 70 million US dollars in early October 2026, with USDC or USDCx the majority (secondary sources, figures conflict on share, not independently verified). Interviews: E-396, E-416, E-428, E-472. |
 | Dissenting evidence | Against a higher classification: one builder says the liquidity increase did not meet expectations and compares it with billions on other ecosystems (E-396); the fee subsidy ended on 28 May 2026 and post-subsidy flows remain unproven (Desk Research Summary Sections 4.11, 9.1, 11.2; Screening Report Section 3.2). For a higher classification: supply on Cardano is reported to have grown and an application settles in it. |
 | Confidence | Low |
-| Recommended action | Monitor, and reassess when source and destination data for USDCx supply is available. Liquidity depth and multi-chain availability are routed to RFP 2 (stablecoin liquidity). |
+| Recommended action | Monitor, and reassess when source and destination data for USDCx supply is available. Liquidity depth and multi-chain availability are routed to RFP 03 (stablecoin liquidity incentive and activation). |
 
 ### 2. Celo MiniPay
 

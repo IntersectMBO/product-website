@@ -129,13 +129,13 @@ Each blocker receives one action from our action set: fund engineering, improve 
 | Type | Usual action | Usual owner or workstream |
 |---|---|---|
 | Technical | Fund engineering, or reject | Technical roadmap workstream |
-| Commercial | Provide commercial incentives, or reject | Grant allocators and business development teams; RFP 3 (use-case positioning) where relevant |
+| Commercial | Provide commercial incentives, or reject | Grant allocators and business development teams; RFP 02 (use-case landscape and competitive positioning) where relevant |
 | Ecosystem | Pursue wallet support, or establish bridge or provider partnerships | Wallets workstream; business development teams |
-| Liquidity | Coordinate liquidity | Liquidity workstream; RFP 2 (stablecoin liquidity) |
+| Liquidity | Coordinate liquidity | Liquidity workstream; RFP 03 (stablecoin liquidity incentive and activation) |
 | UX | Pursue wallet support | Wallets workstream |
 | Tooling | Improve documentation | DevX workstream |
 | Coordination | The closest action in the set, most often establish bridge or provider partnerships | The party the dependency rests on, named for each blocker; governance where relevant |
-| Compliance | Reject within this research, and route | RFP 6 (government and emerging market entry) |
+| Compliance | Reject within this research, and route | RFP 05 (government and emerging markets entry) |
 | Unknown | No action until evidenced; recorded as an unresolved question | Not assigned |
 
 Findings that belong to another initiative or workstream go to the Cross-RFP Handoff Memo rather than being expanded here (RFP 07 Section 7).

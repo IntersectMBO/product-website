@@ -188,7 +188,7 @@ Gate 5: which interoperability features builders and operators actually need, so
 | Evidence source | E-009, E-012, E-017, E-448, E-495; Desk Research Summary Section 4.6 |
 | Confidence | Medium |
 | Respondents | R-001 Paul Mupenda (Category 1); R-028 cheto ekoja "praise" (Pop Shane) (Category 4); R-031 Kamal Aliyu (SAPro, escrow platform for African informal market) (Category 1) |
-| Note | Closely tied to the compliance barriers routed to RFP 6. |
+| Note | Closely tied to the compliance barriers routed to RFP 05. |
 
 ### 8. Stablecoin integration in applications
 

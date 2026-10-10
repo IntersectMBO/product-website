@@ -202,7 +202,7 @@ Every entry is Low confidence.
 | Demand evidence | One builder proposes integrating it (E-428); one says the liquidity increase disappointed (E-396); a provider needed stablecoin liquidity at build time (E-472). Builders raise stablecoin liquidity as an ecosystem-wide problem (E-393, E-405). |
 | Mutual benefit | Not shown to bring net-new value (Interoperability Value-Flow Assessment: neutral-access) |
 | Risk | Single-chain stablecoin exposure, a known failure mode in African markets (Desk Research Summary Section 8.5) |
-| Recommended action | Monitor. Liquidity depth and multi-chain availability are routed to RFP 2. |
+| Recommended action | Monitor. Liquidity depth and multi-chain availability are routed to RFP 03 (stablecoin liquidity incentive and activation). |
 | Confidence | Low |
 
 ### 9. Celo MiniPay
