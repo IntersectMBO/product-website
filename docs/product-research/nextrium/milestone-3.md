@@ -10,7 +10,7 @@ sidebar_label: "Milestone 3"
 | **RFP** | RFP 07 - L2 Adoption & Interoperability Demand Study |
 | **Team / Organisation** | NexTrium Global Innovations Ltd |
 | **Milestone number** | 3 of 4 |
-| **Reporting period** | 9 October 2026 - 10 October 2026 |
+| **Reporting period** | 10 October 2026 |
 | **Grant amount** | 25,000 ADA |
 | **Amount claimed this milestone** | 7,500 ADA |
 | **Cumulative amount claimed** | 20,000 ADA |
