@@ -336,7 +336,7 @@ They are not counted toward the Layer 2 or interoperability case total.
 | Who is blocked | Wednesday marketplace users who rely on mobile phones |
 | The blocker | Access is computer-only because there is no native mobile wallet integration for Cardano. Corroborated by UTXOS (needs a React Native equivalent for Cardano wallet connect so mobile-first users do not need a laptop) and by an anonymised Category 2 platform team (fragmented, harder-to-use Cardano wallet ecosystem is a genuine access barrier). |
 | Barrier type | Ecosystem |
-| Non-L2 test ID | T-106 |
+| Non-L2 test ID | T-009 |
 | Deployment decision pending | Yes: mobile access to the marketplace is blocked until a native mobile wallet integration path exists |
 | Evidence source | Interview transcripts, 17 Aug 2026 (R-002, E-038), 21 Aug 2026 (R-004, E-071), 08 Sep 2026 (R-027, E-432) |
 | Respondent IDs | R-002; R-004, R-027 (corroborating) |
