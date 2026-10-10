@@ -61,7 +61,7 @@ Milestone 3 (Analysis and Draft Deliverables) will:
 - compile the interoperability requirements register and the provider and partner opportunity analysis;
 - deliver the full draft set for Committee review: Draft L2 Barrier Analysis, Draft L2 Demand Map, Draft Interoperability Requirements Register, Draft Interoperability Value-Flow Assessment, Draft Provider and Partner Opportunity Analysis, Draft Investment Sequencing Recommendation, Draft Evidence Threshold Framework, Draft Cross-RFP Handoff Memo and Draft Executive Decision Memo.
 
-The four non-Layer 2 cases in the register will be carried into the Cross-RFP Handoff Memo: Case-003, Case-007 and Case-008 to RFP 6, and Case-009 to RFP 2. Layer 2 cases that depend on base-layer throughput will be re-tested against the Leios timeline.
+The four non-Layer 2 cases in the register will be carried into the Cross-RFP Handoff Memo: Case-003 to RFP 05 (government and emerging markets entry), Case-007 and Case-008 to the governance workstream with RFP 05 as secondary, and Case-009 to RFP 03 (stablecoin liquidity incentive and activation). Layer 2 cases that depend on base-layer throughput will be re-tested against the Leios timeline.
 
 ## Attestation
 

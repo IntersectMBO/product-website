@@ -56,10 +56,10 @@ Four cases are real, named blockers but are compliance, funding or liquidity pro
 
 | Case | Blocker | Routed to |
 |---|---|---|
-| Case-003 (SAPro) | Bank-service licensing (compliance) | RFP 6 (government and emerging market entry) |
-| Case-007 (Smart Hatch funding) | Funding access | RFP 6 (government and emerging market entry) |
-| Case-008 (Wednesday marketplace funding) | Funding access | RFP 6 (government and emerging market entry) |
-| Case-009 (Apex Fusion stablecoin rail) | Liquidity, historical | RFP 2 (stablecoin liquidity) |
+| Case-003 (SAPro) | Bank-service licensing (compliance) | RFP 05 (government and emerging markets entry) |
+| Case-007 (Smart Hatch funding) | Funding access | Governance workstream; RFP 05 (government and emerging markets entry) as secondary |
+| Case-008 (Wednesday marketplace funding) | Funding access | Governance workstream; RFP 05 (government and emerging markets entry) as secondary |
+| Case-009 (Apex Fusion stablecoin rail) | Liquidity, historical | RFP 03 (stablecoin liquidity incentive and activation) |
 
 They are not counted toward the Layer 2 or interoperability case total.
 
@@ -78,13 +78,13 @@ They are not counted toward the Layer 2 or interoperability case total.
 |---|---|---|---|---|---|
 | Case-001 | Decentralised identity on Cardano | Tooling | Medium | Not applicable (our own validation work) | Yes |
 | Case-002 | Last-mile stablecoin distribution | Ecosystem | Low | Not applicable (our own validation work) | Yes |
-| Case-003 | SAPro - escrow platform for African informal-market buyers and sellers | Compliance | Low | Named | No, routed to RFP 6 (D12) |
+| Case-003 | SAPro - escrow platform for African informal-market buyers and sellers | Compliance | Low | Named | No, routed to RFP 05 (D12) |
 | Case-004 | Orcfax oracle data-publication service | Technical | Medium | Named | Yes |
 | Case-005 | [anonymised Category 2 team]’s own true-orderbook DEX prototype | Technical | Medium | Anonymised | Yes |
 | Case-006 | DripDropz, a Cardano micropayment/tipping tool | Technical | Medium | Named | Yes |
-| Case-007 | Smart Hatch, a poultry value-chain platform | Commercial | Low | Named | No, routed to RFP 6 (D12) |
-| Case-008 | Wednesday marketplace, a Democratic Republic of Congo marketplace escrow platform | Commercial | Low | Named | No, routed to RFP 6 (D12) |
-| Case-009 | Apex Fusion / Prime chain, a Cardano sister-chain project bridging via LayerZero | Liquidity | Low | Named | No, routed to RFP 2 (D12) |
+| Case-007 | Smart Hatch, a poultry value-chain platform | Commercial | Low | Named | No, routed to governance workstream and RFP 05 (D12) |
+| Case-008 | Wednesday marketplace, a Democratic Republic of Congo marketplace escrow platform | Commercial | Low | Named | No, routed to governance workstream and RFP 05 (D12) |
+| Case-009 | Apex Fusion / Prime chain, a Cardano sister-chain project bridging via LayerZero | Liquidity | Low | Named | No, routed to RFP 03 (D12) |
 | Case-010 | Charli3 oracle network | Technical | Medium | Named | Yes |
 | Case-011 | UTXOS | Technical | Low | Named | Yes |
 | Case-012 | 8pod | Technical | Low | Named | Yes |
@@ -126,7 +126,7 @@ They are not counted toward the Layer 2 or interoperability case total.
 | Respondent IDs | N/A - our own validation work, not a respondent interview |
 | Consent tier | Not applicable (our own validation work) |
 | Confidence | Low |
-| Recommended action | Route to the Cross-RFP Handoff Memo for the RFP 02 stablecoin liquidity workstream; prioritise independent builder and provider triangulation in M2/M3 to determine whether this gap is broadly shared across the African informal-economy builder population or specific to Zivana Protocol’s architecture |
+| Recommended action | Route to the Cross-RFP Handoff Memo for RFP 03 (stablecoin liquidity incentive and activation); prioritise independent builder and provider triangulation in M2/M3 to determine whether this gap is broadly shared across the African informal-economy builder population or specific to Zivana Protocol’s architecture |
 | Gate | 1, 4, 6, 7 |
 | Status | Documented. Case 2 of 2 committed in Proposal Section 13 (D6). Low confidence pending independent builder triangulation; Milestone 2 interviews provide partial triangulation of basic-phone access demand. |
 
@@ -146,7 +146,7 @@ They are not counted toward the Layer 2 or interoperability case total.
 | Confidence | Low |
 | Recommended action | Route to Cross-RFP Handoff Memo as a regulatory/payment-integration finding (native local-payment integration was the respondent's own suggested fix); not actionable as a Layer 2 or interoperability recommendation within this grant's scope |
 | Gate | 1, 3, 9 |
-| Status | Documented; awaiting corroboration from further Category 1 respondents. Non-Layer 2 blocker: does not pass the D6 Layer 2 or interoperability workflow test. Retained for completeness and routed via the Cross-RFP Handoff Memo (D12) to RFP 6 (government and emerging market entry): regulated bank-service integration and licensing in Nigeria. |
+| Status | Documented; awaiting corroboration from further Category 1 respondents. Non-Layer 2 blocker: does not pass the D6 Layer 2 or interoperability workflow test. Retained for completeness and routed via the Cross-RFP Handoff Memo (D12) to RFP 05 (government and emerging markets entry): regulated bank-service integration and licensing in Nigeria. |
 
 ### Case-004
 
@@ -218,7 +218,7 @@ They are not counted toward the Layer 2 or interoperability case total.
 | Confidence | Low |
 | Recommended action | Route to Cross-RFP Handoff Memo as a funding-access finding; not actionable as a Layer 2 or interoperability recommendation within this grant’s scope, consistent with the treatment already applied to Case-003 (SAPro) |
 | Gate | 1, 3, 4 |
-| Status | Documented; awaiting corroboration from further Category 1 respondents. Non-Layer 2 blocker: does not pass the D6 Layer 2 or interoperability workflow test. Retained for completeness and routed via the Cross-RFP Handoff Memo (D12) to RFP 6 (government and emerging market entry): builder funding access, with Project Catalyst noted as the existing mechanism. |
+| Status | Documented; awaiting corroboration from further Category 1 respondents. Non-Layer 2 blocker: does not pass the D6 Layer 2 or interoperability workflow test. Retained for completeness and routed via the Cross-RFP Handoff Memo (D12) to the governance workstream: builder funding access, with Project Catalyst noted as the existing mechanism; RFP 05 (government and emerging markets entry) as secondary. |
 
 ### Case-008
 
@@ -236,7 +236,7 @@ They are not counted toward the Layer 2 or interoperability case total.
 | Confidence | Low |
 | Recommended action | Route to Cross-RFP Handoff Memo as a funding-access finding; respondent separately identifies Project Catalyst as a potential funding path, worth noting in the Investment Sequencing Recommendation (D8) as an existing ecosystem mechanism respondents are already aware of |
 | Gate | 1, 3 |
-| Status | Documented; awaiting corroboration. Non-Layer 2 blocker: does not pass the D6 Layer 2 or interoperability workflow test. Retained for completeness and routed via the Cross-RFP Handoff Memo (D12) to RFP 6 (government and emerging market entry): builder funding access, with Project Catalyst noted as the existing mechanism. |
+| Status | Documented; awaiting corroboration. Non-Layer 2 blocker: does not pass the D6 Layer 2 or interoperability workflow test. Retained for completeness and routed via the Cross-RFP Handoff Memo (D12) to the governance workstream: builder funding access, with Project Catalyst noted as the existing mechanism; RFP 05 (government and emerging markets entry) as secondary. |
 
 ### Case-009
 
@@ -254,7 +254,7 @@ They are not counted toward the Layer 2 or interoperability case total.
 | Confidence | Low |
 | Recommended action | Route to Interoperability Value-Flow Assessment (D4) as evidence that stablecoin-rail timing directly affects Cardano project viability at build time; useful context for the Evidence Threshold Framework (D9) on how quickly resolved infrastructure gaps should be treated |
 | Gate | 4, 6 |
-| Status | Documented; historical case, resolved condition noted. Non-Layer 2 blocker: the seven-alternative test attributes it to liquidity (T-076), so it does not pass the D6 Layer 2 or interoperability workflow test. Retained for completeness and routed via the Cross-RFP Handoff Memo (D12) to RFP 2 (stablecoin liquidity). |
+| Status | Documented; historical case, resolved condition noted. Non-Layer 2 blocker: the seven-alternative test attributes it to liquidity (T-076), so it does not pass the D6 Layer 2 or interoperability workflow test. Retained for completeness and routed via the Cross-RFP Handoff Memo (D12) to RFP 03 (stablecoin liquidity incentive and activation). |
 
 ### Case-010
 
@@ -383,4 +383,4 @@ The extracts, Non-Layer 2 tests and consent tiers cited in each case are publish
 
 | Version | Date | Author | Change |
 |---|---|---|---|
-| 1.0 | 9 October 2026 | Abdulbasit Adigun Abdulrahman | Initial register for Milestone 2: fifteen cases, eleven passing the Layer 2 or interoperability workflow test, four routed to adjacent RFPs (three to RFP 6, one to RFP 2) |
+| 1.0 | 9 October 2026 | Abdulbasit Adigun Abdulrahman | Initial register for Milestone 2: fifteen cases, eleven passing the Layer 2 or interoperability workflow test, four routed to adjacent RFPs and workstreams (one to RFP 05, two to the governance workstream with RFP 05 as secondary, one to RFP 03) |
