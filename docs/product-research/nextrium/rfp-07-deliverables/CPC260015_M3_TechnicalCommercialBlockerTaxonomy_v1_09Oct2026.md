@@ -23,7 +23,7 @@ Global Innovations Ltd
 
 **Document Purpose**
 
-This taxonomy is the system we use to classify every Layer 2 and interoperability blocker in this research and route it to the right owner. It answers Decision Gate 3: which blockers are technical, commercial, ecosystem or coordination problems. Every blocker in the draft L2 Barrier Analysis (D1) and the Blocked-Demand Case Register is classified with it.
+This taxonomy is the system we use to classify every Layer 2 and interoperability blocker in this research and route it to the right owner. It answers Decision Gate 3: which blockers are technical, commercial, ecosystem or coordination problems. Every blocker in the draft [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md) (D1) and the [Blocked-Demand Case Register](https://github.com/Nextrium/cpc-product-website/blob/milestone-2-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M2_BlockedDemandCaseRegister_v1_09Oct2026.md) is classified with it.
 
 **1. What This Document Covers**
 
@@ -36,7 +36,7 @@ This taxonomy is the system we use to classify every Layer 2 and interoperabilit
 
 **2. The Nine Blocker Types**
 
-The nine types are those in our proposal (Section 3, Phase 4). Definitions are those approved in the Research Design Document (Section 4.1).
+The nine types are those in our proposal (Section 3, Phase 4). Definitions are those approved in the [Research Design Document](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_ResearchDesignDocument_v1.1_01Aug2026.md) (Section 4.1).
 
 | Type | Definition |
 |---|---|
@@ -56,7 +56,7 @@ Each blocker gets one type.
 
 **3.1 Technical, and only after seven other explanations are ruled out**
 
-A blocker is Technical only when none of these explains it: liquidity, wallet support, bridge or provider access, tooling, commercial uncertainty, compliance, or partner access (Research Design Document Section 4.3). This guards against treating liquidity, wallet, tooling, UX, commercial or coordination problems as Layer 2 engineering problems (RFP 07 Section 3). When respondents say what kind of problem they had, for example "a cost issue, not a technical one", we record it as they describe it.
+A blocker is Technical only when none of these explains it: liquidity, wallet support, bridge or provider access, tooling, commercial uncertainty, compliance, or partner access ([Research Design Document](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_ResearchDesignDocument_v1.1_01Aug2026.md) Section 4.3). This guards against treating liquidity, wallet, tooling, UX, commercial or coordination problems as Layer 2 engineering problems (RFP 07 Section 3). When respondents say what kind of problem they had, for example "a cost issue, not a technical one", we record it as they describe it.
 
 **3.2 Ecosystem and Tooling**
 
@@ -64,21 +64,21 @@ A blocker is Technical only when none of these explains it: liquidity, wallet su
 |---|---|---|
 | What is wrong | Something the ecosystem lacks: wallet support, developer community, business development reach, partner integrations | Something builders work with is missing or weak: SDKs, documentation, developer experience, testing infrastructure |
 | Usual remedy | Build the missing capability or partner for it | Improve documentation or tooling |
-| Example from this research | No Cardano wallet supports sending stablecoins to a phone number (Desk Research Summary Section 3.13) | Nine Identus deployment barriers, none requiring a change to Cardano itself (Desk Research Summary Section 5.9) |
+| Example from this research | No Cardano wallet supports sending stablecoins to a phone number ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 3.13) | Nine Identus deployment barriers, none requiring a change to Cardano itself ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 5.9) |
 
 The test: if no Cardano component has failed and a capability is simply absent, the blocker is Ecosystem. If a builder's tools or documentation fall short, it is Tooling.
 
 **3.3 Cost structures that work as designed**
 
-When a fee or asset rule works exactly as the protocol specifies but is unfavourable to a use case, the blocker is Ecosystem or UX, not Technical, because nothing has failed. Example: the cost of small stablecoin transfers and the requirement to hold ADA as collateral (Desk Research Summary Section 8.6).
+When a fee or asset rule works exactly as the protocol specifies but is unfavourable to a use case, the blocker is Ecosystem or UX, not Technical, because nothing has failed. Example: the cost of small stablecoin transfers and the requirement to hold ADA as collateral ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 8.6).
 
 **3.4 Coordination**
 
-When one party depends on another party's deliverable or decision, the blocker is Coordination. Example: Cardano-native oracle providers that depended on core components they could not influence (Desk Research Summary Section 6.2). Capability that exists but cannot be found is also Coordination or Ecosystem, not Technical (Desk Research Summary Sections 3.2, 9.5).
+When one party depends on another party's deliverable or decision, the blocker is Coordination. Example: Cardano-native oracle providers that depended on core components they could not influence ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 6.2). Capability that exists but cannot be found is also Coordination or Ecosystem, not Technical ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Sections 3.2, 9.5).
 
 **3.5 Liquidity and Ecosystem**
 
-Liquidity applies when there are not enough assets or market depth. When the assets exist but there is no channel to reach users, the blocker is Ecosystem. Example: Cardano has native stablecoins, but no wallet that reaches users by phone number (Preliminary VAL-Case Evidence Set v1.1, Section 6.5).
+Liquidity applies when there are not enough assets or market depth. When the assets exist but there is no channel to reach users, the blocker is Ecosystem. Example: Cardano has native stablecoins, but no wallet that reaches users by phone number ([Preliminary VAL-Case Evidence Set](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_PreliminaryVALCaseEvidenceSet_v1.1_06Aug2026.md) v1.1, Section 6.5).
 
 **3.6 Compliance**
 
@@ -92,7 +92,7 @@ Used when the evidence is not enough to classify. The gap is stated and confiden
 
 **4.1 Relevance first**
 
-A blocker is recorded only if it directly blocks a named Layer 2 or interoperability workflow (Proposal Section 3, Phase 4). Interoperability workflows fall within the seven feature types: asset bridging, message passing, liquidity routing, partner-chain integration, wallet user experience, identity and data portability, and settlement interoperability. General complaints not tied to such a workflow are routed to the Cross-RFP Handoff Memo.
+A blocker is recorded only if it directly blocks a named Layer 2 or interoperability workflow (Proposal Section 3, Phase 4). Interoperability workflows fall within the seven feature types: asset bridging, message passing, liquidity routing, partner-chain integration, wallet user experience, identity and data portability, and settlement interoperability. General complaints not tied to such a workflow are routed to the [Cross-RFP Handoff Memo](./CPC260015_M3_CrossRFPHandoffMemo_v1_10Oct2026.md).
 
 **4.2 The seven alternatives and where each points**
 
@@ -118,7 +118,7 @@ Eight dimensions (Proposal Section 3, Phase 4):
 | Adoption impact | A short description of what adoption is prevented or delayed, and for whom |
 | Urgency | High, Medium or Low (RFP 07 Appendix D) |
 | Owner or workstream | Named (Section 5) |
-| Evidence confidence | High, Medium or Low (Research Design Document Section 6.2) |
+| Evidence confidence | High, Medium or Low ([Research Design Document](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_ResearchDesignDocument_v1.1_01Aug2026.md) Section 6.2) |
 | Affected use case | The named application or workflow |
 | Evidence source | Interview extract, test or document reference |
 
@@ -138,7 +138,7 @@ Each blocker receives one action from our action set: fund engineering, improve 
 | Compliance | Reject within this research, and route | RFP 05 (government and emerging markets entry) |
 | Unknown | No action until evidenced; recorded as an unresolved question | Not assigned |
 
-Findings that belong to another initiative or workstream go to the Cross-RFP Handoff Memo rather than being expanded here (RFP 07 Section 7).
+Findings that belong to another initiative or workstream go to the [Cross-RFP Handoff Memo](./CPC260015_M3_CrossRFPHandoffMemo_v1_10Oct2026.md) rather than being expanded here (RFP 07 Section 7).
 
 **6. Use So Far (Milestones 1 and 2)**
 
@@ -155,7 +155,7 @@ The taxonomy has been applied in 105 tests: 103 on interview blocker claims and 
 | Liquidity | 5 |
 | UX | 3 |
 | Unknown | 1 |
-| Recorded with two types, resolved to one in the L2 Barrier Analysis | 1 |
+| Recorded with two types, resolved to one in the [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md) | 1 |
 
 In 15 of 105 tests (14%), no other explanation fitted and the blocker was classified Technical. This supports our Hypothesis 3: many apparent Layer 2 blockers are something else.
 
@@ -163,7 +163,7 @@ In 15 of 105 tests (14%), no other explanation fitted and the blocker was classi
 
 | Earlier statement | Where | Now | Reason |
 |---|---|---|---|
-| Identus barriers counted as "four tooling, two documentation, two coordination and one ecosystem" | Desk Research Summary Section 5.9 | The two "documentation" barriers are counted as Tooling. The finding is unchanged. | Documentation failures fall under Tooling in the approved definitions (Research Design Document Section 4.1). |
+| Identus barriers counted as "four tooling, two documentation, two coordination and one ecosystem" | [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 5.9 | The two "documentation" barriers are counted as Tooling. The finding is unchanged. | Documentation failures fall under Tooling in the approved definitions ([Research Design Document](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_ResearchDesignDocument_v1.1_01Aug2026.md) Section 4.1). |
 
 **8. AI Use Disclaimer**
 

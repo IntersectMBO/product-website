@@ -36,10 +36,10 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 
 **2. How to Read the Map**
 
-- Each entry is built from the Blocked-Demand Case Register and the L2 Barrier Analysis (D1), and covers the nine dimensions in our proposal (Section 13, D2) plus the current workaround (RFP 07 Appendix C) and the user type, transaction pattern and value pathway (RFP 07 Section 6, Gate 4).
+- Each entry is built from the [Blocked-Demand Case Register](https://github.com/Nextrium/cpc-product-website/blob/milestone-2-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M2_BlockedDemandCaseRegister_v1_09Oct2026.md) and the [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md) (D1), and covers the nine dimensions in our proposal (Section 13, D2) plus the current workaround (RFP 07 Appendix C) and the user type, transaction pattern and value pathway (RFP 07 Section 6, Gate 4).
 - **Only entries supported by more than self-reported demand are in the map** (Section 3). Entries resting on one respondent, or describing a historical case, are listed in Section 4.
 - **Scale** is an indicative range with its assumption stated. Market statistics are context, not evidence of Cardano demand.
-- Confidence follows the Research Design Document (Section 6.2). Provider-side entries are held at Low because one Category 3 provider was interviewed against a committed five to eight.
+- Confidence follows the [Research Design Document](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_ResearchDesignDocument_v1.1_01Aug2026.md) (Section 6.2). Provider-side entries are held at Low because one Category 3 provider was interviewed against a committed five to eight.
 - Entries from our own validation work are listed separately in Section 5.
 
 **Overview**
@@ -62,15 +62,15 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 | Application or use-case category | Oracle data for DeFi and enterprise applications |
 | Blocked workflow | Publishing derivative, lower-latency and high-volume price feeds; enterprise-grade feeds |
 | Required capability | Faster and cheaper data publication, and a layer that collects and agrees data off Layer 1 before publishing to Cardano (E-105, E-113). One provider cites the need for Layer 2 partner chains (E-085). |
-| Current workaround | Publishing on Layer 1 within its limits. Many builders use free centralised data sources instead of decentralised oracles (E-111), or the subsidised institutional oracle (Desk Research Summary Section 6.5). |
+| Current workaround | Publishing on Layer 1 within its limits. Many builders use free centralised data sources instead of decentralised oracles (E-111), or the subsidised institutional oracle ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 6.5). |
 | Deployment condition | Lower publication cost and latency, and a paying client base. The commercial barrier is separate and ranked in D1. |
 | Users and transaction pattern | DeFi protocols and enterprise clients consuming frequent price updates |
-| Expected adoption pathway | DeFi protocols integrating feeds. The institutional oracle's first Cardano integration was a DeFi protocol (Desk Research Summary Section 6.5). |
-| Indicative scale range | A small number of client protocols today, from none to a few: one provider lost its last paying client (E-100) and one project used a native feed at the time of a 2024 outage (Desk Research Summary Section 6.2). Assumption: future growth depends on DeFi activity, which this research does not quantify. |
+| Expected adoption pathway | DeFi protocols integrating feeds. The institutional oracle's first Cardano integration was a DeFi protocol ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 6.5). |
+| Indicative scale range | A small number of client protocols today, from none to a few: one provider lost its last paying client (E-100) and one project used a native feed at the time of a 2024 outage ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 6.2). Assumption: future growth depends on DeFi activity, which this research does not quantify. |
 | Value pathway | Oracle fees. One provider considers about 500 US dollars a month a sustainable price for many clients (E-120). |
-| Timing assumptions | Ouroboros Leios, targeted for mainnet in late 2026, may lower cost and latency (Desk Research Summary Section 3.7). Free access to the institutional oracle ends around June 2027 (Section 6.5). |
+| Timing assumptions | Ouroboros Leios, targeted for mainnet in late 2026, may lower cost and latency ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 3.7). Free access to the institutional oracle ends around June 2027 (Section 6.5). |
 | Confidence | Medium |
-| Source basis | Two independent oracle providers and desk research. Cases 004 and 010; E-080, E-085, E-089, E-099, E-100, E-104, E-105, E-111, E-113, E-120; Desk Research Summary Sections 3.7, 6.1 to 6.5 |
+| Source basis | Two independent oracle providers and desk research. Cases 004 and 010; E-080, E-085, E-089, E-099, E-100, E-104, E-105, E-111, E-113, E-120; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Sections 3.7, 6.1 to 6.5 |
 | Respondents | R-005 Robert Hever (Charli3, Category 2); R-006 Ross Spencer (Orcfax, Category 2) |
 | Technical review (Samir Idris) | Items A1 and A2, pending |
 
@@ -141,12 +141,12 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 | Current workaround | Two builders built USSD access in their own applications (E-256, E-489). Another routes payments through a mobile money aggregator (E-009, E-017). |
 | Deployment condition | An access channel that does not require each builder to build its own USSD layer. Users holding only stablecoins also face the ADA collateral and fee requirements ranked in D1. |
 | Users and transaction pattern | Farmers, informal traders and other users on basic phones; frequent small transfers |
-| Expected adoption pathway | Entering existing mobile money behaviour (Desk Research Summary Section 8.7). A peer wallet grew by embedding in a browser already on users' phones (Section 8.3). |
+| Expected adoption pathway | Entering existing mobile money behaviour ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 8.7). A peer wallet grew by embedding in a browser already on users' phones (Section 8.3). |
 | Indicative scale range | Among builders: six of the fifteen Category 1 builders interviewed want or plan this access (E-022, E-041, E-237, E-257, E-276, E-351) and two have built it in their own applications (E-256, E-489); one builder is in both groups. Among end users: not evidenced for Cardano. Context only: a peer wallet reports 16 million activated wallets, mostly in African markets (Section 8.3). |
 | Value pathway | Payment and transfer activity on Cardano |
 | Timing assumptions | No dated roadmap item identified |
 | Confidence | Medium |
-| Source basis | Seven builders and desk research. E-009, E-017, E-022, E-041, E-237, E-256, E-257, E-276, E-351, E-489; Desk Research Summary Sections 3.13, 8.3, 8.7 |
+| Source basis | Seven builders and desk research. E-009, E-017, E-022, E-041, E-237, E-256, E-257, E-276, E-351, E-489; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Sections 3.13, 8.3, 8.7 |
 | Respondents | R-001 Paul Mupenda; R-002 Olivier Mwatsimulamo; R-016 (Category 1, anonymised); R-017 Issah Abagna; R-018 Ishmeal Mihsin; R-022 Solomon Salifu; R-031 Kamal Aliyu (all Category 1) |
 | Technical review (Samir Idris) | Not in review scope |
 
@@ -158,20 +158,20 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 | Blocked workflow | Robust movement of assets and messages between a partner chain, Cardano and other chains |
 | Required capability | Robust bridging and messaging. The respondent also prioritises Chainlink and Circle's Cross-Chain Transfer Protocol (E-480, E-482). |
 | Current workaround | The partner chain is integrating LayerZero on its own side (E-473). |
-| Deployment condition | The Cardano-side LayerZero integration, in active development (Desk Research Summary Section 4.9) |
+| Deployment condition | The Cardano-side LayerZero integration, in active development ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 4.9) |
 | Users and transaction pattern | Holders moving the project's tokens across Cardano applications (E-467) |
 | Expected adoption pathway | The project's tokens are already live on Cardano DEXs and a lending platform (E-467) |
 | Indicative scale range | Not quantified. The respondent says comparatively little demand originates within Cardano itself (E-474). |
 | Value pathway | Cross-chain liquidity; direction of value flow is assessed in the Value-Flow Assessment (D4) |
-| Timing assumptions | No confirmed date for the Cardano-side integration (Desk Research Summary Section 4.9) |
+| Timing assumptions | No confirmed date for the Cardano-side integration ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 4.9) |
 | Confidence | Low (provider-side finding; one Category 3 interview) |
-| Source basis | One provider and desk research. Case-015; E-467, E-473, E-474, E-480, E-482; Desk Research Summary Sections 4.8, 4.9 |
+| Source basis | One provider and desk research. Case-015; E-467, E-473, E-474, E-480, E-482; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Sections 4.8, 4.9 |
 | Respondents | R-030 Jerry Fragiskatos (Apex Fusion, Category 3) |
 | Technical review (Samir Idris) | Item B2, pending |
 
 **4. Cases Not in the Map**
 
-These cases tie to a named Layer 2 workflow but do not meet the map's evidence requirement. They remain in the Blocked-Demand Case Register and the L2 Barrier Analysis.
+These cases tie to a named Layer 2 workflow but do not meet the map's evidence requirement. They remain in the [Blocked-Demand Case Register](https://github.com/Nextrium/cpc-product-website/blob/milestone-2-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M2_BlockedDemandCaseRegister_v1_09Oct2026.md) and the [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md).
 
 | Case | Workflow | Why it is not in the map |
 |---|---|---|
@@ -188,7 +188,7 @@ These come from our own protocol validation. We disclose them as conflicted evid
 | Dimension | Decentralised identity credentials (VAL-003, Case-001) | Last-mile stablecoin distribution (VAL-006, Case-002) |
 |---|---|---|
 | Blocked workflow | Issuing credentials without running a full node | Paying recipients by phone number at sub-cent cost |
-| Required capability | A lightweight issuance path; resolution already has one (Desk Research Summary Section 5.3) | A wallet or access layer reaching users by phone number |
+| Required capability | A lightweight issuance path; resolution already has one ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 5.3) | A wallet or access layer reaching users by phone number |
 | Current workaround | Running a full node, wallet and database | Distributions routed to Celo MiniPay |
 | Deployment condition | Lightweight issuance support from the hosted API provider or the maintainers | A comparable Cardano access path |
 | Indicative scale range | Not estimable from our validation work | Not estimable from our validation work |

@@ -44,8 +44,8 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 
 **How to read this analysis**
 
-- Each barrier passed the relevance test: it blocks a named Layer 2 or interoperability workflow. Blockers that did not pass are routed to the Cross-RFP Handoff Memo or recorded as negative-case evidence (57 and 15 tests respectively).
-- Every barrier is classified with our Technical and Commercial Blocker Taxonomy (D10): type, severity, adoption impact, urgency, owner, confidence, affected use case and evidence source.
+- Each barrier passed the relevance test: it blocks a named Layer 2 or interoperability workflow. Blockers that did not pass are routed to the [Cross-RFP Handoff Memo](./CPC260015_M3_CrossRFPHandoffMemo_v1_10Oct2026.md) or recorded as negative-case evidence (57 and 15 tests respectively).
+- Every barrier is classified with our [Technical and Commercial Blocker Taxonomy](./CPC260015_M3_TechnicalCommercialBlockerTaxonomy_v1_09Oct2026.md) (D10): type, severity, adoption impact, urgency, owner, confidence, affected use case and evidence source.
 - Barriers are ranked by severity, then urgency, then confidence. Barriers with identical ratings share a rank. Where the evidence behind one barrier differs, the range is shown.
 - **Direct evidence and our assessment.** The evidence source and tests are direct evidence. Type, severity, urgency, owner and action are our assessment, made under D10.
 - **Insider and external evidence.** "Evidence base" shows whether a barrier rests on Cardano builders and providers (insider), on non-Cardano operators or desk research (external), or on both.
@@ -96,7 +96,7 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 | Recommended action | Pursue wallet support |
 | Evidence base | Desk research (external) |
 | Respondents | Not applicable |
-| Evidence source | Desk Research Summary 8.6 |
+| Evidence source | [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 8.6 |
 | Tests | DR-07 |
 | Technical review (Samir Idris) | Not in technical review scope |
 
@@ -115,10 +115,10 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 | Recommended action | Fund engineering |
 | Evidence base | Desk research (external); Cardano builders (insider) |
 | Respondents | Not applicable |
-| Evidence source | Desk Research Summary 8.6 (Cardano fee documentation; Tron and Celo cost data); contradicting: E-017 (R-001), E-036 (R-002), E-491 (R-031) |
+| Evidence source | [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 8.6 (Cardano fee documentation; Tron and Celo cost data); contradicting: E-017 (R-001), E-036 (R-002), E-491 (R-031) |
 | Tests | DR-05 |
 | Technical review (Samir Idris) | Not in technical review scope |
-| Note | The gap is cost structure, not throughput (Desk Research Summary Section 8.6). Three Cardano builders say Cardano fees are low and not their main cost, which is set by mobile money operators and local payment providers (E-017, E-036, E-491); the desk comparison is against Tron and Celo. Confidence is therefore Medium. |
+| Note | The gap is cost structure, not throughput ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 8.6). Three Cardano builders say Cardano fees are low and not their main cost, which is set by mobile money operators and local payment providers (E-017, E-036, E-491); the desk comparison is against Tron and Celo. Confidence is therefore Medium. |
 
 ### 3. Providers depend on core components they cannot influence
 
@@ -135,7 +135,7 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 | Recommended action | Establish bridge or provider partnerships |
 | Evidence base | Cardano infrastructure provider (insider); desk research (external) |
 | Respondents | R-006 Orcfax / Ross Spencer (Technical Lead) (Category 2) |
-| Evidence source | E-109 (T-027); Desk Research Summary 6.2 |
+| Evidence source | E-109 (T-027); [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 6.2 |
 | Tests | T-027 |
 | Technical review (Samir Idris) | Not in technical review scope |
 | Note | Historical (2024); the provider moved to community-maintained tools. |
@@ -195,7 +195,7 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 | Recommended action | Pursue wallet support |
 | Evidence base | Cardano builders (insider); desk research (external) |
 | Respondents | R-001 Paul Mupenda (Category 1) |
-| Evidence source | Desk Research Summary 3.13, 8.3; E-256, E-489 (qualifying); E-022 (T-006); E-041, E-237, E-257, E-276, E-351; counter-evidence E-256, E-489; Desk Research Summary 3.13 |
+| Evidence source | [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 3.13, 8.3; E-256, E-489 (qualifying); E-022 (T-006); E-041, E-237, E-257, E-276, E-351; counter-evidence E-256, E-489; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 3.13 |
 | Tests | DR-01, T-006 |
 | Technical review (Samir Idris) | Not in technical review scope |
 | Note | Two respondents have built USSD access at the application layer (E-256, E-489), so the workflow is possible with significant extra work. |
@@ -235,10 +235,10 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 | Recommended action | Provide commercial incentives |
 | Evidence base | Cardano infrastructure providers and builders (insider); desk research (external) |
 | Respondents | R-005 Charli3 / Robert Hever (Category 2); R-006 Orcfax / Ross Spencer (Technical Lead) (Category 2); R-021 Adam Dean (DripDropz, and multiple other Cardano tooling projects: Onboard Ninja, Veraraglyph, Buffybot Publishing, Hydra Events, Ecclesia) (Category 2); R-027 (Category 2, anonymised) |
-| Evidence source | E-091 (T-019); E-075; E-100 (R-006); E-336 (R-021); Desk Research Summary 6.1, 6.5, 9.1; E-117 (T-029); R-005 E-091 (T-019); Desk Research Summary 6.1; E-098 (T-020); E-331, E-333 (R-021); Desk Research Summary 9.2; E-335 (T-064); Desk Research Summary 6.5, 9.1; E-436 (T-094); E-335 (T-064); Desk Research Summary 9.2 |
+| Evidence source | E-091 (T-019); E-075; E-100 (R-006); E-336 (R-021); [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 6.1, 6.5, 9.1; E-117 (T-029); R-005 E-091 (T-019); [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 6.1; E-098 (T-020); E-331, E-333 (R-021); [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 9.2; E-335 (T-064); [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 6.5, 9.1; E-436 (T-094); E-335 (T-064); [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 9.2 |
 | Tests | T-019, T-029, T-020, T-064, T-094 |
 | Technical review (Samir Idris) | Not in technical review scope |
-| Note | Free access to the subsidised oracle ends around June 2027 (Desk Research Summary Section 6.5). |
+| Note | Free access to the subsidised oracle ends around June 2027 ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 6.5). |
 
 ### 9. No native mobile wallet integration path for Cardano applications
 
@@ -258,7 +258,7 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 | Evidence source | E-038 (T-009); E-071 (R-004); E-432 (R-027) |
 | Tests | T-009 |
 | Technical review (Samir Idris) | Samir C1, pending |
-| Note | Lead respondent is seeking funding; corroborated by two respondents who are not (E-071, E-432). Also recorded as T-106. |
+| Note | Lead respondent is seeking funding; corroborated by two respondents who are not (E-071, E-432). A duplicate test recorded as T-106 is merged into T-009. |
 
 ### 10. Fees rise for users who receive many small payments
 
@@ -275,7 +275,7 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 | Recommended action | Pursue wallet support |
 | Evidence base | Desk research (external) |
 | Respondents | Not applicable |
-| Evidence source | Desk Research Summary 8.6 |
+| Evidence source | [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 8.6 |
 | Tests | DR-06 |
 | Technical review (Samir Idris) | Not in technical review scope |
 
@@ -294,7 +294,7 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 | Recommended action | Improve documentation |
 | Evidence base | Desk research (external) |
 | Respondents | Not applicable |
-| Evidence source | Desk Research Summary 3.2, 3.14, 9.5 |
+| Evidence source | [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 3.2, 3.14, 9.5 |
 | Tests | DR-08 |
 | Technical review (Samir Idris) | Not in technical review scope |
 
@@ -313,7 +313,7 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 | Recommended action | Pursue wallet support |
 | Evidence base | Cardano builders (insider); desk research (external) |
 | Respondents | R-001 Paul Mupenda (Category 1) |
-| Evidence source | E-021 (T-005); E-055 (R-003); Desk Research Summary 8.7 |
+| Evidence source | E-021 (T-005); E-055 (R-003); [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 8.7 |
 | Tests | T-005 |
 | Technical review (Samir Idris) | Not in technical review scope |
 
@@ -372,10 +372,10 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 | Recommended action | Fund engineering |
 | Evidence base | Cardano builder (insider); desk research (external) |
 | Respondents | R-004 Emmanuel Asaolu (UTXOS) (Category 1) |
-| Evidence source | E-064, E-074 (T-013); Desk Research Summary 3.6 (participant set fixed before a head opens); contrast E-329 |
+| Evidence source | E-064, E-074 (T-013); [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 3.6 (participant set fixed before a head opens); contrast E-329 |
 | Tests | T-013 |
 | Technical review (Samir Idris) | Samir A6, pending |
-| Note | The constraint is documented (Desk Research Summary Section 3.6); demand rests on one respondent. |
+| Note | The constraint is documented ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 3.6); demand rests on one respondent. |
 
 ### 12. Custom data cannot be published through a native oracle without a sponsored arrangement
 
@@ -392,7 +392,7 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 | Recommended action | Establish bridge or provider partnerships |
 | Evidence base | Desk research (external) |
 | Respondents | Not applicable |
-| Evidence source | Desk Research Summary 6.3, 6.4, 6.10; VAL-004 (VAL Set 6.4) |
+| Evidence source | [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 6.3, 6.4, 6.10; VAL-004 (VAL Set 6.4) |
 | Tests | DR-04 |
 | Technical review (Samir Idris) | Not in technical review scope |
 
@@ -411,7 +411,7 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 | Recommended action | Establish bridge or provider partnerships |
 | Evidence base | Desk research (external); independent technical review |
 | Respondents | Not applicable |
-| Evidence source | Desk Research Summary 3.13, 5.3; VAL-003; D-M1-03 |
+| Evidence source | [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 3.13, 5.3; VAL-003; D-M1-03 |
 | Tests | DR-02 |
 | Technical review (Samir Idris) | Not in technical review scope |
 
@@ -430,7 +430,7 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 | Recommended action | Fund engineering |
 | Evidence base | Cardano infrastructure providers (insider); desk research (external) |
 | Respondents | R-005 Charli3 / Robert Hever (Category 2); R-006 Orcfax / Ross Spencer (Technical Lead) (Category 2) |
-| Evidence source | E-080 (T-016); R-006 (T-021 to T-028); Desk Research Summary 3.7; E-089 (T-018); R-006 E-104 (T-023); Desk Research Summary 8.6; E-099 (T-021); R-005 (T-016); Desk Research Summary 3.7; E-104 (T-023); R-005 E-089 (T-018); Desk Research Summary 8.6; E-105 (T-024); E-113 (T-028); E-113 (T-028); E-105 (T-024) |
+| Evidence source | E-080 (T-016); R-006 (T-021 to T-028); [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 3.7; E-089 (T-018); R-006 E-104 (T-023); [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 8.6; E-099 (T-021); R-005 (T-016); [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 3.7; E-104 (T-023); R-005 E-089 (T-018); [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 8.6; E-105 (T-024); E-113 (T-028); E-113 (T-028); E-105 (T-024) |
 | Tests | T-016, T-018, T-021, T-023, T-024, T-028 |
 | Technical review (Samir Idris) | Samir A1, pending; Samir A2, pending |
 | Note | Neither provider names this as its only blocker; commercial causes are recorded separately. |
@@ -470,7 +470,7 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 | Recommended action | Establish bridge or provider partnerships |
 | Evidence base | Desk research (external) |
 | Respondents | Not applicable |
-| Evidence source | Desk Research Summary 3.13, 4.9 |
+| Evidence source | [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 3.13, 4.9 |
 | Tests | DR-03 |
 | Technical review (Samir Idris) | Not in technical review scope |
 | Note | Single source. |
@@ -490,7 +490,7 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 | Recommended action | Establish bridge or provider partnerships |
 | Evidence base | Bridge and interoperability provider (insider) |
 | Respondents | R-030 Jerry Fragiskatos (Apex Fusion, Co-Founder; former Cardano Chief Commercial Officer) (Category 3) |
-| Evidence source | E-480 (T-107); E-473; Desk Research Summary 4.8, 4.9, 3.13 |
+| Evidence source | E-480 (T-107); E-473; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 4.8, 4.9, 3.13 |
 | Tests | T-107 |
 | Technical review (Samir Idris) | Samir B2, pending |
 | Note | Provider-side finding held at Low (one Category 3 interview). |
@@ -550,7 +550,7 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 | Recommended action | Improve documentation |
 | Evidence base | Bridge and interoperability provider (insider); desk research (external) |
 | Respondents | R-030 Jerry Fragiskatos (Apex Fusion, Co-Founder; former Cardano Chief Commercial Officer) (Category 3) |
-| Evidence source | E-468 (T-075); E-471 (T-100); Desk Research Summary 4.3, 9.6; E-471 (T-100); E-468 (T-075); Desk Research Summary 9.6; E-469 (T-099) |
+| Evidence source | E-468 (T-075); E-471 (T-100); [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 4.3, 9.6; E-471 (T-100); E-468 (T-075); [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 9.6; E-469 (T-099) |
 | Tests | T-075, T-100, T-099 |
 | Technical review (Samir Idris) | Samir B1, pending |
 | Note | Provider-side finding held at Low. |
@@ -574,7 +574,7 @@ These barriers come from our own protocol validation. We disclose them as confli
 | Recommended action | Pursue wallet support |
 | Evidence base | Our own validation work (conflicted evidence) |
 | Respondents | Not applicable |
-| Evidence source | VAL-006 (corrected basis, VAL Set v1.1 6.5); Desk Research Summary 3.13, 8.6 |
+| Evidence source | VAL-006 (corrected basis, VAL Set v1.1 6.5); [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 3.13, 8.6 |
 | Tests | T-109 |
 | Technical review (Samir Idris) | Samir D2, pending |
 | Note | Low confidence: our own work, partly triangulated by respondent demand for basic-phone access. |
@@ -594,7 +594,7 @@ These barriers come from our own protocol validation. We disclose them as confli
 | Recommended action | Improve documentation |
 | Evidence base | Our own validation work (conflicted evidence); independent technical review |
 | Respondents | Not applicable |
-| Evidence source | VAL-003; Independent Technical Review D-M1-03; Desk Research Summary 5.3 to 5.9 |
+| Evidence source | VAL-003; [Independent Technical Review](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_IndependentTechnicalReview_v1_06Aug2026.md) D-M1-03; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 5.3 to 5.9 |
 | Tests | T-108 |
 | Technical review (Samir Idris) | Samir D1, pending |
 | Note | Pipeline independently reproduced (Medium); the issuance asymmetry is Low. |
@@ -618,7 +618,7 @@ No barrier type dominates. Technical barriers are a minority, which is consisten
 
 - One bridge, interoperability or wallet provider was interviewed against a committed five to eight. Provider-side barriers are held at Low confidence.
 - The technical review of provider claims (Samir Idris) is pending for 12 barriers. Their technical classification may change in the final version.
-- Several Layer 2 barriers may be affected by Ouroboros Leios, targeted for mainnet in late 2026 (Desk Research Summary Section 3.7). They are re-tested before the final version.
+- Several Layer 2 barriers may be affected by Ouroboros Leios, targeted for mainnet in late 2026 ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 3.7). They are re-tested before the final version.
 - Single-source barriers are held at Low confidence.
 - One blocker could not be classified because the evidence was incomplete (Unknown). It is carried as an unresolved question.
 

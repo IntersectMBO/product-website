@@ -23,7 +23,7 @@ Global Innovations Ltd
 
 **The decision in one paragraph**
 
-Do not fund new Layer 2 or interoperability engineering on current evidence. The demand waiting on Layer 2 in African emerging markets is real but narrow, sits in infrastructure, and is not yet at scale. What blocks adoption now is access: users who hold only stablecoins, use mobile or basic phones, and pay for small transfers. Act first through coordination with wallet teams and the workstreams that own fee parameters. Defer Layer 2 engineering until barriers are re-tested after Ouroboros Leios and proposals meet the Evidence Threshold Framework. Monitor interoperability pathways until they show flows into Cardano.
+Do not fund new Layer 2 or interoperability engineering on current evidence. The demand waiting on Layer 2 in African emerging markets is real but narrow, sits in infrastructure, and is not yet at scale. What blocks adoption now is access: users who hold only stablecoins, use mobile or basic phones, and pay for small transfers. Act first through coordination with wallet teams and the workstreams that own fee parameters. Defer Layer 2 engineering until barriers are re-tested after Ouroboros Leios and proposals meet the [Evidence Threshold Framework](./CPC260015_M3_EvidenceThresholdFramework_v1_10Oct2026.md). Monitor interoperability pathways until they show flows into Cardano.
 
 **1. Top Findings**
 
@@ -66,10 +66,10 @@ Do not fund new Layer 2 or interoperability engineering on current evidence. The
 **4. Investment Implications**
 
 - **No new funding decision is needed to start the near-term actions.** They are coordination with wallet teams and technical workstreams that already exist.
-- **Hold Layer 2 engineering funding** until barriers are re-tested after Leios and a proposal meets the Evidence Threshold Framework. Funding throughput now would not address the barriers that stop African adoption.
+- **Hold Layer 2 engineering funding** until barriers are re-tested after Leios and a proposal meets the [Evidence Threshold Framework](./CPC260015_M3_EvidenceThresholdFramework_v1_10Oct2026.md). Funding throughput now would not address the barriers that stop African adoption.
 - **Judge funded integrations on outcomes, not delivery.** Seven builders and providers said funded integrations had not changed what they build. Continuation funding should rest on observed usage after delivery.
 - **Plan for the end of subsidies.** The funded free oracle access ends around June 2027. Native oracle providers have already been displaced; what happens to oracle supply then should be decided before it ends.
-- **Use the Evidence Threshold Framework** for future grant, partnership and roadmap proposals in this area.
+- **Use the [Evidence Threshold Framework](./CPC260015_M3_EvidenceThresholdFramework_v1_10Oct2026.md)** for future grant, partnership and roadmap proposals in this area.
 
 **5. Rejected and Deprioritised**
 
@@ -95,7 +95,7 @@ Do not fund new Layer 2 or interoperability engineering on current evidence. The
 
 **7. Basis and Caveats**
 
-- Based on desk research, screening, 31 interviews across four respondent categories, 500 evidence extracts and 105 Non-Layer 2 tests. Method and limitations are in the Research Methodology Appendix.
+- Based on desk research, screening, 31 interviews across four respondent categories, 500 evidence extracts and 105 Non-Layer 2 tests. Method and limitations are in the [Research Methodology Appendix](./CPC260015_M3_ResearchMethodologyAppendix_v1_10Oct2026.md).
 - Confidence follows one rubric throughout. Provider-side findings and our own validation work are held at Low.
 - Scale figures are self-reported. Most Cardano builders interviewed chose Cardano by familiarity rather than comparison.
 - These are evidence-based sequencing recommendations, not roadmap prescriptions.

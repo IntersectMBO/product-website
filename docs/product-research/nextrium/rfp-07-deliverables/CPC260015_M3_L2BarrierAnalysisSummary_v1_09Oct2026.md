@@ -67,7 +67,7 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 
 - One bridge, interoperability or wallet provider was interviewed against a committed five to eight. Provider-side barriers are held at Low confidence.
 - The technical review of provider claims (Samir Idris) is pending for 12 barriers. Their technical classification may change in the final version.
-- Several Layer 2 barriers may be affected by Ouroboros Leios, targeted for mainnet in late 2026 (Desk Research Summary Section 3.7). They are re-tested before the final version.
+- Several Layer 2 barriers may be affected by Ouroboros Leios, targeted for mainnet in late 2026 ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 3.7). They are re-tested before the final version.
 - Single-source barriers are held at Low confidence.
 - One blocker could not be classified because the evidence was incomplete (Unknown). It is carried as an unresolved question.
 

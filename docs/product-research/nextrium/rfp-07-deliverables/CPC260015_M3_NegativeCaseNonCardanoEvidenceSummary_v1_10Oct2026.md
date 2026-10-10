@@ -37,10 +37,10 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 
 **2. Method**
 
-- **Sources.** All Category 4 interviews (non-Cardano and negative-case respondents); every Cardano builder or provider in Categories 1 to 3 whose deployment stalled, ended or moved; the negative cases documented in the Desk Research Summary; and the 15 classified blocker tests routed to this summary because they concern another chain or a decision not to use Cardano.
+- **Sources.** All Category 4 interviews (non-Cardano and negative-case respondents); every Cardano builder or provider in Categories 1 to 3 whose deployment stalled, ended or moved; the negative cases documented in the [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md); and the 15 classified blocker tests routed to this summary because they concern another chain or a decision not to use Cardano.
 - **Every case states** what happened, why, the evidence, what Cardano should learn or avoid, and its confidence.
 - **No filtering for positive outcomes.** Cases are included whatever they imply for Cardano.
-- **Confidence** follows Research Design Document Section 6.2. A case from one respondent is Low. A pattern supported by several respondents and by desk evidence is Medium.
+- **Confidence** follows [Research Design Document](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_ResearchDesignDocument_v1.1_01Aug2026.md) Section 6.2. A case from one respondent is Low. A pattern supported by several respondents and by desk evidence is Medium.
 - **Category 4 coverage.** Ten interviews were completed against a committed four to six. Nine are reported here; one confidential respondent is included only in counts.
 
 **3. Builders Who Chose Other Chains**
@@ -59,7 +59,7 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 
 **What Cardano should learn**
 
-- **Cardano is mostly outside the consideration set.** Seven of nine did not evaluate it, and the confidential respondent did not either. Builders choose the chain where they first learned, where they were sponsored, or where users already are. Better capability alone would not reach builders who never look. This matches desk evidence that six African operators chose chains without Cardano (Desk Research Summary Section 4.2).
+- **Cardano is mostly outside the consideration set.** Seven of nine did not evaluate it, and the confidential respondent did not either. Builders choose the chain where they first learned, where they were sponsored, or where users already are. Better capability alone would not reach builders who never look. This matches desk evidence that six African operators chose chains without Cardano ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 4.2).
 - **No technical factor ruled Cardano out** for the three respondents who addressed it directly (E-143, E-417, E-455, E-462). A fourth had not looked at Cardano closely enough to say (E-195). One respondent described Cardano, inaccurately, as EVM-compatible (E-410), showing how little is known about it.
 - **The one capability gap named was privacy by default** (E-298). It was met by Midnight, not by Cardano.
 - **Developer experience and documentation decide some choices** (E-199, E-200, E-449). Outdated documentation now also means weak support from AI coding tools (E-200).
@@ -78,7 +78,7 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 | 7 | Cardano projects losing users | One builder reports some projects moving to Ethereum or Solana for lack of users | Too few users across Cardano platforms | Second-hand report; shows user acquisition as a reason to leave. | E-408 | Low |
 | 8 | Cardano value leaving through deposit routes | A non-Cardano payments app accepts stablecoin deposits from Cardano into its wallet on Solana | Its base chain is Solana; Cardano is only a source | Interoperability can carry value out as easily as in. | E-416 | Low |
 
-**Pattern across cases 1 to 8:** deployments stalled on regulation, revenue, cost and users. None stalled because Cardano lacked Layer 2 capability. *(Medium: several respondents, consistent with Desk Research Summary Sections 9.1 and 9.2)*
+**Pattern across cases 1 to 8:** deployments stalled on regulation, revenue, cost and users. None stalled because Cardano lacked Layer 2 capability. *(Medium: several respondents, consistent with [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Sections 9.1 and 9.2)*
 
 **Funded integrations have mostly not changed builder plans.** Seven builders and providers aware of the ecosystem-funded critical integrations said these had no effect on what they build or on their customers (E-220, E-241, E-259, E-334, E-364, E-387, E-494). Two said otherwise: one builder said funding shared infrastructure changed his view, because his platform depends on it (E-025), and one provider team is experimenting with new products as a result (E-435). *(Medium)*
 
@@ -86,7 +86,7 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 
 | Case | What happened | What Cardano should learn or avoid | Source |
 |---|---|---|---|
-| African operator chain selections | Six African operators documented their chain choices; none chose Cardano. They include Nigeria's regulated naira stablecoin and Africa's largest payments provider. | Operators deploy on many chains and add chains on demand; EVM compatibility works as an entry requirement. | Desk Research Summary Sections 4.2, 4.3 |
+| African operator chain selections | Six African operators documented their chain choices; none chose Cardano. They include Nigeria's regulated naira stablecoin and Africa's largest payments provider. | Operators deploy on many chains and add chains on demand; EVM compatibility works as an entry requirement. | [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Sections 4.2, 4.3 |
 | Wanchain bridge exploit | About 97% of the Cardano-side reserve was withdrawn in July 2026; the bridge remains offline. | The flaw was Cardano-specific: the right Cardano function was available and unused. Integration cost and risk fall on Cardano-specific work (Section 9.6). | Sections 4.8, 9.6 |
 | Milkomeda shutdown | A funded EVM sidechain was deprecated and shut down in September 2025. | Meeting funding criteria did not predict lasting operation. | Sections 4.7, 7.4 |
 | Atala PRISM in Ethiopia | A national education deployment, announced as the largest blockchain deployment globally, ended when development stopped in October 2024. | Continuity is not assessed in any Cardano funding framework examined (Section 4.7). | Section 4.5 |
@@ -96,7 +96,7 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 
 | Peer approach | Transfers to Cardano? | Why | Source |
 |---|---|---|---|
-| MiniPay's reach through a browser already installed on African phones | No, not directly | It depended on an existing installed base that Cardano has no equivalent partnership for. The transferable part is to enter an existing distribution channel. | Desk Research Summary Section 8.3 |
+| MiniPay's reach through a browser already installed on African phones | No, not directly | It depended on an existing installed base that Cardano has no equivalent partnership for. The transferable part is to enter an existing distribution channel. | [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 8.3 |
 | Celo's grants conditioned on on-chain usage, and recruiting proven teams from other chains | Yes | It is a design choice in how grants are awarded, not a feature of Celo's technology. | Section 8.4 |
 | Sponsorship with public recognition, as Arbitrum did | Partly | Small builders say sponsorship decides their choice (E-453, E-454, E-411, E-144). Operators do not cite grants as a selection factor (Section 4.3). It may reach small builders, not operators. | Section 4.3; interviews |
 | Near-zero fees on Tron and Celo | No, not without protocol or wallet changes | Cardano's fixed ADA-denominated fees, minimum-ADA rules and collateral requirement make small stablecoin transfers costlier by design. | Section 8.6; E-320 |

@@ -66,21 +66,21 @@ Every entry is Low confidence.
 
 **2. Method**
 
-- **Which providers.** Every bridge, interoperability, partner-chain, wallet and infrastructure provider named in our provider shortlist (Proposal Section 5), assessed in desk research (Desk Research Summary Sections 4 and 6) or screened as a pathway (Screening Report Section 3.2), and every provider that respondents described in enough detail to assess.
+- **Which providers.** Every bridge, interoperability, partner-chain, wallet and infrastructure provider named in our provider shortlist (Proposal Section 5), assessed in desk research ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Sections 4 and 6) or screened as a pathway ([Screening Report](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_ScreeningReport_v1_05Aug2026.md) Section 3.2), and every provider that respondents described in enough detail to assess.
 - **Nine dimensions for every entry** (RFP 07 Appendix F; Proposal Section 13): provider or partner type, current Cardano status, integration blocker, commercial incentive, technical effort, demand evidence, mutual benefit, risk and recommended action. Each entry also lists its evidence and confidence.
 - **Type** uses the Appendix F types: bridge, messaging, wallet, partner chain, infra, other. **Technical effort** uses High, Medium or Low, and is stated only where there is evidence; otherwise it says "not assessed".
-- **Recommended actions** use our pathway action set: fund now, coordinate, partner, monitor, defer or reject (Proposal Section 6). Where a provider is also a value-flow pathway, the action matches the Interoperability Value-Flow Assessment.
+- **Recommended actions** use our pathway action set: fund now, coordinate, partner, monitor, defer or reject (Proposal Section 6). Where a provider is also a value-flow pathway, the action matches the [Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md).
 - **Why providers have not prioritised Cardano** (Gate 9) is tested against the eight explanations set out in our proposal: demand, integration cost, technical complexity, liquidity, security risk, incentive misalignment, commercial opportunity cost and lack of ecosystem support (Section 4 below).
-- **Peer ecosystem benchmarking** comes from Desk Research Summary Section 8 and is applied only where it supports a recommendation (Section 5 below).
+- **Peer ecosystem benchmarking** comes from [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 8 and is applied only where it supports a recommendation (Section 5 below).
 - **Status** was re-checked against public sources on 10 October 2026. Secondary sources are labelled as such.
-- **Confidence.** Every entry is Low, because one Category 3 provider was interviewed against a committed five to eight (Stakeholder Access Status Update Section 4.2). Where builder-side demand evidence is stronger, the entry says so.
+- **Confidence.** Every entry is Low, because one Category 3 provider was interviewed against a committed five to eight ([Stakeholder Access Status Update](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_StakeholderAccessStatusUpdate_v1_05Aug2026.md) Section 4.2). Where builder-side demand evidence is stronger, the entry says so.
 
 **Shortlisted but not assessed**
 
 | Provider | Reason |
 |---|---|
 | XDAO | Named in our shortlist (Proposal Section 5). No interview or desk evidence was obtained, so no entry can be completed. Carried to the final version. |
-| Swifin and Reltime | Reclassified from Cardano providers to non-Cardano operators during desk research, because they have no documented Cardano relationship (Desk Research Summary Section 4.12). |
+| Swifin and Reltime | Reclassified from Cardano providers to non-Cardano operators during desk research, because they have no documented Cardano relationship ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 4.12). |
 | Chainlink and Circle CCTP | Recommended by one provider as the two most important remaining integrations for Cardano (E-480, E-482). Not assessed, because this is a single source and no further evidence was gathered. Carried to the final version. |
 
 **3. Provider Entries**
@@ -91,12 +91,12 @@ Every entry is Low confidence.
 |---|---|
 | Type | Messaging |
 | Current Cardano status | In phased delivery. The Cardano Foundation's June 2026 update describes testnet and mainnet endpoints and the Stargate liquidity layer rolling out through 2026. |
-| Integration blocker | Cross-chain tooling built for account-based chains needs fundamental rework for Cardano's eUTxO model, covering messaging, state management and replay protection (Desk Research Summary Sections 4.3, 9.6). |
-| Commercial incentive | Delivered through the Cardano Critical Integrations programme (Desk Research Summary Section 4.9) |
-| Technical effort | High. Intersect describes it as significantly more complex than the other integrations (Desk Research Summary Section 9.6). |
+| Integration blocker | Cross-chain tooling built for account-based chains needs fundamental rework for Cardano's eUTxO model, covering messaging, state management and replay protection ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Sections 4.3, 9.6). |
+| Commercial incentive | Delivered through the Cardano Critical Integrations programme ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 4.9) |
+| Technical effort | High. Intersect describes it as significantly more complex than the other integrations ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 9.6). |
 | Demand evidence | A partner-chain provider expects it to resolve most of Cardano's bridging-robustness gap (E-473); one builder is adopting it (E-231); others are aware of it but have not planned around it (E-396, E-428). |
-| Mutual benefit | Access to the chains LayerZero connects; no observed flows yet (Interoperability Value-Flow Assessment: neutral-access, pending delivery) |
-| Risk | Announcement and delivery have diverged since March 2026 (Desk Research Summary Section 4.9); cross-chain connectivity would rest on one external provider. |
+| Mutual benefit | Access to the chains LayerZero connects; no observed flows yet ([Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md): neutral-access, pending delivery) |
+| Risk | Announcement and delivery have diverged since March 2026 ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 4.9); cross-chain connectivity would rest on one external provider. |
 | Recommended action | Monitor. It is already funded; reassess when mainnet delivery and flows exist. |
 | Confidence | Low |
 
@@ -106,12 +106,12 @@ Every entry is Low confidence.
 |---|---|
 | Type | Bridge |
 | Current Cardano status | Cardano bridge offline since 21 July 2026. No reopening reported as at 10 October 2026; a post-mortem was still awaited (secondary sources). |
-| Integration blocker | A Cardano-side contract flaw: messages were encoded without delimiters, so one signature could be reused for a much larger withdrawal. The Cardano function that prevents this was available and unused (Desk Research Summary Section 4.8). |
+| Integration blocker | A Cardano-side contract flaw: messages were encoded without delimiters, so one signature could be reused for a much larger withdrawal. The Cardano function that prevents this was available and unused ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 4.8). |
 | Commercial incentive | Not evidenced |
 | Technical effort | Not assessed |
 | Demand evidence | None from respondents |
 | Mutual benefit | None while offline |
-| Risk | About 97% of the bridge's Cardano-side reserve was withdrawn in the exploit (Desk Research Summary Section 4.8). |
+| Risk | About 97% of the bridge's Cardano-side reserve was withdrawn in the exploit ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 4.8). |
 | Recommended action | Defer until the bridge reopens with stronger safeguards. |
 | Confidence | Low |
 
@@ -120,13 +120,13 @@ Every entry is Low confidence.
 | Dimension | Detail |
 |---|---|
 | Type | Bridge |
-| Current Cardano status | Operational. It rejected 84 invalid Cardano events in a July 2026 attack (Desk Research Summary Section 4.10). Latest announcement found was November 2025. |
+| Current Cardano status | Operational. It rejected 84 invalid Cardano events in a July 2026 attack ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 4.10). Latest announcement found was November 2025. |
 | Integration blocker | None reported |
 | Commercial incentive | Not evidenced |
 | Technical effort | Not assessed (already integrated) |
 | Demand evidence | None from respondents |
-| Mutual benefit | Access to Ergo and, through it, Bitcoin assets; no observed flows (Interoperability Value-Flow Assessment: neutral-access) |
-| Risk | Bridge consensus sits on Ergo (Desk Research Summary Section 4.11). |
+| Mutual benefit | Access to Ergo and, through it, Bitcoin assets; no observed flows ([Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md): neutral-access) |
+| Risk | Bridge consensus sits on Ergo ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 4.11). |
 | Recommended action | Monitor |
 | Confidence | Low |
 
@@ -135,12 +135,12 @@ Every entry is Low confidence.
 | Dimension | Detail |
 |---|---|
 | Type | Bridge |
-| Current Cardano status | Operational since December 2025 (Desk Research Summary Section 4.10). No 2026 update found. |
+| Current Cardano status | Operational since December 2025 ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 4.10). No 2026 update found. |
 | Integration blocker | None reported |
 | Commercial incentive | Not evidenced |
 | Technical effort | Not assessed (already integrated) |
 | Demand evidence | None from respondents |
-| Mutual benefit | Bitcoin liquidity for Cardano DeFi, in design; no observed flows (Interoperability Value-Flow Assessment: neutral-access) |
+| Mutual benefit | Bitcoin liquidity for Cardano DeFi, in design; no observed flows ([Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md): neutral-access) |
 | Risk | Relies on the bridge's operator model. |
 | Recommended action | Monitor |
 | Confidence | Low |
@@ -151,11 +151,11 @@ Every entry is Low confidence.
 |---|---|
 | Type | Bridge |
 | Current Cardano status | Pre-mainnet. Public milestone records conflict. A treasury funding request was submitted in June 2026 and its outcome was not found. |
-| Integration blocker | Delivery: three milestone dates have passed (Desk Research Summary Section 4.7). |
-| Commercial incentive | Catalyst and treasury funding; in design, rewards to Cardano stake pool operators who secure it (Desk Research Summary Section 3.12) |
+| Integration blocker | Delivery: three milestone dates have passed ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 4.7). |
+| Commercial incentive | Catalyst and treasury funding; in design, rewards to Cardano stake pool operators who secure it ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 3.12) |
 | Technical effort | Not assessed |
 | Demand evidence | None from respondents |
-| Mutual benefit | In design only (Interoperability Value-Flow Assessment: neutral-access, pending delivery) |
+| Mutual benefit | In design only ([Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md): neutral-access, pending delivery) |
 | Risk | Continued delay |
 | Recommended action | Monitor until delivered. |
 | Confidence | Low |
@@ -165,13 +165,13 @@ Every entry is Low confidence.
 | Dimension | Detail |
 |---|---|
 | Type | Partner chain (EVM sidechain) |
-| Current Cardano status | Deprecated and shut down in September 2025 (Desk Research Summary Section 4.7) |
+| Current Cardano status | Deprecated and shut down in September 2025 ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 4.7) |
 | Integration blocker | The reason for shutdown is not documented in our sources. |
 | Commercial incentive | None current |
 | Technical effort | Not applicable |
 | Demand evidence | None from respondents |
 | Mutual benefit | None current |
-| Risk | Shows that an EVM route to Cardano was tried and did not last. Retained as negative-case evidence for Gate 9 (Screening Report Section 2.2). |
+| Risk | Shows that an EVM route to Cardano was tried and did not last. Retained as negative-case evidence for Gate 9 ([Screening Report](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_ScreeningReport_v1_05Aug2026.md) Section 2.2). |
 | Recommended action | Reject as a current partner. |
 | Confidence | Low |
 
@@ -195,13 +195,13 @@ Every entry is Low confidence.
 | Dimension | Detail |
 |---|---|
 | Type | Other (stablecoin issuer) |
-| Current Cardano status | Live since 27 February 2026. The fee subsidy ended on 28 May 2026 (Screening Report Section 3.2). |
-| Integration blocker | For builders: the token is Cardano-only and has no documented liquidity on African exchanges (Desk Research Summary Section 8.5). |
+| Current Cardano status | Live since 27 February 2026. The fee subsidy ended on 28 May 2026 ([Screening Report](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_ScreeningReport_v1_05Aug2026.md) Section 3.2). |
+| Integration blocker | For builders: the token is Cardano-only and has no documented liquidity on African exchanges ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 8.5). |
 | Commercial incentive | Delivered through the Cardano Critical Integrations programme |
 | Technical effort | Not assessed |
 | Demand evidence | One builder proposes integrating it (E-428); one says the liquidity increase disappointed (E-396); a provider needed stablecoin liquidity at build time (E-472). Builders raise stablecoin liquidity as an ecosystem-wide problem (E-393, E-405). |
-| Mutual benefit | Not shown to bring net-new value (Interoperability Value-Flow Assessment: neutral-access) |
-| Risk | Single-chain stablecoin exposure, a known failure mode in African markets (Desk Research Summary Section 8.5) |
+| Mutual benefit | Not shown to bring net-new value ([Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md): neutral-access) |
+| Risk | Single-chain stablecoin exposure, a known failure mode in African markets ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 8.5) |
 | Recommended action | Monitor. Liquidity depth and multi-chain availability are routed to RFP 03 (stablecoin liquidity incentive and activation). |
 | Confidence | Low |
 
@@ -214,8 +214,8 @@ Every entry is Low confidence.
 | Integration blocker | Not applicable: MiniPay is a competing distribution channel on an Ethereum Layer 2. |
 | Commercial incentive | None for MiniPay to add Cardano |
 | Technical effort | Not assessed |
-| Demand evidence | Over 16 million activated wallets, most in African markets (Desk Research Summary Section 8.3) |
-| Mutual benefit | None. Routing Cardano value through it carries value off Cardano (Interoperability Value-Flow Assessment: value-leakage risk). |
+| Demand evidence | Over 16 million activated wallets, most in African markets ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 8.3) |
+| Mutual benefit | None. Routing Cardano value through it carries value off Cardano ([Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md): value-leakage risk). |
 | Risk | Value leakage |
 | Recommended action | Reject as a partner. Learn from its distribution model instead (Section 5). |
 | Confidence | Low |
@@ -225,14 +225,14 @@ Every entry is Low confidence.
 | Dimension | Detail |
 |---|---|
 | Type | Wallet |
-| Current Cardano status | Live, but with no native mobile wallet connection for applications (E-038, E-071) and no phone-number addressing (Desk Research Summary Section 3.13). Builders describe the wallet landscape as fragmented and harder to use than alternatives (E-432). |
+| Current Cardano status | Live, but with no native mobile wallet connection for applications (E-038, E-071) and no phone-number addressing ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 3.13). Builders describe the wallet landscape as fragmented and harder to use than alternatives (E-432). |
 | Integration blocker | Not established: no Cardano wallet provider was interviewed. |
 | Commercial incentive | Not evidenced |
 | Technical effort | Not assessed (technical review by Samir Idris pending, item C1) |
-| Demand evidence | Three builders need mobile wallet connection (E-038, E-071, E-432); seven need basic-phone or offline access (L2 Demand Map, entry 5). Builder-side demand is Medium confidence. |
+| Demand evidence | Three builders need mobile wallet connection (E-038, E-071, E-432); seven need basic-phone or offline access ([L2 Demand Map](./CPC260015_M3_L2DemandMap_v1_09Oct2026.md), entry 5). Builder-side demand is Medium confidence. |
 | Mutual benefit | Access for mobile-first and basic-phone users to Cardano applications |
 | Risk | Without it, applications stay desktop-only and users route through other channels. |
-| Recommended action | Coordinate with wallet teams on mobile connection and phone-based access (Interoperability Requirements Register). |
+| Recommended action | Coordinate with wallet teams on mobile connection and phone-based access ([Interoperability Requirements Register](./CPC260015_M3_InteroperabilityRequirementsRegister_v1_10Oct2026.md)). |
 | Confidence | Low (provider side) |
 
 ### 11. Multi-chain wallet-infrastructure providers (as a group)
@@ -255,7 +255,7 @@ Every entry is Low confidence.
 | Dimension | Detail |
 |---|---|
 | Type | Infra (oracle) |
-| Current Cardano status | Live. Cardano projects can claim one year of free Pyth Pro access, announced in June 2026, so funded access runs until around June 2027. Pyth's paid plans start at 500 US dollars a month (Desk Research Summary Section 6.5). |
+| Current Cardano status | Live. Cardano projects can claim one year of free Pyth Pro access, announced in June 2026, so funded access runs until around June 2027. Pyth's paid plans start at 500 US dollars a month ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 6.5). |
 | Integration blocker | For builders: cost after the free year. One builder did not integrate because he could not afford it afterwards (E-335). |
 | Commercial incentive | Funded through the Cardano Critical Integrations programme |
 | Technical effort | Not assessed |
@@ -275,9 +275,9 @@ Every entry is Low confidence.
 | Commercial incentive | None current; publication was subsidised for six months, then self-funded or unpaid (E-114). |
 | Technical effort | Low (built on Cardano) |
 | Demand evidence | Users were mainly individuals doing coin swaps; organisations were interested but unwilling to pay (E-098). |
-| Mutual benefit | Cardano-native oracle data; the open-source data format survives the network (Desk Research Summary Section 6.3). |
-| Risk | Loss of native oracle diversity (Desk Research Summary Section 6.1) |
-| Recommended action | Monitor (Interoperability Value-Flow Assessment) |
+| Mutual benefit | Cardano-native oracle data; the open-source data format survives the network ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 6.3). |
+| Risk | Loss of native oracle diversity ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 6.1) |
+| Recommended action | Monitor ([Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md)) |
 | Confidence | Low |
 
 ### 14. Charli3
@@ -315,12 +315,12 @@ Every entry is Low confidence.
 | Dimension | Detail |
 |---|---|
 | Type | Partner chain |
-| Current Cardano status | Live, with its own ledger, consensus and tokens (Desk Research Summary Section 3.8) |
+| Current Cardano status | Live, with its own ledger, consensus and tokens ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 3.8) |
 | Integration blocker | Not established for providers |
 | Commercial incentive | Not evidenced |
 | Technical effort | Not assessed |
 | Demand evidence | Two builders want its privacy features (E-404, E-484); one builder chose it over Cardano for default privacy (E-298). |
-| Mutual benefit | Privacy capability for Cardano applications; no retention mechanism built in (Interoperability Value-Flow Assessment: neutral-access) |
+| Mutual benefit | Privacy capability for Cardano applications; no retention mechanism built in ([Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md): neutral-access) |
 | Risk | Applications can build on Midnight without Cardano (E-297). |
 | Recommended action | Monitor |
 | Confidence | Low |
@@ -330,12 +330,12 @@ Every entry is Low confidence.
 | Dimension | Detail |
 |---|---|
 | Type | Partner chain (framework) |
-| Current Cardano status | Available; used by Midnight and Materios (Desk Research Summary Section 3.3) |
+| Current Cardano status | Available; used by Midnight and Materios ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 3.3) |
 | Integration blocker | Not established |
-| Commercial incentive | Optional security from Cardano stake pool operators (Desk Research Summary Section 3.9) |
+| Commercial incentive | Optional security from Cardano stake pool operators ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 3.9) |
 | Technical effort | Not assessed |
 | Demand evidence | None from respondents |
-| Mutual benefit | Partner access; partner chains can leave without lock-in (Interoperability Value-Flow Assessment: neutral-access) |
+| Mutual benefit | Partner access; partner chains can leave without lock-in ([Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md): neutral-access) |
 | Risk | Low for Cardano |
 | Recommended action | Monitor |
 | Confidence | Low |
@@ -345,12 +345,12 @@ Every entry is Low confidence.
 | Dimension | Detail |
 |---|---|
 | Type | Infra (agent payments) |
-| Current Cardano status | Payment contracts on mainnet; the planned Layer 2 is not delivered (Desk Research Summary Section 6.7). |
+| Current Cardano status | Payment contracts on mainnet; the planned Layer 2 is not delivered ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 6.7). |
 | Integration blocker | Not established |
-| Commercial incentive | Enterprise engagement documented (Desk Research Summary Section 6.7) |
+| Commercial incentive | Enterprise engagement documented ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 6.7) |
 | Technical effort | Not assessed |
 | Demand evidence | Self-reported: over 19,000 transactions and over 250 businesses and users onboarded (not verified) |
-| Mutual benefit | Cardano-native settlement for agent payments (Interoperability Value-Flow Assessment: neutral-access) |
+| Mutual benefit | Cardano-native settlement for agent payments ([Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md): neutral-access) |
 | Risk | Adoption figures are the project's own. |
 | Recommended action | Monitor |
 | Confidence | Low |
@@ -360,12 +360,12 @@ Every entry is Low confidence.
 | Dimension | Detail |
 |---|---|
 | Type | Infra (intelligence) |
-| Current Cardano status | Not Cardano infrastructure (Desk Research Summary Section 6.6) |
-| Integration blocker | No Cardano-native option for inference compute (Desk Research Summary Section 6.8) |
+| Current Cardano status | Not Cardano infrastructure ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 6.6) |
+| Integration blocker | No Cardano-native option for inference compute ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 6.8) |
 | Commercial incentive | Not evidenced |
 | Technical effort | Not assessed |
 | Demand evidence | Our own validation work only (VAL-005) |
-| Mutual benefit | Not established (Interoperability Value-Flow Assessment: neutral-access) |
+| Mutual benefit | Not established ([Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md): neutral-access) |
 | Risk | Low to Medium |
 | Recommended action | Defer. The inference compute gap is routed to RFP 09. |
 | Confidence | Low |
@@ -375,13 +375,13 @@ Every entry is Low confidence.
 | Dimension | Detail |
 |---|---|
 | Type | Infra (identity) |
-| Current Cardano status | Available as open source, maintained by Input Output Engineering and the community; no African deployment found (Desk Research Summary Sections 4.4, 4.5) |
-| Integration blocker | Undocumented configuration issues, and a quick-start guide that does not cover Cardano deployment (Desk Research Summary Sections 5.4, 5.5; VAL-003, our own validation work) |
+| Current Cardano status | Available as open source, maintained by Input Output Engineering and the community; no African deployment found ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Sections 4.4, 4.5) |
+| Integration blocker | Undocumented configuration issues, and a quick-start guide that does not cover Cardano deployment ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Sections 5.4, 5.5; VAL-003, our own validation work) |
 | Commercial incentive | Not evidenced |
 | Technical effort | Not assessed beyond our own validation work |
-| Demand evidence | Seven builders and providers need identity verification, but none uses Identus (Interoperability Requirements Register, requirement 2). |
-| Mutual benefit | Identity anchored on Cardano (Interoperability Value-Flow Assessment: neutral-access) |
-| Risk | African identity work is happening on other chains (Desk Research Summary Section 4.4). |
+| Demand evidence | Seven builders and providers need identity verification, but none uses Identus ([Interoperability Requirements Register](./CPC260015_M3_InteroperabilityRequirementsRegister_v1_10Oct2026.md), requirement 2). |
+| Mutual benefit | Identity anchored on Cardano ([Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md): neutral-access) |
+| Risk | African identity work is happening on other chains ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 4.4). |
 | Recommended action | Monitor |
 | Confidence | Low |
 
@@ -407,19 +407,19 @@ Each explanation in our proposal was tested against the evidence. "Supported" me
 | Explanation | Finding | Evidence |
 |---|---|---|
 | Demand | Supported. Providers and operators wait for users and volume before adding Cardano. | E-156, E-158, E-161 (exchange); E-144, E-151 (tooling provider); E-474 (partner chain); E-098 (oracle) |
-| Integration cost | Supported. The one provider able to measure it took 6 to 12 months to integrate with Cardano, against 1 to 2 months for an EVM chain. | E-471; Desk Research Summary Section 9.6 |
+| Integration cost | Supported. The one provider able to measure it took 6 to 12 months to integrate with Cardano, against 1 to 2 months for an EVM chain. | E-471; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 9.6 |
 | Technical complexity | Supported, as missing tooling rather than missing capability. | E-468, E-470, E-479; E-157 (separate stack needed) |
 | Liquidity | Supported | E-472, E-478 (partner chain); E-393, E-405 (builder) |
-| Security risk | Supported by desk evidence, not raised by interviewed providers. | Desk Research Summary Section 4.8 (Wanchain exploit) |
-| Incentive misalignment | Supported. Funded free services undercut native providers who charge. | E-091, E-100, E-117, E-336; Desk Research Summary Section 9.1 |
+| Security risk | Supported by desk evidence, not raised by interviewed providers. | [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 4.8 (Wanchain exploit) |
+| Incentive misalignment | Supported. Funded free services undercut native providers who charge. | E-091, E-100, E-117, E-336; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 9.1 |
 | Commercial opportunity cost | Supported. Another chain offered more business in 60 days than Cardano did in three years. | E-094 |
 | Lack of ecosystem support | Supported. Providers report no clear support channels, hard access to decision-makers, and a governance process experienced as political. | E-079, E-081, E-095, E-107, E-117, E-481; E-454 (non-Cardano builder) |
 
-**What this means:** no provider or operator said Cardano lacks the technical capability they need. The reasons are commercial and organisational: too little demand, harder integration, free funded competitors, and weak support channels. This matches the Desk Research Summary finding that integration cost is a structural asymmetry rather than a capability gap (Section 9.6).
+**What this means:** no provider or operator said Cardano lacks the technical capability they need. The reasons are commercial and organisational: too little demand, harder integration, free funded competitors, and weak support channels. This matches the [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) finding that integration cost is a structural asymmetry rather than a capability gap (Section 9.6).
 
 **5. Peer Ecosystem Benchmarking**
 
-Drawn from Desk Research Summary Section 8, applied only where it bears on a provider recommendation.
+Drawn from [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 8, applied only where it bears on a provider recommendation.
 
 | Lesson | Evidence | Bearing on providers |
 |---|---|---|
@@ -439,7 +439,7 @@ Drawn from Desk Research Summary Section 8, applied only where it bears on a pro
 
 | Item | Earlier position | Where | Now | Reason |
 |---|---|---|---|---|
-| Charli3 status | No indication of funding distress was identified | Desk Research Summary Section 6.4 | Ceased Cardano-focused operations in May 2026 | Charli3's own account at interview on 12 August 2026 (E-075, E-094). The desk position noted that its funding was not independently verified. |
+| Charli3 status | No indication of funding distress was identified | [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 6.4 | Ceased Cardano-focused operations in May 2026 | Charli3's own account at interview on 12 August 2026 (E-075, E-094). The desk position noted that its funding was not independently verified. |
 
 **8. Limitations**
 

@@ -48,7 +48,7 @@ Gate 5: which interoperability features builders and operators actually need, so
 - Fields follow our proposal (Section 13, D3) and RFP 07 Appendix D. Frequency is the number of respondents raising the requirement. Urgency is High, Medium or Low. Blocker status is Blocking, Important, Nice-to-have or Unknown.
 - Requirements are ranked by blocker status, then frequency, then urgency.
 - "Mixed" means some respondents treat the requirement as must-have and others as nice-to-have; the note says which.
-- Confidence follows the Research Design Document (Section 6.2). Provider-side requirements are held at Low because one Category 3 provider was interviewed against a committed five to eight.
+- Confidence follows the [Research Design Document](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_ResearchDesignDocument_v1.1_01Aug2026.md) (Section 6.2). Provider-side requirements are held at Low because one Category 3 provider was interviewed against a committed five to eight.
 - Insider and external evidence: requirements raised by non-Cardano builders (Category 4) are identified as such in the frequency field.
 
 **3. Ranked Register**
@@ -101,7 +101,7 @@ Gate 5: which interoperability features builders and operators actually need, so
 | Blocker status | Important |
 | Must-have or nice-to-have | Mixed |
 | Adoption consequence | Builders verify users through third-party KYC or not at all; onboarding is repeated for each application and is harder where national ID is weak. |
-| Evidence source | E-039, E-072, E-219, E-240, E-258, E-338, E-493; Desk Research Summary Section 4.4 |
+| Evidence source | E-039, E-072, E-219, E-240, E-258, E-338, E-493; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 4.4 |
 | Confidence | Medium |
 | Respondents | R-002 Olivier MWATSIMULAMO (Wednesday marketplace) (Category 1); R-004 Emmanuel Asaolu (UTXOS) (Category 1); R-015 Mubarak Oladimeji (organisation undisclosed under NDA) (Category 1); R-016 (Category 1, anonymised); R-017 Issah Abagna (Abagna Salifu Issah; hatchery management platform, Ghana) (Category 1); R-021 Adam Dean (DripDropz, and multiple other Cardano tooling projects: Onboard Ninja, Veraraglyph, Buffybot Publishing, Hydra Events, Ecclesia) (Category 2); R-031 Kamal Aliyu (SAPro, escrow platform for African informal market) (Category 1) |
 | Note | Must-have for marketplace trust (E-039); a preference for reusable identity elsewhere (E-493). |
@@ -118,7 +118,7 @@ Gate 5: which interoperability features builders and operators actually need, so
 | Blocker status | Important |
 | Must-have or nice-to-have | Mixed |
 | Adoption consequence | Users without smartphones or internet cannot be reached unless each builder builds its own USSD layer. |
-| Evidence source | E-022, E-041, E-237, E-256, E-257, E-276, E-351, E-489; Desk Research Summary Section 3.13 |
+| Evidence source | E-022, E-041, E-237, E-256, E-257, E-276, E-351, E-489; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 3.13 |
 | Confidence | Medium |
 | Respondents | R-001 Paul Mupenda (Category 1); R-002 Olivier MWATSIMULAMO (Wednesday marketplace) (Category 1); R-016 (Category 1, anonymised); R-017 Issah Abagna (Abagna Salifu Issah; hatchery management platform, Ghana) (Category 1); R-018 Ishmeal Mihsin / Muhsin Ismail (blockchain land-registration platform, northern Ghana) (Category 1); R-022 Solomon Salifu (North Bits / Tamil Hub, Smart Hatch poultry value-chain platform, northern Ghana) (Category 1) |
 | Note | Must-have for four builders; conditional for two (E-237, E-276). |
@@ -152,7 +152,7 @@ Gate 5: which interoperability features builders and operators actually need, so
 | Blocker status | Important |
 | Must-have or nice-to-have | Must-have |
 | Adoption consequence | Unsafe or slow bridging limits cross-chain use and is a condition non-Cardano builders set for considering Cardano. |
-| Evidence source | E-291, E-304, E-480; Desk Research Summary Sections 4.8, 4.10 |
+| Evidence source | E-291, E-304, E-480; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Sections 4.8, 4.10 |
 | Confidence | Low |
 | Respondents | R-019 Idongesit Ekpanya (contributor to a global multi-chain builder ecosystem project, built on Solana) (Category 4); R-020 Peter June (Appour, NDA/privacy verification app, built on Midnight) (Category 4); R-030 Jerry Fragiskatos (Apex Fusion, Co-Founder; former Cardano Chief Commercial Officer) (Category 3) |
 | Note | Provider-side finding held at Low (one Category 3 interview). |
@@ -169,7 +169,7 @@ Gate 5: which interoperability features builders and operators actually need, so
 | Blocker status | Important |
 | Must-have or nice-to-have | Must-have |
 | Adoption consequence | Builders who need sensor, derivative or real-world asset data cannot obtain it through native oracles. |
-| Evidence source | E-093, E-099, E-102, E-348; Desk Research Summary Sections 6.3, 6.10 |
+| Evidence source | E-093, E-099, E-102, E-348; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Sections 6.3, 6.10 |
 | Confidence | Medium |
 | Respondents | R-005 Charli3 / Robert Hever (Category 2); R-006 Orcfax / Ross Spencer (Technical Lead) (Category 2); R-022 Solomon Salifu (North Bits / Tamil Hub, Smart Hatch poultry value-chain platform, northern Ghana) (Category 1) |
 
@@ -185,7 +185,7 @@ Gate 5: which interoperability features builders and operators actually need, so
 | Blocker status | Important |
 | Must-have or nice-to-have | Must-have |
 | Adoption consequence | Builders route payments through aggregators or licensed intermediaries at extra cost, or pause Cardano integration. |
-| Evidence source | E-009, E-012, E-017, E-448, E-495; Desk Research Summary Section 4.6 |
+| Evidence source | E-009, E-012, E-017, E-448, E-495; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 4.6 |
 | Confidence | Medium |
 | Respondents | R-001 Paul Mupenda (Category 1); R-028 cheto ekoja "praise" (Pop Shane) (Category 4); R-031 Kamal Aliyu (SAPro, escrow platform for African informal market) (Category 1) |
 | Note | Closely tied to the compliance barriers routed to RFP 05. |
@@ -202,10 +202,10 @@ Gate 5: which interoperability features builders and operators actually need, so
 | Blocker status | Important |
 | Must-have or nice-to-have | Must-have |
 | Adoption consequence | Without stablecoins, applications expose users to ADA price volatility. |
-| Evidence source | E-015, E-035, E-428; Desk Research Summary Sections 4.10, 8.5 |
+| Evidence source | E-015, E-035, E-428; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Sections 4.10, 8.5 |
 | Confidence | Medium |
 | Respondents | R-001 Paul Mupenda (Category 1); R-002 Olivier MWATSIMULAMO (Wednesday marketplace) (Category 1); R-027 (Category 2, anonymised) |
-| Note | Stablecoins are live on Cardano; the requirement is integration and liquidity depth (Desk Research Summary 8.5). |
+| Note | Stablecoins are live on Cardano; the requirement is integration and liquidity depth ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) 8.5). |
 
 ### 9. Cross-chain messaging
 
@@ -219,7 +219,7 @@ Gate 5: which interoperability features builders and operators actually need, so
 | Blocker status | Important |
 | Must-have or nice-to-have | Must-have |
 | Adoption consequence | Cross-chain applications wait on a Cardano-side messaging integration that is still in development. |
-| Evidence source | E-231, E-473; Desk Research Summary Sections 3.13, 4.9 |
+| Evidence source | E-231, E-473; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Sections 3.13, 4.9 |
 | Confidence | Low |
 | Respondents | R-016 (Category 1, anonymised); R-030 Jerry Fragiskatos (Apex Fusion, Co-Founder; former Cardano Chief Commercial Officer) (Category 3) |
 | Note | Provider-side evidence held at Low. |
@@ -236,7 +236,7 @@ Gate 5: which interoperability features builders and operators actually need, so
 | Blocker status | Important |
 | Must-have or nice-to-have | Must-have |
 | Adoption consequence | Oracle and DeFi services need shorter block times than Layer 1 offers. |
-| Evidence source | E-085; Desk Research Summary Section 3.7 |
+| Evidence source | E-085; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 3.7 |
 | Confidence | Low |
 | Respondents | R-005 Charli3 / Robert Hever (Category 2) |
 | Note | Single source. |
@@ -321,7 +321,7 @@ Gate 5: which interoperability features builders and operators actually need, so
 | Identity and data portability | 3 | 10 |
 | Settlement interoperability | 1 | 3 |
 
-Every feature type has at least one evidenced requirement. Message passing and wallet user experience had no desk research conclusion at screening (Screening Report Section 3.1); both are now evidenced by interviews.
+Every feature type has at least one evidenced requirement. Message passing and wallet user experience had no desk research conclusion at screening ([Screening Report](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_ScreeningReport_v1_05Aug2026.md) Section 3.1); both are now evidenced by interviews.
 
 **6. Limitations**
 

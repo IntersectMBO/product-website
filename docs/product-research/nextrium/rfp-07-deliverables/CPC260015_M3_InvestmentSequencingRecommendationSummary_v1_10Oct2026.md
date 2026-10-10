@@ -27,7 +27,7 @@ This is the public summary of our draft Investment Sequencing Recommendation (D8
 
 **Main findings**
 
-1. **Nothing is ready for "fund now".** No action meets all five minimum standards in the Evidence Threshold Framework.
+1. **Nothing is ready for "fund now".** No action meets all five minimum standards in the [Evidence Threshold Framework](./CPC260015_M3_EvidenceThresholdFramework_v1_10Oct2026.md).
 2. **Act first on access, not throughput.** The near-term actions concern how users reach Cardano.
 3. **Defer Layer 2 engineering funding** until throughput-related barriers are re-tested after Ouroboros Leios and a proposal meets the evidence threshold.
 4. **Monitor interoperability pathways** until they show flows; defer Wanchain; reject MiniPay as a pathway, Milkomeda as a partner, and Layer 2 throughput funding justified by stalled African deployments.

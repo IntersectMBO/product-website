@@ -29,7 +29,7 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 
 **1. Summary**
 
-1. **Nothing is ready for "fund now".** No action meets all five minimum standards in the Evidence Threshold Framework. The strongest actions are coordination with wallet teams and the technical workstreams, which need no new funding decision to start.
+1. **Nothing is ready for "fund now".** No action meets all five minimum standards in the [Evidence Threshold Framework](./CPC260015_M3_EvidenceThresholdFramework_v1_10Oct2026.md). The strongest actions are coordination with wallet teams and the technical workstreams, which need no new funding decision to start.
 2. **Act first on access, not throughput.** The four near-term actions all concern how users reach Cardano: holding ADA to use contracts, mobile wallet connection, the cost of small stablecoin transfers, and basic-phone access.
 3. **Defer Layer 2 engineering funding** until the throughput-related barriers are re-tested after Ouroboros Leios (targeted for late 2026) and a proposal meets the evidence threshold. Demand waiting on Layer 2 is real but narrow, and none of it is yet at scale.
 4. **Monitor the interoperability pathways** until they show flows. Defer Wanchain. Reject MiniPay as a pathway, Milkomeda as a partner, and Layer 2 throughput funding justified by stalled African deployments.
@@ -64,12 +64,12 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 
 **2. Method**
 
-- **Which actions.** Every recommended action in the L2 Barrier Analysis, L2 Demand Map, Interoperability Requirements Register, Interoperability Value-Flow Assessment, Provider and Partner Opportunity Analysis and Negative-Case and Non-Cardano Evidence Summary. Actions that share an owner and a blocker are grouped. Findings routed outside RFP 07 stay in the Cross-RFP Handoff Memo and are not sequenced here.
-- **Action type** uses the action set in RFP 07 and our proposal: fund now, coordinate, partner, monitor, defer or reject. The specific action from the blocker taxonomy (for example "pursue wallet support") is kept alongside. An action is "fund now" only where it meets all five minimum standards in the Evidence Threshold Framework.
+- **Which actions.** Every recommended action in the [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md), [L2 Demand Map](./CPC260015_M3_L2DemandMap_v1_09Oct2026.md), [Interoperability Requirements Register](./CPC260015_M3_InteroperabilityRequirementsRegister_v1_10Oct2026.md), [Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md), [Provider and Partner Opportunity Analysis](./CPC260015_M3_ProviderPartnerOpportunityAnalysis_v1_10Oct2026.md) and [Negative-Case and Non-Cardano Evidence Summary](./CPC260015_M3_NegativeCaseNonCardanoEvidenceSummary_v1_10Oct2026.md). Actions that share an owner and a blocker are grouped. Findings routed outside RFP 07 stay in the [Cross-RFP Handoff Memo](./CPC260015_M3_CrossRFPHandoffMemo_v1_10Oct2026.md) and are not sequenced here.
+- **Action type** uses the action set in RFP 07 and our proposal: fund now, coordinate, partner, monitor, defer or reject. The specific action from the blocker taxonomy (for example "pursue wallet support") is kept alongside. An action is "fund now" only where it meets all five minimum standards in the [Evidence Threshold Framework](./CPC260015_M3_EvidenceThresholdFramework_v1_10Oct2026.md).
 - **Horizon** follows the urgency rule used across this research. Near-term: urgency High or Medium to High, meaning a decision is pending now and no dated roadmap item resolves it. Medium-term: a workaround is in use or a dated roadmap item is expected. Deferred: historical, nothing pending, or waiting on a trigger such as delivery or demand.
 - **Rank** is by horizon, then severity, then confidence.
 - **Cost driver** names what the cost depends on. Costs are not estimated, because this research did not gather cost data.
-- **Owner** names the workstream or party. Layer 2 stewardship is moving to a dedicated entity by the end of 2026, so Layer 2 actions name it alongside the technical roadmap workstream (Desk Research Summary Section 6.9).
+- **Owner** names the workstream or party. Layer 2 stewardship is moving to a dedicated entity by the end of 2026, so Layer 2 actions name it alongside the technical roadmap workstream ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 6.9).
 - **Confidence** comes from the source deliverable. Provider-side actions are held at Low.
 
 **3. Near-term Actions**
@@ -87,7 +87,7 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 | Owner or workstream | Wallets workstream; technical roadmap workstream for collateral rules |
 | Confidence | High |
 | Expected Cardano-side value | Users who hold only stablecoins can use Cardano applications instead of staying off-chain or using another chain. |
-| Evidence and gates | L2 Barrier Analysis, rank 1; Desk Research Summary Section 8.6. Gates 1 and 2. |
+| Evidence and gates | [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md), rank 1; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 8.6. Gates 1 and 2. |
 
 ### 2. Assess the cost of small-value stablecoin transfers with the workstreams that own fee parameters
 
@@ -102,7 +102,7 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 | Owner or workstream | Technical roadmap workstream; wallets workstream |
 | Confidence | Medium |
 | Expected Cardano-side value | Payments that now settle on other chains could settle on Cardano. |
-| Evidence and gates | L2 Barrier Analysis, rank 2; Desk Research Summary Section 8.6; contradicting evidence E-017, E-036, E-491. Gate 2. |
+| Evidence and gates | [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md), rank 2; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 8.6; contradicting evidence E-017, E-036, E-491. Gate 2. |
 
 ### 3. Close the basic-phone and phone-number access gap
 
@@ -116,8 +116,8 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 | Cost driver | Wallet and access-layer engineering, and a distribution partnership |
 | Owner or workstream | Wallets workstream |
 | Confidence | Medium |
-| Expected Cardano-side value | Keeps payments on Cardano that would otherwise route through an external rail (Interoperability Value-Flow Assessment: Celo MiniPay, value-leakage risk). |
-| Evidence and gates | Interoperability Requirements Register, requirement 3; L2 Barrier Analysis, rank 6 and the own-work barrier on last-mile distribution; L2 Demand Map, entry 5; Negative-Case and Non-Cardano Evidence Summary, Section 6. Gates 1, 4, 5 and 7. |
+| Expected Cardano-side value | Keeps payments on Cardano that would otherwise route through an external rail ([Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md): Celo MiniPay, value-leakage risk). |
+| Evidence and gates | [Interoperability Requirements Register](./CPC260015_M3_InteroperabilityRequirementsRegister_v1_10Oct2026.md), requirement 3; [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md), rank 6 and the own-work barrier on last-mile distribution; [L2 Demand Map](./CPC260015_M3_L2DemandMap_v1_09Oct2026.md), entry 5; [Negative-Case and Non-Cardano Evidence Summary](./CPC260015_M3_NegativeCaseNonCardanoEvidenceSummary_v1_10Oct2026.md), Section 6. Gates 1, 4, 5 and 7. |
 
 ### 4. Provide mobile wallet connection for Cardano applications
 
@@ -132,7 +132,7 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 | Owner or workstream | Wallets workstream |
 | Confidence | Medium |
 | Expected Cardano-side value | Applications reach mobile users, the main access channel in African markets. |
-| Evidence and gates | Interoperability Requirements Register, requirement 1; L2 Barrier Analysis, rank 9; L2 Demand Map, entry 4; Blocked-Demand Case Register, Case-014. Gates 1 and 5. |
+| Evidence and gates | [Interoperability Requirements Register](./CPC260015_M3_InteroperabilityRequirementsRegister_v1_10Oct2026.md), requirement 1; [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md), rank 9; [L2 Demand Map](./CPC260015_M3_L2DemandMap_v1_09Oct2026.md), entry 4; [Blocked-Demand Case Register](https://github.com/Nextrium/cpc-product-website/blob/milestone-2-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M2_BlockedDemandCaseRegister_v1_09Oct2026.md), Case-014. Gates 1 and 5. |
 
 **4. Medium-term Actions**
 
@@ -149,7 +149,7 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 | Owner or workstream | Technical roadmap workstream |
 | Confidence | Medium |
 | Expected Cardano-side value | Not yet shown |
-| Evidence and gates | L2 Barrier Analysis, rank 7; L2 Demand Map, entry 2. Gates 1 and 2. |
+| Evidence and gates | [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md), rank 7; [L2 Demand Map](./CPC260015_M3_L2DemandMap_v1_09Oct2026.md), entry 2. Gates 1 and 2. |
 
 ### 6. Reassess native oracle supply before funded free access ends
 
@@ -164,7 +164,7 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 | Owner or workstream | Grant allocators (Critical Integrations budget) |
 | Confidence | Medium |
 | Expected Cardano-side value | Oracle provider diversity |
-| Evidence and gates | L2 Barrier Analysis, ranks 8 and 12; Provider and Partner Opportunity Analysis, entries 12 to 14. Gates 8, 9 and 10. |
+| Evidence and gates | [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md), ranks 8 and 12; [Provider and Partner Opportunity Analysis](./CPC260015_M3_ProviderPartnerOpportunityAnalysis_v1_10Oct2026.md), entries 12 to 14. Gates 8, 9 and 10. |
 
 ### 7. Publish a maintained register of Cardano Layer 2 options and their status
 
@@ -179,7 +179,7 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 | Owner or workstream | Technical roadmap workstream; Layer 2 stewardship entity |
 | Confidence | High |
 | Expected Cardano-side value | Existing capability becomes usable in deployment decisions. |
-| Evidence and gates | L2 Barrier Analysis, rank 10; Desk Research Summary Sections 3.2, 9.5. Gates 2 and 3. |
+| Evidence and gates | [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md), rank 10; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Sections 3.2, 9.5. Gates 2 and 3. |
 
 ### 8. Improve wallet handling of many small payments, and onboarding without seed phrases
 
@@ -194,7 +194,7 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 | Owner or workstream | Wallets workstream |
 | Confidence | Medium |
 | Expected Cardano-side value | Lower cost and easier entry for the informal-economy users this research covers |
-| Evidence and gates | L2 Barrier Analysis, ranks 10 and 12; Interoperability Requirements Register, requirement 4. Gates 1 and 5. |
+| Evidence and gates | [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md), ranks 10 and 12; [Interoperability Requirements Register](./CPC260015_M3_InteroperabilityRequirementsRegister_v1_10Oct2026.md), requirement 4. Gates 1 and 5. |
 
 ### 9. Lower the burden of issuing identity credentials
 
@@ -208,8 +208,8 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 | Cost driver | Hosted infrastructure and documentation |
 | Owner or workstream | DevX workstream; Identus maintainer community; hosted API provider. Links to national identity systems are routed to RFP 05. |
 | Confidence | Medium |
-| Expected Cardano-side value | Identity anchored on Cardano; not yet shown to bring new users (Interoperability Value-Flow Assessment: Identus, neutral-access). |
-| Evidence and gates | Interoperability Requirements Register, requirement 2; L2 Barrier Analysis, rank 12 and the own-work identity barrier. Gates 3 and 5. |
+| Expected Cardano-side value | Identity anchored on Cardano; not yet shown to bring new users ([Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md): Identus, neutral-access). |
+| Evidence and gates | [Interoperability Requirements Register](./CPC260015_M3_InteroperabilityRequirementsRegister_v1_10Oct2026.md), requirement 2; [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md), rank 12 and the own-work identity barrier. Gates 3 and 5. |
 
 ### 10. Re-test throughput and cost-related Layer 2 barriers after Leios before funding engineering
 
@@ -224,7 +224,7 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 | Owner or workstream | Technical roadmap workstream; Layer 2 stewardship entity |
 | Confidence | Medium (Low to Medium for oracle publication and compute limits) |
 | Expected Cardano-side value | Not yet shown; the oracle providers who need it are inactive or have left. |
-| Evidence and gates | L2 Barrier Analysis, ranks 12, 18 and 19; L2 Demand Map, entries 1 and 3; Evidence Threshold Framework. Gates 1, 2 and 4. |
+| Evidence and gates | [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md), ranks 12, 18 and 19; [L2 Demand Map](./CPC260015_M3_L2DemandMap_v1_09Oct2026.md), entries 1 and 3; [Evidence Threshold Framework](./CPC260015_M3_EvidenceThresholdFramework_v1_10Oct2026.md). Gates 1, 2 and 4. |
 
 ### 11. Track delivery of cross-chain messaging and bridging
 
@@ -239,7 +239,7 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 | Owner or workstream | Business development teams (Critical Integrations) |
 | Confidence | Low |
 | Expected Cardano-side value | Partner access; no observed flows yet (neutral-access, pending delivery) |
-| Evidence and gates | L2 Barrier Analysis, rank 19; Interoperability Requirements Register, requirements 5 and 9; Interoperability Value-Flow Assessment, pathway 4. Gates 5, 6 and 8. |
+| Evidence and gates | [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md), rank 19; [Interoperability Requirements Register](./CPC260015_M3_InteroperabilityRequirementsRegister_v1_10Oct2026.md), requirements 5 and 9; [Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md), pathway 4. Gates 5, 6 and 8. |
 
 ### 12. Give partner-chain providers access to ecosystem decision-makers
 
@@ -254,27 +254,27 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 | Owner or workstream | Business development teams; governance workstream |
 | Confidence | Low |
 | Expected Cardano-side value | Two-way flows reported by the provider; value accrues to a Cardano-native asset. |
-| Evidence and gates | L2 Barrier Analysis, rank 19; Provider and Partner Opportunity Analysis, entry 7. Gates 8 and 9. |
+| Evidence and gates | [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md), rank 19; [Provider and Partner Opportunity Analysis](./CPC260015_M3_ProviderPartnerOpportunityAnalysis_v1_10Oct2026.md), entry 7. Gates 8 and 9. |
 
 **5. Deferred Actions**
 
 | Rank | Action | Type | Validated demand | Impact | Urgency | Dependency | Cost driver | Owner | Confidence | Cardano-side value | Evidence and gates |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 13 | Address provider dependency on core components | Coordinate | Two oracle providers | High: a feed went offline when a component was discontinued | Low (historical) | Core teams | Notice and continuity practice | Technical roadmap workstream; governance | Medium | Provider continuity | L2 Barrier Analysis, rank 3. Gates 8, 9 |
-| 14 | Exchange wallet-infrastructure support for Cardano | Defer | One exchange | High for that operator | Low | Trading volume on Cardano | Partner integration | Business development teams; wallets workstream | Low | Exchange access, if demand exists | L2 Barrier Analysis, rank 4; Provider and Partner Opportunity Analysis, entry 11. Gates 8, 9 |
-| 15 | Wanchain | Defer | None from respondents | High: about 97% of the Cardano-side reserve withdrawn | Low | Bridge reopening with safeguards | Security review | Provider | Low | None while offline | Interoperability Value-Flow Assessment, pathway 3. Gate 7 |
-| 16 | Integration tooling for partner chains and bridges | Coordinate (improve documentation) | One provider (6 to 12 months against 1 to 2 for EVM) | Low to Medium | Low | None | Tooling and documentation | DevX workstream | Low | Lower integration cost for providers | L2 Barrier Analysis, ranks 23, 24. Gate 9 |
-| 17 | Interoperability pathways without observed flows: USDCx, Rosen Bridge, Cardinal, Bifrost, Masumi, Midnight, Partner Chains Toolkit, Orcfax, Identus | Monitor | Limited or none | Not yet shown | Low | Delivery, or evidence of flows | None until flows exist | Business development teams; RFP 03 for stablecoin liquidity | Low | Neutral-access for all | Interoperability Value-Flow Assessment. Gates 6, 7 |
-| 18 | Decentralised inference compute | Defer | Our own validation work only | Not established | Low | RFP 09 findings | Not assessed | RFP 09 | Low | Not established | Interoperability Value-Flow Assessment, pathway 12. Gate 11 |
+| 13 | Address provider dependency on core components | Coordinate | Two oracle providers | High: a feed went offline when a component was discontinued | Low (historical) | Core teams | Notice and continuity practice | Technical roadmap workstream; governance | Medium | Provider continuity | [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md), rank 3. Gates 8, 9 |
+| 14 | Exchange wallet-infrastructure support for Cardano | Defer | One exchange | High for that operator | Low | Trading volume on Cardano | Partner integration | Business development teams; wallets workstream | Low | Exchange access, if demand exists | [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md), rank 4; [Provider and Partner Opportunity Analysis](./CPC260015_M3_ProviderPartnerOpportunityAnalysis_v1_10Oct2026.md), entry 11. Gates 8, 9 |
+| 15 | Wanchain | Defer | None from respondents | High: about 97% of the Cardano-side reserve withdrawn | Low | Bridge reopening with safeguards | Security review | Provider | Low | None while offline | [Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md), pathway 3. Gate 7 |
+| 16 | Integration tooling for partner chains and bridges | Coordinate (improve documentation) | One provider (6 to 12 months against 1 to 2 for EVM) | Low to Medium | Low | None | Tooling and documentation | DevX workstream | Low | Lower integration cost for providers | [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md), ranks 23, 24. Gate 9 |
+| 17 | Interoperability pathways without observed flows: USDCx, Rosen Bridge, Cardinal, Bifrost, Masumi, Midnight, Partner Chains Toolkit, Orcfax, Identus | Monitor | Limited or none | Not yet shown | Low | Delivery, or evidence of flows | None until flows exist | Business development teams; RFP 03 for stablecoin liquidity | Low | Neutral-access for all | [Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md). Gates 6, 7 |
+| 18 | Decentralised inference compute | Defer | Our own validation work only | Not established | Low | RFP 09 findings | Not assessed | RFP 09 | Low | Not established | [Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md), pathway 12. Gate 11 |
 
 **6. Rejected Actions**
 
 | Rank | Action | Reason | Evidence and gates |
 |---|---|---|---|
-| 19 | Bulk refunds to many recipients | Historical, from a past hackathon project; no deployment is waiting. Re-tested against base-layer changes before the final version. | L2 Barrier Analysis, rank 4. Gate 1 |
-| 20 | Celo MiniPay as a pathway | Routes value off Cardano with no retention mechanism. The access gap behind it is action 3. | Interoperability Value-Flow Assessment, pathway 2. Gate 7 |
-| 21 | Milkomeda C1 as a partner | Shut down in September 2025 | Provider and Partner Opportunity Analysis, entry 6. Gate 8 |
-| 22 | Layer 2 throughput funding justified by stalled African deployments | None of the stalled or ended cases was caused by a lack of Layer 2 capability. | Negative-Case and Non-Cardano Evidence Summary, Sections 4 and 7. Gates 1, 4 |
+| 19 | Bulk refunds to many recipients | Historical, from a past hackathon project; no deployment is waiting. Re-tested against base-layer changes before the final version. | [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md), rank 4. Gate 1 |
+| 20 | Celo MiniPay as a pathway | Routes value off Cardano with no retention mechanism. The access gap behind it is action 3. | [Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md), pathway 2. Gate 7 |
+| 21 | Milkomeda C1 as a partner | Shut down in September 2025 | [Provider and Partner Opportunity Analysis](./CPC260015_M3_ProviderPartnerOpportunityAnalysis_v1_10Oct2026.md), entry 6. Gate 8 |
+| 22 | Layer 2 throughput funding justified by stalled African deployments | None of the stalled or ended cases was caused by a lack of Layer 2 capability. | [Negative-Case and Non-Cardano Evidence Summary](./CPC260015_M3_NegativeCaseNonCardanoEvidenceSummary_v1_10Oct2026.md), Sections 4 and 7. Gates 1, 4 |
 
 **7. Limitations**
 

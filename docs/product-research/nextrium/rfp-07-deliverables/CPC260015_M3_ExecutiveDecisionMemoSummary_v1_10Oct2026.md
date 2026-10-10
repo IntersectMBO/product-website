@@ -23,7 +23,7 @@ Global Innovations Ltd
 
 **The decision**
 
-Do not fund new Layer 2 or interoperability engineering on current evidence. Act first on access, through coordination with wallet teams and the workstreams that own fee parameters. Defer Layer 2 engineering until barriers are re-tested after Ouroboros Leios and proposals meet the Evidence Threshold Framework. Monitor interoperability pathways until they show flows into Cardano.
+Do not fund new Layer 2 or interoperability engineering on current evidence. Act first on access, through coordination with wallet teams and the workstreams that own fee parameters. Defer Layer 2 engineering until barriers are re-tested after Ouroboros Leios and proposals meet the [Evidence Threshold Framework](./CPC260015_M3_EvidenceThresholdFramework_v1_10Oct2026.md). Monitor interoperability pathways until they show flows into Cardano.
 
 **Top findings**
 
