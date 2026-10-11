@@ -64,7 +64,7 @@ A blocker is Technical only when none of these explains it: liquidity, wallet su
 |---|---|---|
 | What is wrong | Something the ecosystem lacks: wallet support, developer community, business development reach, partner integrations | Something builders work with is missing or weak: SDKs, documentation, developer experience, testing infrastructure |
 | Usual remedy | Build the missing capability or partner for it | Improve documentation or tooling |
-| Example from this research | No Cardano wallet supports sending stablecoins to a phone number ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 3.13) | Nine Identus deployment barriers, none requiring a change to Cardano itself ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 5.9) |
+| Example from this research | No USSD or short-code access channel reaches Cardano users without internet (T-006) | Nine Identus deployment barriers, none requiring a change to Cardano itself ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 5.9) |
 
 The test: if no Cardano component has failed and a capability is simply absent, the blocker is Ecosystem. If a builder's tools or documentation fall short, it is Tooling.
 

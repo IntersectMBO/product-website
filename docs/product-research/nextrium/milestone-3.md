@@ -44,7 +44,9 @@ Further drafts committed in our proposal (Section 13), which support the contrac
 | D11 | Research Methodology Appendix | Compiled through Milestone 3 | [Full](./rfp-07-deliverables/CPC260015_M3_ResearchMethodologyAppendix_v1_10Oct2026.md); [Summary](./rfp-07-deliverables/CPC260015_M3_ResearchMethodologyAppendixSummary_v1_10Oct2026.md) |
 | D14 | Final Research Report | Draft | [Redacted draft](./rfp-07-deliverables/CPC260015_M3_FinalResearchReportDraft_v1_10Oct2026.md); the full report is confidential to the Committee and available on request |
 
-One supporting output, which is not itself a named deliverable under the grant agreement:
+Two supporting outputs, which are not themselves named deliverables under the grant agreement:
+
+- Technical Review of Milestone 3 Claims. Samir Idris's independent review of 13 technically complex claims behind the drafts, with each verdict, the references he cited, and where each verdict was applied: [CPC260015_M3_TechnicalReview_v1_11Oct2026.md](./rfp-07-deliverables/CPC260015_M3_TechnicalReview_v1_11Oct2026.md)
 
 - Barrier Classification, redacted public version. It is the Milestone 3 classification sheet of the analysis workbook: every Non-Layer 2 test and desk-research barrier (114 rows) classified by type, severity, urgency, owner and routing, so every test cited in the drafts can be traced. Confidential and anonymised respondents are protected under the same rules as the Milestone 2 workbook: [CPC260015_M3_BarrierClassificationRedacted_v1_10Oct2026.md](./rfp-07-deliverables/CPC260015_M3_BarrierClassificationRedacted_v1_10Oct2026.md)
 
@@ -73,7 +75,7 @@ The grant agreement pays each milestone as a single lump-sum tranche and does no
 ## Issues and Blockers
 
 - **Category 3 access (research limitation, carried from Milestone 2).** One bridge, interoperability or wallet provider was interviewed against a committed 5 to 8. In line with the Milestone 1 commitment, provider-side findings and Decision Gates 6 to 9 are held at Low confidence in every draft.
-- **Independent technical review pending.** Thirteen technically complex items are with Samir Idris for independent technical review. Affected entries are marked in each draft and will be updated at Milestone 4.
+- **Independent technical review.** Samir Idris reviewed 13 technically complex claims: 4 confirmed, 7 partially confirmed and 2 could not be assessed. The drafts reflect every verdict, including changed positions on phone-number payments, identity issuance and mobile wallet connection. The review is published as a supporting output.
 - **Adjacent RFP numbering.** Our proposal paired some adjacent RFP numbers with the wrong topics. The drafts use the Committee's published numbering; the topics are unchanged. This is noted in the Cross-RFP Handoff Memo.
 - **AI use.** AI tools were used in classification and drafting, as logged in the AI Tool Disclosure Log (grant clause 4.2). The lead researcher has reviewed this work. Feedback is welcome, and the work will be updated, or defended where necessary.
 
@@ -82,7 +84,7 @@ The grant agreement pays each milestone as a single lump-sum tranche and does no
 Milestone 4 (Final Deliverables and Publication) will:
 
 - incorporate Cardano Product Committee feedback on the Milestone 3 drafts;
-- incorporate the independent technical review and re-test the throughput-related Layer 2 barriers against the Ouroboros Leios timeline;
+- track the roadmap items the technical review linked to the remaining Layer 2 barriers (Ouroboros Leios, CIP-0118 Nested Transactions, Midgard) and update the affected entries;
 - finalise all sixteen deliverables, including the final Blocked-Demand Case Register;
 - deliver the Final Research Report, the Final Presentation, and the Public Summary for publication after approval.
 

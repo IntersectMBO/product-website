@@ -28,7 +28,7 @@ This is the public summary of our draft Interoperability Value-Flow Assessment (
 **Main findings**
 
 1. **No pathway yet shows evidence of net-new value coming into Cardano.** USDCx came closest, but reported stablecoin supply cannot show whether the value is new to Cardano or converted from value already there, and the amount is small next to other ecosystems. It moves from value-accretive to neutral-access.
-2. **One pathway routes value off Cardano: Celo MiniPay.** It is classified as value-leakage risk, and the action is to close the access-channel gap behind it rather than support the pathway.
+2. **One pathway routes value off Cardano: Celo MiniPay.** It is classified as value-leakage risk, and the action is to close the gap behind it rather than support the pathway. A phone-number rail now exists on Cardano, but not at sub-cent cost.
 3. **One pathway is a live dependency risk: Wanchain.** Its Cardano bridge has been offline since the July 2026 exploit.
 4. **Most pathways are neutral-access.** They improve connectivity, but no evidence was found of the net-new users, liquidity or applications they bring. Five pathways move to neutral-access because their earlier positions rested on design or on flows not yet proven.
 

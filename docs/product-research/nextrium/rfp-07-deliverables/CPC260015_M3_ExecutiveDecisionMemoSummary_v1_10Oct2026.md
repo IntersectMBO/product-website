@@ -23,7 +23,7 @@ Global Innovations Ltd
 
 **The decision**
 
-Do not fund new Layer 2 or interoperability engineering on current evidence. Act first on access, through coordination with wallet teams and the workstreams that own fee parameters. Defer Layer 2 engineering until barriers are re-tested after Ouroboros Leios and proposals meet the [Evidence Threshold Framework](./CPC260015_M3_EvidenceThresholdFramework_v1_10Oct2026.md). Monitor interoperability pathways until they show flows into Cardano.
+Do not fund new Layer 2 or interoperability engineering on current evidence. Act first on access, through coordination with wallet teams and the workstreams that own fee parameters. Defer Layer 2 engineering, tracking the roadmap items an independent technical review linked to each barrier, and fund only proposals that meet the [Evidence Threshold Framework](./CPC260015_M3_EvidenceThresholdFramework_v1_10Oct2026.md). Monitor interoperability pathways until they show flows into Cardano.
 
 **Top findings**
 
@@ -35,7 +35,7 @@ Do not fund new Layer 2 or interoperability engineering on current evidence. Act
 
 **Near-term actions (all coordination)**
 
-Let stablecoin-only users use smart contracts without first holding ADA; assess the cost of small stablecoin transfers with the workstreams that own fee parameters; close the basic-phone and phone-number access gap; provide mobile wallet connection for applications.
+Let stablecoin-only users use smart contracts without first holding ADA; assess the cost of small stablecoin transfers with the workstreams that own fee parameters; make mobile wallet connection consistent across wallets; lower the cost of phone-number payments and close the basic-phone access gap.
 
 **Rejected**
 
@@ -43,7 +43,7 @@ Layer 2 throughput funding justified by stalled African deployments; Celo MiniPa
 
 **Unresolved**
 
-Provider-side representativeness; the effect of Leios; whether stablecoin supply is new value; oracle supply after funded free access ends around June 2027; wallet uptake; pending technical review.
+Provider-side representativeness; delivery of the roadmap items linked to the remaining Layer 2 barriers; whether stablecoin supply is new value; oracle supply after funded free access ends around June 2027; wallet uptake.
 
 **Full memo**
 

@@ -28,8 +28,8 @@ This is the public summary of our draft L2 Barrier Analysis (D1). The full analy
 **Main findings**
 
 1. **The most severe barriers are not Layer 2 throughput.** The highest-ranked barriers are the cost of small stablecoin transfers and the requirement to hold ADA to use smart contracts. Both are Ecosystem and UX barriers in how fees and assets work, not missing Layer 2 capability.
-2. **Genuine Layer 2 barriers exist but are narrow.** They concern oracle data publication, on-chain order matching, micropayments with native tokens, continuous sensor data and permissionless fast transactions. Most rest on infrastructure builders and providers, and their technical review is pending.
-3. **Reach and access matter as much as capability.** Reaching users by phone number, without internet, or on mobile is blocked or needs significant extra work.
+2. **Genuine Layer 2 barriers exist but are narrow.** They concern oracle data publication, high-frequency order matching, micropayments with native tokens, continuous sensor data and fast transactions between parties not known in advance. Most rest on infrastructure builders and providers. An independent technical review confirmed four of these claims and qualified the rest.
+3. **Reach and access matter as much as capability.** Reaching users without internet or on basic phones needs significant extra work, phone-number payments exist but are not low-cost, and mobile wallet connection is fragmented.
 4. **Commercial sustainability is a recurring barrier.** Native oracle and integration services are not sustainable while free or subsidised alternatives exist and builders do not pay.
 
 **Highest-ranked barriers**
@@ -41,10 +41,10 @@ This is the public summary of our draft L2 Barrier Analysis (D1). The full analy
 | 3 | Providers depend on core components they cannot influence | Coordination | High | Medium |
 | 4 | Exchange wallet-infrastructure partners do not support Cardano | Ecosystem | High | Low |
 | 4 | Bulk refunds to many recipients were not possible at the time | Technical | High | Low |
-| 6 | Users cannot be reached by phone number or without internet through Cardano wallets | Ecosystem | Medium to High | Medium |
-| 7 | Order matching on-chain conflicts with deterministic transactions | Technical | Medium to High | Medium |
-| 8 | Native oracle and integration services are not commercially sustainable | Commercial | Medium to High | Medium |
-| 9 | No native mobile wallet integration path for Cardano applications | Ecosystem | Medium | Medium |
+| 6 | High-frequency on-chain order matching faces concurrency and throughput limits | Technical | Medium to High | Medium |
+| 7 | Native oracle and integration services are not commercially sustainable | Commercial | Medium to High | Medium |
+| 8 | Mobile wallet connection for Cardano applications is fragmented | Ecosystem | Medium | Medium |
+| 9 | Users without smartphones or internet cannot be reached through Cardano wallets, and phone-number payments are not low-cost | Ecosystem | Medium | Medium |
 
 The full analysis ranks 24 barriers from independent evidence and lists 2 from our own validation work separately.
 
@@ -52,10 +52,10 @@ The full analysis ranks 24 barriers from independent evidence and lists 2 from o
 
 | Type | Barriers |
 |---|---|
-| Ecosystem | 9 |
+| Ecosystem | 8 |
 | Technical | 7 |
 | UX | 3 |
-| Tooling | 3 |
+| Tooling | 4 |
 | Coordination | 2 |
 | Commercial | 2 |
 
@@ -66,9 +66,9 @@ Gates 1, 2 and 3: which applications are blocked by missing Layer 2 capability, 
 **Limitations and unresolved questions**
 
 - One bridge, interoperability or wallet provider was interviewed against a committed five to eight. Provider-side barriers are held at Low confidence.
-- The technical review of provider claims (Samir Idris) is pending for 12 barriers. Their technical classification may change in the final version.
-- Several Layer 2 barriers may be affected by Ouroboros Leios, targeted for mainnet in late 2026 ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 3.7). They are re-tested before the final version.
-- Single-source barriers are held at Low confidence.
+- An independent technical review by Samir Idris confirmed four claims, qualified seven and could not assess two respondent-specific figures; the analysis reflects every verdict.
+- Remaining Layer 2 barriers depend on specific roadmap items: Leios for throughput, CIP-0118 Nested Transactions for micropayments, and Midgard for fast transactions between strangers.
+- Single-source barriers are held at Low confidence unless the technical review confirmed the claim.
 - One blocker could not be classified because the evidence was incomplete (Unknown). It is carried as an unresolved question.
 
 **Full analysis**

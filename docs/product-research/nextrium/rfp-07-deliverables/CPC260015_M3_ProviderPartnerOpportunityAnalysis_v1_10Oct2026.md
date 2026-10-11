@@ -31,7 +31,7 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 
 1. **No provider is ready for "fund now".** Every provider either is already funded or integrated and has not yet shown adoption, is not operating, or rests on evidence too thin to support new funding.
 2. **Cardano's provider base is losing its native infrastructure.** One bridge is offline, one sidechain is shut down, and both Cardano-native oracle providers we interviewed are inactive or have moved their work to another chain. Both say commercial viability, not technology, was the cause.
-3. **Integration is harder on Cardano, and the cost falls on the provider.** The one bridge and partner-chain provider interviewed took 6 to 12 months to integrate with Cardano, against 1 to 2 months for an equivalent EVM chain.
+3. **Integration is harder on Cardano, and the cost falls on the provider.** The one bridge and partner-chain provider interviewed reports 6 to 12 months to integrate with Cardano, against 1 to 2 months for an equivalent EVM chain. The technical review found the broader tooling gap plausible but could not verify these figures.
 4. **Providers outside Cardano are not ruling it out on technology.** They are waiting for demand: users, trading volume and the support of the infrastructure partners they already use.
 5. **The cheapest useful actions are coordination, not funding.** Examples are access to ecosystem decision-makers for a provider already building on Cardano technology, and tracking what happens to oracle supply when the funded free access period ends.
 6. **All provider-side findings are Low confidence.** One bridge, interoperability or wallet provider was interviewed against a committed five to eight.
@@ -40,7 +40,7 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 
 | # | Provider or partner | Type | Current Cardano status | Recommended action |
 |---|---|---|---|---|
-| 1 | LayerZero | Messaging | In phased delivery through 2026 | Monitor |
+| 1 | LayerZero | Messaging | Endpoint infrastructure live; wider rollout phased | Monitor |
 | 2 | Wanchain | Bridge | Cardano bridge offline since July 2026 | Defer |
 | 3 | Rosen Bridge | Bridge | Operational | Monitor |
 | 4 | Cardinal | Bridge | Operational, early-stage | Monitor |
@@ -49,7 +49,7 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 | 7 | Apex Fusion | Partner chain and bridge | Live; tokens trade on Cardano | Coordinate |
 | 8 | Circle USDCx | Other (stablecoin issuer) | Live since February 2026 | Monitor |
 | 9 | Celo MiniPay | Wallet | No Cardano relationship | Reject |
-| 10 | Cardano wallets (as a group) | Wallet | Live; no native mobile connection or phone-number addressing | Coordinate |
+| 10 | Cardano wallets (as a group) | Wallet | Live; mobile connection fragmented; phone-number payments at 0.45 ADA per send | Coordinate |
 | 11 | Multi-chain wallet-infrastructure providers (as a group) | Wallet | Do not support Cardano (one operator's partners) | Defer |
 | 12 | Pyth | Infra (oracle) | Live; free access for Cardano projects until around June 2027 | Monitor |
 | 13 | Orcfax | Infra (oracle) | Not live | Monitor |
@@ -81,7 +81,7 @@ Every entry is Low confidence.
 |---|---|
 | XDAO | Named in our shortlist (Proposal Section 5). No interview or desk evidence was obtained, so no entry can be completed. Carried to the final version. |
 | Swifin and Reltime | Reclassified from Cardano providers to non-Cardano operators during desk research, because they have no documented Cardano relationship ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 4.12). |
-| Chainlink and Circle CCTP | Recommended by one provider as the two most important remaining integrations for Cardano (E-480, E-482). Not assessed, because this is a single source and no further evidence was gathered. Carried to the final version. |
+| Chainlink and Circle CCTP | Recommended by one provider as the two most important remaining integrations for Cardano (E-480, E-482). Not assessed as entries. The [technical review](./CPC260015_M3_TechnicalReview_v1_11Oct2026.md) (item B2) finds Chainlink not yet integrated with Cardano, and the CCTP part outdated: USDCx is live on Cardano through Circle xReserve. |
 
 **3. Provider Entries**
 
@@ -90,7 +90,7 @@ Every entry is Low confidence.
 | Dimension | Detail |
 |---|---|
 | Type | Messaging |
-| Current Cardano status | In phased delivery. The Cardano Foundation's June 2026 update describes testnet and mainnet endpoints and the Stargate liquidity layer rolling out through 2026. |
+| Current Cardano status | Endpoint infrastructure live, with wider rollout phased ([technical review](./CPC260015_M3_TechnicalReview_v1_11Oct2026.md), item B2). The Cardano Foundation's June 2026 update describes testnet and mainnet endpoints and the Stargate liquidity layer rolling out through 2026. |
 | Integration blocker | Cross-chain tooling built for account-based chains needs fundamental rework for Cardano's eUTxO model, covering messaging, state management and replay protection ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Sections 4.3, 9.6). |
 | Commercial incentive | Delivered through the Cardano Critical Integrations programme ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 4.9) |
 | Technical effort | High. Intersect describes it as significantly more complex than the other integrations ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 9.6). |
@@ -181,14 +181,14 @@ Every entry is Low confidence.
 |---|---|
 | Type | Partner chain and bridge |
 | Current Cardano status | Live. Its tokens are native Cardano assets and trade on Cardano applications including Minswap (E-467). About 300 stake pool operator nodes secure its network (E-476). It is integrating LayerZero on its own side (E-473). Secondary sources report it has also integrated LayerZero's Stargate to route USDC to its chains; dates not verified. |
-| Integration blocker | Integration took 6 to 12 months against 1 to 2 months for an equivalent EVM chain (E-471), because Cardano lacks the plug-and-play tooling and service providers common on EVM chains (E-468). At build time, the main barrier was the lack of stablecoin liquidity (E-472). Today it is access to ecosystem decision-makers and capital (E-477, E-481). |
+| Integration blocker | The provider reports integration took 6 to 12 months against 1 to 2 months for an equivalent EVM chain (E-471; figures not verifiable, [technical review](./CPC260015_M3_TechnicalReview_v1_11Oct2026.md) item B1), because Cardano lacks the plug-and-play tooling and service providers common on EVM chains (E-468). At build time, the main barrier was the lack of stablecoin liquidity (E-472). Today it is access to ecosystem decision-makers and capital (E-477, E-481). |
 | Commercial incentive | A loyal, capable builder community with less competition than the EVM market (E-474); a possible future dual-staking opportunity for stake pool operators (E-484) |
 | Technical effort | High (E-468, E-471). AI coding tools now handle about 80% of the coding, but security hardening still takes as long (E-469). |
 | Demand evidence | Little demand originates from within Cardano itself (E-474); another provider describes its usage as low (E-090). |
 | Mutual benefit | Value and traffic flow both ways across its bridge (E-485); value accrues to its token, which is a Cardano-native asset (E-484). |
 | Risk | It depends fully on Cardano technology (E-485), and it is not yet commercially self-sustaining without subsidy (E-477). |
 | Recommended action | Coordinate: help it reach ecosystem decision-makers (E-481). Funding is not supported by current evidence. |
-| Confidence | Low (single provider; technical review by Samir Idris pending, items B1 and B2) |
+| Confidence | Low (single provider; the [technical review](./CPC260015_M3_TechnicalReview_v1_11Oct2026.md) found the tooling gap plausible but could not verify the figures (B1), and partially confirmed the bridging claim (B2)) |
 
 ### 8. Circle USDCx
 
@@ -225,10 +225,10 @@ Every entry is Low confidence.
 | Dimension | Detail |
 |---|---|
 | Type | Wallet |
-| Current Cardano status | Live, but with no native mobile wallet connection for applications (E-038, E-071) and no phone-number addressing ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 3.13). Builders describe the wallet landscape as fragmented and harder to use than alternatives (E-432). |
+| Current Cardano status | Live. Mobile dApp connectivity exists (CIP-45), but support is fragmented across wallets ([technical review](./CPC260015_M3_TechnicalReview_v1_11Oct2026.md), item C1), and builders describe the wallet landscape as harder to use than alternatives (E-038, E-071, E-432). Phone-number payments exist through ChatterPay, at 0.45 ADA per send (item D2). |
 | Integration blocker | Not established: no Cardano wallet provider was interviewed. |
 | Commercial incentive | Not evidenced |
-| Technical effort | Not assessed (technical review by Samir Idris pending, item C1) |
+| Technical effort | Not assessed. The capability exists, so the work is making support consistent across wallets (item C1). |
 | Demand evidence | Three builders need mobile wallet connection (E-038, E-071, E-432); seven need basic-phone or offline access ([L2 Demand Map](./CPC260015_M3_L2DemandMap_v1_09Oct2026.md), entry 5). Builder-side demand is Medium confidence. |
 | Mutual benefit | Access for mobile-first and basic-phone users to Cardano applications |
 | Risk | Without it, applications stay desktop-only and users route through other channels. |
@@ -376,7 +376,7 @@ Every entry is Low confidence.
 |---|---|
 | Type | Infra (identity) |
 | Current Cardano status | Available as open source, maintained by Input Output Engineering and the community; no African deployment found ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Sections 4.4, 4.5) |
-| Integration blocker | Undocumented configuration issues, and a quick-start guide that does not cover Cardano deployment ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Sections 5.4, 5.5; VAL-003, our own validation work) |
+| Integration blocker | Undocumented configuration issues, and a quick-start guide that does not cover Cardano deployment ([Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Sections 5.4, 5.5; VAL-003, our own validation work). The [technical review](./CPC260015_M3_TechnicalReview_v1_11Oct2026.md) (item D1) finds a node-free publishing path now exists through NeoPRISM's embedded wallet. |
 | Commercial incentive | Not evidenced |
 | Technical effort | Not assessed beyond our own validation work |
 | Demand evidence | Seven builders and providers need identity verification, but none uses Identus ([Interoperability Requirements Register](./CPC260015_M3_InteroperabilityRequirementsRegister_v1_10Oct2026.md), requirement 2). |
@@ -407,7 +407,7 @@ Each explanation in our proposal was tested against the evidence. "Supported" me
 | Explanation | Finding | Evidence |
 |---|---|---|
 | Demand | Supported. Providers and operators wait for users and volume before adding Cardano. | E-156, E-158, E-161 (exchange); E-144, E-151 (tooling provider); E-474 (partner chain); E-098 (oracle) |
-| Integration cost | Supported. The one provider able to measure it took 6 to 12 months to integrate with Cardano, against 1 to 2 months for an EVM chain. | E-471; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 9.6 |
+| Integration cost | Supported. The one provider able to measure it reports 6 to 12 months to integrate with Cardano, against 1 to 2 months for an EVM chain; the technical review found the tooling gap plausible but could not verify the figures. | E-471; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 9.6 |
 | Technical complexity | Supported, as missing tooling rather than missing capability. | E-468, E-470, E-479; E-157 (separate stack needed) |
 | Liquidity | Supported | E-472, E-478 (partner chain); E-393, E-405 (builder) |
 | Security risk | Supported by desk evidence, not raised by interviewed providers. | [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 4.8 (Wanchain exploit) |
@@ -445,8 +445,8 @@ Drawn from [Desk Research Summary](https://github.com/Nextrium/cpc-product-websi
 
 - One bridge, interoperability or wallet provider was interviewed against a committed five to eight. Every entry is held at Low confidence.
 - No Cardano wallet provider was interviewed, so wallet entries rest on builder demand and desk evidence.
-- The technical review by Samir Idris is pending for items B1 and B2 (Apex Fusion) and C1 (mobile wallet connection).
-- XDAO, Chainlink and Circle CCTP were not assessed (Section 2).
+- The [technical review](./CPC260015_M3_TechnicalReview_v1_11Oct2026.md) by Samir Idris could not verify the integration-time figures (B1) and partially confirmed the bridging (B2) and mobile wallet (C1) claims; entries reflect the verdicts.
+- XDAO and Chainlink were not assessed (Section 2); the technical review finds CCTP effectively available through USDCx.
 - Several status checks rely on secondary sources that could not be verified directly.
 
 **9. AI Use Disclaimer**

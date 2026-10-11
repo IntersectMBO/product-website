@@ -109,7 +109,7 @@ Desk research recorded four design directions to test in primary research ([Desk
 | Track record extended to operational continuity | Two native oracle providers stopped operating after years of service and funding (E-075, E-096) | Adoption pathway: provider continuity risk |
 | Outcome measurement after the final milestone | Seven builders and providers said funded integrations had not changed what they build ([Negative-Case and Non-Cardano Evidence Summary](./CPC260015_M3_NegativeCaseNonCardanoEvidenceSummary_v1_10Oct2026.md), Section 4) | Measurable outcomes after delivery |
 | Sustainability after any subsidy ends | One builder declined a free oracle because he could not pay afterwards (E-335); another would pay if the service is worth it (E-494); a provider expects small clients to drop out when subsidies end (E-119) | Adoption pathway: operation after subsidy |
-| Independent technical verification | Technical claims in this research, on throughput, integration effort and wallet connection, were sent for independent technical review by Samir Idris, which is pending | Strong-proposal signal: independent technical review |
+| Independent technical verification | An independent [technical review](./CPC260015_M3_TechnicalReview_v1_11Oct2026.md) of 13 claims in this research confirmed 4, qualified 7 and could not assess 2. It changed several positions, including on phone-number payments, identity issuance and mobile wallet connection, and showed that respondent-specific figures cannot always be verified | Strong-proposal signal: independent technical review |
 
 **9. Answer to Decision Gate 10 (preliminary)**
 

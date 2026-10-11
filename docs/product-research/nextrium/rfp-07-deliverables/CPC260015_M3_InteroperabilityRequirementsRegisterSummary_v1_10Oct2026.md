@@ -27,7 +27,7 @@ This is the public summary of our draft Interoperability Requirements Register (
 
 **Main findings**
 
-1. **Wallet access is the most requested and most blocking area.** Mobile wallet connection is the only requirement currently blocking deployment, and basic-phone access and seed-free onboarding are among the most frequent requests.
+1. **Wallet access is the most requested and most blocking area.** Mobile wallet connection is the only requirement currently blocking deployment: connectivity exists, but support is uneven across wallets. Basic-phone access and seed-free onboarding are among the most frequent requests, and phone-number payments exist but are not low-cost.
 2. **Identity is the most frequently raised requirement.** Seven builders and providers need identity verification linked to national ID systems, or a reusable digital identity.
 3. **Bridging and messaging requests come mainly from one provider and from non-Cardano builders.** They are conditions for considering Cardano more than current blockers, and are held at Low confidence.
 4. **All seven interoperability feature types are evidenced.** Message passing and wallet user experience, which desk research could not evidence, are now supported by interviews.
@@ -38,7 +38,7 @@ This is the public summary of our draft Interoperability Requirements Register (
 |---|---|---|---|---|
 | 1 | Mobile wallet connection for applications | Blocking | 3 builders | Medium |
 | 2 | Identity verification linked to national ID systems, and reusable digital identity | Important | 7 builders and providers | Medium |
-| 3 | Basic-phone and offline access (USSD, phone-number addressing) | Important | 6 builders (2 have built their own: E-256, E-489) | Medium |
+| 3 | Basic-phone and offline access (USSD), and low-cost phone-number payments | Important | 6 builders (2 have built their own: E-256, E-489) | Medium |
 | 4 | Wallet onboarding without seed phrases | Important | 3 (2 Cardano builders, 1 non-Cardano) | Medium |
 | 5 | Robust bridging of tokens between chains | Important | 3 (1 provider, 2 non-Cardano builders) | Low |
 | 6 | Custom, sensor and real-world data feeds | Important | 3 | Medium |

@@ -31,7 +31,7 @@ Respondents who chose anonymised or confidential treatment are identified by cat
 
 **Main findings**
 
-1. **Wallet access is the most requested and most blocking area.** Mobile wallet connection is the only requirement currently blocking deployment, and basic-phone access and seed-free onboarding are among the most frequent requests.
+1. **Wallet access is the most requested and most blocking area.** Mobile wallet connection is the only requirement currently blocking deployment: connectivity exists, but support is uneven across wallets. Basic-phone access and seed-free onboarding are among the most frequent requests, and phone-number payments exist but are not low-cost.
 2. **Identity is the most frequently raised requirement.** Seven builders and providers need identity verification linked to national ID systems, or a reusable digital identity.
 3. **Bridging and messaging requests come mainly from one provider and from non-Cardano builders.** They are conditions for considering Cardano more than current blockers, and are held at Low confidence.
 4. **All seven interoperability feature types are evidenced.** Message passing and wallet user experience, which desk research could not evidence, are now supported by interviews.
@@ -57,7 +57,7 @@ Gate 5: which interoperability features builders and operators actually need, so
 |---|---|---|---|---|---|---|---|
 | 1 | Mobile wallet connection for applications | Wallet user experience | 3 builders | High | Blocking | Must-have | Medium |
 | 2 | Identity verification linked to national ID systems, and reusable digital identity | Identity and data portability | 7 builders and providers | Medium | Important | Mixed | Medium |
-| 3 | Basic-phone and offline access (USSD, phone-number addressing) | Wallet user experience | 6 builders (2 have built their own: E-256, E-489) | Medium | Important | Mixed | Medium |
+| 3 | Basic-phone and offline access (USSD), and low-cost phone-number payments | Wallet user experience | 6 builders (2 have built their own: E-256, E-489) | Medium | Important | Mixed | Medium |
 | 4 | Wallet onboarding without seed phrases | Wallet user experience | 3 (2 Cardano builders, 1 non-Cardano) | Medium | Important | Must-have | Medium |
 | 5 | Robust bridging of tokens between chains | Asset bridging | 3 (1 provider, 2 non-Cardano builders) | Medium | Important | Must-have | Low |
 | 6 | Custom, sensor and real-world data feeds | Identity and data portability | 3 | Medium | Important | Must-have | Medium |
@@ -78,7 +78,7 @@ Gate 5: which interoperability features builders and operators actually need, so
 |---|---|
 | Feature type | Wallet user experience |
 | User or operator type | Cardano application builders serving phone-first users |
-| Chain, corridor or pathway | Cardano wallets to mobile applications (native wallet connect) |
+| Chain, corridor or pathway | Cardano wallets to mobile applications (CIP-45 mobile connectivity, unevenly supported) |
 | Frequency | 3 builders |
 | Urgency | High |
 | Blocker status | Blocking |
@@ -87,7 +87,7 @@ Gate 5: which interoperability features builders and operators actually need, so
 | Evidence source | E-038, E-071, E-432; T-009 |
 | Confidence | Medium |
 | Respondents | R-002 Olivier MWATSIMULAMO (Wednesday marketplace) (Category 1); R-004 Emmanuel Asaolu (UTXOS) (Category 1); R-027 (Category 2, anonymised) |
-| Note | Blocking for one marketplace (E-038). |
+| Note | Blocking for one marketplace (E-038). The [technical review](./CPC260015_M3_TechnicalReview_v1_11Oct2026.md) (item C1) partially confirmed the claim: mobile connectivity exists through CIP-45 and some wallets, but support is fragmented, so the need is consistency rather than a missing capability. |
 
 ### 2. Identity verification linked to national ID systems, and reusable digital identity
 
@@ -106,22 +106,22 @@ Gate 5: which interoperability features builders and operators actually need, so
 | Respondents | R-002 Olivier MWATSIMULAMO (Wednesday marketplace) (Category 1); R-004 Emmanuel Asaolu (UTXOS) (Category 1); R-015 Mubarak Oladimeji (organisation undisclosed under NDA) (Category 1); R-016 (Category 1, anonymised); R-017 Issah Abagna (Abagna Salifu Issah; hatchery management platform, Ghana) (Category 1); R-021 Adam Dean (DripDropz, and multiple other Cardano tooling projects: Onboard Ninja, Veraraglyph, Buffybot Publishing, Hydra Events, Ecclesia) (Category 2); R-031 Kamal Aliyu (SAPro, escrow platform for African informal market) (Category 1) |
 | Note | Must-have for marketplace trust (E-039); a preference for reusable identity elsewhere (E-493). |
 
-### 3. Basic-phone and offline access (USSD, phone-number addressing)
+### 3. Basic-phone and offline access (USSD), and low-cost phone-number payments
 
 | Field | Detail |
 |---|---|
 | Feature type | Wallet user experience |
 | User or operator type | Cardano builders serving users without smartphones or internet |
-| Chain, corridor or pathway | Cardano to mobile network USSD and phone-number channels |
+| Chain, corridor or pathway | Cardano to mobile network USSD channels, and phone-number payments |
 | Frequency | 6 builders (2 have built their own: E-256, E-489) |
 | Urgency | Medium |
 | Blocker status | Important |
 | Must-have or nice-to-have | Mixed |
-| Adoption consequence | Users without smartphones or internet cannot be reached unless each builder builds its own USSD layer. |
+| Adoption consequence | Users without smartphones or internet cannot be reached unless each builder builds its own USSD layer. Phone-number payments now exist on Cardano through ChatterPay, at 0.45 ADA per send, which is far above the sub-cent routes users already have. |
 | Evidence source | E-022, E-041, E-237, E-256, E-257, E-276, E-351, E-489; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Section 3.13 |
 | Confidence | Medium |
 | Respondents | R-001 Paul Mupenda (Category 1); R-002 Olivier MWATSIMULAMO (Wednesday marketplace) (Category 1); R-016 (Category 1, anonymised); R-017 Issah Abagna (Abagna Salifu Issah; hatchery management platform, Ghana) (Category 1); R-018 Ishmeal Mihsin / Muhsin Ismail (blockchain land-registration platform, northern Ghana) (Category 1); R-022 Solomon Salifu (North Bits / Tamil Hub, Smart Hatch poultry value-chain platform, northern Ghana) (Category 1) |
-| Note | Must-have for four builders; conditional for two (E-237, E-276). |
+| Note | Must-have for four builders; conditional for two (E-237, E-276). The earlier desk finding that no Cardano wallet supports phone-number addressing is superseded by the [technical review](./CPC260015_M3_TechnicalReview_v1_11Oct2026.md) (item D2). |
 
 ### 4. Wallet onboarding without seed phrases
 
@@ -218,7 +218,7 @@ Gate 5: which interoperability features builders and operators actually need, so
 | Urgency | Medium |
 | Blocker status | Important |
 | Must-have or nice-to-have | Must-have |
-| Adoption consequence | Cross-chain applications wait on a Cardano-side messaging integration that is still in development. |
+| Adoption consequence | Cross-chain applications wait on a Cardano-side messaging integration. Its endpoint infrastructure is live, with wider rollout phased ([technical review](./CPC260015_M3_TechnicalReview_v1_11Oct2026.md), item B2). |
 | Evidence source | E-231, E-473; [Desk Research Summary](https://github.com/Nextrium/cpc-product-website/blob/milestone-1-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M1_DeskResearchSummary_v1_01Aug2026.md) Sections 3.13, 4.9 |
 | Confidence | Low |
 | Respondents | R-016 (Category 1, anonymised); R-030 Jerry Fragiskatos (Apex Fusion, Co-Founder; former Cardano Chief Commercial Officer) (Category 3) |
@@ -290,7 +290,7 @@ Gate 5: which interoperability features builders and operators actually need, so
 | Evidence source | E-482 |
 | Confidence | Low |
 | Respondents | R-030 Jerry Fragiskatos (Apex Fusion, Co-Founder; former Cardano Chief Commercial Officer) (Category 3) |
-| Note | Respondent recommendation; provider-side finding held at Low. |
+| Note | Respondent recommendation; provider-side finding held at Low. The [technical review](./CPC260015_M3_TechnicalReview_v1_11Oct2026.md) (item B2) finds Chainlink not yet integrated, and the CCTP part outdated: USDCx is live on Cardano through Circle xReserve. |
 
 ### 14. Capturing user details with token claims
 

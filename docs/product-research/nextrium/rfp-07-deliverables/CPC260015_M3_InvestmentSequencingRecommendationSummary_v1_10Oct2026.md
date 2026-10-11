@@ -29,16 +29,16 @@ This is the public summary of our draft Investment Sequencing Recommendation (D8
 
 1. **Nothing is ready for "fund now".** No action meets all five minimum standards in the [Evidence Threshold Framework](./CPC260015_M3_EvidenceThresholdFramework_v1_10Oct2026.md).
 2. **Act first on access, not throughput.** The near-term actions concern how users reach Cardano.
-3. **Defer Layer 2 engineering funding** until throughput-related barriers are re-tested after Ouroboros Leios and a proposal meets the evidence threshold.
+3. **Defer Layer 2 engineering funding** and track the roadmap items an independent technical review linked to each barrier (Leios, CIP-0118 Nested Transactions, Midgard); fund only proposals that meet the evidence threshold.
 4. **Monitor interoperability pathways** until they show flows; defer Wanchain; reject MiniPay as a pathway, Milkomeda as a partner, and Layer 2 throughput funding justified by stalled African deployments.
 
 **Sequence**
 
 | Horizon | Actions |
 |---|---|
-| Near-term | Let stablecoin-only users use smart contracts without first holding ADA; assess the cost of small stablecoin transfers with the workstreams that own fee parameters; close the basic-phone and phone-number access gap; provide mobile wallet connection for applications. All coordination. |
-| Medium-term | Hold on-chain order matching until demand meets the threshold; reassess native oracle supply before funded free access ends; publish a maintained register of Layer 2 options; improve wallet handling of small payments and seedless onboarding; lower the burden of issuing identity credentials; re-test Layer 2 barriers after Leios; track cross-chain messaging and bridging; give partner-chain providers access to decision-makers. |
-| Deferred | Provider dependency on core components; exchange wallet-infrastructure support; Wanchain; integration tooling; pathways without observed flows; decentralised inference compute. |
+| Near-term | Let stablecoin-only users use smart contracts without first holding ADA; assess the cost of small stablecoin transfers with the workstreams that own fee parameters; make mobile wallet connection consistent across wallets; lower the cost of phone-number payments and close the basic-phone access gap. All coordination. |
+| Medium-term | Hold on-chain order matching until demand meets the threshold; reassess native oracle supply before funded free access ends; publish a maintained register of Layer 2 options; improve wallet handling of small payments and seedless onboarding; hold Layer 2 engineering funding and track the roadmap items linked to each barrier; track cross-chain messaging and bridging; give partner-chain providers access to decision-makers. |
+| Deferred | Provider dependency on core components; exchange wallet-infrastructure support; Wanchain; integration tooling; documentation of the node-free path for issuing identity credentials; pathways without observed flows; decentralised inference compute. |
 | Rejected | Bulk refunds (historical); Celo MiniPay as a pathway; Milkomeda C1; Layer 2 throughput funding justified by stalled African deployments. |
 
 **Decisions this supports**
@@ -49,7 +49,7 @@ Which Layer 2 and interoperability actions to fund now, coordinate, partner, mon
 
 - Costs are named by driver, not estimated.
 - Provider-side actions are held at Low confidence.
-- Technical review by Samir Idris is pending for items that inform several actions.
+- Several actions reflect an independent technical review by Samir Idris.
 
 **Full document**
 

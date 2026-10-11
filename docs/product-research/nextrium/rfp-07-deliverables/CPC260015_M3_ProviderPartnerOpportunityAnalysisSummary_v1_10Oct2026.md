@@ -29,7 +29,7 @@ This is the public summary of our draft Provider and Partner Opportunity Analysi
 
 1. **No provider is ready for "fund now".** Each is already funded or integrated without shown adoption, not operating, or supported by evidence too thin for new funding.
 2. **Cardano is losing native infrastructure.** One bridge is offline, one sidechain is shut down, and both Cardano-native oracle providers we interviewed are inactive or have moved their work to another chain, citing commercial viability rather than technology.
-3. **Integration is harder on Cardano.** The one bridge and partner-chain provider interviewed took 6 to 12 months to integrate, against 1 to 2 months for an EVM chain, because of missing tooling.
+3. **Integration is harder on Cardano.** The one bridge and partner-chain provider interviewed reports 6 to 12 months to integrate, against 1 to 2 months for an EVM chain, because of missing tooling. The technical review found the tooling gap plausible but could not verify the figures.
 4. **Providers are not ruling Cardano out on technology.** They are waiting for users, trading volume and support from the infrastructure partners they already use.
 5. **The useful actions now are coordination, not funding.**
 
@@ -57,7 +57,7 @@ Gates 8 and 9: which bridge, partner-chain or cross-chain partners Cardano shoul
 
 - One bridge, interoperability or wallet provider was interviewed against a committed five to eight, so every entry is held at Low confidence.
 - No Cardano wallet provider was interviewed.
-- The technical review by Samir Idris is pending for three provider items.
+- An independent technical review by Samir Idris could not verify the integration-time figures and partially confirmed the bridging and mobile wallet claims; entries reflect the verdicts.
 
 **Full analysis**
 

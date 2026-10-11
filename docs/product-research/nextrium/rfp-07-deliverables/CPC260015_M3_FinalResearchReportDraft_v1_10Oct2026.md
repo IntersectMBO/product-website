@@ -27,9 +27,9 @@ Global Innovations Ltd
 
 Cardano stakeholders are being asked to fund Layer 2 and interoperability work on the assumption that applications are waiting for it. This study tested that assumption in African emerging markets, with a focus on the informal economy and the builders who serve it. We combined status-verified desk research, screening of candidate use cases and pathways, 31 interviews across four respondent categories, and classification of every blocker against a nine-type taxonomy after testing it against seven non-Layer 2 explanations.
 
-We find that demand waiting on Layer 2 is real but narrow. It sits in infrastructure (oracle data publication, order-book trading and sensor data), and none of it is yet at scale. The barriers that most limit adoption are about access and cost: users who hold only stablecoins must acquire ADA to use smart contracts, small stablecoin transfers cost several times the routes African users already use, and Cardano wallets do not yet reach mobile-first and basic-phone users well. No interoperability pathway yet shows evidence of net-new value for Cardano; one routes value off Cardano and one is offline after an exploit. Providers have not prioritised Cardano for commercial and organisational reasons rather than technical ones.
+We find that demand waiting on Layer 2 is real but narrow. It sits in infrastructure (oracle data publication, order-book trading and sensor data), and none of it is yet at scale. The barriers that most limit adoption are about access and cost: users who hold only stablecoins must acquire ADA to use smart contracts, small stablecoin transfers cost several times the routes African users already use, and Cardano wallets do not yet reach mobile-first and basic-phone users well: mobile connection is fragmented and phone-number payments cost 0.45 ADA per send. No interoperability pathway yet shows evidence of net-new value for Cardano; one routes value off Cardano and one is offline after an exploit. Providers have not prioritised Cardano for commercial and organisational reasons rather than technical ones.
 
-We recommend that no new Layer 2 or interoperability engineering be funded on current evidence; that the first actions be coordination with wallet teams and the workstreams that own fee parameters; that Layer 2 engineering be re-tested after Ouroboros Leios and funded only against an explicit evidence threshold; and that interoperability pathways be monitored until they show flows into Cardano. Provider-side findings are held at Low confidence because one bridge, interoperability or wallet provider was interviewed against a committed five to eight.
+We recommend that no new Layer 2 or interoperability engineering be funded on current evidence; that the first actions be coordination with wallet teams and the workstreams that own fee parameters; that Layer 2 engineering be held while the roadmap items an independent technical review linked to each barrier are delivered, and funded only against an explicit evidence threshold; and that interoperability pathways be monitored until they show flows into Cardano. Provider-side findings are held at Low confidence because one bridge, interoperability or wallet provider was interviewed against a committed five to eight.
 
 ## 1. Key Findings
 
@@ -37,7 +37,7 @@ We recommend that no new Layer 2 or interoperability engineering be funded on cu
 |---|---|---|
 | 1 | Most blockers are not Layer 2 blockers. Of 26 classified barriers, 7 are technical; the most severe concern access and cost. | High to Medium |
 | 2 | Genuine Layer 2 demand is narrow, concentrated in infrastructure, and not yet at scale. | Medium |
-| 3 | Wallet access is the leading interoperability need; mobile wallet connection is the only requirement currently blocking deployment. | Medium |
+| 3 | Wallet access is the leading interoperability need; mobile wallet connection, available but unevenly supported, is the only requirement currently blocking deployment. | Medium |
 | 4 | No interoperability pathway yet shows net-new value for Cardano. Celo MiniPay is a value-leakage risk; Wanchain is a dependency risk. | Low |
 | 5 | Providers have not prioritised Cardano because of low demand, higher integration cost, funded free services undercutting native providers, and weak support channels. | Low |
 | 6 | Builders on other chains mostly never evaluated Cardano. Where they gave reasons, they were users, sponsorship, developer experience and fees. | Medium |
@@ -75,9 +75,9 @@ The full method is in the [Research Methodology Appendix](./CPC260015_M3_Researc
 **Answer:** oracle data services, order-book trading, and sensor data for agricultural value chains. *(Medium)*
 
 - Of 103 tests on interview extracts, 15 found no non-Layer 2 explanation. They concentrate in infrastructure teams (11 of 41 tests) rather than informal-economy builders (3 of 39).
-- The blocked workflows: oracle providers that cannot publish data at the speed and cost clients need; order matching that conflicts with deterministic transactions, worked around with batchers; and continuous sensor data for a poultry value-chain platform at concept stage.
+- The blocked workflows: oracle providers that cannot publish data at the speed and cost clients need; high-frequency order matching limited by concurrency and throughput, worked around with batchers and routers; and continuous sensor data for a poultry value-chain platform at concept stage.
 - Three further cases tie to a named Layer 2 workflow but rest on one respondent or are historical, and are listed outside the demand map.
-- Evidence: [L2 Demand Map](./CPC260015_M3_L2DemandMap_v1_09Oct2026.md); [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md), ranks 7, 12 and 18; [Blocked-Demand Case Register](https://github.com/Nextrium/cpc-product-website/blob/milestone-2-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M2_BlockedDemandCaseRegister_v1_09Oct2026.md) (15 cases, 11 passing the workflow test).
+- Evidence: [L2 Demand Map](./CPC260015_M3_L2DemandMap_v1_09Oct2026.md); [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md), ranks 6, 10 and 18; [Blocked-Demand Case Register](https://github.com/Nextrium/cpc-product-website/blob/milestone-2-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M2_BlockedDemandCaseRegister_v1_09Oct2026.md) (15 cases, 11 passing the workflow test).
 
 ### Gate 2. What Layer 2 capability would unlock the most immediate adoption value?
 
@@ -90,7 +90,7 @@ The full method is in the [Research Methodology Appendix](./CPC260015_M3_Researc
 
 ### Gate 3. Which blockers are technical, commercial, ecosystem or coordination problems?
 
-**Answer:** of 26 classified barriers, 9 are ecosystem, 7 technical, 3 user experience, 3 tooling, 2 coordination and 2 commercial. No type dominates, and technical blockers are a minority. *(Medium)*
+**Answer:** of 26 classified barriers, 8 are ecosystem, 7 technical, 4 tooling, 3 user experience, 2 coordination and 2 commercial. No type dominates, and technical blockers are a minority. *(Medium)*
 
 - Classification follows the [Technical and Commercial Blocker Taxonomy](./CPC260015_M3_TechnicalCommercialBlockerTaxonomy_v1_09Oct2026.md): a blocker is technical only if none of the seven non-Layer 2 alternatives explains it.
 - Of 114 classified rows, 40 are relevant to RFP 07, 57 are routed to adjacent RFPs or workstreams, 15 are negative-case evidence about other chains, 1 is unresolved and 1 is a duplicate.
@@ -110,9 +110,9 @@ The full method is in the [Research Methodology Appendix](./CPC260015_M3_Researc
 
 | Rank | Feature | Status |
 |---|---|---|
-| 1 | Mobile wallet connection for applications | Blocking (3 builders) |
+| 1 | Mobile wallet connection for applications | Blocking (3 builders); exists but unevenly supported |
 | 2 | Identity verification linked to national ID, and reusable identity | Most frequent (7) |
-| 3 | Basic-phone and offline access | Important (6; 2 built their own) |
+| 3 | Basic-phone and offline access, and low-cost phone-number payments | Important (6; 2 built their own) |
 | 4 | Onboarding without seed phrases | Important (3) |
 | 5 | Robust bridging | Important; Low confidence |
 
@@ -152,7 +152,7 @@ The full method is in the [Research Methodology Appendix](./CPC260015_M3_Researc
 | Explanation tested | Finding |
 |---|---|
 | Demand | Supported: providers and operators wait for users and trading volume |
-| Integration cost | Supported: 6 to 12 months against 1 to 2 for an EVM chain |
+| Integration cost | Supported: one provider reports 6 to 12 months against 1 to 2 for an EVM chain (not independently verifiable) |
 | Technical complexity | Supported as missing tooling, not missing capability |
 | Liquidity | Supported |
 | Security risk | Supported by desk evidence (Wanchain) only |
@@ -195,7 +195,7 @@ The full method is in the [Research Methodology Appendix](./CPC260015_M3_Researc
 1. **Access before throughput.** Across builders, desk evidence and our own validation work, the binding constraints for African users are holding ADA, wallet reach and the cost of small transfers. *(Medium to High)*
 2. **Subsidy dependence.** Every observed infrastructure adoption in 2026 was subsidised. Where support ended or a funded free competitor arrived, native providers stopped operating on Cardano. *(Medium)*
 3. **Distribution precedes infrastructure.** In comparable markets, adoption followed embedding in an existing distribution channel, not superior capability. Builders on other chains chose for users and attention. *(Medium)*
-4. **Integration cost falls on Cardano.** Tooling built for account-based chains needs rework for eUTxO; the one provider able to measure it took 6 to 12 months to integrate, against 1 to 2 months for an EVM chain. *(Medium)*
+4. **Integration cost falls on Cardano.** Tooling built for account-based chains needs rework for eUTxO; the one provider able to measure it reports 6 to 12 months, against 1 to 2 months for an EVM chain; the technical review found the tooling gap plausible but could not verify the figures. *(Medium)*
 5. **Measurement stops at delivery.** Funded work is assessed at proposal and verified at milestones, but not followed into operation and usage. Two funded items ended after recorded delivery. *(Medium)*
 6. **Information is not maintained.** No authoritative register of Layer 2 options or provider status exists, so existing capability is hard to find. *(High)*
 
@@ -205,9 +205,9 @@ The full method is in the [Research Methodology Appendix](./CPC260015_M3_Researc
 
 | Horizon | Actions |
 |---|---|
-| Near-term (coordination) | 1. Let stablecoin-only users use smart contracts without first holding ADA. 2. Assess the cost of small stablecoin transfers with the workstreams that own fee parameters. 3. Close the basic-phone and phone-number access gap. 4. Provide mobile wallet connection for applications. |
-| Medium-term | Hold on-chain order matching until demand meets the threshold; reassess native oracle supply before funded free access ends around June 2027; publish a maintained register of Layer 2 options; improve wallet handling of small payments and seedless onboarding; lower the burden of issuing identity credentials; re-test throughput-related Layer 2 barriers after Leios; track cross-chain messaging and bridging; give partner-chain providers access to decision-makers. |
-| Deferred | Provider dependency on core components; exchange wallet-infrastructure support; Wanchain; integration tooling; pathways without flows; inference compute. |
+| Near-term (coordination) | 1. Let stablecoin-only users use smart contracts without first holding ADA. 2. Assess the cost of small stablecoin transfers with the workstreams that own fee parameters. 3. Make mobile wallet connection consistent across Cardano wallets. 4. Lower the cost of phone-number payments and close the basic-phone access gap. |
+| Medium-term | Hold on-chain order matching until demand meets the threshold; reassess native oracle supply before funded free access ends around June 2027; publish a maintained register of Layer 2 options; improve wallet handling of small payments and seedless onboarding; hold Layer 2 engineering funding and track the roadmap items the technical review linked to each barrier (Leios, CIP-0118 Nested Transactions, Midgard); track cross-chain messaging and bridging; give partner-chain providers access to decision-makers. |
+| Deferred | Provider dependency on core components; exchange wallet-infrastructure support; Wanchain; integration tooling; documentation of the node-free path for issuing identity credentials; pathways without flows; inference compute. |
 | Rejected | Layer 2 throughput funding justified by stalled African deployments; Celo MiniPay as a pathway; Milkomeda C1; bulk refunds (historical). |
 
 Each action is ranked on validated demand, impact, urgency, dependency, cost driver, owner, confidence, expected Cardano-side value and action type in the [Investment Sequencing Recommendation](./CPC260015_M3_InvestmentSequencingRecommendation_v1_10Oct2026.md).
@@ -215,7 +215,7 @@ Each action is ranked on validated demand, impact, urgency, dependency, cost dri
 **6.2 Investment implications**
 
 - No new funding decision is needed to start the near-term actions.
-- Hold Layer 2 engineering funding until barriers are re-tested after Leios and a proposal meets the [Evidence Threshold Framework](./CPC260015_M3_EvidenceThresholdFramework_v1_10Oct2026.md).
+- Hold Layer 2 engineering funding while the roadmap items linked to each barrier are delivered, and fund only proposals that meet the [Evidence Threshold Framework](./CPC260015_M3_EvidenceThresholdFramework_v1_10Oct2026.md).
 - Judge funded integrations on outcomes: seven builders and providers said funded integrations had not changed what they build.
 - Decide before around June 2027 what should happen to oracle supply when funded free access ends.
 
@@ -224,7 +224,7 @@ Each action is ranked on validated demand, impact, urgency, dependency, cost dri
 | Conclusion | Evidence that would change it |
 |---|---|
 | No pathway is net-positive | Source, destination and retention data showing stablecoin or bridge flows that are new to Cardano |
-| Layer 2 engineering should be deferred | Leios leaving throughput-related barriers in place, together with demand that meets the [Evidence Threshold Framework](./CPC260015_M3_EvidenceThresholdFramework_v1_10Oct2026.md) |
+| Layer 2 engineering should be deferred | Leios, CIP-0118 or Midgard delivered and leaving the barriers in place, together with demand that meets the [Evidence Threshold Framework](./CPC260015_M3_EvidenceThresholdFramework_v1_10Oct2026.md) |
 | Provider findings | Interviews with more bridge, interoperability and wallet providers contradicting the commercial explanation |
 | Demand is not at scale | Verified usage figures for waiting applications |
 | Access before throughput | Evidence that stablecoin-only users and basic-phone users are reached without wallet changes |
@@ -237,8 +237,8 @@ Each action is ranked on validated demand, impact, urgency, dependency, cost dri
 - **No flow data.** No value-flow classification relies on volume or supply.
 - **Respondent bias.** Most Cardano builders chose Cardano by familiarity; recruitment ran largely through Cardano networks; four respondents were flagged as seeking funding.
 - **Our own interest.** Our own validation work is disclosed as conflicted evidence and cannot set any finding above Low.
-- **Pending review.** The technical review of 13 items by Samir Idris is pending.
-- **Timing.** Several conclusions depend on Leios, LayerZero and Bifrost delivery, and on what follows the end of funded oracle access.
+- **Technical review.** An independent [technical review](./CPC260015_M3_TechnicalReview_v1_11Oct2026.md) by Samir Idris confirmed 4 of 13 technical claims, qualified 7 and could not assess 2; the reviewer declared a conflict on one item. Every deliverable reflects the verdicts.
+- **Timing.** Several conclusions depend on Leios, CIP-0118, Midgard, LayerZero and Bifrost delivery, and on what follows the end of funded oracle access.
 - **AI use.** AI tools were used in transcription, extraction, classification and drafting; every cited extract is checked against its text, but a manual review of 500 extracts may not catch every issue.
 
 ## 9. Deliverables
@@ -273,6 +273,7 @@ Each change is recorded, with where the earlier position was stated and why it c
 | Identus | Value-accretive (own work) | Neutral-access | [Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md) |
 | Celo MiniPay | Dependency-risk to value-leakage risk | Value-leakage risk | [Interoperability Value-Flow Assessment](./CPC260015_M3_InteroperabilityValueFlowAssessment_v1_10Oct2026.md) |
 | Charli3 status | No funding distress identified | Ceased Cardano-focused operations, May 2026 | [Provider and Partner Opportunity Analysis](./CPC260015_M3_ProviderPartnerOpportunityAnalysis_v1_10Oct2026.md) |
+| Phone-number payments; identity issuance; mobile wallet connection; order matching | No phone-number addressing; full node required; no mobile path; one match per transaction | Phone-number payments exist at 0.45 ADA per send; node-free issuance path exists; mobile connection exists but fragmented; genuine but narrower concurrency limits | [L2 Barrier Analysis](./CPC260015_M3_L2BarrierAnalysis_v1_09Oct2026.md), Section 6, following the [technical review](./CPC260015_M3_TechnicalReview_v1_11Oct2026.md) |
 | Adjacent RFP numbers | Proposal labels | The Committee's published numbering | [Cross-RFP Handoff Memo](./CPC260015_M3_CrossRFPHandoffMemo_v1_10Oct2026.md) |
 
 ## AI Use Disclaimer
