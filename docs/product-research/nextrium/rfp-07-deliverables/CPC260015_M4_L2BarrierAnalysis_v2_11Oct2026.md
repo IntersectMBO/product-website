@@ -612,6 +612,25 @@ These barriers come from our own protocol validation. We disclose them as confli
 
 No barrier type dominates. Technical barriers are a minority, which is consistent with our Hypothesis 3: many apparent Layer 2 blockers are something else.
 
+**All nine blocker types across the classified evidence**
+
+The table above counts the 26 ranked barriers. Every one of the 114 classified rows (105 tests and 9 desk-research barriers) was assigned one of the nine types, and routed by relevance:
+
+| Type | Tied to a Layer 2 or interoperability workflow | Routed to adjacent RFPs and workstreams | Negative-case evidence | Other | Total |
+|---|---|---|---|---|---|
+| Technical | 14 | 0 | 1 | 0 | 15 |
+| Commercial | 6 | 12 | 4 | 0 | 22 |
+| Ecosystem | 9 | 4 | 0 | 1 (duplicate) | 14 |
+| Liquidity | 0 | 4 | 1 | 0 | 5 |
+| UX | 3 | 2 | 0 | 0 | 5 |
+| Tooling | 6 | 19 | 3 | 0 | 28 |
+| Coordination | 2 | 12 | 2 | 0 | 16 |
+| Compliance | 0 | 4 | 4 | 0 | 8 |
+| Unknown | 0 | 0 | 0 | 1 (unresolved) | 1 |
+| Total | 40 | 57 | 15 | 2 | 114 |
+
+No liquidity or compliance blocker ties to a named Layer 2 or interoperability workflow, so all are routed through the [Cross-RFP Handoff Memo](./CPC260015_M4_CrossRFPHandoffMemo_v2_11Oct2026.md) or recorded as negative-case evidence. The one unknown blocker is carried as an unresolved question. The row-level classification is published in Section 9 of the [redacted Interview Analysis Workbook](./CPC260015_M4_InterviewAnalysisWorkbookRedacted_v2_11Oct2026.md).
+
 **6. Technical Review and Changes**
 
 Samir Idris reviewed 13 technically complex claims behind these barriers. The full review is published as the [Technical Review of Milestone 3 Claims](https://github.com/Nextrium/cpc-product-website/blob/milestone-3-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M3_TechnicalReview_v1_11Oct2026.md).
