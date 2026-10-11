@@ -414,7 +414,7 @@ AI tools were used in transcription, extraction, classification and drafting of 
 
 **7. Supporting Evidence**
 
-The extracts, Non-Layer 2 tests and consent tiers cited in each case are published in the [redacted Interview Analysis Workbook](https://github.com/Nextrium/cpc-product-website/blob/milestone-2-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M2_InterviewAnalysisWorkbookRedacted_v14_09Oct2026.md); the Milestone 3 classification of every test is published in the [Barrier Classification](https://github.com/Nextrium/cpc-product-website/blob/milestone-3-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M3_BarrierClassificationRedacted_v1_10Oct2026.md); and the technical review is published as the [Technical Review of Milestone 3 Claims](https://github.com/Nextrium/cpc-product-website/blob/milestone-3-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M3_TechnicalReview_v1_11Oct2026.md).
+The extracts, Non-Layer 2 tests and consent tiers cited in each case are published in the [redacted Interview Analysis Workbook](./CPC260015_M4_InterviewAnalysisWorkbookRedacted_v2_11Oct2026.md); the Milestone 3 classification of every test is published in Section 9 of the same workbook; and the technical review is published as the [Technical Review of Milestone 3 Claims](https://github.com/Nextrium/cpc-product-website/blob/milestone-3-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M3_TechnicalReview_v1_11Oct2026.md).
 
 **Document Version History**
 

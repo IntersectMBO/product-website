@@ -66,7 +66,7 @@ The full method is in the [Research Methodology Appendix](./CPC260015_M4_Researc
 - **Primary research (Milestone 2).** 31 interviews: 15 African builders and operators on Cardano, 5 infrastructure and tooling teams, 1 bridge and partner-chain provider, and 10 non-Cardano or negative-case respondents.
 - **Analysis (Milestone 3).** 500 evidence extracts; 105 tests of each blocker claim against seven non-Layer 2 explanations (liquidity, wallet support, bridge or provider access, tooling, commercial uncertainty, compliance, partner access); 114 classified rows across the nine-type taxonomy; six-element value-flow assessment of 13 pathways; nine-dimension assessment of 21 providers.
 - **Confidence.** High requires multiple independent evidence types with no material contradiction; Medium at least two types or one strong independent source; Low a single source, our own validation work only, or unverifiable evidence. Provider-side findings are capped at Low because of Category 3 access, and our own validation work cannot set any finding above Low.
-- **Traceability.** Every finding cites the extract, test, case or desk section it rests on. The redacted [Interview Analysis Workbook](https://github.com/Nextrium/cpc-product-website/blob/milestone-2-deliverables/docs/product-research/nextrium/rfp-07-deliverables/CPC260015_M2_InterviewAnalysisWorkbookRedacted_v14_09Oct2026.md) is published with Milestone 2.
+- **Traceability.** Every finding cites the extract, test, case or desk section it rests on. The redacted [Interview Analysis Workbook](./CPC260015_M4_InterviewAnalysisWorkbookRedacted_v2_11Oct2026.md) is published with Milestone 2.
 
 ## 4. Results by Decision Gate
 
