@@ -14,10 +14,11 @@ sidebar_label: "Milestone 4"
 | **Grant amount** | 25,000 ADA |
 | **Amount claimed this milestone** | 5,000 ADA |
 | **Cumulative amount claimed** | 25,000 ADA |
+| **Milestone status** | Partially complete |
 
 ## Summary
 
-Milestone 4 completes the research. All sixteen deliverables are in final form, including the Final Research Report and the Public Summary. The final versions incorporate the independent technical review of thirteen technical claims and a status check of every roadmap item and provider the conclusions depend on, and every change from the drafts is recorded in the deliverable that made it. The research finds that demand waiting on Layer 2 in African emerging markets is real but narrow and not yet at scale, that the barriers limiting adoption are mostly about access and cost, and that no action meets the evidence threshold for new funding today; it recommends coordination first, with Layer 2 engineering held until the linked roadmap items are delivered.
+Milestone 4 is partially complete. The research is complete and all sixteen deliverables are in final form, including the Final Research Report and the Public Summary. The final versions incorporate the independent technical review of thirteen technical claims and a status check of every roadmap item and provider the conclusions depend on, and every change from the drafts is recorded in the deliverable that made it. The research finds that demand waiting on Layer 2 in African emerging markets is real but narrow and not yet at scale, that the barriers limiting adoption are mostly about access and cost, and that no action meets the evidence threshold for new funding today; it recommends coordination first, with Layer 2 engineering held until the linked roadmap items are delivered. The remaining Milestone 4 items follow Committee review: live delivery of the Final Presentation, publication of the Public Summary after approval, and the community knowledge-sharing video and live Q&A.
 
 ## Deliverables
 
@@ -26,10 +27,10 @@ Contracted Milestone 4 deliverables (Agreement Appendix A):
 | # | Deliverable | Status | Evidence |
 |---|-------------|--------|----------|
 | 1 | Final Research Report | Complete | [Redacted version](./rfp-07-deliverables/CPC260015_M4_FinalResearchReport_v2_11Oct2026.md); the full report is confidential to the Committee (Proposal Section 13) and available on request |
-| 2 | Final Presentation | Prepared; to be delivered live to the Committee | Confidential (Proposal Section 13); available to the Committee |
-| 3 | Public Summary (published after approval) | Complete | [CPC260015_M4_PublicSummary_v1_11Oct2026.md](./rfp-07-deliverables/CPC260015_M4_PublicSummary_v1_11Oct2026.md) |
+| 2 | Final Presentation | Partially complete: prepared; live delivery to the Committee to follow | Confidential (Proposal Section 13); available to the Committee |
+| 3 | Public Summary (published after approval) | Partially complete: final; published on approval | [CPC260015_M4_PublicSummary_v1_11Oct2026.md](./rfp-07-deliverables/CPC260015_M4_PublicSummary_v1_11Oct2026.md) |
 | 4 | All supporting deliverables in final form | Complete | See the table below |
-| 5 | Community knowledge-sharing video and live Q&A | Video and live Q&A after publication (grant clause 4.4) | Links added on completion |
+| 5 | Community knowledge-sharing video and live Q&A | To follow publication (grant clause 4.4) | Links added on completion |
 
 All sixteen deliverables committed in our proposal (Section 13), in final form. Deliverables marked "summary public" are published as a public summary and a full version redacted for publication; the unredacted full versions are held privately and are available to the Committee on request.
 
