@@ -18,7 +18,7 @@ Further funding should depend on independent buyer demand, open-standard interop
 
 ## Evidence basis
 
-The synthesis uses 73 source-register entries (72 public, contractual and technical items plus one anonymized interview-source entry), 38 claim records, 8 comparison cases, 12 Cardano cases, 12 screened use cases and 33 anonymized field records across six segments. The source and field registers overlap for the interview-source entry.
+The synthesis uses 70 public and technical source-register entries, 38 controlled claim records, 8 comparison cases, 12 Cardano cases, 12 screened use cases and 33 anonymized field records across six segments. Private contractual records and controlled interview records are not included in the public source register.
 
 The synthesis triangulates public and technical sources with anonymized field evidence. Respondent identities, raw notes and organization-to-response mappings remain in the controlled project record. Field records vary in format and are used for qualitative triangulation, not statistical prevalence claims.
 
@@ -84,7 +84,7 @@ The strongest Cardano use case is conditional purchase of machine-delivered serv
 
 **Confidence.** Medium-high
 
-**Evidence references.** S25, S29, S44-S45, S50, S67, S72, FE02, FE03, FE06
+**Evidence references.** S25, S29, S44-S45, S50, S72, FE02, FE03, FE06
 
 ### F5 — Formal methods support credibility but are not the product proposition
 
@@ -96,7 +96,7 @@ Cardano's deterministic execution model and engineering discipline can improve c
 
 **Confidence.** High
 
-**Evidence references.** S33-S35, S51, S67, FE01, FE06
+**Evidence references.** S33-S35, S51, FE01, FE06
 
 ### F6 — Public-chain evidence must remain minimal and privacy-aware
 
@@ -108,7 +108,7 @@ A ledger can prove ordering, integrity and settlement state, but it cannot prove
 
 **Confidence.** High
 
-**Evidence references.** S16-S24, S36-S37, S67, S72, FE01, FE06
+**Evidence references.** S16-S24, S36-S37, S72, FE01, FE06
 
 ### F7 — Open standards are the route to relevance
 
