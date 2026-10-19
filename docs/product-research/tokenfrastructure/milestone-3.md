@@ -40,7 +40,7 @@ Supporting records:
 
 ## Completion statement
 
-The draft findings and matrices are complete and ready for CPC review. The synthesis draws on 73 source-register entries, 38 controlled claim records, 8 comparison cases, 12 Cardano or Cardano-adjacent cases, 12 scored use cases and 33 qualifying field records across the six agreed stakeholder segments.
+The draft findings and matrices are complete and ready for CPC review. The public evidence base contains 70 public and technical source entries, supported by 38 controlled claim records, 8 comparison cases, 12 Cardano or Cardano-adjacent cases, 12 scored use cases and 33 qualifying field records across the six agreed stakeholder segments.
 
 The recommendation is a **conditional go** for a narrow Cardano position as an assurance and conditional-settlement layer for open AI-agent services. The evidence does not support a broad “AI chain,” machine-payment leadership, compute-market or model-market position.
 
