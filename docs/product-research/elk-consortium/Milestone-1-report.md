@@ -63,7 +63,7 @@ The following documents provide the supporting evidence for Milestone 1:
 | Category | Budgeted (ADA) | Spent this period (ADA) | Cumulative spend (ADA) |
 |----------|---------------|------------------------|------------------------|
 | Research & interviews | ADA 8,750| 0| 0|
-| Report production> | ADA 10,000| 0| 0|
+| Report production | ADA 10,000| 0| 0|
 | Brainstorming and strategy building | ADA 8,750| 0| 0|
 | **Total** | 27,500| 0| 0|
 
