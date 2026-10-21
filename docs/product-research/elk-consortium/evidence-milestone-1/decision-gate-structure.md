@@ -5,7 +5,7 @@ sidebar_label: "Desision Gate"
 
 ### **Decision-Gate Structure**
 
-The project team is onboard with using decision gates to review progress. The sequence below is the confirmed structure for recording those reviews. The project team is aligned in principle with using decision gates.
+The project team is onboard with using decision gates to review progress. The sequence below is the confirmed structure for recording those reviews. The project team is aligned with this structure.
 
 | Gate | Review point and decision | Evidence considered | Proposed decision role |
 | ----- | ----- | ----- | ----- |
