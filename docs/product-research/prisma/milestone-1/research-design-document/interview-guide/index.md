@@ -1,7 +1,6 @@
 ---
 sidebar_label: Interview Guide
-asIndexPage: true
-title: "Prisma — Milestone 1: Interview Guide"
+title: Interview Guide
 ---
 
 ## Purpose
@@ -14,10 +13,12 @@ The interview surface area is defined in Primary Research. Recruitment targets a
 
 Primary research evidence passes through three layers:
 
-1. Conduct
-2. Ingest
-3. Verify
+1. [Conduct](/product-research/prisma/milestone-1/research-design-document/interview-guide/conduct)
+2. [Ingest](/product-research/prisma/milestone-1/research-design-document/interview-guide/ingest)
+3. [Verify](/product-research/prisma/milestone-1/research-design-document/interview-guide/verify)
  
+Implementation-level patterns for ingest are documented in the [Resolver Examples](https://docs.prisma.events/en/processes/process-infrastructuring/publishing/timelining/resolver-examples). 
+
 > Note: Details for ingest will be co-designed with support from Prisma in project phases 2-3. 
 
 ## Interview Roles

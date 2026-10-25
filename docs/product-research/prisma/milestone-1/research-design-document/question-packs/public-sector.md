@@ -1,5 +1,6 @@
 ---
-sidebarTitle: Public Sector
+sidebar_label: Public Sector
+title: Public Sector
 ---
 
 # Question Pack — Public Sector

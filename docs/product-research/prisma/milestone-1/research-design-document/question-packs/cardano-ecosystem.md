@@ -1,5 +1,6 @@
 ---
-sidebarTitle: Cardano Ecosystem
+sidebar_label: Cardano Ecosystem
+title: Cardano Ecosystem
 ---
 
 # Question Pack — Cardano Ecosystem

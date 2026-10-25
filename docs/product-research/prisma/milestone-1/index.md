@@ -50,7 +50,7 @@ None.
 
 ## Plan for Next Milestone
 
-Phase 2 — Regional Screening and Desk Research ([Milestone 2](https://docs.prisma.events/en/events/cpc/executing/fundamentals/milestones/milestone-2)): apply RARF to candidate clusters; produce Preliminary Market Prioritisation Matrix; confirm priority deep-dive regions with CPC.
+Phase 2 — Regional Screening and Desk Research (Milestone 2): apply RARF to candidate clusters; produce Preliminary Market Prioritisation Matrix; confirm priority deep-dive regions with CPC.
 
 ## Attestation
 

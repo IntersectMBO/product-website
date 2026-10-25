@@ -1,5 +1,6 @@
 ---
-sidebarTitle: Delivery Partners
+sidebar_label: Delivery Partners
+title: Delivery Partners
 ---
 
 # Question Pack — Delivery Partners

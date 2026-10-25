@@ -1,5 +1,6 @@
 ---
-sidebarTitle: Payment Infrastructure
+sidebar_label: Payment Infrastructure
+title: Payment Infrastructure
 ---
 
 # Question Pack — Payment Infrastructure

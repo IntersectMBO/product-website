@@ -5,7 +5,7 @@ sidebar_label: Candidate Regions
 
 # Candidate Regions
 
-Country-cluster screening set for Phase 2. Cities are hub / access points inside clusters, not the screening grain. Selection logic: [Region Selection](https://docs.prisma.events/en/events/cpc/appendix/region-selection). Named plays to test: [Use-Case Hypothesis Register](https://docs.prisma.events/en/events/cpc/executing/deliverables/research-design-document/use-case-hypothesis-register).
+Country-cluster screening set for Phase 2. Cities are hub / access points inside clusters, not the screening grain. Selection logic: [Region Selection](/product-research/prisma/milestone-1/research-design-document/region-selection). Named plays to test: [Use-Case Hypothesis Register](/product-research/prisma/milestone-1/research-design-document/use-case-hypothesis-register).
 
 East Asia is out of scope for this engagement.
 
