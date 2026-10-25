@@ -28,9 +28,11 @@ The study employs purposive sampling (Patton, 2015; Palinkas et al., 2015), stra
 | **Extended subtotal** | | **5** | **7 to 9** |
 | **Expert calls** | Former regulators, sector experts | 5 | 5 to 8 |
 | **Beneficiary-side** | Cooperatives, community and identity-access organisations (at least one northern and one southern group) | 2 | 2 to 3 |
-| **Total** | | **23** | **25 to 35** |
+| **Total** | | **25 (Contractual Floor)** | **25 to 35** |
 
-A Minimum Viable Evidence Base of 11 core interviews must be reached before Milestone 3 can be declared substantially complete. The absolute floor of 23 applies only where a stratum is documented as inaccessible, in which case the shortfall and its effect on confidence are disclosed (Bias Control 6).
+A Minimum Viable Evidence Base of 11 core interviews must be reached before Milestone 3 can be declared substantially complete.
+
+**Contractual Minimum Floor and Qualifying Interview Rule:** While the five individual stratum sub-floors (11 Core + 5 Extended + 5 Expert Calls + 2 Beneficiary-Side) sum to 23, the binding contractual minimum under Grant Contract CPC-26-0014 is at least 25 completed interviews (≥ 25, within a planned target range of 25–30) across Northern and Southern Nigeria. At least 2 additional interviews above the individual stratum sub-floors are drawn from the mapped reserve pool, and if any primary single-institution target (such as a specific regulatory department) declines or is unavailable within the fieldwork window despite documented escalation, the team will execute same-archetype substitution from the pre-mapped reserve stakeholder pool rather than allowing total completed interviews to fall below 25. Only formal, consented, semi-structured Key Informant Interviews (KIIs) conducted using the approved archetype-specific interview instruments across Archetypes A, B, C, and D—each documented with informed consent, a unique anonymised respondent ID code, structured interview notes/transcript, and geographic/archetype classification, with any joint session involving multiple officials from the same organisational unit counted as one (1) interview—count toward the required 25 interviews. Symposium panel discussions, event attendance, informal networking, preliminary outreach/scheduling calls, and secondary desk consultations do not count toward the 25-interview minimum.
 
 ### 4.3 The Stakeholder Access Roster
 
