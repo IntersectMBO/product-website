@@ -25,7 +25,7 @@ Since the August 2026 kickoff, the research team has concentrated on four workst
 | Phase 2: Stakeholder mapping | In progress | Twelve tier-one institutions and one event partner classified by archetype and access status (§4.3). Mapping of extended ecosystem and beneficiary-side organisations is under way. |
 | Preliminary regulatory scanning | Started | Scoping-level scan of NIIRA 2025, ISA 2025, NDPA 2023 and the CBN posture toward digital assets (§1.2). The use-case-specific assessment defined in Appendix C is a Phase 3 activity. |
 | Instrument development | Drafted | Five interview modules (Appendix A) and screener criteria (Appendix B) drafted. Consent and information materials are being prepared ahead of outreach. |
-| Ethics review | Scheduled | Departmental review is a Phase 3 exit condition and will precede the first interview (§8.1). |
+| Ethics review | Scheduled | Ethical clearance is a Phase 3 exit condition and will precede the first interview (§8.1). |
 | Stakeholder access | Secured at "warm" level | Access opened at the Symposium (Chapter 7). Written invitations follow approval of this submission. |
 | Public reporting | Under way | This submission is the first public milestone report on the project repository. |
 
@@ -39,7 +39,7 @@ On stakeholder access, the Symposium moved the project from a mixture of desk-id
 
 | Horizon | Priority actions |
 |---|---|
-| **Immediately after acceptance** | Issue written invitations to Wave 1 counterparties; finalise consent and information sheets; complete departmental ethics review |
+| **Immediately after acceptance** | Issue written invitations to Wave 1 counterparties; finalise consent and information sheets; complete ethical clearance |
 | **Phases 1 to 3 (toward M2)** | Complete the Market Framing Document and literature map; complete the use-case-specific regulatory landscape summaries; finalise the access map; run Gate A |
 | **Phase 4 (toward M3)** | Conduct core, extended and expert interviews and beneficiary engagements; maintain the contact log and tagging protocol; hold a mid-fieldwork review of sample coverage against §4.2 |
 | **Phases 5 to 8 (toward M4 and M5)** | Validation with senior stakeholders; final screen; adoption pathway analysis; playbook, decision memo and dissemination |

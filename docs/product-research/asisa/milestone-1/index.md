@@ -1,14 +1,14 @@
 ---
-title: "ASISA / Odufuwa — Milestone 1"
+title: "ASISA / Odufuwa: Milestone 1"
 sidebar_label: "Milestone 1"
 ---
 
-# ASISA — Milestone 1: Inception & Research Design
+# ASISA Milestone 1: Inception & Research Design
 
 | Field | Value |
 |-------|-------|
-| **RFP** | RFP 05 — Government and Emerging Markets Entry Strategy |
-| **Team / Organisation** | ASISA — Actuarial Science and Insurance Students Association, Ahmadu Bello University, Zaria, Nigeria |
+| **RFP** | RFP 05: Government and Emerging Markets Entry Strategy |
+| **Team / Organisation** | ASISA (Actuarial Science and Insurance Students Association), Ahmadu Bello University, Zaria, Nigeria |
 | **Project Lead** | Odufuwa O. Oluwakayode |
 | **Milestone number** | 1 of 5 |
 | **Reporting period** | August – September 2026 |
@@ -36,14 +36,14 @@ No primary research findings are presented at this stage. All use cases enter th
 
 | # | Deliverable | Status | Evidence |
 |---|-------------|--------|----------|
-| 1 | Research Design Document | Complete | [Research Design Document](./research-design-document) |
-| 2 | Stakeholder Recruitment Strategy | Complete | [Stakeholder Strategy](./stakeholder-strategy) |
-| 3 | Screening Model and Decision Gates | Complete | [Screening Model](./screening-model) |
-| 4 | Symposium Report | Complete | [Symposium Report](./symposium-report) |
-| 5 | Inception Timeline and Checkpoint Schedule | Complete | [Inception Timeline](./inception-timeline) |
-| 6 | Progress Report | Complete | [Progress Report](./progress-report) |
+| 1 | Research Design Document | Complete | [Research Design Document](./research-design-document.md) |
+| 2 | Stakeholder Recruitment Strategy | Complete | [Stakeholder Strategy](./stakeholder-strategy.md) |
+| 3 | Screening Model and Decision Gates | Complete | [Screening Model](./screening-model.md) |
+| 4 | Symposium Report | Complete | [Symposium Report](./symposium-report.md) |
+| 5 | Inception Timeline and Checkpoint Schedule | Complete | [Inception Timeline](./inception-timeline.md) |
+| 6 | Progress Report | Complete | [Progress Report](./progress-report.md) |
 
-Supporting documents: [Appendices](./appendices) · [References](./references)
+Supporting documents: [Appendices](./appendices.md) · [References](./references.md)
 
 ## Evidence of Completion
 
@@ -58,11 +58,11 @@ Supporting documents: [Appendices](./appendices) · [References](./references)
 
 | Category | Budgeted (ADA) | Spent this period (ADA) | Cumulative spend (ADA) |
 |----------|---------------|------------------------|------------------------|
-| Personnel — PI research design and project leadership | 2,000 | 2,000 | 2,000 |
-| Research — literature review, desk research, and methodology development | 1,200 | 1,200 | 1,200 |
-| Documentation — report writing, formatting, and deliverable preparation | 800 | 800 | 800 |
-| Meetings — kickoff coordination, CPC alignment, and stakeholder scheduling | 500 | 500 | 500 |
-| Administration — project setup, communications, and workspace configuration | 500 | 500 | 500 |
+| Personnel: PI research design and project leadership | 2,000 | 2,000 | 2,000 |
+| Research: literature review, desk research, and methodology development | 1,200 | 1,200 | 1,200 |
+| Documentation: report writing, formatting, and deliverable preparation | 800 | 800 | 800 |
+| Meetings: kickoff coordination, CPC alignment, and stakeholder scheduling | 500 | 500 | 500 |
+| Administration: project setup, communications, and workspace configuration | 500 | 500 | 500 |
 | **Total Milestone 1** | **5,000** | **5,000** | **5,000** |
 
 The grant agreement total is ADA 32,500 across 5 milestones. This Milestone 1 claim of ADA 5,000 represents 15.4% of the total grant. The ASISA Insurance Technology Symposium (26 August 2026) was an independent ASISA ABU initiative and is not funded by this research grant. No symposium costs are included above.
