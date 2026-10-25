@@ -1,5 +1,6 @@
 ---
-sidebarTitle: Agricultural Networks
+sidebar_label: Agricultural Networks
+title: Agricultural Networks
 ---
 
 # Question Pack — Agricultural Networks

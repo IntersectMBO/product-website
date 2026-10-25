@@ -7,7 +7,7 @@ sidebar_label: Kickoff Report
 
 ## Purpose
 
-Confirms that the team, the CPC, and the project structure are aligned before significant spend. Fill this during or after the CPC kickoff meeting. Design substance lives in the [Research Design Document](https://docs.prisma.events/en/events/cpc/executing/deliverables/research-design-document) — this report is governance only.
+Confirms that the team, the CPC, and the project structure are aligned before significant spend. Fill this during or after the CPC kickoff meeting. Design substance lives in the [Research Design Document](/product-research/prisma/milestone-1/research-design-document) — this report is governance only.
 
 ## Meeting record
 
@@ -23,10 +23,10 @@ Confirms that the team, the CPC, and the project structure are aligned before si
 
 | Item | Confirmed (Y/N) | Notes |
 | :---- | :---- | :---- |
-| Objectives and eight [decision gates](https://docs.prisma.events/en/events/cpc/executing/terminology/decision-gates) | Y | CPC confirmed no changes required to project direction |
+| Objectives and eight [decision gates](/product-research/prisma/milestone-1/research-design-document/decision-gates) | Y | CPC confirmed no changes required to project direction |
 | Scope boundaries / out-of-scope / cross-RFP discipline | Y | CPC confirmed no changes required to project direction |
 | Communication cadence and checkpoint calendar ([Work Plan](https://docs.prisma.events/en/events/cpc/executing/fundamentals/work-plan-and-timeline)) | Y | CPC confirmed no changes required to project direction |
-| Confidentiality expectations ([Data](https://docs.prisma.events/en/events/cpc/appendix/data)) | Y | CPC confirmed no changes required to project direction |
+| Confidentiality expectations ([Data](/product-research/prisma/milestone-1/research-design-document/data)) | Y | CPC confirmed no changes required to project direction |
 | Roles / CPC relationship owner | Y | CPC confirmed no changes required to project direction |
 
 ## Design package acknowledged
@@ -35,11 +35,11 @@ Links only — do not restate methodology here.
 
 | Artefact | Link | Acknowledged (Y/N) |
 | :---- | :---- | :---- |
-| Research Design Document | [RDD](https://docs.prisma.events/en/events/cpc/executing/deliverables/research-design-document) | Y |
-| Candidate Regions (country-cluster set; `CPC agreed` column) | [Candidate Regions](https://docs.prisma.events/en/events/cpc/executing/deliverables/candidate-regions) | Y |
-| Use-Case Hypothesis Register | [Register](https://docs.prisma.events/en/events/cpc/executing/deliverables/use-case-hypothesis-register) | Y |
-| Stakeholder Recruitment Plan | [Recruitment](https://docs.prisma.events/en/events/cpc/executing/deliverables/research-design-document/stakeholder-recruitment-plan) | Y |
-| Ethics brief | via RDD → [Ethics](https://docs.prisma.events/en/events/cpc/appendix/ethics) | Y |
+| Research Design Document | [RDD](/product-research/prisma/milestone-1/research-design-document) | Y |
+| Candidate Regions (country-cluster set; `CPC agreed` column) | [Candidate Regions](/product-research/prisma/milestone-1/research-design-document/candidate-regions) | Y |
+| Use-Case Hypothesis Register | [Register](/product-research/prisma/milestone-1/research-design-document/use-case-hypothesis-register) | Y |
+| Stakeholder Recruitment Plan | [Recruitment](/product-research/prisma/milestone-1/research-design-document/stakeholder-recruitment-plan) | Y |
+| Ethics brief | via RDD → [Ethics](/product-research/prisma/milestone-1/research-design-document/ethics) | Y |
 | Candidate region list mutually agreed | | Y |
 
 ## Open actions

@@ -1,5 +1,6 @@
 ---
-sidebarTitle: Humanitarian & NGO
+sidebar_label: Humanitarian & NGO
+title: Humanitarian & NGO
 ---
 
 # Question Pack — Humanitarian & NGO

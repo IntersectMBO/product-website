@@ -1,3 +1,8 @@
+---
+sidebar_label: Milestone Acceptance Form
+title: Milestone Acceptance Form
+---
+
 ### [**Milestone Acceptance Form (MAF)**](https://docs.google.com/document/d/1c1kC5q7LwHpQNGHdq9uXv5o5LNHXlDbxCJXtvMeenkA/edit?tab=t.0)
 
 Below provides a step-by-step guide to help beneficiaries formulate clear, comprehensive, and effective answers for each section of the milestone acceptance form. The goal is to demonstrate that the work has been successfully completed according to the agreed-upon standards.

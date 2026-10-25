@@ -8,11 +8,11 @@ The project execution relies heavily on coordination with local hubs in each reg
 
 In alignment with PRISMA's organising methodology already practiced with several candidate hubs, local teams may be incubated to further distribute the field intelligence efforts.
 
-By focusing on the interviewer training modules outlined in the [interview guide](/en/events/cpc/executing/deliverables/research-design-document/interview-guide), and by working on deepening existing hub-prisma organising capabilities, we expect to be able to deliver high quality local stakeholder enagements.
+By focusing on the interviewer training modules outlined in the [interview guide](/product-research/prisma/milestone-1/research-design-document/interview-guide), and by working on deepening existing hub-prisma organising capabilities, we expect to be able to deliver high quality local stakeholder enagements.
 
 ## Recursive Enrolment
 
-Prisma has for a long time already organised participatory events with enrolment as one of the [four core process domains](/en/processes). This project applies that basic principle of enrolment across each link of the network:
+Prisma has for a long time already organised participatory events with enrolment as one of the [four core process domains](https://docs.prisma.events/en/processes). This project applies that basic principle of enrolment across each link of the network:
 
 - From Prisma as coordinating entity
 - To Hubs as central regional counterparties
@@ -37,12 +37,12 @@ Forms are the repeating unit across each level. The following table shows how th
 
 The following guidances are provided for each form type:
 
-- [Local teams](/en/events/cpc/organising/enrolment/form-guidance/participants)
-- [Local Stakeholders](/en/events/cpc/organising/enrolment/form-guidance/local-stakeholders)
+- [Local teams](https://docs.prisma.events/en/events/cpc/organising/enrolment/form-guidance/participants)
+- [Local Stakeholders](https://docs.prisma.events/en/events/cpc/organising/enrolment/form-guidance/local-stakeholders)
 
 ## Verification
 
-The [atomic data ingest](/en/events/cpc/executing/deliverables/research-design-document/interview-guide) used during stakeholder interviews works in conjunction with verifiable attestations of stakeholder relationships. In the same way that the hub is given the responsibility to evaluate entries, assure data quality, and issue Verifiable Claims (VCs) for batches of interview records, hubs may issue VCs to local teams to vouch for stakeholder relationships. The key is the hub must own the responsibility of re-activating that relationship if it is decided the outputs of their efforts - the regional adoption signal - is to be acted upon. The issuance of VCs is the account of lead sourcing and the team's stake in the playbook upside (future market entry initiatives), and therefore also a clear incentive for teams. All stakeholders (at all levels) can use this transparency to invest into the relational development.
+The [atomic data ingest](/product-research/prisma/milestone-1/research-design-document/interview-guide) used during stakeholder interviews works in conjunction with verifiable attestations of stakeholder relationships. In the same way that the hub is given the responsibility to evaluate entries, assure data quality, and issue Verifiable Claims (VCs) for batches of interview records, hubs may issue VCs to local teams to vouch for stakeholder relationships. The key is the hub must own the responsibility of re-activating that relationship if it is decided the outputs of their efforts - the regional adoption signal - is to be acted upon. The issuance of VCs is the account of lead sourcing and the team's stake in the playbook upside (future market entry initiatives), and therefore also a clear incentive for teams. All stakeholders (at all levels) can use this transparency to invest into the relational development.
 
 Recursive enrolment is structured to generate candidates for primary research (interviews) that come from the use-cases identified by regional hubs themselves.
 

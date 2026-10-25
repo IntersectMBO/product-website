@@ -1,5 +1,6 @@
 ---
-sidebarTitle: Regulators & Policy
+sidebar_label: Regulators & Policy
+title: Regulators & Policy
 ---
 
 # Question Pack — Regulators & Policy
