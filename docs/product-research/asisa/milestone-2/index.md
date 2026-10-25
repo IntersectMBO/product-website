@@ -78,7 +78,7 @@ The total grant agreement is ADA 32,500 across five milestones. This Milestone 2
 | Field | Value |
 |---|---|
 | **Payment** | ADA 11,000 |
-| **Key activities** | Formal written research invitations to Wave 1–5 counterparties; execution of structured and semi-structured interviews, expert calls, and Northern/Southern beneficiary engagements across Archetypes A–D; empirical testing of the Gate A provisional priority tiers and regulatory diligence questions |
+| **Key activities** | Dispatch of formal written research invitations to Wave 1–5 counterparties following Milestone 1/2 review alignment; execution of ≥25 formal, consented semi-structured Key Informant Interviews (KIIs) across Northern and Southern Nigeria spanning Archetypes A–D (with same-archetype reserve substitution so completed interviews never fall below the contractual minimum of 25); empirical testing of Gate A provisional priority tiers and regulatory diligence questions |
 | **Key deliverables** | Primary Research Synthesis Report; Anonymised Consultation Log and Coded Evidence Tables; Phase 5 Institutional Validation Log & Confidence Register; Gate B Post-Fieldwork Preparation |
 
 ## Attestation
