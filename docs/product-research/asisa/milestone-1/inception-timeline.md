@@ -35,12 +35,12 @@ The formal project kickoff was held in August 2026. At the kickoff the research 
 Weeks count from formal Milestone 1 approval by the CPC (see the baseline reconciliation note below and §3.3).
 
 > [!NOTE]
-> **Project-Week Baseline Reconciliation:** To maintain a single consistent schedule baseline across all chapters (reconciling Chapter 3 and Chapter 9), the Chapter 3 baseline—anchoring Week 1 of downstream execution to formal Milestone 1 approval by the Cardano Product Committee (CPC)—governs the project workplan, superseding nominal pre-approval calendar projections drafted prior to contract onboarding and the August 2026 industry symposium. Because Milestone 1 establishes the foundational research design, bias-control protocols, and interview instruments, primary fieldwork execution (Milestone 3) is gated on formal Milestone 1 approval.
+> **Project-Week Baseline Reconciliation:** To maintain a single consistent schedule baseline across all chapters (reconciling Chapter 3 and Chapter 9), the Chapter 3 baseline, anchoring Week 1 of downstream execution to formal Milestone 1 approval by the Cardano Product Committee (CPC), governs the project workplan, superseding nominal pre-approval calendar projections drafted prior to contract onboarding and the August 2026 industry symposium. Because Milestone 1 establishes the foundational research design, bias-control protocols, and interview instruments, primary fieldwork execution (Milestone 3) is gated on formal Milestone 1 approval.
 
 | Weeks | Phase / activity | Milestone | CPC checkpoint | Primary output |
 |---|---|---|---|---|
 | 1 | Kickoff: confirm gates, scope, cadence | M1 | Kickoff | Aligned workplan |
-| 1 to 3 | Phase 1: Desk research and market framing | M1 | Research Design Review | Confirmed design; long-list |
+| 1 to 3 | Phase 1: Desk research and market framing | M1 to M2 | Research Design Review | Confirmed design; long-list |
 | 3 to 6 | Phase 2: Stakeholder ecosystem mapping | M1 to M2 | Regional Screening Review | Draft access map |
 | 5 to 9 | Phase 3: Regulatory readiness; Gate A | M2 | Stakeholder Access Check | Draft regulatory summaries; instruments; ethics clearance |
 | 8 to 15 | Phase 4: Primary research | M3 | Regulatory and Infrastructure Review | Primary evidence base |

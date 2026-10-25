@@ -12,7 +12,7 @@ The CPC may verify Milestone 1 compliance against the four contractual acceptanc
 |---|---|---|---|---|
 | 1 | Applicable RFP requirements and proposal commitments are reflected in the research design | ✅ Met | Chapter 3 (phase architecture); Chapter 5 (screening model and decision gate map); Chapter 6 (bias register as design requirement) | All nine RFP decision gates are mapped to a method, a research phase and a named deliverable (Table 5.6). Five research questions and five hypotheses are confirmed (Chapter 2). |
 | 2 | Methodology defined | ✅ Met | Chapter 3 (eight-phase architecture linked to Milestones 1 to 5); Chapter 5 (nine-criterion model, four-level scale, single-criterion disqualification rule); Chapter 6 (ten bias controls) | Screening rules are locked before fieldwork begins (§6.3). |
-| 3 | Kickoff completed and research plan and workspace confirmed | ✅ Met | Chapter 9 (kickoff, workspace, cadence); Chapter 4 (primary research plan); Chapter 7 (catalyst event of 26 August 2026); Chapter 10 (progress) | **Physical Research Team Kickoff & CPC Alignment Record:** The project team conducted its physical inception kickoff on 14 August 2026 in Lagos alongside the executive/symposium planning committee session (conducted in-person as an integrated executive working session without a separate video recording), establishing the repository workspace (`docs/product-research/asisa/`), version-controlled documentation workflow, and internal research governance protocols. Because a live synchronous kickoff call with the CPC could not be completed prior to the Committee break despite four attempts to join the weekly CPC sync calls and follow-up enquiries on Discord, the Milestone 1 Inception Report submission and formal CPC Primary/Secondary Review sign-off serve as the documented record of CPC alignment on project scope, confirmed research questions, and research plan. GitHub (IntersectMBO/product-website/ and [GitHub repo: Mayorofweb3/product-website](https://github.com/Mayorofweb3/product-website)) is the public reporting workspace; encrypted institutional storage holds research data; bi-weekly progress updates to the CPC. |
+| 3 | Kickoff completed and research plan and workspace confirmed | ✅ Met | Chapter 9 (kickoff, workspace, cadence); Chapter 4 (primary research plan); Chapter 7 (catalyst event of 26 August 2026); Chapter 10 (progress) | **Physical Research Team Kickoff & CPC Alignment Record:** The project team conducted its physical inception kickoff on 14 August 2026 alongside the executive/symposium planning committee session (conducted in-person as an integrated executive working session without a separate video recording), establishing the repository workspace (`docs/product-research/asisa/`), version-controlled documentation workflow, and internal research governance protocols. Because a live synchronous kickoff call with the CPC could not be completed prior to the Committee break despite four attempts to join the weekly CPC sync calls and follow-up enquiries on Discord, the Milestone 1 Inception Report submission and formal CPC Primary/Secondary Review sign-off serve as the documented record of CPC alignment on project scope, confirmed research questions, and research plan. GitHub (IntersectMBO/product-website/ and [GitHub repo: Mayorofweb3/product-website](https://github.com/Mayorofweb3/product-website)) is the public reporting workspace; encrypted institutional storage holds research data; bi-weekly progress updates to the CPC. |
 | 4 | Inception documents complete | ✅ Met | This report in its entirety | Consolidates the Inception Report, Research Design, confirmed Research Questions and Primary Research Plan in a single submission. |
 
 ### Contractual clause compliance
@@ -185,7 +185,7 @@ The significance of the study rests on the quality of the evidence it will produ
 
 **For research methodology.** The design embeds practices that counter well-documented distortions: a no-go default and pre-registered decision rules address confirmation bias (Nickerson, 1998); independent corroboration and attribution controls address social desirability (Nederhof, 1985); necessity testing addresses the tendency to apply a favoured tool to every problem (Maslow, 1966; Wüst & Gervais, 2018); and the commitment to publish rejected hypotheses addresses the selective reporting of positive results (Rosenthal, 1979).
 
-**For local research capacity.** The study is conducted by a student-led research team in Northern Nigeria under departmental supervision, and links academic and industry participants, as the Symposium theme "Bridging Industrial and Academic Insights" reflects. It builds practical research capability within the Department of Actuarial Science and Insurance at Ahmadu Bello University.
+**For local research capacity.** The study is led by an embedded research team in Northern Nigeria, linking academic and industry participants (as reflected in the Symposium theme "Bridging Industrial and Academic Insights") and building practical empirical research capability within ASISA ABU and the Department of Actuarial Science and Insurance at Ahmadu Bello University.
 
 ### 1.7 Scope and Delimitations
 
@@ -205,7 +205,7 @@ The significance of the study rests on the quality of the evidence it will produ
 
 ### 1.8 Research Governance
 
-The project was formally activated at a kickoff meeting in August 2026, at which the team confirmed alignment with the RFP 05 scope, confirmed the nine decision gates as the governing evidence framework, established the bi-weekly reporting cadence with the CPC and confirmed the digital workspace (Chapter 9). The Project Lead retains day-to-day operational control and primary investigatory responsibility. The Department of Actuarial Science and Insurance, Ahmadu Bello University, provides academic supervision where needed and appropriate.
+The project was formally activated at a kickoff meeting in August 2026, at which the team confirmed alignment with the RFP 05 scope, confirmed the nine decision gates as the governing evidence framework, established the bi-weekly reporting cadence with the CPC and confirmed the digital workspace (Chapter 9). The Project Lead retains day-to-day operational control and primary investigatory responsibility. The Department of Actuarial Science and Insurance, Ahmadu Bello University, provides academic supervision and ethics oversight.
 
 ---
 
@@ -358,7 +358,7 @@ The project is engineered as a funnel of viability: each phase filters, validate
 
 | Phase | Weeks | Milestone | Activities | Principal outputs |
 |---|---|---|---|---|
-| 1. Baseline desk research and market framing | 1 to 3 | M2 | Aggregate market, protection-gap and regulatory data; document distribution, claims and trust failures; review current insurtech activity; map the literature; compile the long-list without committing to any candidate | Market framing document; confirmed long-list |
+| 1. Baseline desk research and market framing | 1 to 3 | M1 to M2 | Aggregate market, protection-gap and regulatory data; document distribution, claims and trust failures; review current insurtech activity; map the literature; compile the long-list without committing to any candidate | Market framing document; confirmed long-list |
 | 2. Stakeholder ecosystem mapping | 3 to 6 | M1 to M2 | Map institutions whose cooperation materially affects entry (decision sponsor, regulator, distribution partner, technical implementer, compliance enabler, payment partner, beneficiary); record access status honestly | Counterparty and partner access map (draft) |
 | 3. Regulatory readiness assessment | 5 to 9 | M2 | Identify authorities, rules, licensing needs, data constraints and stablecoin treatment for each shortlisted use case; label uncertainty and flag counsel-required items; finalise instruments and ethics review; run Gate A (§3.4) | Regulatory landscape summaries (draft); interview guides; ethics clearance |
 | 4. Primary research: fieldwork | 8 to 15 | M3 | 25 to 35 interviews, expert calls and beneficiary engagements (§4.2), including northern and southern locations; symposium contacts converted into consented interviews (§7.8) | Primary evidence base; interview logs |
@@ -459,7 +459,7 @@ A recognised risk in technology research is favouring a preferred tool regardles
 
 ### 8.1 Ethical Principles
 
-The research involves human participants and applies human-subject safeguards under institutional academic supervision. Departmental ethics review is completed before the first interview and is a Phase 3 exit condition.
+The research involves human participants and applies standard human-subject research safeguards. Ethical review and clearance are completed before the first interview as a Phase 3 exit condition.
 
 - **Informed consent.** Respondents are told the purpose of the study, the research team's role and the funding source (Intersect and the Cardano ecosystem) before participating. Consent is explicit and, where recorded, confirmed on audio.
 - **Voluntary participation.** No respondent is pressured, incentivised beyond reasonable acknowledgement, or misled about scope.
@@ -487,7 +487,7 @@ The research involves human participants and applies human-subject safeguards un
 
 ### 8.5 Academic Oversight
 
-The ethical framework and execution of the research operate where appropriate, under the academic supervision of the Department of Actuarial Science and Insurance, Ahmadu Bello University. Day-to-day operational control, stakeholder engagement and primary investigatory responsibility reside with the Project Lead, Odufuwa O. Oluwakayode.
+Day-to-day operational control, ethical compliance, stakeholder engagement and primary investigatory responsibility reside with the Project Lead, Odufuwa O. Oluwakayode, within the research governance arrangements set out in §1.8.
 
 ### 8.6 Event Imagery
 
