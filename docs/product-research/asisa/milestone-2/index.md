@@ -1,16 +1,16 @@
 ---
-title: "ASISA / Odufuwa — Milestone 2"
+title: "ASISA / Odufuwa: Milestone 2"
 sidebar_label: "Milestone 2"
 sidebar_position: 1
 ---
 
-# ASISA — Milestone 2: Desk Research & Ecosystem Mapping
+# ASISA: Milestone 2: Desk Research & Ecosystem Mapping
 
 | Field | Value |
 |---|---|
-| **RFP** | RFP 05 — Government and Emerging Markets Entry Strategy |
+| **RFP** | RFP 05: Government and Emerging Markets Entry Strategy |
 | **Project Reference** | CPC-26-0014 / ER-0004b-25 |
-| **Team / Organisation** | ASISA — Actuarial Science and Insurance Students Association, Ahmadu Bello University, Zaria, Nigeria |
+| **Team / Organisation** | ASISA: Actuarial Science and Insurance Students Association, Ahmadu Bello University, Zaria, Nigeria |
 | **Project Lead** | Odufuwa O. Oluwakayode (Principal Investigator) |
 | **Milestone number** | 2 of 5 |
 | **Grant amount** | ADA 32,500 |
@@ -24,8 +24,8 @@ Milestone 2 executes the desk research and market framing (Phase 1/2), stakehold
 During this milestone, the research team:
 
 - **Produced the Desk Research Report (Market Framing Document):** Established the empirical baseline of the Nigerian insurance market using National Insurance Commission (NAICOM), Nigerian Insurers Association (NIA), National Bureau of Statistics (NBS), and EFInA Access to Financial Services (A2F) datasets; mapped 25 peer-reviewed, statutory, and institutional sources across six analytical themes; evaluated all eight candidate use cases against non-blockchain alternatives and live Cardano mainnet protocol parameters; and executed a four-country Comparative African Screen across Nigeria, Kenya, Ghana, and South Africa.
-- **Completed the Preliminary Regulatory Scan:** Audited all eight candidate use cases across five Nigerian statutory authorities—NAICOM, the Securities and Exchange Commission (SEC Nigeria), the Central Bank of Nigeria (CBN), the National Identity Management Commission (NIMC), and the Nigeria Data Protection Commission (NDPC)—incorporating the *Nigerian Insurance Industry Reform Act (NIIRA) 2025*, the *NAICOM Guidelines for Insurtech Operations in Nigeria (August 2025)*, the *Investments and Securities Act (ISA) 2025*, the *Nigeria Data Protection Act (NDPA) 2023*, the *NIMC Act (2007/2026)*, and the *CBN VASP Account Guidelines (December 2023)*.
-- **Constructed the Preliminary Stakeholder Ecosystem Map:** Catalogued **63 named institutions** across four stakeholder archetypes—Regulators, Standards-Setters, and Government Entities (Archetype A: 7 entities), Insurance Underwriters, Reinsurers, Microinsurers, and Takaful Operators (Archetype B: 22 entities), Insurtechs, Intermediaries, and Professional Bodies (Archetype C: 16 entities), and Extended Ecosystem, Payment, Identity, Agricultural, Beneficiary, and Cardano Technical Actors (Archetype D: 18 entities)—recording mandate, use-case alignment, locked Milestone 1 §4.4 access status, §6.4 sponsor-affiliation flags, §4.2 sampling quota crosswalk, and §4.6 five-wave recruitment sequencing.
+- **Completed the Preliminary Regulatory Scan:** Audited all eight candidate use cases across five Nigerian statutory authorities (NAICOM, the Securities and Exchange Commission [SEC Nigeria], the Central Bank of Nigeria [CBN], the National Identity Management Commission [NIMC], and the Nigeria Data Protection Commission [NDPC]), incorporating the *Nigerian Insurance Industry Reform Act (NIIRA) 2025*, the *NAICOM Guidelines for Insurtech Operations in Nigeria (August 2025)*, the *Investments and Securities Act (ISA) 2025*, the *Nigeria Data Protection Act (NDPA) 2023*, the *NIMC Act (2007/2026)*, and the *CBN VASP Account Guidelines (December 2023)*.
+- **Constructed the Preliminary Stakeholder Ecosystem Map:** Catalogued **63 named institutions** across four stakeholder archetypes (Regulators, Standards-Setters, and Government Entities [Archetype A: 7 entities]; Insurance Underwriters, Reinsurers, Microinsurers, and Takaful Operators [Archetype B: 22 entities]; Insurtechs, Intermediaries, and Professional Bodies [Archetype C: 16 entities]; and Extended Ecosystem, Payment, Identity, Agricultural, Beneficiary, and Cardano Technical Actors [Archetype D: 18 entities]), recording mandate, use-case alignment, locked Milestone 1 §4.4 access status, §6.4 sponsor-affiliation flags, §4.2 sampling quota crosswalk, and §4.6 five-wave recruitment sequencing.
 - **Executed Gate A (Pre-Fieldwork Provisional Screen) and the Appendix D Infrastructure Prerequisite Matrix:** Scored all eight candidate use cases using desk evidence across the locked nine-criterion (`C1`–`C9`), four-level ordinal scale (`Strong [S]`, `Conditional [C]`, `Weak [W]`, `Disqualifying [D]`) from Milestone 1 Chapter 5, applying the three protective rules of Milestone 1 Section 3.4 to re-order interview emphasis for Milestone 3 without prematurely eliminating any hypothesis ahead of primary fieldwork, and mapped all infrastructure dependencies and Cross-RFP handoffs (`RFP 01`, `03`, `06`, `07`, `08`) under Milestone 1 Appendix D.
 - **Prepared the Regional Screening Review Briefing Pack:** Consolidated the empirical findings, statutory red lines, comparative African benchmarks, and Gate A provisional priority tiers for review by the Cardano Product Committee (CPC).
 
@@ -35,32 +35,32 @@ During this milestone, the research team:
 
 | # | Deliverable | Status | Evidence |
 |---|---|---|---|
-| 1 | Desk Research Report (Market Framing Document, Literature Map, and Comparative African Screen) | Complete | [Desk Research Report](./desk-research-report) |
-| 2 | Preliminary Regulatory Scan (8 Use Cases × 5 Authorities) | Complete | [Preliminary Regulatory Scan](./regulatory-preliminary-scan) |
-| 3 | Preliminary Stakeholder Ecosystem Map (Archetypes A–D) | Complete | [Stakeholder Ecosystem Map](./stakeholder-ecosystem-map) |
-| 4 | Gate A: Pre-Fieldwork Provisional Screen & Appendix D Infrastructure Matrix | Complete | [Gate A Provisional Screen](./gate-a-provisional-screen) |
-| 5 | Regional Screening Review Briefing Pack | Complete | [Regional Screening Review Briefing Pack](./regional-screening-review-briefing-pack) |
-| 6 | Milestone 2 Progress Report | Complete | [Progress Report](./progress-report) |
+| 1 | Desk Research Report (Market Framing Document, Literature Map, and Comparative African Screen) | Complete | [Desk Research Report](./desk-research-report.md) |
+| 2 | Preliminary Regulatory Scan (8 Use Cases × 5 Authorities) | Complete | [Preliminary Regulatory Scan](./regulatory-preliminary-scan.md) |
+| 3 | Preliminary Stakeholder Ecosystem Map (Archetypes A–D) | Complete | [Stakeholder Ecosystem Map](./stakeholder-ecosystem-map.md) |
+| 4 | Gate A: Pre-Fieldwork Provisional Screen & Appendix D Infrastructure Matrix | Complete | [Gate A Provisional Screen](./gate-a-provisional-screen.md) |
+| 5 | Regional Screening Review Briefing Pack | Complete | [Regional Screening Review Briefing Pack](./regional-screening-review-briefing-pack.md) |
+| 6 | Milestone 2 Progress Report | Complete | [Progress Report](./progress-report.md) |
 
-Supporting documents: [Verified Reference Register](./references)
+Supporting documents: [Verified Reference Register](./references.md)
 
 ## Evidence of Completion
 
 | Contract Acceptance Criterion | Status | Evidence |
 |---|---|---|
-| Ecosystem map covers key stakeholder groups | ✅ Met | [Stakeholder Ecosystem Map](./stakeholder-ecosystem-map) profiles 63 institutions across Archetypes A (7 regulatory/standards/identity authorities), B (22 underwriters, reinsurers, microinsurers, and Takaful operators), C (16 insurtechs, intermediaries, and professional bodies), and D (18 agricultural, payment, meteorology, beneficiary, comparative African, and Cardano technical entities). |
-| Market framing is grounded in documented sources | ✅ Met | [Desk Research Report](./desk-research-report) and [Verified Reference Register](./references) ground all market, inclusion, technical, and comparative claims in primary datasets and statutes (NAICOM 2024–2026 bulletins and guidelines, NIIRA 2025, ISA 2025, NDPA 2023, EFInA 2023 A2F survey, Koios live Cardano protocol parameters, and peer-reviewed insurance literature). |
-| Regulatory scan identifies relevant bodies and rules | ✅ Met | [Preliminary Regulatory Scan](./regulatory-preliminary-scan) maps NAICOM, SEC Nigeria, CBN, NIMC, and NDPC instruments across all eight candidate use cases using the eight-row compliance schema defined in Milestone 1 Appendix C. |
+| Ecosystem map covers key stakeholder groups | ✅ Met | [Stakeholder Ecosystem Map](./stakeholder-ecosystem-map.md) profiles 63 institutions across Archetypes A (7 regulatory/standards/identity authorities), B (22 underwriters, reinsurers, microinsurers, and Takaful operators), C (16 insurtechs, intermediaries, and professional bodies), and D (18 agricultural, payment, meteorology, beneficiary, comparative African, and Cardano technical entities). |
+| Market framing is grounded in documented sources | ✅ Met | [Desk Research Report](./desk-research-report.md) and [Verified Reference Register](./references.md) ground all market, inclusion, technical, and comparative claims in primary datasets and statutes (NAICOM 2024–2026 bulletins and guidelines, NIIRA 2025, ISA 2025, NDPA 2023, EFInA 2023 A2F survey, Koios live Cardano protocol parameters, and peer-reviewed insurance literature). |
+| Regulatory scan identifies relevant bodies and rules | ✅ Met | [Preliminary Regulatory Scan](./regulatory-preliminary-scan.md) maps NAICOM, SEC Nigeria, CBN, NIMC, and NDPC instruments across all eight candidate use cases using the eight-row compliance schema defined in Milestone 1 Appendix C. |
 
 ## Budget Update
 
 | Category | Milestone 1 Claimed (ADA) | Milestone 2 Allocation (ADA) | Milestone 2 Claimed (ADA) | Cumulative Claimed (ADA) |
 |---|---:|---:|---:|---:|
-| Personnel — Principal Investigator research execution, statutory analysis, and project leadership | 2,000 | 2,200 | 2,200 | 4,200 |
-| Research — Desk research, statutory/regulatory audit, comparative African screen, and Gate A modelling | 1,200 | 2,000 | 2,000 | 3,200 |
-| Documentation — Drafting, table compilation, citation verification, and Docusaurus structuring | 800 | 1,000 | 1,000 | 1,800 |
-| Meetings — Stakeholder relationship maintenance, advisory check-ins, and CPC review preparation | 500 | 400 | 400 | 900 |
-| Administration — Data repository management, archival of primary statutes, and reporting administration | 500 | 400 | 400 | 900 |
+| Personnel: Principal Investigator research execution, statutory analysis, and project leadership | 2,000 | 2,200 | 2,200 | 4,200 |
+| Research: Desk research, statutory/regulatory audit, comparative African screen, and Gate A modelling | 1,200 | 2,000 | 2,000 | 3,200 |
+| Documentation: Drafting, table compilation, citation verification, and Docusaurus structuring | 800 | 1,000 | 1,000 | 1,800 |
+| Meetings: Stakeholder relationship maintenance, advisory check-ins, and CPC review preparation | 500 | 400 | 400 | 900 |
+| Administration: Data repository management, archival of primary statutes, and reporting administration | 500 | 400 | 400 | 900 |
 | **Total** | **5,000** | **6,000** | **6,000** | **11,000** |
 
 The total grant agreement is ADA 32,500 across five milestones. This Milestone 2 claim of ADA 6,000 (18.5% of total grant) brings cumulative milestone claims across Milestones 1 and 2 to ADA 11,000 (33.8% of total grant), allocated across the five work categories above for desk research, statutory verification, stakeholder mapping, Gate A screening, and technical documentation.
