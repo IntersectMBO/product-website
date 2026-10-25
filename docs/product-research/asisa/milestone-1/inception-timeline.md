@@ -32,7 +32,10 @@ The formal project kickoff was held in August 2026. At the kickoff the research 
 
 ### 9.4 Project Timeline (24 Weeks)
 
-Weeks count from the start of the project period.
+Weeks count from formal Milestone 1 approval by the CPC (see the baseline reconciliation note below and §3.3).
+
+> [!NOTE]
+> **Project-Week Baseline Reconciliation:** To maintain a single consistent schedule baseline across all chapters (reconciling Chapter 3 and Chapter 9), the Chapter 3 baseline—anchoring Week 1 of downstream execution to formal Milestone 1 approval by the Cardano Product Committee (CPC)—governs the project workplan, superseding nominal pre-approval calendar projections drafted prior to contract onboarding and the August 2026 industry symposium. Because Milestone 1 establishes the foundational research design, bias-control protocols, and interview instruments, primary fieldwork execution (Milestone 3) is gated on formal Milestone 1 approval.
 
 | Weeks | Phase / activity | Milestone | CPC checkpoint | Primary output |
 |---|---|---|---|---|
