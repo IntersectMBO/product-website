@@ -39,7 +39,7 @@ Weeks count from formal Milestone 1 approval by the CPC (see the baseline reconc
 
 | Weeks | Phase / activity | Milestone | CPC checkpoint | Primary output |
 |---|---|---|---|---|
-| 1 | Kickoff: confirm gates, scope, cadence | M1 | Kickoff | Aligned workplan |
+| 1 | Post-approval CPC kickoff: confirm gates, scope, cadence | M1 | Post-approval CPC kickoff | Aligned workplan |
 | 1 to 3 | Phase 1: Desk research and market framing | M1 to M2 | Research Design Review | Confirmed design; long-list |
 | 3 to 6 | Phase 2: Stakeholder ecosystem mapping | M1 to M2 | Regional Screening Review | Draft access map |
 | 5 to 9 | Phase 3: Regulatory readiness; Gate A | M2 | Stakeholder Access Check | Draft regulatory summaries; instruments; ethics clearance |
@@ -51,13 +51,13 @@ Weeks count from formal Milestone 1 approval by the CPC (see the baseline reconc
 
 ### 9.5 Milestone Trajectory
 
-| Milestone | Scope | Phases | Outputs |
-|---|---|---|---|
-| **M1** (this submission) | Inception and research design | 1 to 2 | Inception report; research design; confirmed research questions; primary research plan |
-| **M2** | Desk research, ecosystem mapping and regulatory scan | 2 to 3 | Market Framing Document; Preliminary Regulatory Scan |
-| **M3** | Primary research substantially complete | 4 to 5 | Interview logs; thematic synthesis; validation log |
-| **M4** | Full draft deliverables | 6 to 7 | Draft Final Report; Draft Go-To-Market Strategy |
-| **M5** | Final delivery and project completion | 8 | Final Report; dissemination video; live Q&A; close-out report |
+| Milestone | Scope | Phases | Target submission (from formal M1 approval) | Outputs |
+|---|---|---|---|---|
+| **M1** (this submission) | Inception and research design | 1 to 2 | Baseline anchor (Week 0: formal M1 approval) | Inception report; research design; confirmed research questions; primary research plan |
+| **M2** | Desk research, ecosystem mapping and regulatory scan | 1 to 3 | Week 9 (end of Phase 3) | Market Framing Document; Preliminary Regulatory Scan; Stakeholder Ecosystem Map |
+| **M3** | Primary research substantially complete | 4 to 5 | Week 17 (end of Phase 5) | Interview logs; thematic synthesis; validation log |
+| **M4** | Full draft deliverables | 6 to 7 | Week 21 (end of Phase 7) | Draft Final Report; Draft Go-To-Market Strategy |
+| **M5** | Final delivery and project completion | 8 | Week 24 (end of Phase 8) | Final Report; dissemination video; live Q&A; close-out report |
 
 ### 9.6 Deliverables Schedule
 
