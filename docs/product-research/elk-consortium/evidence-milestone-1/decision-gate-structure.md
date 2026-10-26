@@ -15,7 +15,7 @@ The project team is onboard with using decision gates to review progress. The se
 | Gate 4 — Cross-vertical synthesis | Review whether the analyses are comparable and whether the resulting conclusions and recommendations are supported by the evidence. | Cross-vertical comparison, KPI contribution analysis, and final reporting | ELK project lead; formal milestone acceptance remains subject to the grant agreement. |
 
 Decision gate structure confirmed on September 1st 2026 by:
-Benjamin Ben Zvi - ELK
-Sam Lambert - Zengate
-Sheldon Hunt - Sundial
+Benjamin Ben Zvi
+Sam Lambert
+Sheldon Hunt
 Jess Fields
