@@ -96,11 +96,11 @@ Oral expressions of partnership are therefore treated as access, not as evidence
 
 | Wave | Population | Approach | Timing (post-M1 approval) |
 |---|---|---|---|
-| 1 | Symposium-engaged counterparties (Archetypes A to C) | Written invitation, information sheet and consent form | Outreach begins on approval of this submission; interviews from Week 2 |
-| 2 | Open-communications underwriters | Standard outreach and screener | Weeks 2 to 5 |
-| 3 | Extended stakeholders and expert calls | Ecosystem map and referrals | Weeks 3 to 6 |
-| 4 | Alumni-referred contacts (snowball) | Referral with screener check | Weeks 4 to 7 |
-| 5 | Beneficiary-side groups | Cooperative and community routes; local-language guide | Weeks 4 to 7 |
+| 1 | Symposium-engaged counterparties (Archetypes A to C) | Written invitation, information sheet and consent form | Outreach begins on approval of this submission; interviews from Week 1 |
+| 2 | Open-communications underwriters | Standard outreach and screener | Weeks 1 to 4 |
+| 3 | Extended stakeholders and expert calls | Ecosystem map and referrals | Weeks 2 to 5 |
+| 4 | Alumni-referred contacts (snowball) | Referral with screener check | Weeks 3 to 6 |
+| 5 | Beneficiary-side groups | Cooperative and community routes; local-language guide | Weeks 3 to 6 |
 
 ### 4.7 The Symposium as Recruitment Infrastructure
 
