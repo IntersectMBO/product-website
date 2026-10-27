@@ -26,7 +26,7 @@ During this milestone, the research team:
 - **Hosted the ASISA Insurance Technology Symposium** (26 August 2026), securing direct industry relationships with 12+ tier-one stakeholders including NAICOM, CIIN, Leadway Assurance, Heirs Insurance, NSIA, NDIC, and others.
 - **Produced a comprehensive Research Design Document** covering the 8-phase methodology, 8 candidate use cases entering as hypotheses, 9-criterion screening model, structured interview guides, respondent screener, 10 bias controls, decision gate mapping, and an integrated ethics brief.
 - **Developed a Stakeholder Recruitment Plan** de-risked by confirmed warm access to regulators, underwriters, insurtechs, Takaful operators, and professional bodies.
-- **Established the cadence and checkpoint schedule** for the 24-week project.
+- **Established the cadence and checkpoint schedule** across the 24-week contractual arc, including the 14-week post-approval execution schedule completing in January 2027.
 
 No primary research findings are presented at this stage. All use cases enter the screening model as hypotheses, and the study is designed to produce a defensible no-go finding if the evidence does not support entry.
 
