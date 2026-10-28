@@ -1,6 +1,6 @@
 ---
 title: "Decision Gate Structure"
-sidebar_label: "Desision Gate"
+sidebar_label: "Decision Gate"
 ---
 
 ### **Decision-Gate Structure**
