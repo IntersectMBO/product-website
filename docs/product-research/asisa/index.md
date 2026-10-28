@@ -17,7 +17,9 @@ Insurance-sector research with academic supervision. Research focuses on emergin
 
 ## Milestone Reports
 
-Milestone reports submitted by ASISA / Odufuwa will appear here.
+| Milestone | Status | Report |
+|-----------|--------|--------|
+| Milestone 1 — Inception & Research Design | Submitted | [Milestone 1 Report](./milestone-1) |
 
 ## Milestones
 
