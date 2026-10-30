@@ -1,0 +1,36 @@
+{
+    "conduct": {
+        "use_case": "What technology use case is being discussed?",
+        "question_pack": "Which interview guide was used?",
+        "consent": true,
+        "anonymous": false,
+        "re_contact": true
+    },
+
+    "participant": {
+        "id": "Participant reference"
+    },
+
+    "metadata": {
+        "date_time": "Interview date and time",
+        "country": "Country",
+        "region": "Region or locality",
+        "language": "Interview language",
+        "stakeholder": "Who are they? e.g. business, government, end user",
+        "interviewer": "Interviewer reference"
+    },
+
+    "business_value": {
+        "use_case": "What problem could the technology solve?",
+        "adoption": "What would encourage or prevent people from using it?",
+        "commercial": "Who would pay, how much, and who makes purchasing decisions?",
+        "market_access": "Who could help introduce or distribute the technology locally?",
+        "deployment": "What regulations, infrastructure or practical barriers could affect deployment?"
+    },
+
+    "evidence": {
+        "observation": "What did the respondent actually say or demonstrate?",
+        "source": "Link to record of interview",
+        "confidence": "Low, medium or high"
+    }
+}

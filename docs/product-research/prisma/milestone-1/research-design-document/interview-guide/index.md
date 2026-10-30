@@ -22,7 +22,7 @@ Implementation-level patterns for ingest are documented in the [Resolver Example
 > Note: Details for ingest will be co-designed with support from Prisma in project phases 2-3. 
 
 ## Interview Roles
-Interviews are sourced by teams. The interview is conducted by either the team or the hub representative. The post-interview account (ingest) must be completed by both, assuming the hub representative is there.
+Interviews are sourced by teams. The interview is conducted by either the team or the hub representative. The post-interview account (ingest) must be completed by both, assuming the hub representative is there. Hubs (and any other evaluators who want to opt-in) evaluate the ingest records and ensure data quality. 
 
 The following guardrails are created by this role distribution:
 

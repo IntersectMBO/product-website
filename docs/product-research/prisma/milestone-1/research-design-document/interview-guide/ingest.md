@@ -4,7 +4,7 @@ sidebar_label: Ingest
 
 # Layer 2 : Post-Interview Ingestion
 
-After each interaction, the interviewer submits evidence through the primary-research ingestion channel (configuration TBD in Phase 2–3). The workflow follows the resolver pattern:
+After each interaction, the interviewer submits evidence through their own [timelining](https://docs.prisma.events/en/processes/process-infrastructure/publishing/timelining) instance (which is basically a telegram group with a dedicated '_botInterviewIngest' (name is arbitrary) channel hooked up to a webhook and a backend). The workflow follows the resolver pattern:
 
 1. **Ingest** — timelining creates a Neo4j `Entry` from the submission (voice note, text summary, or structured form)
 2. **Transcribe** — voice entries are transcribed before resolve eligibility

@@ -14,7 +14,7 @@ The [Evaluate](https://evaluate.prisma.events) interface reads the same Neo4j em
 * Flag duplicate, contradictory, or low-confidence entries for reviewer pruning
 * Remove unnecessary or erroneous nodes before they feed RARF revision and CASS finalisation
 
-Evaluate is a **downstream consumer** of the ingestion pipeline — it does not replace interviewer discipline at Layer 1 or schema compliance at Layer 2. Designated research reviewers operate evaluate to clean the evidence base before Phase 4 synthesis.
+Evaluate is a **downstream consumer** of the ingestion pipeline — it does not replace interviewer discipline at Layer 1 or schema compliance at Layer 2. Designated reviewers (from the hub team) operate evaluate to clean the evidence base before Phase 4 synthesis.
 
 > **Requires implementation:** CPC-specific evaluate presets, pruning rules, and write-back of `evaluation` nodes are planned upgrades; configuration is a Phase 3 deliverable.
 
@@ -32,3 +32,10 @@ Each accepted atomic contribution is linked to a **registered holder DID** (`did
 This creates an auditable chain: **Entry → resolved nodes → evaluate acceptance → VC attestation → registered DID**. Findings without VC linkage remain provisional in the Stakeholder Access Register until the verification batch completes.
 
 > **Requires implementation:** CPC-specific `ContributionCredential` claim fields (e.g. `projectId`, `contributionType`, evidence URL pointing to anonymised entry reference), issuer DID authorisation, and batch verification schedule are co-designed in Phase 2–3 alongside hub counterparties.
+
+# Minimum Checks
+The following minimum checks are required.
+
+1. Consent recorded
+2. Required fields complete
+3. Data quality: discrepencies flagged and duplicated removed
