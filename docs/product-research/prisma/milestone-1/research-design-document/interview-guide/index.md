@@ -19,7 +19,7 @@ Primary research evidence passes through three layers:
  
 Implementation-level patterns for ingest are documented in the [Resolver Examples](https://docs.prisma.events/en/processes/process-infrastructuring/publishing/timelining/resolver-examples). 
 
-> Note: Details for ingest will be co-designed with support from Prisma in project phases 2-3. 
+Minimum required fields are viewable in [ingest.json](https://github.com/prisma-collective/cpc-milestone-submission/blob/1681791ace03dbe902bea60ffe056699110b3bee/docs/product-research/prisma/milestone-1/research-design-document/interview-guide/ingest.json).
 
 ## Interview Roles
 Interviews are sourced by teams. The interview is conducted by either the team or the hub representative. The post-interview account (ingest) must be completed by both, assuming the hub representative is there. Hubs (and any other evaluators who want to opt-in) evaluate the ingest records and ensure data quality. 
