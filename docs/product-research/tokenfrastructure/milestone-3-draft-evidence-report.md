@@ -18,9 +18,9 @@ Further funding should depend on independent buyer demand, open-standard interop
 
 ## Evidence basis
 
-The synthesis uses 70 public and technical source-register entries, 38 controlled claim records, 8 comparison cases, 12 Cardano cases, 12 screened use cases and 33 anonymized field records across six segments. Private contractual records and controlled interview records are not included in the public source register.
+The synthesis uses 70 public and technical source-register entries, 38 controlled claim records, 8 comparison cases, 12 Cardano cases, 12 screened use cases and 33 anonymized field records across six segments. Short assessments of every Cardano and comparison case are provided in the [case-assessment appendix](./milestone-3-case-assessments). Private contractual records and controlled interview records are not included in the public source register.
 
-The synthesis triangulates public and technical sources with anonymized field evidence. Respondent identities, raw notes and organization-to-response mappings remain in the controlled project record. Field records vary in format and are used for qualitative triangulation, not statistical prevalence claims.
+The synthesis triangulates public and technical sources with anonymized field evidence. Respondent identities, transcripts, written conversations and organization-to-response mappings remain in the controlled project record. Interviews vary in format, but each retains a transcript or written conversation. They are used for qualitative triangulation, not statistical prevalence claims.
 
 ### Anonymized field-evidence key
 
@@ -36,17 +36,23 @@ The synthesis triangulates public and technical sources with anonymized field ev
 
 These identifiers show which stakeholder segment informed each finding without exposing the exact attribution ledger. They are qualitative evidence references, not claims of statistical representativeness or organisational endorsement.
 
+### How confidence ratings are used
+
+A confidence rating applies to the bounded finding stated in the report. It does not measure how common an opinion is across the market. A finding may therefore be rated high when it rests on several independent official, technical or observable sources even if the institutional-buyer interview segment is small. The five institutional-buyer records limit conclusions about buyer demand, procurement and adoption; those conclusions are rated medium or lower or are retained as future funding conditions.
+
 ## Findings
 
 ### F1 — The market is real but the blockchain opportunity is selective
 
 Machine payments and agentic commerce have moved into production infrastructure. Blockchain adds the clearest value when independent parties need programmable settlement, escrow, portable value or a neutral evidence anchor. Existing merchant, card, bank and private authorization systems remain stronger for many consumer and closed-enterprise workflows.
 
-**Evidence.** x402 reports 75.41 million transactions and USD 24.24 million of 30-day volume; Stripe and Tempo support machine payments; Visa, Mastercard, Google and OpenAI use existing payment and merchant-control layers for agent commerce.
+**Evidence.** In the x402 snapshot captured on 6 August 2026, the protocol site reported 75.41 million transactions and USD 24.24 million of 30-day volume. Stripe and Tempo support machine payments; Visa, Mastercard, Google and OpenAI use existing payment and merchant-control layers for agent commerce.
 
 **Decision implication.** Cardano should target cross-organization failure modes rather than claim that all agent commerce requires a blockchain.
 
 **Confidence.** High
+
+**Confidence basis.** Multiple independent protocol, payment-network and product sources establish that production infrastructure exists; the rating does not claim a market-size estimate or broad institutional demand.
 
 **Evidence references.** S03-S15, S40-S45, S52, FE02, FE03
 
@@ -54,11 +60,13 @@ Machine payments and agentic commerce have moved into production infrastructure.
 
 Masumi provides a live Cardano implementation of agent registration, conditional payment, refunds and decision logging. Sokosumi makes the stack commercially legible through priced agent services and a task workflow.
 
-**Evidence.** The Cardano directory recorded 1,421 Masumi transactions in the 30 days ending 16 October 2026. Masumi reports more than 39,000 cumulative on-chain transactions. The Serviceplan Sokosumi page reported 3,543 tasks run as of 27 September 2026. These measures show activity but do not establish paid value, unique buyers, repeat use or accepted outcomes.
+**Evidence.** The Cardano directory recorded 1,421 Masumi transactions in the 30 days ending 16 October 2026. Masumi reports more than 39,000 cumulative on-chain transactions. The Serviceplan Sokosumi profile displayed 3,543 tasks; its profile data was dated 27 September 2026 and the page was captured on 19 October 2026. These measures show activity but do not establish paid value, unique buyers, repeat use or accepted outcomes.
 
 **Decision implication.** Use Masumi and Sokosumi as the reference beachhead, but keep adoption claims conditional until transaction quality and independent buyer evidence are available.
 
 **Confidence.** High for live capability; medium-low for commercial adoption
+
+**Confidence basis.** Official product, explorer and activity sources establish the live capability, while the absence of independent buyer, revenue, retention and outcome data keeps commercial-adoption confidence materially lower.
 
 **Evidence references.** S28-S31, S50, S53-S60, S68-S70, S73, FE04
 
@@ -72,6 +80,8 @@ The strongest payment protocols are open and rail-agnostic, but their adoption i
 
 **Confidence.** High
 
+**Confidence basis.** Comparative documentation across wallets, facilitators, stablecoins, payment providers and open-protocol governance shows a clear distribution gap, reinforced by builder, payments and non-Cardano interviews; the rating does not imply a quantified buyer-preference estimate.
+
 **Evidence references.** S05-S11, S40-S45, S52, S71, FE02, FE03, FE05
 
 ### F4 — The defensible product wedge is service assurance
@@ -83,6 +93,8 @@ The strongest Cardano use case is conditional purchase of machine-delivered serv
 **Decision implication.** Lead with escrowed service completion and accountable receipts, not generic micropayments or identity alone.
 
 **Confidence.** Medium-high
+
+**Confidence basis.** A live Cardano implementation and comparable escrow designs support the use case, but buyer willingness to pay, integration cost and dispute value remain insufficiently proven for a high rating.
 
 **Evidence references.** S25, S29, S44-S45, S50, S72, FE02, FE03, FE06
 
@@ -96,6 +108,8 @@ Cardano's deterministic execution model and engineering discipline can improve c
 
 **Confidence.** High
 
+**Confidence basis.** Official Cardano technical documentation and formal-methods evidence establish the narrow assurance boundary directly: specified on-chain controls can be assessed, while off-chain AI intent and result quality cannot.
+
 **Evidence references.** S33-S35, S51, FE01, FE06
 
 ### F6 — Public-chain evidence must remain minimal and privacy-aware
@@ -107,6 +121,8 @@ A ledger can prove ordering, integrity and settlement state, but it cannot prove
 **Decision implication.** The recommended design is a minimal receipt or commitment, with confidential data and interpretation kept off-chain. Midnight is an adjacent privacy pathway, not a Cardano L1 property.
 
 **Confidence.** High
+
+**Confidence basis.** Mature identity, provenance and security standards, together with the technical limits of a public ledger, independently support data minimization and the separation of integrity from off-chain truth.
 
 **Evidence references.** S16-S24, S36-S37, S72, FE01, FE06
 
@@ -120,6 +136,8 @@ MCP and A2A increasingly cover tools and agent communication; x402 and MPP cover
 
 **Confidence.** High
 
+**Confidence basis.** Official standards and governance sources document the roles already covered by MCP, A2A, x402, MPP, AuthZEN and related systems, making interoperability a better-supported route than a proprietary end-to-end standard.
+
 **Evidence references.** S03-S18, S44-S45, S71-S72, FE02, FE03, FE06
 
 ### F8 — A broad Cardano AI vertical is not supported
@@ -131,6 +149,8 @@ The evidence does not support competing directly in decentralized compute, model
 **Decision implication.** Treat these areas as no-go or partner domains unless new buyer evidence establishes a Cardano-specific requirement.
 
 **Confidence.** High
+
+**Confidence basis.** Independent competitor documentation and the assessed Cardano case set consistently show stronger specialist positions in compute, models and mainstream checkout, while current Cardano evidence outside Masumi remains adjacent or weak.
 
 **Evidence references.** S38-S48, S61-S66, FE03, FE05
 
