@@ -8,7 +8,7 @@ sidebar_position: 7
 
 ## Purpose
 
-This public extract evidences that the credibility ledger is populated and quality-controlled without publishing substantive findings, confidential respondent material or the exact attribution map. The controlled ledger remains available for the contracted synthesis and review process.
+This public extract evidences that the credibility ledger is populated and quality-controlled without publishing confidential respondent material or the exact attribution map. The controlled ledger remains available for the contracted synthesis and review process.
 
 ## Ledger population
 
@@ -23,16 +23,39 @@ This public extract evidences that the credibility ledger is populated and quali
 | Named public, contractual and technical sources | 66 |
 | Qualifying field records | 33 |
 
-Each controlled claim record contains: claim ID; decision gate; claim statement; supporting source references; counterevidence or limitation; current status; confidence; and next test. Primary evidence is coded separately from public-source corroboration and analyst inference.
+Each controlled claim record contains: claim ID; decision gate; claim statement; supporting source references; counterevidence or limitation; current status; confidence; and next test. Primary evidence is coded separately from public-source corroboration and analytical inference.
+
+## Public claim-grade summary
+
+The controlled ledger uses detailed statuses suited to each claim. For public review, those statuses are grouped into three consistent grades:
+
+| Public grade | Claim records | Meaning |
+|---|---:|---|
+| Real or documented | 9 | The underlying activity, capability or technical property is supported by documented evidence. This does not automatically establish commercial adoption. |
+| Conditional | 16 | The claim is plausible and supported, but depends on further buyer, scale, implementation or comparative evidence. |
+| Narrative-only or rejected | 13 | The claim is contradicted, unsupported or too broad to use as an evidenced conclusion in its current form. |
+| **Total** | **38** | |
+
+"Narrative-only" does not mean that the topic is irrelevant. It means that the claim, as framed, cannot be treated as an established fact or recommendation on the available evidence.
+
+## Redacted example entries
+
+These examples show how the controlled ledger operates without exposing respondent identities or the exact organization-to-claim mapping.
+
+| Redacted claim | Evidence basis | Counterevidence or limitation | Public grade | Confidence treatment | Next test |
+|---|---|---|---|---|---|
+| A live Cardano-based agent-payment implementation exists with observable activity. | Official technical material and observable activity records. | Activity does not establish paying customers, repeat use, accepted outcomes or commercial scale. | Real or documented | High for live capability; lower for commercial adoption | Validate paid value, unique buyers, repeat use, completion, refunds and disputes. |
+| A minimal ledger-anchored receipt could help resolve cross-organization disputes. | Technical evidence, relevant standards and field interviews. | Signed private records or established transparency systems may meet the requirement at lower cost. | Conditional | Medium | Test whether independent risk or audit owners accept the receipt for a real decision. |
+| Cardano currently leads machine-payment distribution. | Tested against current wallet, facilitator, stablecoin and protocol-distribution evidence. | Available evidence shows stronger distribution on competing rails. | Narrative-only or rejected | High confidence in rejection on the current evidence | Reassess only if comparable distribution and adoption evidence changes materially. |
 
 ## Coverage against the agreed decision framework
 
 | Decision gate | Evidence types logged | Coverage status |
 |---|---|---|
-| Commercial opportunity and chain necessity | Market activity, buyer and operator discussions, non-chain controls | Covered |
+| Commercial opportunity and chain necessity | Market activity, buyer and operator interviews, non-chain controls | Covered |
 | Buyer-relevant Cardano advantage | Technical documentation, Cardano cases, independent field input | Covered |
 | Current Cardano activity and adoption quality | Public activity records, product documentation, operator input | Covered |
-| Credible use cases | Comparative cases, technical-fit tests, field discussions | Covered |
+| Credible use cases | Comparative cases, technical-fit tests, field interviews | Covered |
 | Reachable buyers and adopters | Fieldwork, target segmentation, channel evidence | Covered |
 | Competitive position | Protocol, payment-rail and specialized-network comparisons | Covered |
 | Conditions for a durable adoption vertical | Distribution, integration, operating and demand evidence | Covered |
@@ -54,4 +77,4 @@ Each controlled claim record contains: claim ID; decision gate; claim statement;
 
 ## Confidentiality boundary
 
-The exact claim text, source-to-claim mapping, respondent identities, raw notes and substantive conclusions are excluded from this public file. This protects respondents and preserves the staged contract structure: Milestone 2 gathers and logs evidence; Milestone 3 synthesizes findings; Milestone 4 delivers the final decision outputs.
+The exact source-to-claim mapping, respondent identities, transcripts, written conversations and substantive organization-level attribution are excluded from this public file. This protects respondents and preserves the staged contract structure: Milestone 2 gathers and logs evidence; Milestone 3 synthesizes findings; Milestone 4 delivers the final decision outputs.
