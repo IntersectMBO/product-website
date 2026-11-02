@@ -35,8 +35,15 @@ This Markdown package contains every contractual Milestone 3 deliverable for Car
 
 Supporting records:
 
+- [Cardano and comparison case assessments](./milestone-3-case-assessments)
 - [Public source register](./milestone-3-source-register)
 - [Quality assurance and AI-use note](./milestone-3-quality-ai-use)
+
+## Editable working format
+
+The matrices are also provided in the editable workbook [CPC-26-0016 Milestone 3 Synthesis Matrices (.xlsx)](https://docs.google.com/spreadsheets/d/1rcNbCf0LYkwWQ8ie71P5z-33PEKPg7zL/edit?usp=drivesdk&ouid=101864504618184435701&rtpof=true&sd=true). It contains the decision gates, scoring rubric, use-case, audience, competitive, adoption-pathway, limitations, field-synthesis, source and contract-mapping tables.
+
+The workbook is a supplementary working format. The Markdown files in this pull request contain the complete public evidence required for review and remain the authoritative PR record.
 
 ## Completion statement
 
