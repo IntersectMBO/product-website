@@ -36,6 +36,7 @@ We completed and approved a mixed-methods research design to evaluate Cardano’
 - **Deliverable 4**: [Sampling Framework](./Sampling%20Framework.md)
 
 ## Budget Update
+Note that this budget is in conformance with the contractual arrangement between Intersect Product Committee and Wada Global Ltd regarding the execution of this project. Hence, you may disregard the budget breakdown in the original project proposal.
 
 | Category | Budgeted (ADA) | Spent this period (ADA) | Cumulative spend (ADA) |
 |----------|---------------|------------------------|------------------------|
@@ -53,21 +54,21 @@ With Milestone 2, we will focus on executing field research and primary data col
 
 **Planned Work**
 - Fieldwork execution across sponsored hubs in Nigeria, Kenya, and Ghana.
- Administration of quantitative surveys and 30 qualitative interviews.
+ Administration of 270 quantitative surveys and 30 qualitative interviews.
 
 **Expected Deliverables**
-- Completed Surveys: Full quantitative survey response dataset.
-- Interview Records: 30 documented interview records across the three hubs.
+- Completed Surveys: 270 quantitative survey response dataset.
+- Interview Records: 30 documented interview records across the three listed hubs.
 - Primary Data Set: Cleaned, compiled primary fieldwork dataset.
 - Fieldwork Progress Log: Log tracking ongoing execution and field updates.
 
 **Timeline**
-- Original Target Date: September 1, 2026 (01/09/2026)
-- Revised Target Date: October 1, 2026
-- Schedule Justification: The Milestone 1 report review delay has compressed the active data collection window. Adding four weeks restores the required operational buffer to complete all 30 interviews and survey targets across all three hubs without sacrificing data quality or coverage.
+- Original M2 Target Date: September 1, 2026 (01/09/2026)
+- Revised M2 Target Date: December 7, 2026 (07/12/2026)
+- Schedule Justification: The Milestone 1 report review delay has significantly impacted the project schedule and compressed the data collection window. With M1 MAF now approved, we have just commenced with the field research phase on November 1, 2026 and estimated to wrap all the field activities by November 30, 2026. After which, the MAF for M2 will be compiled and submitted by December 7, 2026.
 
 **Acceptance Criteria**
-- Survey collection distributed across all three countries in alignment with the sampling plan.
+- 270 survey collection distributed across all three countries (Kenya, Nigeria, and Ghana) in alignment with the sampling plan.
 - 30 fully administered interviews, each backed by a complete record detailing the date, location, interviewer, and participant category.
 
 ## Attestation
@@ -75,4 +76,5 @@ With Milestone 2, we will focus on executing field research and primary data col
 I confirm that the information in this report is accurate and that the deliverables described have been completed as stated.
 
 **Authorised signatory**: Nana Safo, Governance Lead.
-**Date**: 2026-10-01
+
+**Date**: 2026-11-01
