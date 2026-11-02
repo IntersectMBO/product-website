@@ -8,9 +8,24 @@ sidebar_position: 9
 
 ## Completion statement
 
-Fieldwork produced 33 qualifying interviews and research discussions through conference conversations, direct calls and professional outreach. All interactions were relevant to the agreed research questions and were captured in the controlled research record.
+Fieldwork produced 33 documented interviews during September 2026 through scheduled calls, in-person conference interviews and written professional outreach. All interviews were relevant to the agreed research questions and were captured in the controlled research record.
 
-A balanced set of 25 records forms the core analytical sample, meeting the proposal commitment of 15–25 structured interviews. Eight further qualifying discussions supplement that base. They are part of ordinary core fieldwork and are not claimed as the separately priced optional ten-interview add-on.
+A balanced set of 25 interviews forms the core analytical sample, meeting the proposal commitment of 15–25 structured interviews. Eight further documented interviews supplement that base. They are part of the ordinary core fieldwork and are not claimed as the separately priced optional ten-interview add-on.
+
+## Interview format, timing and consent
+
+The interview method used different settings while applying a consistent evidence standard. Scheduled voice or video calls and in-person conference interviews were contemporaneously transcribed. Written interviews retain the original professional exchange. No undocumented informal chats are included in the qualifying sample.
+
+| Record control | Core sample | Supplementary records | Total fieldwork |
+|---|---:|---:|---:|
+| Documented structured or semi-structured interviews | 25 | 8 | 33 |
+| Interviews conducted in September 2026 | 25 | 8 | 33 |
+| Interviews conducted in another month | 0 | 0 | 0 |
+| Interviews with a retained transcript or written conversation | 25 | 8 | 33 |
+| Participation and anonymized research-use consent recorded | 25 | 8 | 33 |
+| Undocumented informal chats counted | 0 | 0 | 0 |
+
+Consent covers participation and anonymized research use. It does not imply consent to publish a respondent's name or connect an individual response to a specific organization. Personal identities and exact organization-to-response mappings remain confidential.
 
 ## Anonymized fieldwork log
 
@@ -24,13 +39,13 @@ A balanced set of 25 records forms the core analytical sample, meeting the propo
 | Standards, identity, security and assurance | 3 | 3 | 6 | Interoperability, trust, auditability, privacy and risk controls |
 | **Total** | **25** | **8** | **33** | |
 
-The controlled record retains the interaction date or period, channel, respondent role or archetype, segment, attribution treatment, evidence topics, analyst note and coding against the research framework. Personal names and organization-to-response mappings are not published.
+The controlled record retains the interaction date or period, channel, respondent role or archetype, segment, attribution treatment, evidence topics, transcript or written exchange, analyst note and coding against the research framework. Personal names and organization-to-response mappings are not published.
 
 ## Qualification and handling
 
-For this study, a field interaction qualifies where it provides direct professional evidence relevant to one or more agreed research questions and is recorded by the research team for analysis. The fieldwork includes structured calls as well as focused professional discussions at conferences and through direct outreach. These formats are appropriate to the proposal, which expressly provides for structured interviews, expert calls and Cardano/non-Cardano ecosystem evidence.
+For this study, an interview qualifies where it provides direct professional evidence relevant to one or more agreed research questions, follows the study themes and produces a retained transcript or written conversation for analysis. The fieldwork includes scheduled calls, in-person conference interviews and written professional interviews conducted through direct outreach.
 
-Respondent inputs are treated as evidence, not organizational endorsements. Public-source material is used for corroboration where available. Raw notes, personal identities and commercially sensitive material remain controlled in line with the proposal's data-handling commitment.
+Respondent inputs are treated as evidence, not organizational endorsements. Public-source material is used for corroboration where available. Transcripts, written conversations, personal identities and commercially sensitive material remain controlled in line with the proposal's data-handling commitment.
 
 ## Preliminary synthesis: evidence sufficiency
 
@@ -44,7 +59,7 @@ This Milestone 2 synthesis addresses whether the evidence base is sufficiently b
 | Service completion, exceptions and disputes | Marketplace, escrow, assurance and operator perspectives | Sufficient |
 | Privacy, auditability and accountability | Standards, risk, identity and Cardano-adjacent evidence | Sufficient |
 | Competitive alternatives and non-chain controls | Eight comparison cases plus non-Cardano field perspectives | Sufficient |
-| Cardano technical fit and current activity | Twelve activity cases plus Cardano ecosystem discussions | Sufficient |
+| Cardano technical fit and current activity | Twelve activity cases plus Cardano ecosystem interviews | Sufficient |
 | Adoption, integration and distribution | Buyer, builder, infrastructure and comparison evidence | Sufficient |
 
-The evidence base contains both supporting and challenging perspectives and is adequate to proceed to structured findings, matrices and recommendations. Additional discussions over the next few days may strengthen corroboration or fill a narrow subsegment; they will be appended to the controlled log and reflected in Milestone 3 where material.
+The evidence base contains both supporting and challenging perspectives and is adequate to proceed to structured findings, matrices and recommendations. Additional interviews may strengthen corroboration or fill a narrow subsegment; they will be appended to the controlled log and reflected in the synthesis where material.
