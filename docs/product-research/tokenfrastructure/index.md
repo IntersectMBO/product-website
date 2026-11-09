@@ -17,7 +17,7 @@ Highest-scoring proposal in the evaluation. Research examines institutional-grad
 
 ## Milestone Reports
 
-Milestone reports submitted by IEI / Tokenfrastructure will appear here.
+- [Milestone 2 — Evidence Gathering](./milestone-2)
 
 ## Milestones
 
