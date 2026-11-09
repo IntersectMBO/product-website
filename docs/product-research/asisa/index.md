@@ -20,6 +20,7 @@ Insurance-sector research with academic supervision. Research focuses on emergin
 | Milestone | Status | Report |
 |-----------|--------|--------|
 | Milestone 1 — Inception & Research Design | Submitted | [Milestone 1 Report](./milestone-1) |
+| Milestone 2 — Desk Research & Ecosystem Mapping | Submitted | [Milestone 2 Report](./milestone-2/) |
 
 ## Milestones
 
