@@ -108,7 +108,7 @@ Four initiatives are excluded solely on criterion 8. Their exclusion reflects th
 
 **2.4 Shortlist**
 
-Eleven use cases proceed to primary research. Four VAL cases in whole or part, four Layer 2 initiatives at priority, and the three documented capability absences.
+Thirteen use cases proceed to primary research. Five VAL cases in whole or part, Five Layer 2 initiatives at priority, and the three documented capability absences.
 
 Nine candidates are excluded: one VAL case, four Layer 2 initiatives on status verifiability, and four on scope or market relevance. Every exclusion carries a stated rationale above.
 
