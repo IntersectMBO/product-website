@@ -17,7 +17,7 @@ sidebar_label: "Milestone 1"
 
 ## Summary
 
-Milestone 1 established the research foundation before any respondent was approached: a design review approved research design document, a documented and independently reviewed evidence baseline from six internal validation cases, a desk research summary of the Cardano Layer 2 and interoperability landscape, and a screening process that reduced twenty candidate use cases to a finalised eleven, together with an honest account of current respondent access. All five contracted deliverables are complete and evidenced below, with full content committed to this repository.
+Milestone 1 established the research foundation before any respondent was approached: a design review approved research design document, a documented and independently reviewed evidence baseline from six internal validation cases, a desk research summary of the Cardano Layer 2 and interoperability landscape, and a screening process that reduced twenty candidate use cases to a finalised thirteen, together with an honest account of current respondent access. All five contracted deliverables are complete and evidenced below, with full content committed to this repository.
 
 ## Deliverables
 
