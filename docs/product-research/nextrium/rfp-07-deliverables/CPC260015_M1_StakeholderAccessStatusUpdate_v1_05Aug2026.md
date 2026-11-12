@@ -76,7 +76,7 @@ Outreach proceeds in a defined sequence. Two respondents are sequenced ahead of 
 
 Contact status is maintained in the Consent Tracking Register, which records every contact on the day it occurs including failed attempts and non-responses. The position at the date of this report, as presented to the Cardano Product Committee, is summarised below.
 
-| **Category** | **Who**                                                      | **Target** | **Completed** | **Position** |
+| **Category** | **Who**                                                      | **Target** | **Confirmed** | **Position** |
 |--------------|----------------------------------------------------------------|------------|----------------|---------------|
 | 1            | African builders and operators on Cardano                      | 15 to 20   | 6              | 40%           |
 | 2            | Infrastructure, tooling, identity and protocol teams            | 6 to 10    | 2              | 33%           |
@@ -84,7 +84,7 @@ Contact status is maintained in the Consent Tracking Register, which records eve
 | 4            | Non-Cardano and negative-case respondents                       | 4 to 6     | 5              | 125%          |
 | Total        |                                                                  | 30 to 44   | 13             | 43%           |
 
-*Figures above are drawn from the Consent Tracking Register at the date of submission.*
+*Figures above reflect confirmed/scheduled interviews drawn from the Consent Tracking Register as of 7 August 2026, as presented to the Cardano Product Committee at Milestone 1 submission and transcribed into this live document on 9 September 2026.*
 
 **3.3 Reporting Cadence**
 
@@ -141,3 +141,4 @@ Category 3 remains the principal access risk. No prior relationship exists with 
 | 1.0         | 5 August 2026 | Abdulbasit Adigun Abdulrahman | Initial issue. Stakeholder access position at close of Milestone 1. |
 | 1.1         | 9 September 2026 | Abdulbasit Adigun Abdulrahman | Section 3.2 completed with the outreach status figures from the Milestone 1 presentation deck (Interviews confirmed and Position against target by category), which were not transcribed into the original 5 August issue. |
 | 1.2         | 9 September 2026 | Abdulbasit Adigun Abdulrahman | Section 3.2 restated as the exact table presented to the Cardano Product Committee at Milestone 1 submission. Sections 1.1, 1.2 and 1.3 reverted to the respondent category targets committed in Proposal Section 5 (15 to 20 / 6 to 10 / 5 to 8 / 4 to 6), replacing the later recruitment-ceiling figures from Research Design Document version 1.1. Sections 4.1 and 7 updated to match the reverted Category 3 target. |
+| 1.3 | 12 November 2026 | Abdulbasit Adigun Abdulrahman | Renamed Section 3.2 column from "Completed" to "Confirmed" to clarify that figures represent confirmed/scheduled interviews secured during Milestone 1 outreach (cutoff 7 August 2026) for Milestone 2 execution, and aligned chronology note with milestone-1.md. |
