@@ -1,0 +1,56 @@
+---
+title: "Prisma — Milestone 1: Kickoff Report"
+sidebar_label: Kickoff Report
+---
+
+# Kickoff Report
+
+## Purpose
+
+Confirms that the team, the CPC, and the project structure are aligned before significant spend. Fill this during or after the CPC kickoff meeting. Design substance lives in the [Research Design Document](/product-research/prisma/milestone-1/research-design-document) — this report is governance only.
+
+## Meeting record
+
+| Field | Value |
+| :---- | :---- |
+| Date | During Milestone 1 reporting period (2026.09.09) |
+| Time / timezone | 15.30 CET+2 |
+| Channel / location | Meeting with CPC committee |
+| PRISMA attendees | Tobias Fechner |
+| CPC attendees | CPC committee |
+
+## Confirmations
+
+| Item | Confirmed (Y/N) | Notes |
+| :---- | :---- | :---- |
+| Objectives and eight [decision gates](/product-research/prisma/milestone-1/research-design-document/decision-gates) | Y | CPC confirmed no changes required to project direction |
+| Scope boundaries / out-of-scope / cross-RFP discipline | Y | CPC confirmed no changes required to project direction |
+| Communication cadence and checkpoint calendar ([Work Plan](https://docs.prisma.events/en/events/cpc/executing/fundamentals/work-plan-and-timeline)) | Y | CPC confirmed no changes required to project direction |
+| Confidentiality expectations ([Data](/product-research/prisma/milestone-1/research-design-document/data)) | Y | CPC confirmed no changes required to project direction |
+| Roles / CPC relationship owner | Y | CPC confirmed no changes required to project direction |
+
+## Design package acknowledged
+
+Links only — do not restate methodology here.
+
+| Artefact | Link | Acknowledged (Y/N) |
+| :---- | :---- | :---- |
+| Research Design Document | [RDD](/product-research/prisma/milestone-1/research-design-document) | Y |
+| Candidate Regions (country-cluster set; `CPC agreed` column) | [Candidate Regions](/product-research/prisma/milestone-1/research-design-document/candidate-regions) | Y |
+| Use-Case Hypothesis Register | [Register](/product-research/prisma/milestone-1/research-design-document/use-case-hypothesis-register) | Y |
+| Stakeholder Recruitment Plan | [Recruitment](/product-research/prisma/milestone-1/research-design-document/stakeholder-recruitment-plan) | Y |
+| Ethics brief | via RDD → [Ethics](/product-research/prisma/milestone-1/research-design-document/ethics) | Y |
+| Candidate region list mutually agreed | | Y |
+
+## Open actions
+
+| Owner | Due | Action |
+| :---- | :---- | :---- |
+| — | — | None. CPC confirmed no changes required to project direction. |
+
+## Ready to proceed
+
+| Party | Name | Ready (Y/N) | Date |
+| :---- | :---- | :---- | :---- |
+| CPC | CPC committee | Y | 2026-09-09 |
+| PRISMA | Prisma | Y | 2026-09-09 |
