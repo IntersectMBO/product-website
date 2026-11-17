@@ -1,11 +1,13 @@
 ---
-title: Cardano 2030 Strategy (Draft)
-sidebar_label: Cardano 2030 Strategy (Draft)
+title: Cardano 2030 Strategy
+sidebar_label: Cardano 2030 Strategy
 sidebar_position: 2
 slug: /vision/strategy-2030
 ---
 
 # Cardano 2030 Strategic Framework: The World's Operating System
+
+A version of this was approved by Cardano DReps on Monday 19th January 2026. [Governance Action on GovTool](https://gov.tools/governance_actions/history/3a5be93bafd26d0dbb9bfe19f4acecaa38cef75e50201d19199e6cc856db6601#0) - [IPFS Markdown](ipfs://bafkreiaodc3h2wcvzwputnpsl5yildfgj7jc776aomkkjaiedeqrvqifxm) - Governance Action ID 3a5be93bafd26d0dbb9bfe19f4acecaa38cef75e50201d19199e6cc856db6601#0
 
 To share your feedback:
 - Use this form https://forms.gle/pVZtFRxoyWYJox5Z7
@@ -18,7 +20,7 @@ Cardano’s objective for 2030 is to run a secure, interoperable base layer that
 1. **Scale and harden the protocol**: maintain 100% mainnet uptime, ship multi-client and post-quantum–ready infrastructure, and integrate L2 interoperability.
 2. **Create robust on-chain demand**: focus on DeFi, RWA, supply chain, and payments, while making Cardano usage “invisible” for users and enterprises.
 3. **Run antifragile on-chain governance**: Engaged DReps, turnout-aware voting, and treasury seasons to resist plutocratic capture and voter fatigue.
-4. **Actively manage the treasury & network economics actively**: evolve from a passive pool to a yield-generating, multi-asset treasury,ensure L2s return value to L1, and SPOs are economically incentivised to secure the network over the long term.
+4. **Actively manage the treasury & network economics actively**: evolve from a passive pool to a yield-generating, multi-asset treasury, ensure L2s return value to L1, and SPOs are economically incentivised to secure the network over the long term.
 
 Execution is distributed across Cardano various ecosystem entities (Cardano Foundation, IOG, Emurgo, Intersect, SPOs, and funded community teams); this plan defines shared outcomes rather than a single owner.
 
