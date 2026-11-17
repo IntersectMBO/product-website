@@ -75,7 +75,7 @@ One domain can correspond, where appropriate, with multiple pillars. Proposals s
 | **Adoption & Ecosystem Growth**  | Pillar 2 \- Adoption & Utility Pillar 4 \- Community & Ecosystem Growth |
 | **Developer Support** | Pillar 2 \- Adoption & Utility |
 | **Governance Coordination** | Pillar 3 \- Governance |
-| **Marketing, Analysis & Events** | Pillar 2 \- Adoption & Utility Pillar 4 \- Community & Ecosystem Growth |
+| **Marketing, Analysis & Events** | Pillar 4 \- Community & Ecosystem Growth |
 | **Open Contribution**  *(Flexible portion of NCL allocated to new opportunities still requiring alignment to a pillar)* | Any Pillars 1-5 |
 
   
