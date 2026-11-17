@@ -43,12 +43,12 @@ Pillar 2 (Adoption & Utility) - Section: A.2. Experience (Business & Consumer)
 
 ## Pillars / Committees / Stakeholders:
 | Pillar | Committee | Stakeholders | 
-| :---- | :---- | :---- | :---- |
-| Pillar 1 \- Infrastructure & Research Excellence | CPC \- TSC | Core protocol developers, infrastructure and L2 developers, research organizations, stake pool operators (SPOs), security specialists, infrastructure service providers, application developers and technical delivery partners. |  |
-| Pillar 2 \- Adoption & Utility | CPC \- GMC | dApp builders, DeFi protocols, businesses and enterprises, wallet providers, exchanges, payment providers, stablecoin issuers, RWA platforms, developers, end users and institutional adopters. |  |
-| Pillar 3 \- Governance | CCC \- TSC | DReps, ada holders and delegators, the Constitutional Committee, SPOs, governance tool providers, treasury applicants and recipients, Intersect members and the wider Cardano community. |  |
-| Pillar 4 \- Community & Ecosystem Growth | GMC \- OSC | Community organizations, developers and contributors, educators, universities, regional ambassadors, ecosystem entrepreneurs, accelerators, marketing partners and local adoption partners. |  |
-| Pillar 5 \- Ecosystem Sustainability & Resilience | CBC \- TSC | SPOs, ada holders and delegators, treasury and budget stakeholders, protocol economists, core developers, infrastructure providers, DeFi and L2 operators, DReps and ecosystem funding recipients. |  |
+| :---- | :---- | :---- |
+| Pillar 1 \- Infrastructure & Research Excellence | CPC \- TSC | Core protocol developers, infrastructure and L2 developers, research organizations, stake pool operators (SPOs), security specialists, infrastructure service providers, application developers and technical delivery partners. |
+| Pillar 2 \- Adoption & Utility | CPC \- GMC | dApp builders, DeFi protocols, businesses and enterprises, wallet providers, exchanges, payment providers, stablecoin issuers, RWA platforms, developers, end users and institutional adopters. |
+| Pillar 3 \- Governance | CCC \- TSC | DReps, ada holders and delegators, the Constitutional Committee, SPOs, governance tool providers, treasury applicants and recipients, Intersect members and the wider Cardano community. |
+| Pillar 4 \- Community & Ecosystem Growth | GMC \- OSC | Community organizations, developers and contributors, educators, universities, regional ambassadors, ecosystem entrepreneurs, accelerators, marketing partners and local adoption partners. |
+| Pillar 5 \- Ecosystem Sustainability & Resilience | CBC \- TSC | SPOs, ada holders and delegators, treasury and budget stakeholders, protocol economists, core developers, infrastructure providers, DeFi and L2 operators, DReps and ecosystem funding recipients. |
 
   
 
@@ -56,15 +56,19 @@ Pillar 2 (Adoption & Utility) - Section: A.2. Experience (Business & Consumer)
 
 ## Pillars / Domains:
 
+Pillars represent high-level goals, which are operationalised by subtracks or “domains” to split spending into distinct categories. 
 
-| 2030 Pillar | Proposed 2027 Budget Domain | Currently proposed domains incorporated |
-| :---- | :---- | :---- |
-| Pillar 1 \- Infrastructure & Research Excellence | Infrastructure & Research | Core Development and Maintenance; Applied Research |
-| Pillar 2 \- Adoption & Utility | Adoption & Utility | Adoption & Ecosystem Growth; relevant Developer Support |
-| Pillar 3 \- Governance | Governance | Governance Coordination |
-| Pillar 4 \- Community & Ecosystem Growth | Community & Ecosystem Growth | Marketing, Analysis & Events; relevant education and community programmes |
-| Pillar 5 \- Ecosystem Sustainability & Resilience | Ecosystem Sustainability | Financial stewardship, tokenomics and SPO sustainability activities, currently without a dedicated proposed domain |
-|  | Open Contribution | % of NCL allocated to new opportunities still requiring alignment to a pillar |
+One domain can correspond, where appropriate, with multiple pillars. Proposals submitted shouldn’t be submitted under more than one domain to ensure that spending can be properly tracked. Objectives will be related to only one domain and one pillar. 
+
+
+| Domains | Related 2030 Pillars |
+| :---- | :---- |
+| **Core Development & Maintenance Applied Research** | Pillar 1 \- Infrastructure & Research Excellence |
+| **Adoption & Ecosystem Growth**  | Pillar 2 \- Adoption & Utility Pillar 4 \- Community & Ecosystem Growth |
+| **Developer Support** | Pillar 2 \- Adoption & Utility |
+| **Governance Coordination** | Pillar 3 \- Governance |
+| **Marketing, Analysis & Events** | Pillar 2 \- Adoption & Utility Pillar 4 \- Community & Ecosystem Growth |
+| **Open Contribution**  *(Flexible portion of NCL allocated to new opportunities still requiring alignment to a pillar)* | Any Pillars 1-5 |
 
   
   
