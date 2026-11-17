@@ -60,6 +60,14 @@ Pillars represent high-level goals, which are operationalised by subtracks or â€
 
 One domain can correspond, where appropriate, with multiple pillars. Proposals submitted shouldnâ€™t be submitted under more than one domain to ensure that spending can be properly tracked. Objectives will be related to only one domain and one pillar. 
 
+| Domain | Domain Description |
+| :---- | :---- |
+| Core Development & Maintenance | Funds the work that keeps Cardano secure and running, from node development and maintenance to node diversity, critical dependencies, protocol upgrades, and research check-ins on specifications.  |
+| Applied Research | Funds the research that keeps Cardano secure, resilient and evolving: peer-reviewed research in areas like cryptography, consensus and scaling, which becomes the next generation of protocol features. |
+| Developer Support | Funds the open-source tools, libraries, APIs, SDKs, dev infra and tooling, maintainer support and documentation etc. that make it faster and cheaper to build on Cardano. |
+| Marketing, Analysis & Events | Funds how Cardano is marketed, where it shows up at industry events, and the market and on-chain analysis that shows whether that work pays off. |
+| Adoption & Ecosystem Growth | Funds the partnerships, integrations and programs that bring real users, businesses and institutions onto Cardano. |
+| Governance Coordination | Funds the shared infrastructure of on-chain governance: tooling, DRep and community education, and the processes that support the Constitution. |
 
 | Domains | Related 2030 Pillars |
 | :---- | :---- |
