@@ -26,6 +26,18 @@ All dates and quarters are estimated targets for code completion and mainnet-rea
 
 ---
 
+## Phase 0: New Parameters, System Verification and Constitutional Changes
+
+This phase is required before the hard fork can be enacted, as the values of the new parameters need to be verified before go-live, and the Constitution must contain the correct guardrails for all new parameters. 
+
+1. Identification of New Parameters
+2. Set preliminary, and eventual target values for each parameter
+3. Guardrail definitions
+4. Constitution + Guardrail GovAction
+5. Road to Go-Live (Preparations/adjustments of existing parameters)
+6. Parameter Change GovActions
+
+
 ## Phase 1: Dijkstra Hard Fork (Protocol Version 12, Q4 2026)
 
 ### Design Rationale
