@@ -47,7 +47,11 @@ National Insurance Commission. (2026a, August 2). *NAICOM announces successful c
 
 National Insurance Commission. (n.d.). *NAICOM online regulatory portal* (returns, applications and approvals, including offshore reinsurance placement under NIIRA 2025 s. 204). NAICOM. https://portal.naicom.gov.ng/
 
-National Pension Commission. (2025). *Circular on benefit administration by pension fund administrators* (processing of death and retirement benefits without prior Commission approval, effective 1 June 2025). PenCom. https://www.pencom.gov.ng/
+National Insurance Commission & National Pension Commission. (2020, September 19). *Revised regulation on group life insurance policy for employees (pursuant to the Pension Reform Act 2014)*. NAICOM and PenCom. https://www.pencom.gov.ng/wp-content/uploads/2020/09/Revised-Guideline-on-GLIP-2020.pdf
+
+National Pension Commission. (2025a, March 12). *Circular on approval of benefits to holders of retirement savings accounts by licensed pension fund operators* (Ref. PenCom/INSP/Surv/2025/Aut/451; effective 1 June 2025; s. 4.0(i) and (v)). PenCom. https://www.pencom.gov.ng/wp-content/uploads/2025/03/CIRCULAR-ON-APROVAL-AND-PAYMENTS-OF-BENEFITS-BY-PFAS.pdf
+
+National Pension Commission. (2025b, July 7). *Addendum to the circular on approval of benefits to holders of retirement savings accounts by licensed pension fund operators* (Ref. PenCom/INSP/Surv/2025/1086; effective 1 August 2025, removing prior Commission approval for RSA death-benefit applications). PenCom. https://www.pencom.gov.ng/wp-content/uploads/2025/07/ADDENDUM-TO-CIRCULAR-ON-APPROVAL-OF-BENEFITS-PAYMENTS.pdf
 
 Nigeria Data Protection Commission. (2025). *General application and implementation directive (GAID) 2025*. NDPC. https://ndpc.gov.ng/
 

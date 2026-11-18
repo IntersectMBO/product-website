@@ -268,7 +268,7 @@ All eight are open hypotheses. None has been validated.
 
 **Problem and data gaps.** Group life and life claims can stall over beneficiary disputes and identity checks. `[DATA GAP: no public data on the share of life claims delayed by beneficiary verification.]`
 
-**Nigerian incumbent.** Employers with three or more staff must hold group life cover of at least three times annual total emolument (Pension Reform Act 2014 s. 4(5); NIIRA 2025 s. 68). Benefits are processed through employers and pension fund administrators against nominated beneficiary schedules. PenCom has stated that from 1 June 2025 administrators may process death and retirement benefits without prior Commission approval (PenCom, 2025). Above small-estate levels, entitlement is decided by wills, probate and letters of administration, customary law, or Islamic inheritance rules. Identity checks use NIN and BVN through licensed verification providers.
+**Nigerian incumbent.** Formal employee death benefits run on two distinct statutory tracks. First, under the Pension Reform Act 2014 s. 4(5), NIIRA 2025 s. 68 and the Joint NAICOM/PenCom Revised Group Life Guidelines (NAICOM & PenCom, 2020, §§2.1 to 2.2, 7.1, 9.5), employers must maintain group life cover of at least three times annual total emolument with a NAICOM-licensed life insurer separately from the employee's Retirement Savings Account (RSA); on death, the employer notifies the insurer and the insurer pays the group life sum directly to the named beneficiaries. Second, for the deceased's RSA pension balance (PRA 2014 s. 8), PenCom's circular of 12 March 2025 removed prior Commission approval for routine retirement benefits from 1 June 2025 while retaining it in s. 4.0(v) for RSA death benefits (PenCom, 2025a); PenCom's subsequent Addendum of 7 July 2025 then removed prior Commission approval for RSA death benefits from 1 August 2025, requiring pension fund administrators to approve payments within two working days once a court Letter of Administration, a hospital or National Population Commission death certificate and RSA remittances are verified (PenCom, 2025b). Above small-estate levels, entitlement is decided by wills, probate and letters of administration, customary law or Islamic inheritance rules. Identity checks use NIN and BVN through licensed verification providers.
 
 **Candidate Cardano hypothesis under test.** At policy inception, the policyholder's nominated beneficiary is bound to a verifiable credential issued through Hyperledger Identus or Veridian, with only issuer keys and revocation data on Cardano. At claim, the beneficiary presents the credential.
 
@@ -276,7 +276,7 @@ All eight are open hypotheses. None has been validated.
 
 **Cost and middleware friction.** Credential anchoring costs are small. Integration with the NIMC framework and with probate practice is the obstacle.
 
-**Milestone 3 test.** Ask life underwriters (Heirs Life, AIICO, Leadway) and Family Takaful operators whether formal group life still has verification delays after the 2025 PenCom change. If delays persist mainly in informal micro-life below probate thresholds (for example, cover up to the ₦2 million microinsurance cap), test whether NIN-linked credentials would reduce them. Modules 2, 3 and 5. **Desk confidence: low.**
+**Milestone 3 test.** Ask life underwriters (Heirs Life, AIICO, Leadway) and Family Takaful operators whether employer group life delays under the 2020 Joint GLIP Guidelines stem from employer premium default and late death notification or from beneficiary identity checks, and whether informal micro-life policies below probate thresholds (up to the ₦2 million microinsurance cap) have a verification gap that NIN-linked credentials would reduce. Modules 2, 3 and 5. **Desk confidence: low.**
 
 ---
 
@@ -323,7 +323,7 @@ All eight are open hypotheses. None has been validated.
 | UC3 | NIA's NIID; Web2 fraud scoring | Insurers refuse central claims sharing for competitive reasons, or non-NIA writers must participate | Most open question; expanding NIID is the default answer |
 | UC4 | NAICOM online portal; reinsurer accounting systems; spreadsheets | Recurring version disputes that current tools do not resolve | B3i failure and small market weigh against |
 | UC5 | Curacel, Octamile and insurer portals; NIP payouts; NAICOM complaints | Regulators give independent timestamps more weight than audited insurer logs | Automated rejection is barred; audited logs may suffice |
-| UC6 | PenCom and pension administrators; probate; NIN and BVN checks | Delays persist in informal micro-life below probate thresholds | Credentials cannot override succession law |
+| UC6 | Licensed life insurers and employers (2020 Joint GLIP Guidelines); PFAs under PenCom's August 2025 RSA death-benefit rule; probate; NIN and BVN checks | Delays in group life or informal micro-life below probate thresholds stem from identity checks rather than employer default or court grants | Credentials cannot override succession law, LOA verification or employer default |
 | UC7 | NIMC verification providers; NIMC Act 2026 framework | Check cost is large relative to micro-premiums and reliance is lawful | Cheap API checks weigh against |
 | UC8 | NIBSS NIP; PAPSS; IMTO naira payout rule | A regulator-approved cross-border route exists | Desk evidence points to rejection |
 
