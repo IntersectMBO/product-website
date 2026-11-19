@@ -112,7 +112,7 @@ Respondents primarily seeking funding for L2 or interoperability work may be inc
 
 **3.1 Category 1: African Informal Economy Builders and Operators on Cardano**
 
-**Target range: 10 to 15 interviews.**
+**Target range: 15 to 20 interviews.**
 
 Purpose: Validate which applications are blocked, what requirements builders and operators have, what deployment decisions are pending, and what workarounds are currently in use. Primary source of evidence for Decision Gates 1, 2, 3, and 4.
 
@@ -430,3 +430,4 @@ Progress updates are submitted to CPC every two weeks from 27 July 2026. Each up
 |-------------|---------------|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1.0         | 27 July 2026  | Abdulbasit Adigun Abdulrahman | Initial document produced for CPC Research Design Review checkpoint.                                                                                                                                                                                                                                                                                                                          |
 | 1.1         | 1 August 2026 | Abdulbasit Adigun Abdulrahman | Respondent categories revised following desk research. Category 2 recruitment weighted toward the upper bound of the proposal range. Category 3 composition changed and wallet providers added. Category 4 additions. Screening candidates recorded. Interview instrument additions noted. All category targets confirmed within the ranges committed in Section 5 of the submitted proposal. |
+| 1.2         | 20 November 2026 | Abdulbasit Adigun Abdulrahman | Documentation correction in Section 3.1: aligned Category 1 target range from 10 to 15 to 15 to 20 interviews to match Proposal Section 5, Stakeholder Access Status Update (D-M1-06), and the committed total of 30 to 44 interviews. |

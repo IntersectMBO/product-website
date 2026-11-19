@@ -61,7 +61,7 @@ Criterion 7 requires elimination of all seven before any blocker is classified a
 
 **2. Use Case Screening**
 
-Three input sets were screened: the six applicant-supplied VAL cases, the fourteen-initiative Layer 2 inventory, and the three documented capability absences.
+Three input sets were screened (twenty-four entries in total): the six applicant-supplied VAL cases, the fourteen-initiative Layer 2 inventory plus one additional initiative identified during desk research (Masumi agent-settlement L2, fifteen Layer 2 entries in total), and the three documented capability absences.
 
 **2.1 VAL Cases**
 
@@ -108,9 +108,15 @@ Four initiatives are excluded solely on criterion 8. Their exclusion reflects th
 
 **2.4 Shortlist**
 
-Thirteen use cases proceed to primary research. Five VAL cases in whole or part, Five Layer 2 initiatives at priority, and the three documented capability absences.
+Thirteen priority items proceed to primary research from the twenty-four entries screened across Sections 2.1 to 2.3:
 
-Nine candidates are excluded: one VAL case, four Layer 2 initiatives on status verifiability, and four on scope or market relevance. Every exclusion carries a stated rationale above.
+- **Five VAL cases in whole or part:** VAL-002, VAL-003, VAL-004, VAL-005 (inference compute layer only), and VAL-006.
+- **Five Layer 2 entries:** four priority Layer 2 initiatives — Hydra, Midgard, zkFold, and Masumi agent-settlement L2 — plus Ouroboros Leios carried specifically as a controlling variable (determining Criterion 11 across every other candidate, consistent with Section 4.2) rather than as an ordinary L2 candidate.
+- **Three documented capability absences:** phone-number-addressed stablecoin distribution with sub-cent fees, lightweight DID resolution for credential issuance, and tier-one omnichain messaging on Cardano testnets.
+
+Two further Layer 2 initiatives from Section 2.2 — Peras and Mithril — are included at low priority and tracked separately outside the priority five (bringing total included Layer 2 entries in Section 2.2 to seven).
+
+Nine candidates are excluded from the L2 and use-case shortlist: one VAL case (VAL-001), four Layer 2 initiatives on status verifiability (Gummiworm, Eryx, Hydrozoa, and Mamba, carried to Category 2 primary research for status confirmation), and four on scope or market relevance (Materios; plus Midnight, Partner Chains Toolkit, and Milkomeda C1, which are excluded from L2 screening but retained separately for value-flow or historical negative-case assessment). Every exclusion carries a stated rationale above.
 
 **3. Interoperability Pathway Screening**
 
@@ -200,3 +206,4 @@ Of eight prioritised candidates, three are capability constraints, two are cost 
 | **Version** | **Date**      | **Author**                    | **Change**                                                                                                 |
 |-------------|---------------|-------------------------------|------------------------------------------------------------------------------------------------------------|
 | 1.0         | 5 August 2026 | Abdulbasit Adigun Abdulrahman | Initial issue. Screening model specified and applied to candidate use cases and interoperability pathways. |
+| 1.1         | 20 November 2026 | Abdulbasit Adigun Abdulrahman | Reconciled Section 2 and Section 2.4 counts (twenty-four screened entries: thirteen priority shortlist items, two low-priority L2 inclusions, and nine exclusions) and explicitly named the four priority L2 initiatives (Hydra, Midgard, zkFold, Masumi agent-settlement L2), Ouroboros Leios as controlling variable, and Peras and Mithril as low-priority inclusions. |
