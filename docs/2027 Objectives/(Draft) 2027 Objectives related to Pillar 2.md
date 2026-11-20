@@ -1,5 +1,5 @@
 # (Draft) 2027 Objectives related to [Pillar 2 (Adoption & Utility)](https://product.cardano.intersectmbo.org/vision/strategy-2030/#pillar-2-adoption--utility)
-Keep Cardano secure, fast, and interoperable so it can host more economic activity.
+Driving widespread, non-speculative utility by focusing on high-value industry verticals, superior user experience (UX), and enterprise-grade security.
 
 ---
 
