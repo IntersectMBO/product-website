@@ -4,8 +4,6 @@ Driving global engagement through a market-centric approach, cultivating a skill
 ---
 
 To share your feedback:
-
-Use this form 
 Open a PR in github [https://github.com/IntersectMBO/product-website/tree/master/docs/2027-objectives](https://github.com/IntersectMBO/product-website/tree/master/docs/2027%20Objectives)
 
 ---
