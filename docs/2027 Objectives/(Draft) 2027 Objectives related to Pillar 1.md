@@ -5,7 +5,6 @@ Keep Cardano secure, fast, and interoperable so it can host more economic activi
 
 To share your feedback:
 
-Use this form 
 Open a PR in github [https://github.com/IntersectMBO/product-website/tree/master/docs/2027-objectives](https://github.com/IntersectMBO/product-website/tree/master/docs/2027%20Objectives)
 
 ---
