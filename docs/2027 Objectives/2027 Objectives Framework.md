@@ -1,3 +1,9 @@
+---
+title: 2027 Objectives Framework
+sidebar_label: 2027 Objectives Framework
+sidebar_position: 1
+---
+
 # 2027 Objectives Framework
 
 The Cardano 2030 Strategy is structured around five strategic pillars, each divided into sections covering specific areas of ecosystem development (as well as example focus areas).
