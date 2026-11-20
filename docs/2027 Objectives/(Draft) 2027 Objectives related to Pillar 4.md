@@ -1,3 +1,9 @@
+---
+title: (Draft) 2027 Objectives related to Pillar 4
+sidebar_label: (Draft) 2027 Objectives related to Pillar 4
+sidebar_position: 5
+---
+
 # (Draft) 2027 Objectives related to [Pillar 4 (Community & Ecosystem Growth)](https://product.cardano.intersectmbo.org/vision/strategy-2030/#pillar-4-community--ecosystem-growth)
 Driving global engagement through a market-centric approach, cultivating a skilled developer base, and proactively demonstrating ecosystem value.
 
