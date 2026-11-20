@@ -1,3 +1,9 @@
+---
+title: (Draft) 2027 Objectives related to Pillar 3
+sidebar_label: (Draft) 2027 Objectives related to Pillar 3
+sidebar_position: 4
+---
+
 # (Draft) 2027 Objectives related to [Pillar 3 (Governance)](https://product.cardano.intersectmbo.org/vision/strategy-2030/#pillar-3-governance)
 Cardano governance must be hard to capture, easy to use, and paced. This builds directly on Cardano’s tripartite model of DReps, Constitutional Committee, and SPOs.
 
