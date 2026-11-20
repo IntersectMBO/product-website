@@ -5,7 +5,6 @@ Cardano governance must be hard to capture, easy to use, and paced. This builds 
 
 To share your feedback:
 
-Use this form 
 Open a PR in github [https://github.com/IntersectMBO/product-website/tree/master/docs/2027-objectives](https://github.com/IntersectMBO/product-website/tree/master/docs/2027%20Objectives)
 
 ---
