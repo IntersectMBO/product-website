@@ -577,7 +577,7 @@ One row per distinct respondent statement bearing on a decision gate. Text from 
 
 ## 3. Non-Layer 2 Test
 
-Every Blocker claim extract passes the seven non-Layer 2 alternatives before classification.
+Every Blocker claim extract passes the seven non-Layer 2 alternatives before classification. This table contains 105 rows in total: 102 distinct respondent tests across the 31 interviews, 2 applicant-validation tests T-108 for VAL-003 and T-109 for VAL-006, and 1 labelled duplicate row T-106 duplicating T-009 on extract E-038, kept for auditability and excluded from analysis counts.
 
 | Test ID | Extract ID | Respondent ID | Claimed blocker | Liquidity? | Wallet support? | Bridge or provider access? | Tooling? | Commercial uncertainty? | Compliance? | Partner access? | Any alternative explains it | Classified as | Tested by | Date |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|

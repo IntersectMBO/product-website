@@ -42,7 +42,7 @@ Interviews ran from 11 August to 20 September 2026. Category 4 exceeds its range
 All figures come from the Milestone 2 Interview Analysis Workbook (redacted version published alongside this review):
 
 - 500 extracts across 31 respondents, including 45 adoption signals, 12 capability gaps, 82 requirements and 17 cost or pricing statements.
-- 103 seven-alternative Non-Layer 2 tests, covering every extract classified as a Blocker claim.
+- 102 distinct respondent seven-alternative Non-Layer 2 tests covering every extract classified as a Blocker claim. The workbook contains 105 rows in total: 102 distinct respondent tests, 2 applicant-validation tests T-108 and T-109, and 1 labelled duplicate row T-106 kept for auditability and excluded from analysis counts.
 - The 15-case Initial Blocked-Demand Case Register (D-M2-01).
 
 **1.3 Adoption signal versus cosmetic signal**
@@ -58,11 +58,11 @@ Self-reported demand alone is never treated as an adoption signal.
 
 **2.1 Finding: genuine Layer 2 blockers exist, but they are narrow and concentrated in infrastructure, not in informal-economy applications.** \[Confidence: Medium\]
 
-Of 103 Non-Layer 2 tests, 15 (15%) found no non-Layer 2 explanation (classified Technical). They are not evenly spread:
+Of 102 distinct respondent Non-Layer 2 tests, 15 (15%) found no non-Layer 2 explanation (classified Technical). They are not evenly spread:
 
 | Category | Tests | Classified Technical (no alternative explains it) | Share |
 |---|---|---|---|
-| 1. Informal-economy builders | 39 | 3 | 8% |
+| 1. Informal-economy builders | 38 | 3 | 8% |
 | 2. Infrastructure and tooling | 41 | 11 | 27% |
 | 3. Bridge and wallet providers | 7 | 0 | 0% |
 | 4. Non-Cardano respondents | 16 | 1 (concerns another chain) | 6% |
@@ -80,7 +80,7 @@ The blocked workflows with a Layer 2 cause, each tied to a named application (D-
 
 **2.2 Finding: for most informal-economy builders the binding constraint is not Layer 2.** \[Confidence: Medium\]
 
-In Category 1, the seven-alternative test attributes blockers mainly to tooling (10 tests), commercial and funding constraints (8), ecosystem gaps (5), compliance (4) and liquidity (3). Respondents state this directly:
+In Category 1, the 38 distinct seven-alternative tests attribute blockers to tooling with 10 tests, commercial and funding constraints with 7 standalone tests plus 1 dual commercial and compliance test, ecosystem gaps with 4, compliance with 3 standalone tests plus the 1 dual commercial and compliance test, UX with 3, coordination with 3, liquidity with 3, technical with 3, and unknown with 1. Respondents state this directly:
 
 - Asked whether a 30 to 65 times base-layer throughput increase would change anything, 8 of the 16 respondents who addressed base-layer throughput said it would not resolve their actual blocker or did not apply to them, citing funding, mobile access, regulation or visibility instead (E-016, E-044, E-137, E-232, E-272, E-365, E-379, E-490).
 - Regulatory constraints blocked or reshaped deployment for several respondents: a central bank prohibition on crypto transactions (E-011), bank-licensing costs that paused a live escrow product (Case-003), and company-registration and central-bank rules that pushed one team onto third-party on-ramps (E-415).
@@ -123,7 +123,7 @@ The broadest signal from Category 1 concerns reaching users without smartphones 
 - Already delivered at the application layer: R-017 serves farmers via USSD codes (E-256), and R-031 reports full USSD access on basic keypad phones before its regulatory pause (E-489).
 - Not needed for the target audience: R-003, R-024, R-025 (E-055, E-385, E-402).
 
-**Flagged for the lead researcher:** E-256 and E-489 show USSD access achieved on Cardano through application-layer abstraction. This qualifies the Milestone 1 Desk Research Summary finding (Section 3.13) that no Cardano wallet or payment interface supporting USSD access was identified. We report it here and will resolve it at Milestone 3, rather than amend the Milestone 1 summary now. The same evidence provides partial independent triangulation for Case-002 (phone-number-addressed distribution).
+**Note carried to Milestone 3:** E-256 and E-489 show USSD access achieved on Cardano through application-layer abstraction. This qualifies the Milestone 1 Desk Research Summary finding (Section 3.13) that no Cardano wallet or payment interface supporting USSD access was identified. We report it here and will resolve it at Milestone 3, rather than amend the Milestone 1 summary now. The same evidence provides partial independent triangulation for Case-002 (phone-number-addressed distribution).
 
 **4.2 Negative-case signal: chains are chosen for support and community, not for Layer 2 capability** \[Confidence: Medium\]
 
@@ -148,11 +148,86 @@ Both answers are early and are tested further in the Milestone 3 L2 Demand Map (
 
 ## 6. Limitations
 
-- **Category 3.** One bridge, interoperability or wallet provider was interviewed against a committed 5 to 8. This risk was disclosed in the Milestone 1 Stakeholder Access Status Update and raised in writing with the Committee before primary research. It is reported here as found. Respondents from other categories have not been substituted to answer Category 3 questions. Gates 6 to 9, for which Category 3 is a primary source (Research Design Document Section 1.1), are held at Low confidence.
-- **Category 2** is one interview below its lower bound.
+- **Category 3.** One bridge, interoperability, or wallet provider was interviewed against a committed 5 to 8, with zero wallet providers. This risk was disclosed upfront in Proposal Section 5, Risk 8, and the Milestone 1 Stakeholder Access Status Update, and raised in writing to the Cardano Product Committee by email on 13 August 2026 under subject "Re: CPC-26-0015 progress and milestone acceptance form", where we also requested Committee help with contact introductions. It is reported here as found. Surplus Category 4 interviews, 10 against 4 to 6, have not been substituted to answer Category 3 questions. Gates 6 to 9, for which Category 3 is a primary source under Research Design Document Section 1.1, are held at Low confidence.
+- **Category 2.** Five infrastructure, tooling, and protocol teams were interviewed against a committed 6 to 10, one below the lower bound.
 - **Self-report.** User numbers and willingness to pay are as stated by respondents and have not been independently verified.
-- **Source quality.** Two interviews (R-015, R-016) come from structured notes rather than full transcripts, and their exact interview dates are not recorded. Most other interviews use automated transcripts, which may contain errors.
-- **Time sensitivity.** Leios mainnet (targeted late 2026) may move some Layer 2 cases to Layer 1.
+- **Source quality.** Two interviews, R-015 and R-016, come from structured notes rather than full transcripts, and their exact interview dates are not recorded. Most other interviews use automated transcripts, which may contain errors.
+- **Time sensitivity.** Leios mainnet, targeted for late 2026, may move some Layer 2 cases to Layer 1.
+
+### 6.1 Coverage Shortfall Impact on Decision Gates and Downstream Deliverables
+
+Under Proposal Section 5, Risk 8, and Grant Agreement Change Control principles, the table below records which research questions and downstream deliverables are limited by the Category 3 shortfall of 1 against 5 to 8 and the Category 2 shortfall of 5 against 6 to 10:
+
+| Affected Gate or Scope Area | Affected Downstream Deliverables | What Can Still Be Answered | What Cannot Be Adequately Answered Without Additional Provider Interviews | Confidence Cap Applied |
+|---|---|---|---|---|
+| Gate 5: Interoperability features, wallet UX sub-area | D3 Interoperability Requirements Register | Builder-side mobile and basic-phone wallet gaps from Category 1 and Category 2 evidence plus M1 desk research | Wallet-provider engineering constraints, fee and collateral handling roadmaps, and commercial incentives, since Category 3 Variant B was unused with zero wallet providers interviewed | Medium overall for Gate 5; Low for wallet-provider side |
+| Gate 6: Net-positive interoperability pathways | D4 Interoperability Value-Flow Assessment | Preliminary pathway classifications informed by M1 desk research, 1 Category 3 respondent R-030, Category 2 infrastructure teams, and Category 4 comparisons | Direct multi-provider validation of inflow and retention mechanics across major bridges and stablecoin issuers | Held at Low |
+| Gate 7: Asymmetric dependency and value-leakage risk | D4 Value-Flow Assessment; D7 Negative-Case Summary | Builder-side and non-Cardano negative-case evidence from 10 Category 4 interviews plus M1 desk evidence such as Wanchain and Celo MiniPay | Direct bridge-provider and wallet-provider corroboration of outflow and retention dynamics | Held at Low |
+| Gate 8: Partner prioritisation | D5 Provider and Partner Opportunity Analysis; D8 Investment Sequencing | Desk-verified status and builder-reported demand for shortlisted providers | First-hand commercial terms, integration effort estimates, and partnership readiness from most shortlisted bridge and wallet teams | Held at Low |
+| Gate 9: Why providers do or do not prioritise Cardano | D5 Provider Analysis; D7 Negative-Case Summary | Strong Category 2 oracle and tooling evidence and Category 4 non-Cardano evidence on developer and commercial friction, plus 1 Category 3 interview | Direct multi-provider accounts from bridge, omnichain-messaging, stablecoin, and Cardano wallet teams | Held at Low |
+| Gates 1 to 4: minor Category 2 shortfall, 5 vs. 6 | D1 Barrier Analysis; D2 Demand Map | Substantively covered by 15 Category 1 interviews, 5 Category 2 interviews covering 2 oracle providers, tooling, and L2-adjacent builders, and M1 technical validation | Direct interviews with Cardano L2 rollup teams such as Midgard and zkFold and Identus maintainers remain uncompleted | Medium for Gates 1 to 4, with the named L2-builder gap disclosed |
+
+**Resolution path:** NexTrium requests explicit Committee agreement to proceed with the achieved 31-interview composition under Proposal Section 5 and Risk 8, with Gates 6 to 9 capped at Low confidence and zero substitution from Category 4. If the Committee instead prefers closing the remaining Category 2 and Category 3 shortfalls and can provide outreach support or introductions to unresponsive provider teams, NexTrium will gladly conduct the additional interviews.
+
+### 6.2 Category 2 and Category 3 Outreach and Non-Response Summary
+
+Sources: Gmail Sent and Inbox for the research mailbox, the Consent Tracking Register, calendar invitations, the interview-notes folder, and direct X outreach by the lead researcher. Dates are UTC. Organisation and project names only are published; individual names, email addresses, and social handles are withheld under Proposal Section 12.
+
+**Earlier notice to the Cardano Product Committee:** Category 3 was first flagged as our weakest access category in Deliverable D-M1-06 on 5 August 2026 and in the Milestone 1 submission on 7 August 2026. On 13 August 2026, the lead researcher emailed the Cardano Product Committee under subject "Re: CPC-26-0015 progress and milestone acceptance form", reporting that Category 2 responses were mixed and Category 3 had only one declined response so far, stating that thin access would result in reduced-confidence reporting rather than category substitution, and asking whether the Committee could share contact introductions for Categories 2 and 3.
+
+**Category 3: Bridges, Interoperability and Wallets**
+
+Summary: 14 organisations approached, covering 8 of the 12 M1 planned candidates plus 6 additional contacts; 22 logged attempts across 13 emails, 6 LinkedIn messages, and 3 X DMs; 1 completed, 1 declined, 1 replied without completing, 11 no response; 4 M1 planned candidates not contacted.
+
+| Candidate or Group | Type | Outreach Channels and Attempts | Outcome or Reason for Non-Participation |
+|---|---|---|---|
+| Wanchain | Bridge and interoperability provider | Email 7 Aug and 10 Aug; LinkedIn logged 8 Aug | No response after 2 emails and 1 LinkedIn message |
+| Rosen Bridge | Bridge | LinkedIn logged 8 Aug | No response after 1 LinkedIn message |
+| Cardinal | M1 planned bridge candidate | None logged | Not contacted during M2 window; no direct reachable team contact was available without an ecosystem introduction |
+| Bifrost and FluidTokens | M1 planned bridge candidate and lead builder | FluidTokens emailed 18 Aug; no direct Bifrost outreach logged | No response after 1 email to FluidTokens |
+| Lantr | Interoperability and bridge contributor | LinkedIn logged 8 Aug | No response after 1 LinkedIn message |
+| LayerZero | Cross-chain messaging | Email 7 Aug and 10 Aug | No response after 2 emails |
+| Circle | M1 planned stablecoin issuer | None logged | Not contacted during M2 window; no direct reachable team contact was available without an ecosystem introduction |
+| Celo and MiniPay | M1 planned stablecoin rail | None logged | Not contacted during M2 window; no direct reachable team contact was available without an ecosystem introduction |
+| Lace | M1 planned wallet candidate | None logged | Not contacted during M2 window; no direct reachable team contact was available without an ecosystem introduction |
+| Eternl | Cardano wallet | Email 7 Aug and 10 Aug | Declined per register; reason not recorded |
+| VESPR | Cardano wallet | LinkedIn logged 8 Aug | No response after 1 LinkedIn message |
+| Typhon Wallet | Cardano wallet | X DM logged in register | No response after 1 X DM |
+| Apex Fusion, additional contact R-030 | Interoperability protocol | LinkedIn logged 31 Aug; warm introduction requested via Category 2 respondent on 31 Aug | Completed 7 Sep 2026 |
+| dcSpark and Milkomeda, additional contact | Partner chain and bridging | Email 18 Aug and duplicate copy 19 Aug; LinkedIn logged in register | No response after email and LinkedIn outreach |
+| NuFi and VacuumLabs, additional contact | Cross-chain wallet | Email 18 Aug; scheduling reply proposing 25 Aug at 14:00 UTC on 21 Aug; developer outreach 22 Aug | Replied initially, but proposed slot was not confirmed and no interview took place |
+| AdaLite and VacuumLabs, additional contact | Cardano wallet | Email 31 Aug | No response after 1 email |
+| GeroWallet, additional contact | Cardano wallet | Direct X DM by lead researcher 11 Aug | No response after 1 X DM |
+| Hyperbridge and Polytope Labs, additional contact | Cross-chain interoperability | Direct X DM by lead researcher 3 Sep | No response after 1 X DM |
+
+**Category 2: Infrastructure, Tooling, Identity and Protocols**
+
+Summary: 19 organisations or teams approached, covering 11 of the 14 M1 planned candidates plus 8 additional contacts; 35 logged outreach attempts across 18 emails including 1 bounce, 15 LinkedIn messages, and 2 direct X DMs, plus direct scheduling for the 3 additional completed interviews; 5 completed, 0 declined, 3 replied without completing, 11 no response; 3 M1 planned candidates not contacted.
+
+| Candidate or Group | Type | Outreach Channels and Attempts | Outcome or Reason for Non-Participation |
+|---|---|---|---|
+| Charli3, R-005 | Oracle provider | Email 5 Aug, with one general address bounce; LinkedIn logged 8 Aug | Completed 12 Aug 2026 |
+| Orcfax, R-006 | Oracle provider | Direct access from VAL-004 and email 5 Aug | Completed 14 Aug 2026 |
+| Hyperledger Identus maintainer community | Identity infrastructure | None logged | Not contacted via a logged channel during M2 window; planned route via weekly public community calls did not produce a reachable respondent contact |
+| Blockfrost | Hosted API provider | Email 5 Aug, 10 Aug, and 31 Aug; LinkedIn logged 8 Aug | Replied per register, but no interview was scheduled or completed |
+| Midnight Network | Partner chain | Direct X DM by lead researcher 29 Aug | No response; message marked seen |
+| Masumi Network | Agent infrastructure protocol | LinkedIn logged 8 Aug | No response after 1 LinkedIn message |
+| Demeter and TxPipe | Managed cloud infrastructure | Email 5 Aug and 10 Aug | No response after 2 emails |
+| Maestro | Enterprise API and transaction infrastructure | Email 5 Aug and 10 Aug; LinkedIn logged 8 Aug | No response after 2 emails and 1 LinkedIn message |
+| Koios | Community-run API provider | Email 5 Aug and 10 Aug | No response after 2 emails |
+| Blink Labs | Node client and audit provider | LinkedIn logged 8 Aug | No response after 1 LinkedIn message |
+| Anastasia Labs and Midgard | Optimistic rollup builder | Email 5 Aug, 10 Aug, and 31 Aug; LinkedIn logged 8 Aug | Replied and scheduled for 18 Aug at 17:00 UTC, but call was not completed due to technical issues on NexTrium's side; reschedule requested 31 Aug with no completed session |
+| zkFold | Zero-knowledge rollup builder | Email 5 Aug, 10 Aug, and 31 Aug; LinkedIn logged 8 Aug | Replied on LinkedIn asking to answer in writing instead of a call; written questions prepared, no completed response received |
+| Input Output infrastructure teams | Core protocol | None logged | Not contacted as an interview respondent during M2 window; no direct technical respondent contact was secured, and introductions were requested from the Committee on 13 August |
+| Intersect as respondent | Programme administrator | None logged | Not contacted as an interview respondent during M2 window; no direct respondent contact on the Critical Integrations team was secured, and introductions were requested from the Committee on 13 August |
+| Independent Cardano tooling developer, R-007 | Tooling and infrastructure | Direct outreach | Completed 20 Aug 2026 |
+| DripDropz and multi-project tooling, R-021 | Tooling and infrastructure | Direct outreach | Completed 3 Sep 2026 |
+| Anonymised Category 2 respondent, R-027 | Protocol and infrastructure | Direct outreach | Completed 8 Sep 2026; anonymised per consent |
+| Indigo Protocol former contributor, additional contact | Cardano DeFi protocol perspective | Direct X DM by lead researcher 7 Aug | No response after 1 X DM |
+| Genius Yield, additional contact | DEX and DeFi infrastructure | Email 18 Aug; LinkedIn logged in register | No response after 1 email and 1 LinkedIn message |
+| NMKR, additional contact | NFT and tokenisation infrastructure | LinkedIn logged in register | No response after 1 LinkedIn message |
+| COTI Group, additional contact | Stablecoin infrastructure | LinkedIn logged in register | No response after 1 LinkedIn message |
+| SIDAN Lab and DeltaDeFi, additional contact | Dev tooling and DeFi | LinkedIn logged in register | No response after 1 LinkedIn message |
 
 ## 7. AI Use Disclaimer
 
@@ -168,3 +243,4 @@ AI tools were used in transcription, extraction, classification and drafting, as
 | Version | Date | Author | Change |
 |---|---|---|---|
 | 1.0 | 9 October 2026 | Abdulbasit Adigun Abdulrahman | Initial early demand-signal review for Milestone 2 |
+| 1.1 | 24 November 2026 | Abdulbasit Adigun Abdulrahman | Reconciled Non-Layer 2 test counts to 102 distinct respondent tests with Category 1 updated from 39 to 38 and 105 workbook rows explained; added Sections 6.1 and 6.2 documenting shortfall impact on decision gates and deliverables, the 13 August 2026 written notice to the Committee, and the Category 2 and Category 3 outreach and non-response log. |
