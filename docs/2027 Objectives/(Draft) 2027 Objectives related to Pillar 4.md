@@ -2,6 +2,7 @@
 title: (Draft) 2027 Objectives related to Pillar 4
 sidebar_label: (Draft) 2027 Objectives related to Pillar 4
 sidebar_position: 5
+slug: /2027-objectives/pillar-4
 ---
 
 # (Draft) 2027 Objectives related to [Pillar 4 (Community & Ecosystem Growth)](https://product.cardano.intersectmbo.org/vision/strategy-2030/#pillar-4-community--ecosystem-growth)
