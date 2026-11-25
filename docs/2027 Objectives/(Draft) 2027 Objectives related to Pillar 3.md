@@ -51,7 +51,7 @@ Add between 1 to 3 objectives (add all 3 only if it is really needed)
 
 # Additional Section: Institutional Continuity
 
-Keep Cardano’s governance institutions working without interruption: a Constitutional Committee renewed on time, and a Constitution that can be amended through a clear, published process. Not a Cardano 2030 sub-goal todays; proposed as the foundation G.1 and G.3 depend on
+Keep Cardano’s governance institutions working without interruption: a Constitutional Committee renewed on time, and a Constitution that can be amended through a clear, published process. Not a Cardano 2030 Strategy section today; proposed as the foundation G.1 and G.3 depend on.
 
 Add between 1 to 3 objectives (add all 3 only if it is really needed)
 
