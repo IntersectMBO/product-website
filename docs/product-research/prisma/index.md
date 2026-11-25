@@ -17,7 +17,7 @@ Regional adoption readiness framework for Africa and LATAM. Research assesses th
 
 ## Milestone Reports
 
-- [Milestone 1 — Inception & Research Design](/product-research/prisma/milestone-1)
+Milestone reports submitted by PRISMA will appear here.
 
 ## Milestones
 
