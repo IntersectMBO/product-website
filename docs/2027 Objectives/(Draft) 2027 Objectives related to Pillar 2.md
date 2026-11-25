@@ -2,6 +2,7 @@
 title: (Draft) 2027 Objectives related to Pillar 2
 sidebar_label: (Draft) 2027 Objectives related to Pillar 2
 sidebar_position: 3
+slug: /2027-objectives/pillar-2
 ---
 
 # (Draft) 2027 Objectives related to [Pillar 2 (Adoption & Utility)](https://product.cardano.intersectmbo.org/vision/strategy-2030/#pillar-2-adoption--utility)
