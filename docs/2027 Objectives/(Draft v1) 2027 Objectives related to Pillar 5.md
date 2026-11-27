@@ -1,11 +1,11 @@
 ---
-title: (Draft) 2027 Objectives related to Pillar 5
-sidebar_label: (Draft) 2027 Objectives related to Pillar 5
+title: (Draft v1) 2027 Objectives related to Pillar 5
+sidebar_label: (Draft v1) 2027 Objectives related to Pillar 5
 sidebar_position: 6
 slug: /2027-objectives/pillar-5
 ---
 
-# (Draft) 2027 Objectives related to [Pillar 5 (Ecosystem Sustainability & Resilience)](https://product.cardano.intersectmbo.org/vision/strategy-2030/#pillar-5-ecosystem-sustainability--resilience)
+# (Draft v1) 2027 Objectives related to [Pillar 5 (Ecosystem Sustainability & Resilience)](https://product.cardano.intersectmbo.org/vision/strategy-2030/#pillar-5-ecosystem-sustainability--resilience)
 Ensuring the long-term financial health and operational integrity of the network infrastructure.
 
 ---

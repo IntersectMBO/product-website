@@ -1,11 +1,11 @@
 ---
-title: (Draft) 2027 Objectives related to Pillar 1
-sidebar_label: (Draft) 2027 Objectives related to Pillar 1
+title: (Draft v1) 2027 Objectives related to Pillar 1
+sidebar_label: (Draft v1) 2027 Objectives related to Pillar 1
 sidebar_position: 2
 slug: /2027-objectives/pillar-1
 ---
 
-# (Draft) 2027 Objectives related to [Pillar 1 (Infrastructure & Research Excellence)](https://product.cardano.intersectmbo.org/vision/strategy-2030/#pillar-1-infrastructure--research-excellence)
+# (Draft v1) 2027 Objectives related to [Pillar 1 (Infrastructure & Research Excellence)](https://product.cardano.intersectmbo.org/vision/strategy-2030/#pillar-1-infrastructure--research-excellence)
 Keep Cardano secure, fast, and interoperable so it can host more economic activity.
 
 ---
