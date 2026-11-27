@@ -1,6 +1,6 @@
 ---
 title: (Draft v2) 2027 Objectives related to Pillar 3
-sidebar_label: (Draft v2) 2027 Objectives related to Pillar 3
+sidebar_label: (Draft v2) 2027 Objectives - Pillar 3
 sidebar_position: 4
 slug: /2027-objectives/pillar-3
 ---
