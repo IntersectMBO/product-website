@@ -1,0 +1,74 @@
+---
+title: "Prisma — Milestone 2: Phase 2 Regional Screening Review Briefing"
+sidebar_label: "Screening Review Briefing"
+sidebar_position: 8
+---
+
+# Phase 2 Regional Screening Review Briefing
+
+- **Project:** Aspecting OÜ (trading as Prisma) — RFP 05 (Government & Emerging Markets Entry Strategy)
+- **Milestone:** 2 of 5 (Phase 2: Regional Screening and Desk Research)
+- **Participating Teams:** Principal Investigator, Co-Principal Investigator, and Regional Hub Leads (`Buenos Aires Hub`, `Nairobi Hub`, `Lagos Hub`)
+- **Date:** `2026-11-26`
+
+---
+
+## 1. Purpose and Screening Review Scope
+
+The **Regional Screening Review** consolidates the Phase 2 desk evaluation across all eight candidate country clusters established in Milestone 1 [Candidate Regions](../milestone-1/candidate-regions.md) — covering the 80-cell [Market Prioritisation Matrix](./market-prioritisation-matrix.md), the 15-play [Use-Case Viability Register](./desk-research-and-use-case-scan.md), the eight-cluster [Regulatory Preliminary Scan](./regulatory-preliminary-scan.md), the 64-entry [Counterparty Access Map](./counterparty-access-map.md), and the [Schema and Verification Protocol](./phase-2-schema-and-protocol-update.md) [`REF-72`].
+
+This briefing sets out the five Phase 2 portfolio decisions (`DEC-M2-01` through `DEC-M2-05`) establishing which three priority emerging-market anchor hubs advance to Phase 3 primary fieldwork (`30–45` minimum interviews, `42–51` target interactions across `9 Local Project Teams` in Weeks 7–12). Any CPC feedback on regional interview quotas, hypothesis scope, or `Monitor` cluster priorities is incorporated into the Week 8 Day 1 pre-interview `Assemble` lock before Wave 1 interviews begin.
+
+---
+
+## 2. Summary of Phase 2 Portfolio Decisions
+
+| Decision ID | Decision Domain | Phase 2 Portfolio Decision | Supporting Evidence & Companion Report |
+| :--- | :--- | :--- | :--- |
+| **`DEC-M2-01`** | **Three Priority Emerging-Market Anchor Hubs** | Advance **1. Southern Cone (`Buenos Aires Hub` — `3.30 / 5.00` \| `66.0 / 100` \| Rank 1, `10/10` dims `>= 3`)**, **2. East Africa (`Nairobi Hub` — `3.15 / 5.00` \| `63.0 / 100` \| Rank 2 tie, `10/10` dims `>= 3`)**, and **3. West Africa (`Lagos Hub` — `3.15 / 5.00` \| `63.0 / 100` \| Rank 2 tie, `9/10` dims `>= 3`)** as the three priority emerging-market deep-dive regions for Phase 3 fieldwork (`9 Local Teams`, `Weeks 7–12`) and Phase 4 Regional Entry Playbooks (`AR -> UY/PY`; `KE -> RW/UG`; `NG -> paired Accra/Ghana corridor`). | All three clear all five Milestone 1 advancement criteria (`region-selection.md` §8.3) and lead the emerging-market cohort across baseline (`S0`), equal-weight (`S1`), and acute-need (`S3`) sensitivity specifications ([Market Prioritisation Matrix](./market-prioritisation-matrix.md) §2–§3). |
+| **`DEC-M2-02`** | **European Reference Benchmark Held on Desk Monitor** | Place **Iberia (`Spain / Barcelona` — `3.15 / 5.00` \| `63.0 / 100` \| Rank 2 tie, `8/10` dims `>= 3`)** in **`Monitor` (`0` Phase 3 interviews)** documenting `eIDAS 2.0` cooperative and university credentials and `Decidim` participatory budgeting audit logs under `Law 9/2017 Article 118` minor contracts below `EUR 15,000` [`REF-50`, `REF-53`, `REF-54`]. | Domestic retail payments in Spain are solved by `SEPA Instant` and `Bizum` (`D1 = 2`), and Iberia drops to `2.90` under acute-need weighting (`S3`); retained as a European regulatory reference benchmark ([Preliminary Regulatory Scan](./regulatory-preliminary-scan.md) §3.4). |
+| **`DEC-M2-03`** | **`Monitor` Clusters Held at Desk Stage** | Place **Brazil (`3.00 / 5.00`)**, **Andean (`2.60 / 5.00`)**, and **Mexico (`2.55 / 5.00`)** on **`Monitor`** at the desk stage (`0` Phase 3 interviews). | **Brazil:** `Pix` ubiquity + `BRL 10.8M–37.2M` `SPSAV` capital floors and `Res. 521` FX cap [`REF-41`, `REF-42`]. **Andean:** Colombia `Bill 510/2025` archived + `Yape`/`Plin` [`REF-46`, `REF-48`]. **Mexico:** `Banxico Circular 4/2019` + `Bitso 14.7%` corridor share [`REF-44`, `REF-45`]. |
+| **`DEC-M2-04`** | **`No-Go` Cluster & Out-of-Scope Region** | Classify **Horn / Ethiopia (`2.00 / 5.00` \| `40.0 / 100`)** as **`No-Go for Near-Term Entry` (`below 2.50`)** and close its desk hypotheses (`H13–H15`). Maintain **East Asia** outside project scope as established in Milestone 1. | Ethiopia fails Gate E due to the `NBE` May 2022 crypto prohibition [`REF-26`] and federal consolidation onto non-blockchain `Fayda MOSIP` (`~39M–50M` enrolled) [`REF-28`] ([Use-Case Viability Register](./desk-research-and-use-case-scan.md) §5). |
+| **`DEC-M2-05`** | **Phase 3 Interview Quotas, Hypothesis Slate & Verification Protocol** | Execute **`42–51` target stakeholder interactions (`>= 30` minimum)** across rolling Weeks 8–11 across `Buenos Aires Hub` (`14–17`), `Nairobi Hub` (`13–16`), and `Lagos Hub` (`15–18` incl. `1–2` diagnostic `H3` calls) testing `H1–H7`, maintaining `>= 4` Question Pack categories per hub, `<= 25%` Cardano-affiliated ceiling, `>= 2` Non-Cardano Counterweights per hub, published English/Spanish consent scripts, and `ingest.json` v2.0 + `audit_ledger_entry` verification. | Supported by `42` active-hub institutional archetypes (`14` per advancing hub + `22` desk-monitoring entries = `64` total; **`52/64` [`81.25%`] non-Cardano independent**; `18 Warm Access`, `18 Referred`, `23 Desk-Identified`, `5 Hypothetical`) ([Counterparty Map](./counterparty-access-map.md) & [Schema Protocol](./phase-2-schema-and-protocol-update.md)). |
+
+---
+
+## 3. Regional Screening Summary and Sensitivity Range
+
+Table 2 summarises the provisional RARF baseline scores, sensitivity ranges (`S1–S4`), advancement gates, regulatory certainty ratings, and Phase 3 dispositions across all eight candidate clusters ([Market Prioritisation Matrix](./market-prioritisation-matrix.md) §2–§3).
+
+| Rank | Cluster & Anchor | Baseline `S0` (`0-100`) | Sensitivity Range (`S1–S4`) | Dims `>= 3` (`Gate >= 6/10`) | Regulatory Certainty (`LC` Triggers) | Phase 2 Disposition & Phase 3 Allocation |
+| :-: | :--- | :-: | :-: | :-: | :--- | :--- |
+| **1** | **Southern Cone** (`Buenos Aires Hub` — Priority 1) | **`3.30`** (`66.0`) | `3.25 – 3.40` | `10 / 10` (`Pass`) | `Evolving (Medium)` (`LC-01, LC-02`) | **Advance:** `14–17` interviews (`H6` USD escrow, `H7` Mercosur credentials). |
+| **2 (tie)** | **East Africa** (`Nairobi Hub` — Priority 2) | **`3.15`** (`63.0`) | `3.10 – 3.30` | `10 / 10` (`Pass`) | `Evolving (Medium)` (`LC-06, LC-07`) | **Advance:** `13–16` interviews (`H5` `EUDR` traceability, `H4` EAC/NGO rails). |
+| **2 (tie)** | **West Africa** (`Lagos Hub` — Priority 3) | **`3.15`** (`63.0`) | `3.10 – 3.30` | `9 / 10` (`Pass`) | `Evolving (Medium)` (`LC-03–LC-05`) | **Advance:** `15–18` interviews (`H1`, `H2`, + `1–2` `H3` diagnostic calls; `NG` + `GH`). |
+| **2 (tie)** | **Iberia** (`Barcelona` — EU Benchmark) | **`3.15`** (`63.0`) | `2.90 – 3.35` | `8 / 10` (`Pass`) | `Clear (High)` (`LC-08`) | **`Monitor`:** `0` calls (`D1 = 2`; EU `eIDAS 2.0` / `LCSP Art. 118` reference). |
+| **5** | **Brazil** (*Desk Monitor*) | **`3.00`** (`60.0`) | `2.90 – 3.19` | `7 / 10` (`Pass`) | `Clear (High)` (`LC-09`) | **`Monitor`:** `0` calls (`Pix` saturation & `BRL 10.8M–37.2M` `SPSAV` floor). |
+| **6** | **Andean** (*Desk Monitor*) | **`2.60`** (`52.0`) | `2.60 – 2.69` | `6 / 10` (`Pass`) | `Uncertain / Evolving` (`LC-09`) | **`Monitor`:** `0` calls (Colombia `Bill 510/2025` archived & `Yape`/`Plin`). |
+| **7** | **Mexico** (*Desk Monitor*) | **`2.55`** (`51.0`) | `2.45 – 2.69` | `4 / 10` (`Fail`) | `Evolving (Medium)` (`LC-09`) | **`Monitor`:** `0` calls (`Banxico Circular 4/2019` & `Bitso 14.7%` share). |
+| **8** | **Horn / Ethiopia** (*Excluded*) | **`2.00`** (`40.0`) | `1.90 – 2.30` | `1 / 10` (`Fail`) | `Low (Prohibited)` (`LC-10`) | **`No-Go`:** Exclude (`NBE` crypto ban & `Fayda MOSIP`). |
+
+---
+
+## 4. Phase 3 Hypothesis Validation Slate (`Weeks 7–12`)
+
+| Priority Hub / Desk Benchmark | Hypothesis ID & Use-Case Focus | Phase 2 Desk Status | Local Systems & Competing Rails Examined | Falsification Threshold |
+| :--- | :--- | :--- | :--- | :--- |
+| **`Buenos Aires Hub`** (`Priority 1: Southern Cone` — `14–17` calls across `3 Local Teams`) | **`H6`: Stablecoin B2B / Cooperative Programmable Escrow** | **`desk-supported`** | `Transferencias 3.0` (`Mercado Pago`), `Lemon/Belo/Ripio` (`Tron/Polygon USDT`) [`REF-33`, `REF-37`] | Falsified if interviewed Argentine cooperatives and `CNV`-registered `PSAVs` (`RG 1172/2026`) report that `Tron`/`Polygon` plus standard PSAV APIs already satisfy B2B USD contract needs or decline to support Cardano `USDCx`/`USDM`. |
+| **`Buenos Aires Hub`** (`Southern Cone`) | **`H7`: Mercosur Contractor & Credential-Linked Settlement** | **`revised`** | `GCBA QuarkID` (`ZKsync Era`), `RENAPER`, Uruguay `AGESIC`, `Belo`/`Takenos` [`REF-36`, `REF-39`] | Falsified if Mercosur universities, cooperatives, and `QuarkID`/SSI integrators show no institutional demand to link credential verification with contractor payouts or reject `did:prism`/`did:plc` DID resolution. |
+| **`Nairobi Hub`** (`Priority 2: East Africa` — `13–16` calls across `3 Local Teams`) | **`H4`: Cross-Border EAC & Humanitarian Cash-Transfer Settlement** | **`revised`** | Safaricom `M-Pesa` (`41.68M–42.3M` active users, `~89%` share), `Celo MiniPay` (`20M+` wallets, `cKES`), `Tron USDT`, `Stellar Aid Assist` [`REF-20`, `REF-58`] | Falsified if Kenyan payment aggregators and humanitarian cash-transfer units confirm that `M-Pesa B2C APIs`, `Celo`, or `Stellar` already satisfy donor auditability at lower liquidity spreads than Cardano `USDCx`/`USDM`, or if Rwanda `Art. 15(3)` blocks EAC payment integration. |
+| **`Nairobi Hub`** (`East Africa`) | **`H5`: `EUDR` Agricultural Export Traceability & Coop Credentials** | **`desk-supported`** | Centralised exporter ERPs (`iProcure, Apollo, KTDA`), `Polygon/Ethereum` (`Dimitra`), `EUDR Reg. 2025/2650` (`30 Dec 2026` go-live) [`REF-22`] | Falsified if coffee and tea export cooperatives, certification bodies, and agritech integrators confirm that European Union `EUDR` first-operators accept unanchored SQL spreadsheets without independent cryptographic proof. |
+| **`Lagos Hub`** (`Priority 3: West Africa` — `15–18` calls across `3 Local Teams`) | **`H1`: B2B SME & MTO Corridor Settlement** | **`revised`** | `NIBSS NIP` (`~11.2B` txns/yr), `GhIPSS GIP`, `Tron TRC-20 USDT`, `Celo MiniPay` (`20M+` wallets) [`REF-10`, `REF-14`, `REF-58`] | Falsified if `0 of 3–4` interviewed Nigerian `SEC`-regulated VASPs (`Circular 26-1` tier) or Ghanaian `Act 1154` MTOs see commercial or compliance value in integrating Cardano `USDCx`/`USDM` over `Tron USDT` / `Polygon USDC` pools, or quote market-making spreads above `2.5%` (eroding cost advantage against competing stablecoin corridors and the `3%` UN SDG remittance target [`REF-55`]). |
+| **`Lagos Hub`** (`West Africa`) | **`H2`: Multi-Issuer Academic, Professional & Guild Credentials** | **`desk-supported`** | `NIMC NIN` (`136M+` records) & licensed `VSPs` (`Smile ID, Seamfix`), `NIA NIID` (`askNIID` / `*565*11#`), `JAMB/WAEC` portals [`REF-09`, `REF-10`] | Falsified if university registrars, trade associations, and KYC integrators confirm that central portal verification fees (estimated `NGN 50–150/check`) are a protected revenue stream they refuse to open to portable W3C verifiable credentials. |
+| **`Lagos Hub`** (`West Africa`) | **`H3`: Land Registry / Public Records** *(Diagnostic Check)* | **`contested-weak`** | State GIS portals (`Lagos e-GIS, KADGIS, EdoGIS`) + `Land Use Act 1978 s. 22` Governor's Consent [`REF-07`] | Falsified and moved to the Rejected Use Cases Register in Milestone 4 if `1–2` diagnostic calls with state land-registry practitioners confirm `Land Use Act s. 22` and `e-GIS` vendor lock-in block any 12–24 month pilot. |
+| **`Iberia Desk Benchmark`** (`Spain — Held on Monitor`) | **`H11`: Cooperative & Academic `eIDAS 2.0` (`EAA`) Credentials** | **`desk-supported` *(Monitor)*** | Spain `Cl@ve`, Catalonia `idCAT` (`AOC`), EU `EBSI` [`REF-50`, `REF-51`] | Held on desk watch (`0` Phase 3 interviews); documented as a comparative European regulatory benchmark under `eIDAS 2.0`, `EDPB 02/2025 v2.0`, and `RDL 14/2019`. |
+| **`Iberia Desk Benchmark`** (`Spain — Held on Monitor`) | **`H12`: Participatory Budgeting (`Decidim`) & Civic Grant Auditability** | **`revised` *(Monitor)*** | `Decidim` PostgreSQL + Bulletin Board, Spain `PLACSP` / Catalonia `PSCP` procurement portals [`REF-53`, `REF-54`] | Held on desk watch (`0` Phase 3 interviews); documented as a comparative European procurement benchmark under `LCSP Art. 118` (`below EUR 15,000`). |
+
+---
+
+## 5. Phase 3 Implementation Timeline (`Weeks 7–12`)
+
+1. **Week 7 (Stage 1 — Onboarding, 5-Module Calibration, Vault Dry Run & Early `Tier 4` Booking):** Onboard the 3 Regional Hub Leads and 9 Local Project Teams; complete all five researcher calibration modules (using the English/Spanish consent scripts in [Schema Protocol](./phase-2-schema-and-protocol-update.md) §2.1); provision hub and team Decentralized Identifiers (`did:plc` + `did:cardano:stake1...`) and complete a multi-hub vault dry run; dispatch formal booking requests to long-lead `Tier 4` regulators and ministries (`2–4 week` runway) alongside `Tier 2` warm scheduling.
+2. **Week 8 (Stage 2 — `Assemble` Lock, Wave 1 Warm Calls [`~6–8` Calls] & Stakeholder Access Check):** Lock pre-call Question Pack `Assemble` blocks across `H1`–`H7` on Day 1; conduct initial Wave 1 `Tier 2` Warm Access interviews (`~6–8` calls across the 9 calibrated teams); trigger 7-day same-archetype substitutions for non-responsive organisations; hold the End-of-Week-8 CPC Stakeholder Access Check.
+3. **Weeks 9–10 (Stage 3 — Peak Wave 2 Fieldwork [`~24–28` Calls], ALJ Sessions, Vault Ingestion & Regulatory Review):** Conduct core Wave 2 stakeholder interactions and hub ALJ sessions across Buenos Aires Hub (`14–17` total), Nairobi Hub (`13–16` total), and Lagos Hub (`15–18` total incl. `1–2` `H3` calls). Store raw recordings in encrypted local hub vaults within 48 hours and complete independent reviewer verification and co-signing (`ingest.json` v2.0 `strongRef` + `media.sha256`, or signed non-PII `audit_ledger_entry` per §3.2 for `Private`/`Research` sessions) within 72 hours; hold the End-of-Week-10 CPC Regulatory & Infrastructure Review.
+4. **Weeks 11–12 (Stage 4 — Wave 3 Regulator Close-Out [`~10–15` Calls], Triangulation & Milestone 3 Synthesis):** Complete Wave 3 late-scheduling regulator/ministry calls and substitutions in Week 11 (closing the rolling 4-week `Weeks 8–11` interview window for `42–51` target / `>= 30` minimum interviews), run cross-hub triangulation and hypothesis falsification reviews, update RARF and CASS ratings with primary evidence, and deliver the Milestone 3 Primary Fieldwork Synthesis Report (`22,000 ADA`).
